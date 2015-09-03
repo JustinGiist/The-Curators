@@ -4,25 +4,46 @@
 *.o
 *.obj
 
-# Precompiled Headers
-*.gch
-*.pch
-
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
-
-# Fortran module files
-*.mod
 
 # Compiled Static libraries
 *.lai
 *.la
 *.a
 *.lib
+*.pdb
 
 # Executables
 *.exe
 *.out
 *.app
+*.apk
+
+
+# Visual Studio project files
+*.sln
+*.suo
+*.sdf
+*.opensdf
+*.vcxproj.user
+
+# Xcode project files
+*.xcodeproj
+
+# Unreal Directories
+/Tacopocalypse/Binaries
+/Tacopocalypse/DerivedDataCache
+/Tacopocalypse/Intermediate
+/Tacopocalypse/Saved
+/Tacopocalypse/Build
+!/Tacopocalypse/Build/Windows/Application.ico
+/Tacopocalypse/Plugins/Substance/
+
+Thumbs.db
+
+*.hmap
+*.exp
+*.dat
+*.dep
