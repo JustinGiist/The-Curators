@@ -1,0 +1,756 @@
+﻿[2015.09.14-02.00.52:560][  0]Log file open, 09/13/15 22:00:52
+[2015.09.14-02.00.52:560][  0]LogInit:Display: Running engine for game: MyProject
+[2015.09.14-02.00.52:560][  0]LogInit:Display: RandInit(1212241561) SRandInit(1212241561).
+[2015.09.14-02.00.52:560][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.14-02.00.52:560][  0]LogStats: Stats thread started
+[2015.09.14-02.00.52:560][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.09.14-02.00.52:560][  0]LogInit: API Version: 2579680
+[2015.09.14-02.00.52:560][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.09.14-02.00.52:560][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.14-02.00.52:560][  0]LogInit: Build Configuration: Development
+[2015.09.14-02.00.52:560][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.09.14-02.00.52:560][  0]LogInit: Command line:  
+[2015.09.14-02.00.52:560][  0]LogInit: Base directory: C:/Program Files/Unreal Engine/4.8/Engine/Binaries/Win64/
+[2015.09.14-02.00.52:560][  0]LogInit: Rocket: 1
+[2015.09.14-02.00.52:577][  0]LogInit: Using libcurl 7.41.0
+[2015.09.14-02.00.52:577][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.14-02.00.52:577][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.14-02.00.52:577][  0]LogInit:  - other features:
+[2015.09.14-02.00.52:577][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.14-02.00.52:577][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.14-02.00.52:577][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.14-02.00.52:577][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.14-02.00.52:577][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.14-02.00.52:578][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.14-02.00.52:578][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.14-02.00.52:578][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.14-02.00.52:578][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.14-02.00.52:578][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.14-02.00.52:594][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.09.14-02.00.52:614][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.14-02.00.52:621][  0]LogInit: Object subsystem initialized
+[2015.09.14-02.00.52:622][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.09.14-02.00.52:622][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Stephen Paul Mangold/Downloads/AlexPrototype/AlexPrototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.14-02.00.52:622][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.09.14-02.00.52:622][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Stephen Paul Mangold/Downloads/AlexPrototype/AlexPrototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.14-02.00.52:622][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.09.14-02.00.52:622][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Stephen Paul Mangold/Downloads/AlexPrototype/AlexPrototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.14-02.00.52:622][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.14-02.00.52:622][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.14-02.00.52:630][  0]LogInit: Computer: STEPHENMANGOLD1
+[2015.09.14-02.00.52:630][  0]LogInit: User: StephenPaulMangold
+[2015.09.14-02.00.52:630][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.14-02.00.52:630][  0]LogInit: High frequency timer resolution =3.312781 MHz
+[2015.09.14-02.00.52:630][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2015.09.14-02.00.52:631][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.14-02.00.52:631][  0]LogMemory: Process Physical Memory: 48.49 MB used, 48.49 MB peak
+[2015.09.14-02.00.52:631][  0]LogMemory: Process Virtual Memory: 24.40 MB used, 24.40 MB peak
+[2015.09.14-02.00.52:631][  0]LogMemory: Physical Memory: 10404.92 MB used, 16337.59 MB total
+[2015.09.14-02.00.52:631][  0]LogMemory: Virtual Memory: 294.07 MB used, 134217728.00 MB total
+[2015.09.14-02.00.52:706][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.09.14-02.00.53:572][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Unreal Engine/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Unreal Engine/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.09.14-02.00.54:086][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7700 Series (Feature Level 11_0)
+[2015.09.14-02.00.54:086][  0]LogD3D11RHI: Adapter has 2006MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2015.09.14-02.00.54:087][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.14-02.00.54:087][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.09.14-02.00.54:087][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.14-02.00.54:093][  0]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.00.54:093][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.14-02.00.54:093][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.09.14-02.00.54:105][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.09.14-02.00.54:117][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.14-02.00.55:340][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.09.14-02.00.55:364][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.14-02.00.55:388][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.14-02.00.55:411][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.14-02.00.55:439][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.14-02.00.55:461][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.14-02.00.55:487][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.14-02.00.55:511][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.14-02.00.55:530][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.14-02.00.55:550][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.14-02.00.55:574][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.14-02.00.55:595][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.14-02.00.55:683][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.14-02.00.55:700][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.14-02.00.55:724][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.14-02.00.55:750][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.14-02.00.55:750][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.14-02.00.56:091][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.14-02.00.56:162][  0]LogDerivedDataCache: Loaded boot cache 0.07s 53MB C:/Users/Stephen Paul Mangold/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.09.14-02.00.56:162][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Stephen Paul Mangold/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.09.14-02.00.56:162][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Stephen Paul Mangold/Downloads/AlexPrototype/AlexPrototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.14-02.00.56:162][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.14-02.00.56:162][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Stephen Paul Mangold/Downloads/AlexPrototype/AlexPrototype/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.14-02.00.56:162][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.14-02.00.56:333][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.14-02.00.56:345][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Stephen Paul Mangold/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.14-02.00.56:857][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.14-02.00.56:966][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.09.14-02.00.56:966][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.09.14-02.00.57:005][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.14-02.00.57:005][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.14-02.00.57:407][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.14-02.00.59:213][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.14-02.00.59:716][  0]SourceControl: Info Source control is disabled
+[2015.09.14-02.00.59:784][  0]SourceControl: Info Source control is disabled
+[2015.09.14-02.00.59:800][  0]SourceControl: Info Source control is disabled
+[2015.09.14-02.00.59:813][  0]SourceControl: Info Source control is disabled
+[2015.09.14-02.01.00:205][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.09.14-02.01.00:205][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.09.14-02.01.00:296][  0]LogEngine: Initializing Engine...
+[2015.09.14-02.01.00:299][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.09.14-02.01.00:360][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 108
+[2015.09.14-02.01.00:541][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.14-02.01.00:553][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.09.14-02.01.00:591][  0]LogInit: FAudioDevice initialized.
+[2015.09.14-02.01.00:645][  0]LogDerivedDataCache: Saved boot cache 0.05s 53MB C:/Users/Stephen Paul Mangold/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.09.14-02.01.00:648][  0]LogInit: Texture streaming: Disabled
+[2015.09.14-02.01.00:687][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.14-02.01.00:687][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.09.14-02.01.00:687][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 670f7a51498aab90fa6f01ae8ba6e645|ae3c06c927b140e595cd14047ca553a4|817dc969-a56b-4d5a-b6d5-4cf8a1016322
+[2015.09.14-02.01.00:688][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.14-02.01.00:736][  0]LogInit: Transaction tracking system initialized
+[2015.09.14-02.01.00:975][  0]BlueprintLog: New page: Editor Load
+[2015.09.14-02.01.01:027][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2015.09.14-02.01.01:028][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.09.14-02.01.02:126][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.09.14-02.01.02:127][  0]LogConsoleResponse:Display: 
+[2015.09.14-02.01.02:282][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.14-02.01.02:581][  0]SourceControl: Info Source control is disabled
+[2015.09.14-02.01.02:581][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Stephen Paul Mangold/Downloads/AlexPrototype/AlexPrototype/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.14-02.01.02:582][  0]LightingResults: New page: Lighting Build
+[2015.09.14-02.01.02:598][  0]MapCheck: New page: Map Check
+[2015.09.14-02.01.02:598][  0]LightingResults: New page: Lighting Build
+[2015.09.14-02.01.02:608][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093E3E6B9C0
+[2015.09.14-02.01.03:424][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
+[2015.09.14-02.01.03:425][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2015.09.14-02.01.03:426][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2015.09.14-02.01.03:426][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2015.09.14-02.01.03:427][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2015.09.14-02.01.03:428][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.09.14-02.01.03:428][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2015.09.14-02.01.03:437][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0012.66] Compile of ThirdPersonCharacter successful, but with 7 Warning(s) [in 81 ms]
+[2015.09.14-02.01.03:437][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0012.66] Compile of ThirdPersonCharacter successful, but with 8 Warning(s) [in 0 ms]
+[2015.09.14-02.01.03:438][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0012.66] Compile of ThirdPersonCharacter successful, but with 9 Warning(s) [in 0 ms]
+[2015.09.14-02.01.03:608][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
+[2015.09.14-02.01.03:609][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2015.09.14-02.01.03:609][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2015.09.14-02.01.03:610][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2015.09.14-02.01.03:610][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2015.09.14-02.01.03:611][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.09.14-02.01.03:611][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2015.09.14-02.01.03:622][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0012.85] Compile of ThirdPersonCharacter successful, but with 7 Warning(s) [in 69 ms]
+[2015.09.14-02.01.03:623][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0012.85] Compile of ThirdPersonCharacter successful, but with 8 Warning(s) [in 0 ms]
+[2015.09.14-02.01.04:260][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.09.14-02.01.04:881][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.09.14-02.01.04:907][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.09.14-02.01.05:146][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.09.14-02.01.05:175][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2015.09.14-02.01.05:196][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2015.09.14-02.01.05:212][  0]LogStaticMesh: Building static mesh CorridorLight...
+[2015.09.14-02.01.05:368][  0]LogStaticMesh: Built static mesh [0.156678.2s] /Game/CurretArtModels/CorridorLight.CorridorLight
+[2015.09.14-02.01.05:440][  0]LogStaticMesh: Building static mesh floorTile1...
+[2015.09.14-02.01.05:442][  0]LogStaticMesh: Built static mesh [0.002280.2s] /Game/CurretArtModels/floorTile1.floorTile1
+[2015.09.14-02.01.05:444][  0]LogStaticMesh: Building static mesh FrameCircle...
+[2015.09.14-02.01.05:455][  0]LogStaticMesh: Built static mesh [0.011084.2s] /Game/CurretArtModels/FrameCircle.FrameCircle
+[2015.09.14-02.01.05:457][  0]LogStaticMesh: Building static mesh FrameSquare...
+[2015.09.14-02.01.05:461][  0]LogStaticMesh: Built static mesh [0.003990.2s] /Game/CurretArtModels/FrameSquare.FrameSquare
+[2015.09.14-02.01.05:463][  0]LogStaticMesh: Building static mesh FutureSofa1...
+[2015.09.14-02.01.05:498][  0]LogStaticMesh: Built static mesh [0.035622.2s] /Game/CurretArtModels/FutureSofa1.FutureSofa1
+[2015.09.14-02.01.05:505][  0]LogStaticMesh: Building static mesh MuseumStand...
+[2015.09.14-02.01.05:527][  0]LogStaticMesh: Built static mesh [0.022381.2s] /Game/CurretArtModels/MuseumStand.MuseumStand
+[2015.09.14-02.01.05:532][  0]LogStaticMesh: Building static mesh Pillar...
+[2015.09.14-02.01.05:550][  0]LogStaticMesh: Built static mesh [0.018289.2s] /Game/CurretArtModels/Pillar.Pillar
+[2015.09.14-02.01.05:586][  0]LogStaticMesh: Building static mesh Table...
+[2015.09.14-02.01.05:611][  0]LogStaticMesh: Built static mesh [0.025056.2s] /Game/CurretArtModels/Table.Table
+[2015.09.14-02.01.05:616][  0]LogStaticMesh: Building static mesh wallBasicCorner1...
+[2015.09.14-02.01.05:620][  0]LogStaticMesh: Built static mesh [0.003735.2s] /Game/CurretArtModels/wallBasicCorner1.wallBasicCorner1
+[2015.09.14-02.01.05:622][  0]LogStaticMesh: Building static mesh wallBasicShort1...
+[2015.09.14-02.01.05:624][  0]LogStaticMesh: Built static mesh [0.002547.2s] /Game/CurretArtModels/wallBasicShort1.wallBasicShort1
+[2015.09.14-02.01.05:626][  0]LogStaticMesh: Building static mesh wallBasicWindow1...
+[2015.09.14-02.01.05:660][  0]LogStaticMesh: Built static mesh [0.033914.2s] /Game/CurretArtModels/wallBasicWindow1.wallBasicWindow1
+[2015.09.14-02.01.05:666][  0]LogStaticMesh: Building static mesh wallBasicWindow2...
+[2015.09.14-02.01.05:702][  0]LogStaticMesh: Built static mesh [0.036143.2s] /Game/CurretArtModels/wallBasicWindow2.wallBasicWindow2
+[2015.09.14-02.01.05:858][  0]LogMaterial: Missing cached shader map for material CooridorLightLambert, compiling. 
+[2015.09.14-02.01.06:298][  0]LogMaterial: Missing cached shader map for material CooridorLight3, compiling. 
+[2015.09.14-02.01.06:311][  0]LogMaterial: Missing cached shader map for material CooridorLight2, compiling. 
+[2015.09.14-02.01.06:325][  0]LogMaterial: Missing cached shader map for material CooridorLight1, compiling. 
+[2015.09.14-02.01.06:339][  0]LogMaterial: Missing cached shader map for material floorTileGrout, compiling. 
+[2015.09.14-02.01.06:353][  0]LogMaterial: Missing cached shader map for material floorTile, compiling. 
+[2015.09.14-02.01.06:367][  0]LogMaterial: Missing cached shader map for material FutureSofa, compiling. 
+[2015.09.14-02.01.06:379][  0]LogMaterial: Missing cached shader map for material FrameSquareMat, compiling. 
+[2015.09.14-02.01.06:390][  0]LogMaterial: Missing cached shader map for material FrameCircleMat, compiling. 
+[2015.09.14-02.01.06:402][  0]LogMaterial: Missing cached shader map for material MuseumStandInnerRing3Materia, compiling. 
+[2015.09.14-02.01.06:415][  0]LogMaterial: Missing cached shader map for material MuseumStandInnerRing2Material, compiling. 
+[2015.09.14-02.01.06:427][  0]LogMaterial: Missing cached shader map for material MuseumStandInnerRing1Material, compiling. 
+[2015.09.14-02.01.06:439][  0]LogMaterial: Missing cached shader map for material SupportBarMaterials, compiling. 
+[2015.09.14-02.01.06:453][  0]LogMaterial: Missing cached shader map for material MuseumStandOuterRingMaterial, compiling. 
+[2015.09.14-02.01.06:464][  0]LogMaterial: Missing cached shader map for material MuseumStandMaterial, compiling. 
+[2015.09.14-02.01.06:477][  0]LogMaterial: Missing cached shader map for material Table_Material, compiling. 
+[2015.09.14-02.01.06:494][  0]LogMaterial: Missing cached shader map for material PillarMaterial, compiling. 
+[2015.09.14-02.01.06:510][  0]LogMaterial: Missing cached shader map for material InnerTubeMaterial, compiling. 
+[2015.09.14-02.01.06:525][  0]LogMaterial: Missing cached shader map for material WallMoulding, compiling. 
+[2015.09.14-02.01.06:537][  0]LogMaterial: Missing cached shader map for material WallCornerTexture, compiling. 
+[2015.09.14-02.01.06:551][  0]LogMaterial: Missing cached shader map for material WallCornerMouldingTexture, compiling. 
+[2015.09.14-02.01.06:562][  0]LogMaterial: Missing cached shader map for material Window1blinn2, compiling. 
+[2015.09.14-02.01.06:573][  0]LogMaterial: Missing cached shader map for material Window1blinn1, compiling. 
+[2015.09.14-02.01.06:586][  0]LogMaterial: Missing cached shader map for material WallTexture, compiling. 
+[2015.09.14-02.01.06:597][  0]LogMaterial: Missing cached shader map for material Windowtexture, compiling. 
+[2015.09.14-02.01.06:611][  0]LogMaterial: Missing cached shader map for material WindowFrameTexture, compiling. 
+[2015.09.14-02.01.06:624][  0]LogMaterial: Missing cached shader map for material MouldingTexture, compiling. 
+[2015.09.14-02.01.06:635][  0]LogMaterial: Missing cached shader map for material Window1Texture1, compiling. 
+[2015.09.14-02.01.07:660][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.09.14-02.01.07:679][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.14-02.01.07:779][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.14-02.01.07:904][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 124.903ms to complete.
+[2015.09.14-02.01.07:904][  0]LogFileHelpers: Loading map 'Minimal_Default' took 5.324
+[2015.09.14-02.01.08:089][  0]LogCollectionManager: Loaded 0 collections in 0.003941 seconds
+[2015.09.14-02.01.08:103][  0]LogContentBrowser: Native class hierarchy populated in 0.0135 seconds. Added 1792 classes and 301 folders.
+[2015.09.14-02.01.08:193][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.09.14-02.01.08:251][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2015.09.14-02.01.08:282][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2015.09.14-02.01.08:367][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.14-02.01.08:371][  0]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.01.08:378][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.14-02.01.08:401][  0]LogLoad: Full Startup: 17.63 seconds (BP compile: 0.88 seconds)
+[2015.09.14-02.01.08:829][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.14-02.01.08:868][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.09.14-02.01.09:079][  0]LogRenderer: Reallocating scene render targets to support 1208x568 (Frame:2).
+[2015.09.14-02.01.09:823][  2]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.01.16:780][429]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.01.21:173][842]LogAssetRegistry: Asset discovery search completed in 20.1561 seconds
+[2015.09.14-02.02.19:204][157]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.02.20:482][302]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.02.38:031][ 53]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.03.04:209][310]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.03.06:992][595]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.03.14:389][332]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.03.20:254][981]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.03.48:822][886]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.09.14-02.03.48:825][886]PIE: New page: SIE session: Minimal_Default (Sep 13, 2015, 6:03:48 PM)
+[2015.09.14-02.03.48:825][886]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.09.14-02.03.48:834][886]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009315s)
+[2015.09.14-02.03.48:835][886]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.09.14-02.03.48:836][886]LogPlayLevel: PIE: World Init took: (0.001399s)
+[2015.09.14-02.03.48:836][886]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010986s)
+[2015.09.14-02.03.48:949][886]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.09.14-02.03.48:963][886]LogInit: FAudioDevice initialized.
+[2015.09.14-02.03.49:012][886]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.09.14-02.03.49:032][886]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.09.13-22.03.49
+[2015.09.14-02.03.49:032][886]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.14-02.03.49:033][886]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.14-02.03.49:034][886]LogWorld: Bringing up level for play took: 0.019392
+[2015.09.14-02.03.49:054][886]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.401
+[2015.09.14-02.04.00:426][126]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093EB6CD4E0
+[2015.09.14-02.04.03:031][407]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2015.09.14-02.04.08:705][876]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.04.12:353][182]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.09.14-02.04.12:353][182]PIE: New page: SIE session: Minimal_Default (Sep 13, 2015, 6:04:12 PM)
+[2015.09.14-02.04.12:354][182]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.09.14-02.04.12:363][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009685s)
+[2015.09.14-02.04.12:364][182]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.09.14-02.04.12:364][182]LogPlayLevel: PIE: World Init took: (0.000988s)
+[2015.09.14-02.04.12:365][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010871s)
+[2015.09.14-02.04.12:407][182]LogSelection:Warning: PIE object was selected: "ThirdPersonCharacter_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.ThirdPersonCharacter_417"
+[2015.09.14-02.04.12:415][182]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.09.14-02.04.12:428][182]LogInit: FAudioDevice initialized.
+[2015.09.14-02.04.12:466][182]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.09.14-02.04.12:491][182]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.09.13-22.04.12
+[2015.09.14-02.04.12:491][182]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.14-02.04.12:491][182]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.14-02.04.12:492][182]LogWorld: Bringing up level for play took: 0.024548
+[2015.09.14-02.04.12:495][182]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.159
+[2015.09.14-02.04.12:560][182]LogSelection:Warning: PIE object was selected: "ThirdPersonCharacter_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.ThirdPersonCharacter_417"
+[2015.09.14-02.04.17:597][752]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093D68E8CC0
+[2015.09.14-02.05.46:081][706]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.09.14-02.05.46:081][706]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.09.14-02.05.46:081][706]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.09.14-02.05.46:081][706]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.09.14-02.05.46:081][706]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.09.14-02.05.46:082][706]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.09.14-02.05.46:082][706]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.09.14-02.05.46:082][706]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.09.14-02.05.46:082][706]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.09.14-02.05.46:082][706]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.09.14-02.05.46:082][706]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.09.14-02.05.46:082][706]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.09.14-02.05.46:083][706]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.09.14-02.05.46:083][706]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.09.14-02.05.46:083][706]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.09.14-02.05.46:083][706]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.09.14-02.05.46:083][706]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.09.14-02.05.46:083][706]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.09.14-02.05.46:084][706]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.09.14-02.05.46:084][706]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.09.14-02.05.46:098][707]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.09.14-02.05.46:099][707]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.09.14-02.05.46:099][707]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.09.14-02.05.46:099][707]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.09.14-02.05.46:099][707]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.09.14-02.05.46:100][707]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.09.14-02.05.46:100][707]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.09.14-02.05.46:100][707]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.09.14-02.05.46:114][708]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.09.14-02.05.46:115][708]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.09.14-02.05.46:115][708]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.09.14-02.05.46:115][708]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.09.14-02.05.53:441][208]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.09.14-02.05.53:441][208]PIE: New page: SIE session: Minimal_Default (Sep 13, 2015, 6:05:53 PM)
+[2015.09.14-02.05.53:441][208]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.09.14-02.05.53:450][208]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008283s)
+[2015.09.14-02.05.53:450][208]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.09.14-02.05.53:451][208]LogPlayLevel: PIE: World Init took: (0.001169s)
+[2015.09.14-02.05.53:451][208]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009647s)
+[2015.09.14-02.05.53:451][208]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.14-02.05.53:452][208]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.09.14-02.05.53:497][208]LogSelection:Warning: PIE object was selected: "ThirdPersonCharacter_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.ThirdPersonCharacter_417"
+[2015.09.14-02.05.53:505][208]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.09.14-02.05.53:519][208]LogInit: FAudioDevice initialized.
+[2015.09.14-02.05.53:550][208]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.09.14-02.05.53:572][208]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.09.13-22.05.53
+[2015.09.14-02.05.53:572][208]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.14-02.05.53:572][208]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.14-02.05.53:573][208]LogWorld: Bringing up level for play took: 0.020870
+[2015.09.14-02.05.53:577][208]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.923
+[2015.09.14-02.05.53:638][208]LogSelection:Warning: PIE object was selected: "ThirdPersonCharacter_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.ThirdPersonCharacter_417"
+[2015.09.14-02.06.01:565][ 49]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093D92737E0
+[2015.09.14-02.06.13:382][881]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.07.30:573][961]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.09.14-02.07.30:573][961]PIE: New page: SIE session: Minimal_Default (Sep 13, 2015, 6:07:30 PM)
+[2015.09.14-02.07.30:574][961]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.09.14-02.07.30:584][961]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010776s)
+[2015.09.14-02.07.30:585][961]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.09.14-02.07.30:586][961]LogPlayLevel: PIE: World Init took: (0.001105s)
+[2015.09.14-02.07.30:586][961]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.012072s)
+[2015.09.14-02.07.30:586][961]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.14-02.07.30:586][961]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.09.14-02.07.30:639][961]LogSelection:Warning: PIE object was selected: "ThirdPersonCharacter_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.ThirdPersonCharacter_417"
+[2015.09.14-02.07.30:650][961]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.09.14-02.07.30:669][961]LogInit: FAudioDevice initialized.
+[2015.09.14-02.07.30:708][961]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.09.14-02.07.30:730][961]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.09.13-22.07.30
+[2015.09.14-02.07.30:730][961]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.14-02.07.30:730][961]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.14-02.07.30:732][961]LogWorld: Bringing up level for play took: 0.021383
+[2015.09.14-02.07.30:735][961]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.081
+[2015.09.14-02.07.30:796][961]LogSelection:Warning: PIE object was selected: "ThirdPersonCharacter_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.ThirdPersonCharacter_417"
+[2015.09.14-02.07.39:113][928]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093E3865080
+[2015.09.14-02.07.55:896][554]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.07.56:804][626]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.07.56:839][626]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.07.56:863][626]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.14-02.07.56:953][626]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.14-02.07.59:768][713]LogRenderer: Reallocating scene render targets to support 1208x712 (Frame:25669).
+[2015.09.14-02.08.22:222][888]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.08.22:401][888]LogSavePackage: Save=111.753540ms
+[2015.09.14-02.08.22:401][888]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/Downloads/AlexPrototype/AlexPrototype/Saved/ThirdPersonCharacter042A105948FBB7E2D18BF5B5E3589E6C.tmp' to '../../../../../../Users/Stephen Paul Mangold/Downloads/AlexPrototype/AlexPrototype/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2015.09.14-02.08.22:897][915]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2015.09.14-02.08.22:953][915]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
+[2015.09.14-02.08.22:953][915]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2015.09.14-02.08.22:953][915]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2015.09.14-02.08.22:954][915]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2015.09.14-02.08.22:954][915]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.09.14-02.08.22:955][915]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2015.09.14-02.08.23:042][915]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.ThirdPersonCharacter_417.CollisionCylinder and CapsuleComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.ThirdPersonCharacter_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.09.14-02.08.23:042][915]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.ThirdPersonCharacter_417.Arrow and ArrowComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.ThirdPersonCharacter_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.09.14-02.08.23:042][915]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.ThirdPersonCharacter_417.CharMoveComp and CharacterMovementComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.ThirdPersonCharacter_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.09.14-02.08.23:042][915]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.ThirdPersonCharacter_417.CharacterMesh0 and SkeletalMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.ThirdPersonCharacter_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.09.14-02.08.23:211][915]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.14-02.08.23:212][915]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.09.14-02.08.23:294][915]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0452.52] Compile of ThirdPersonCharacter successful, but with 6 Warning(s) [in 397 ms]
+[2015.09.14-02.08.23:307][915]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
+[2015.09.14-02.08.23:307][915]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2015.09.14-02.08.23:307][915]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2015.09.14-02.08.23:307][915]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2015.09.14-02.08.23:307][915]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.09.14-02.08.23:307][915]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2015.09.14-02.08.23:307][915]BlueprintEditorCompileResults:Warning: Warning [0452.52] Compile of ThirdPersonCharacter successful, but with 6 Warning(s) [in 397 ms]
+[2015.09.14-02.08.25:465][ 50]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.09.14-02.08.25:465][ 50]PIE: New page: SIE session: Minimal_Default (Sep 13, 2015, 6:08:25 PM)
+[2015.09.14-02.08.25:465][ 50]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.09.14-02.08.25:477][ 50]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011270s)
+[2015.09.14-02.08.25:477][ 50]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.09.14-02.08.25:478][ 50]LogPlayLevel: PIE: World Init took: (0.001492s)
+[2015.09.14-02.08.25:478][ 50]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.012980s)
+[2015.09.14-02.08.25:535][ 50]LogSelection:Warning: PIE object was selected: "ThirdPersonCharacter_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.ThirdPersonCharacter_C_0"
+[2015.09.14-02.08.25:543][ 50]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.09.14-02.08.25:557][ 50]LogInit: FAudioDevice initialized.
+[2015.09.14-02.08.25:591][ 50]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.09.14-02.08.25:614][ 50]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.09.13-22.08.25
+[2015.09.14-02.08.25:614][ 50]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.14-02.08.25:615][ 50]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.14-02.08.25:616][ 50]LogWorld: Bringing up level for play took: 0.022796
+[2015.09.14-02.08.25:619][ 50]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.965
+[2015.09.14-02.08.25:695][ 50]LogSelection:Warning: PIE object was selected: "ThirdPersonCharacter_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.ThirdPersonCharacter_C_0"
+[2015.09.14-02.08.31:143][644]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093DA4CD4E0
+[2015.09.14-02.08.36:027][ 28]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.08.39:828][319]LogEditorActor: Deleted Actor: ThirdPersonCharacter_C
+[2015.09.14-02.08.39:861][319]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2015.09.14-02.08.41:343][462]LogBlueprint:Warning: [compiler Erich] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
+[2015.09.14-02.08.41:343][462]LogBlueprint:Warning: [compiler Erich] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2015.09.14-02.08.41:344][462]LogBlueprint:Warning: [compiler Erich] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2015.09.14-02.08.41:344][462]LogBlueprint:Warning: [compiler Erich] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2015.09.14-02.08.41:345][462]LogBlueprint:Warning: [compiler Erich] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.09.14-02.08.41:345][462]LogBlueprint:Warning: [compiler Erich] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2015.09.14-02.08.41:353][462]LogBlueprint:Warning: [compiler Erich] Warning [0470.58] Compile of Erich successful, but with 6 Warning(s) [in 51 ms]
+[2015.09.14-02.08.41:353][462]LogBlueprint:Warning: [compiler Erich] Warning [0470.58] Compile of Erich successful, but with 7 Warning(s) [in 0 ms]
+[2015.09.14-02.08.41:353][462]LogBlueprint:Warning: [compiler Erich] Warning [0470.58] Compile of Erich successful, but with 8 Warning(s) [in 0 ms]
+[2015.09.14-02.08.41:416][462]LogBlueprint:Warning: [compiler Erich] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
+[2015.09.14-02.08.41:417][462]LogBlueprint:Warning: [compiler Erich] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2015.09.14-02.08.41:417][462]LogBlueprint:Warning: [compiler Erich] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2015.09.14-02.08.41:418][462]LogBlueprint:Warning: [compiler Erich] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2015.09.14-02.08.41:418][462]LogBlueprint:Warning: [compiler Erich] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.09.14-02.08.41:418][462]LogBlueprint:Warning: [compiler Erich] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2015.09.14-02.08.41:429][462]LogBlueprint:Warning: [compiler Erich] Warning [0470.66] Compile of Erich successful, but with 6 Warning(s) [in 60 ms]
+[2015.09.14-02.08.41:429][462]LogBlueprint:Warning: [compiler Erich] Warning [0470.66] Compile of Erich successful, but with 7 Warning(s) [in 0 ms]
+[2015.09.14-02.08.41:492][462]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.08.48:024][979]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.08.48:459][ 12]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.08.50:817][190]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.08.50:874][190]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.08.53:943][431]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.09.00:474][895]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.09.14-02.09.00:474][895]PIE: New page: SIE session: Minimal_Default (Sep 13, 2015, 6:09:00 PM)
+[2015.09.14-02.09.00:475][895]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.09.14-02.09.00:484][895]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009074s)
+[2015.09.14-02.09.00:484][895]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.09.14-02.09.00:485][895]LogPlayLevel: PIE: World Init took: (0.001027s)
+[2015.09.14-02.09.00:485][895]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010292s)
+[2015.09.14-02.09.00:485][895]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.14-02.09.00:486][895]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.09.14-02.09.00:559][895]LogSelection:Warning: PIE object was selected: "Erich_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Erich_347"
+[2015.09.14-02.09.00:567][895]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.09.14-02.09.00:580][895]LogInit: FAudioDevice initialized.
+[2015.09.14-02.09.00:613][895]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.09.14-02.09.00:634][895]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.09.13-22.09.00
+[2015.09.14-02.09.00:634][895]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.14-02.09.00:635][895]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.14-02.09.00:636][895]LogWorld: Bringing up level for play took: 0.020917
+[2015.09.14-02.09.00:639][895]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.015
+[2015.09.14-02.09.00:714][895]LogSelection:Warning: PIE object was selected: "Erich_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Erich_347"
+[2015.09.14-02.09.19:207][855]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009386178360
+[2015.09.14-02.09.33:092][936]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.09.14-02.09.33:254][949]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.09.14-02.09.34:773][ 68]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (floorTile2)
+[2015.09.14-02.09.36:531][238]Cmd: TRANSACTION UNDO
+[2015.09.14-02.09.36:544][238]LogEditorTransaction: Undo Clicking on Actors
+[2015.09.14-02.09.36:566][238]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.09.42:470][798]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.09.14-02.09.42:470][798]PIE: New page: SIE session: Minimal_Default (Sep 13, 2015, 6:09:42 PM)
+[2015.09.14-02.09.42:471][798]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.09.14-02.09.42:480][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008965s)
+[2015.09.14-02.09.42:480][798]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.09.14-02.09.42:481][798]LogPlayLevel: PIE: World Init took: (0.001315s)
+[2015.09.14-02.09.42:481][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010543s)
+[2015.09.14-02.09.42:514][798]LogSelection:Warning: PIE object was selected: "Erich_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Erich_347"
+[2015.09.14-02.09.42:525][798]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.09.14-02.09.42:540][798]LogInit: FAudioDevice initialized.
+[2015.09.14-02.09.42:578][798]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.09.14-02.09.42:600][798]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.09.13-22.09.42
+[2015.09.14-02.09.42:600][798]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.14-02.09.42:601][798]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.14-02.09.42:602][798]LogWorld: Bringing up level for play took: 0.020724
+[2015.09.14-02.09.42:605][798]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.049
+[2015.09.14-02.09.42:672][798]LogSelection:Warning: PIE object was selected: "Erich_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Erich_347"
+[2015.09.14-02.09.46:439][207]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009380CC7CE0
+[2015.09.14-02.10.10:607][ 99]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.09.14-02.10.10:607][ 99]PIE: New page: SIE session: Minimal_Default (Sep 13, 2015, 6:10:10 PM)
+[2015.09.14-02.10.10:607][ 99]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.09.14-02.10.10:616][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009038s)
+[2015.09.14-02.10.10:617][ 99]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.09.14-02.10.10:617][ 99]LogPlayLevel: PIE: World Init took: (0.001305s)
+[2015.09.14-02.10.10:618][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010588s)
+[2015.09.14-02.10.10:674][ 99]LogSelection:Warning: PIE object was selected: "Erich_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Erich_347"
+[2015.09.14-02.10.10:682][ 99]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.09.14-02.10.10:696][ 99]LogInit: FAudioDevice initialized.
+[2015.09.14-02.10.10:729][ 99]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.09.14-02.10.10:749][ 99]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.09.13-22.10.10
+[2015.09.14-02.10.10:749][ 99]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.14-02.10.10:749][ 99]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.14-02.10.10:750][ 99]LogWorld: Bringing up level for play took: 0.019499
+[2015.09.14-02.10.10:753][ 99]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.099
+[2015.09.14-02.10.10:816][ 99]LogSelection:Warning: PIE object was selected: "Erich_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Erich_347"
+[2015.09.14-02.10.13:583][404]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009385F4E480
+[2015.09.14-02.10.21:056][980]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.10.26:361][391]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.09.14-02.10.26:361][391]PIE: New page: SIE session: Minimal_Default (Sep 13, 2015, 6:10:26 PM)
+[2015.09.14-02.10.26:362][391]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.09.14-02.10.26:371][391]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009423s)
+[2015.09.14-02.10.26:372][391]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.09.14-02.10.26:372][391]LogPlayLevel: PIE: World Init took: (0.001044s)
+[2015.09.14-02.10.26:372][391]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010665s)
+[2015.09.14-02.10.26:428][391]LogSelection:Warning: PIE object was selected: "Erich_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Erich_347"
+[2015.09.14-02.10.26:436][391]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.09.14-02.10.26:449][391]LogInit: FAudioDevice initialized.
+[2015.09.14-02.10.26:482][391]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.09.14-02.10.26:506][391]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.09.13-22.10.26
+[2015.09.14-02.10.26:506][391]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.14-02.10.26:507][391]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.14-02.10.26:509][391]LogWorld: Bringing up level for play took: 0.024774
+[2015.09.14-02.10.26:514][391]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.14
+[2015.09.14-02.10.26:583][391]LogSelection:Warning: PIE object was selected: "Erich_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.Erich_347"
+[2015.09.14-02.10.29:288][681]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093EC2368E0
+[2015.09.14-02.11.08:556][761]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FrameSquare)
+[2015.09.14-02.11.09:419][840]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.09.14-02.11.09:580][857]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.09.14-02.12.06:937][763]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.12.17:071][352]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.12.38:299][277]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.13.10:620][689]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.13.15:925][144]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.13.20:419][580]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.13.43:560][  8]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.13.54:573][ 56]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.14.02:378][627]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.14.08:072][974]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.14.16:468][615]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.09.14-02.14.16:468][615]PIE: New page: SIE session: Minimal_Default (Sep 13, 2015, 6:14:16 PM)
+[2015.09.14-02.14.16:469][615]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.09.14-02.14.16:484][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014993s)
+[2015.09.14-02.14.16:485][615]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.09.14-02.14.16:485][615]LogPlayLevel: PIE: World Init took: (0.001424s)
+[2015.09.14-02.14.16:486][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.016650s)
+[2015.09.14-02.14.16:486][615]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.14-02.14.16:486][615]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.09.14-02.14.16:486][615]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.09.14-02.14.16:487][615]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_0) Not registered. Aborting.
+[2015.09.14-02.14.16:487][615]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2015.09.14-02.14.16:562][615]LogSelection:Warning: PIE object was selected: "AIGuardChar_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.AIGuardChar_672"
+[2015.09.14-02.14.16:575][615]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.09.14-02.14.16:591][615]LogInit: FAudioDevice initialized.
+[2015.09.14-02.14.16:622][615]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.09.14-02.14.16:646][615]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.09.13-22.14.16
+[2015.09.14-02.14.16:646][615]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.14-02.14.16:646][615]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.14-02.14.16:648][615]LogWorld: Bringing up level for play took: 0.023675
+[2015.09.14-02.14.16:651][615]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.002
+[2015.09.14-02.14.16:725][615]LogSelection:Warning: PIE object was selected: "AIGuardChar_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.AIGuardChar_672"
+[2015.09.14-02.14.24:688][291]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093DE3F9E40
+[2015.09.14-02.14.32:821][890]LogEditorViewport: Clicking on Actor (LMB): AIGuardChar_C (AIGuardChar)
+[2015.09.14-02.14.36:699][212]LogEditorViewport: Clicking on Actor (LMB): AIGuardChar_C (AIGuardChar)
+[2015.09.14-02.14.37:424][271]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.09.14-02.14.38:177][334]LogEditorViewport: Clicking on Actor (LMB): AIGuardChar_C (AIGuardChar)
+[2015.09.14-02.14.39:496][436]Cmd: DELETE
+[2015.09.14-02.14.39:496][436]Cmd: ACTOR DELETE
+[2015.09.14-02.14.39:675][436]LogEditorActor: Deleted Actor: AIGuardChar_C
+[2015.09.14-02.14.39:711][436]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.14-02.14.39:712][436]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.09.14-02.14.39:743][436]LogEditorActor: Deleted 1 Actors (0.069 secs)
+[2015.09.14-02.14.41:598][622]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.14.55:137][743]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.15.01:179][225]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.15.08:697][646]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.15.09:194][672]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.15.11:866][789]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.15.12:560][825]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.15.17:638][ 85]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.15.23:217][380]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.15.26:091][526]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.15.33:141][956]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.09.14-02.15.33:159][956]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.14-02.15.33:159][956]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.09.14-02.15.33:170][956]LogPlayLevel: [PIE] Compiling AIGuardChar before PIE...
+[2015.09.14-02.15.33:199][956]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.AIGuardChar_1981.CollisionCylinder and CapsuleComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.AIGuardChar_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.09.14-02.15.33:199][956]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.AIGuardChar_1981.Arrow and ArrowComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.AIGuardChar_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.09.14-02.15.33:199][956]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.AIGuardChar_1981.CharMoveComp and CharacterMovementComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.AIGuardChar_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.09.14-02.15.33:199][956]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.AIGuardChar_1981.CharacterMesh0 and SkeletalMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.AIGuardChar_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.09.14-02.15.33:385][956]LogPlayLevel: PIE:  Blueprint regeneration took 243 ms (1 blueprints)
+[2015.09.14-02.15.33:385][956]PIE: New page: SIE session: Minimal_Default (Sep 13, 2015, 6:15:33 PM)
+[2015.09.14-02.15.33:385][956]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.09.14-02.15.33:394][956]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008737s)
+[2015.09.14-02.15.33:395][956]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.09.14-02.15.33:396][956]LogPlayLevel: PIE: World Init took: (0.001931s)
+[2015.09.14-02.15.33:396][956]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010882s)
+[2015.09.14-02.15.33:449][956]LogSelection:Warning: PIE object was selected: "AIGuardChar_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.AIGuardChar_C_0"
+[2015.09.14-02.15.33:459][956]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.09.14-02.15.33:474][956]LogInit: FAudioDevice initialized.
+[2015.09.14-02.15.33:510][956]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.09.14-02.15.33:532][956]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.09.13-22.15.33
+[2015.09.14-02.15.33:532][956]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.14-02.15.33:532][956]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.14-02.15.33:534][956]LogWorld: Bringing up level for play took: 0.021361
+[2015.09.14-02.15.33:537][956]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.883
+[2015.09.14-02.15.33:605][956]LogSelection:Warning: PIE object was selected: "AIGuardChar_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.AIGuardChar_C_0"
+[2015.09.14-02.15.36:755][277]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.14-02.15.36:756][277]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.09.14-02.15.36:795][277]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000938869F100
+[2015.09.14-02.15.39:227][422]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.15.43:474][808]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.15.47:875][224]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.09.14-02.15.47:876][224]PIE: New page: SIE session: Minimal_Default (Sep 13, 2015, 6:15:47 PM)
+[2015.09.14-02.15.47:876][224]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.09.14-02.15.47:887][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010770s)
+[2015.09.14-02.15.47:887][224]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.09.14-02.15.47:888][224]LogPlayLevel: PIE: World Init took: (0.001115s)
+[2015.09.14-02.15.47:888][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.012095s)
+[2015.09.14-02.15.47:944][224]LogSelection:Warning: PIE object was selected: "AIGuardChar_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.AIGuardChar_C_0"
+[2015.09.14-02.15.47:953][224]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.09.14-02.15.47:967][224]LogInit: FAudioDevice initialized.
+[2015.09.14-02.15.48:004][224]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.09.14-02.15.48:028][224]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.09.13-22.15.48
+[2015.09.14-02.15.48:028][224]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.14-02.15.48:029][224]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.14-02.15.48:031][224]LogWorld: Bringing up level for play took: 0.025196
+[2015.09.14-02.15.48:035][224]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.62
+[2015.09.14-02.15.48:098][224]LogSelection:Warning: PIE object was selected: "AIGuardChar_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.AIGuardChar_C_0"
+[2015.09.14-02.16.35:283][282]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093F2CF2020
+[2015.09.14-02.16.37:271][410]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.16.55:472][724]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.16.55:899][724]LogSavePackage: Save=243.720612ms
+[2015.09.14-02.16.55:899][724]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/Downloads/AlexPrototype/AlexPrototype/Saved/Minimal_Default_Auto15E18320E49AD45AC50802FA31EEBF6F3.tmp' to '../../../../../../Users/Stephen Paul Mangold/Downloads/AlexPrototype/AlexPrototype/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2015.09.14-02.16.55:902][724]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.302
+[2015.09.14-02.16.55:902][724]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.302
+[2015.09.14-02.16.55:908][724]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2015.09.14-02.16.55:967][724]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2015.09.14-02.16.55:967][724]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2015.09.14-02.16.56:083][724]LogSavePackage: Save=105.724464ms
+[2015.09.14-02.16.56:083][724]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/Downloads/AlexPrototype/AlexPrototype/Saved/ThirdPersonCharacter_Auto13C56C1F04D4A2D23FC7C7BB9966B0ED7.tmp' to '../../../../../../Users/Stephen Paul Mangold/Downloads/AlexPrototype/AlexPrototype/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto1.uasset'
+[2015.09.14-02.16.56:089][724]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode] ([1] browsable assets)...
+[2015.09.14-02.16.56:089][724]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode]
+[2015.09.14-02.16.56:110][724]LogSavePackage: Save=9.718722ms
+[2015.09.14-02.16.56:110][724]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/Downloads/AlexPrototype/AlexPrototype/Saved/ThirdPersonGameMode_Auto1336D4E734033F98E7CCA5197CC9840D3.tmp' to '../../../../../../Users/Stephen Paul Mangold/Downloads/AlexPrototype/AlexPrototype/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode_Auto1.uasset'
+[2015.09.14-02.16.56:117][724]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AIGuard/AIGuardChar] ([1] browsable assets)...
+[2015.09.14-02.16.56:160][724]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AIGuard/AIGuardChar.AIGuardChar]
+[2015.09.14-02.16.56:160][724]OBJ SavePackage: Finished generating thumbnails for package [/Game/AIGuard/AIGuardChar]
+[2015.09.14-02.16.56:213][724]LogSavePackage: Save=42.687397ms
+[2015.09.14-02.16.56:213][724]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/Downloads/AlexPrototype/AlexPrototype/Saved/AIGuardChar_Auto12A092ADC49CC664C84C03E9482D03ACF.tmp' to '../../../../../../Users/Stephen Paul Mangold/Downloads/AlexPrototype/AlexPrototype/Saved/Autosaves/Game/AIGuard/AIGuardChar_Auto1.uasset'
+[2015.09.14-02.16.56:215][724]LogFileHelpers: Auto-saving content packages took 0.312
+[2015.09.14-02.17.01:759][836]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.09.14-02.17.34:013][249]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.17.37:583][652]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.17.39:316][829]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.09.14-02.17.39:317][829]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.09.14-02.17.39:317][829]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.09.14-02.17.39:318][829]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_1) Not registered. Aborting.
+[2015.09.14-02.17.39:337][829]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000093EB2CDD00
+[2015.09.14-02.17.39:403][829]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.18.03:675][829]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.18.05:069][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Inventory' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:069][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Inventory' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:069][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CallFunc_Array_Get_Item2' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:069][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CallFunc_Array_Get_Item3' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:069][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CallFunc_Array_Get_Item5' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:069][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CallFunc_Array_Get_Item6' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:069][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Inventory' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:069][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Inventory' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:069][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CallFunc_Array_Get_Item6' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:069][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CallFunc_Array_Get_Item5' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:069][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CallFunc_Array_Get_Item3' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:069][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CallFunc_Array_Get_Item2' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:314][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_ActionIF_C_0' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:314][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_ActionIF_C_1' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:314][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_GameHud_C_2' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:315][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_InventorySlot_C_4' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:316][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_InventorySlot_C_5' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:316][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_GameHud_C_3' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:316][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'GameHUDRef' or package '/Game/ThirdPersonBP/Blueprints/Erich'.
+[2015.09.14-02.18.05:318][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'GameHUDRef' or package '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'.
+[2015.09.14-02.18.05:318][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_PickupText_C_17' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:318][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_PickupText_C_16' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:318][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_AIGuardCont' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:318][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Set_BB_ACtor_C_7' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:318][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Set_BB_ACtor_C_6' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:318][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BT_Set_Bool_C_9' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:318][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BT_Set_Bool_C_8' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:318][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InventorySlotItem' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:318][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InventorySlot_Gadget' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:318][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InventorySlot_Art_Piece' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:319][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'WidgetTree_95' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:319][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InventorySlotItem' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:319][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InventorySlot_Gadget' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:319][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InventorySlot_Art_Piece' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:320][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UniformGridSlot_11' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:320][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UniformGridSlot_1' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:320][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UniformGridSlot_0' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:320][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_135' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:320][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Image_0' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:321][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_135' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:321][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Image_0' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:321][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_135' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:321][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Image_0' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:321][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InventorySlotItem' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:321][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InventorySlot_Gadget' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:321][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InventorySlot_Art_Piece' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:322][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_FunctionEntry_221' or package '/Game/AIGuard/GameHud'.
+[2015.09.14-02.18.05:322][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_FunctionEntry_222' or package '/Game/AIGuard/GameHud'.
+[2015.09.14-02.18.05:322][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_GameHud' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:322][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_MakeArray_Array' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:322][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CallFunc_Array_Get_Item' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:322][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CallFunc_Array_Get_Item4' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:322][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_DynamicCast_AsAction_IF' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:322][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_DynamicCast_AsAction_IF2' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:322][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'WidgetTree_99' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:323][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InventorySlotItem' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:323][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InventorySlot_Gadget' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:323][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InventorySlot_Art_Piece' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:323][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UniformGridSlot_11' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:324][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UniformGridSlot_1' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:324][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UniformGridSlot_0' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:324][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_135' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:324][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Image_0' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:324][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_135' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:325][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Image_0' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:325][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_135' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:325][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Image_0' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:325][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_PickupText_C_22' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:325][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_PickupText_C_21' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:325][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BT_Service_C_11' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:325][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_AIGuardCont_C_176' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:325][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_AIGuardCont_C_175' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:325][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_AIGuardChar_C_107' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:326][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_AIGuardChar_C_174' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:326][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BT_Service_C_10' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:326][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_AIGuardChar_C_173' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:326][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_BT_Service_C_172' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:326][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_BT_Service_C_171' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:326][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_BT_Set_Bool_C_170' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:326][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_BT_Set_Bool_C_169' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:326][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Set_BB_ACtor_C_168' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:326][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Set_BB_ACtor_C_167' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:326][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_InventorySlot_C_20' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:326][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_InventorySlot_C_19' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:326][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Image_0' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:327][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_135' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:327][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Image_0' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:327][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_135' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:327][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Image_0' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:327][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_135' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:328][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_AIGuardCont_C_15' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:328][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InventorySlot_Art_Piece' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:328][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InventorySlot_Gadget' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:328][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InventorySlotItem' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:328][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InventorySlotItem' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:328][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InventorySlot_Gadget' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:328][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InventorySlot_Art_Piece' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:328][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_GameHud_C_18' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:329][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Image_0' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:329][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_135' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:329][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Image_0' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:329][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_135' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:329][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Image_0' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:330][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_135' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:330][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InventorySlot_Art_Piece' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:330][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InventorySlot_Gadget' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:330][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InventorySlotItem' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:330][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_MakeArray_Array' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:330][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InventorySlotItem' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:330][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_AIGuardChar_C_13' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:330][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InventorySlot_Gadget' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:330][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InventorySlot_Art_Piece' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:330][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_DynamicCast_AsAction_IF2' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:330][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_DynamicCast_AsAction_IF' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:330][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CallFunc_Array_Get_Item4' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:330][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CallFunc_Array_Get_Item' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:330][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_AIGuardCont_C_14' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:331][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_GameHud_C_17' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:331][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_ActionIF_C_166' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:331][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_AIGuardChar_C_12' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:331][829]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_ActionIF_C_165' or package '/Engine/Transient'.
+[2015.09.14-02.18.05:369][829]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009380CC76A0
+[2015.09.14-02.18.05:647][829]LogD3D11RHI: InitD3DDevice
+[2015.09.14-02.18.12:980][829]LogCrashTracker: 
+
+
