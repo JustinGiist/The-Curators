@@ -1403,4 +1403,883 @@ Localization Resource: (C:/Program Files/Unreal Engine/4.8/Engine/Content/Locali
 [2015.10.04-21.13.50:583][704]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000429DCB5A80
 [2015.10.04-21.13.50:584][704]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000042F3D8F380
 [2015.10.04-21.13.50:971][704]LogSavePackage: Save=362.875427ms
-[2015.10.04-21.13.50:971][704]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/VerticalSliceAA8AE67A48EF82DD7BFD3DB6530B71BA.t
+[2015.10.04-21.13.50:971][704]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/VerticalSliceAA8AE67A48EF82DD7BFD3DB6530B71BA.tmp' to '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Content/Levels/VerticalSlice.umap'
+[2015.10.04-21.14.12:353][ 29]LogEditorViewport: Clicking Background
+[2015.10.04-21.14.24:780][ 64]Cmd: DUPLICATE
+[2015.10.04-21.14.24:780][ 64]Cmd: ACTOR DUPLICATE
+[2015.10.04-21.14.38:709][ 66]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.15.08:562][428]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.15.11:150][639]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.15.11:173][639]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.04-21.15.11:173][639]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.10.04-21.15.11:174][639]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.10.04-21.15.11:595][639]LogSavePackage: Save=371.594666ms
+[2015.10.04-21.15.11:595][639]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/VerticalSlice63007F704D95506ABF3309A5F8F38B8E.tmp' to '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Content/Levels/VerticalSlice.umap'
+[2015.10.04-21.15.15:801][  4]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.04-21.15.15:958][ 18]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.04-21.15.20:932][212]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.15.23:707][438]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.04-21.15.23:884][453]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.04-21.15.31:060][859]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.15.38:427][310]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.15.47:044][688]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.15.54:770][342]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.10.04-21.15.54:770][342]PIE: New page: SIE session: VerticalSlice (Oct 4, 2015, 1:15:54 PM)
+[2015.10.04-21.15.54:771][342]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_VerticalSlice
+[2015.10.04-21.15.54:871][342]LogPlayLevel: PIE: StaticDuplicateObject took: (0.099892s)
+[2015.10.04-21.15.54:871][342]LogAIModule: Creating AISystem for world VerticalSlice
+[2015.10.04-21.15.54:872][342]LogPlayLevel: PIE: World Init took: (0.001158s)
+[2015.10.04-21.15.54:872][342]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/VerticalSlice.VerticalSlice to /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice (0.101292s)
+[2015.10.04-21.15.54:915][342]LogSelection:Warning: PIE object was selected: "Brush /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.BoxBrush57"
+[2015.10.04-21.15.54:923][342]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.04-21.15.54:937][342]LogInit: FAudioDevice initialized.
+[2015.10.04-21.15.54:975][342]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.04-21.15.55:041][342]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.04-21.15.55:041][342]LogWorld: Bringing World /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice up for play (max tick rate 0) at 2015.10.04-17.15.55
+[2015.10.04-21.15.55:041][342]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.GameSession_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-21.15.55:042][342]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.GameNetworkManager_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-21.15.55:048][342]LogWorld: Bringing up level for play took: 0.070151
+[2015.10.04-21.15.55:050][342]LogBlueprintUserMessages: Hello
+[2015.10.04-21.15.55:051][342]LogBlueprintUserMessages: Hello
+[2015.10.04-21.15.55:051][342]LogBlueprintUserMessages: Hello
+[2015.10.04-21.15.55:051][342]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_VerticalSlice 0.397
+[2015.10.04-21.15.55:059][342]LogSelection:Warning: PIE object was selected: "Brush /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.BoxBrush57"
+[2015.10.04-21.16.01:914][115]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000042A9931B20
+[2015.10.04-21.16.10:148][714]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.04-21.16.10:291][720]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.04-21.16.19:882][371]LogEditorActor: Deleted Actor: DirectionalLight
+[2015.10.04-21.16.19:923][371]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2015.10.04-21.16.21:377][517]LogEditorActor: Deleted Actor: SkyLight
+[2015.10.04-21.16.21:413][517]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2015.10.04-21.16.29:007][293]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.16.37:944][139]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.10.04-21.16.37:944][139]PIE: New page: SIE session: VerticalSlice (Oct 4, 2015, 1:16:37 PM)
+[2015.10.04-21.16.37:944][139]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_VerticalSlice
+[2015.10.04-21.16.38:041][139]LogPlayLevel: PIE: StaticDuplicateObject took: (0.096527s)
+[2015.10.04-21.16.38:041][139]LogAIModule: Creating AISystem for world VerticalSlice
+[2015.10.04-21.16.38:042][139]LogPlayLevel: PIE: World Init took: (0.001085s)
+[2015.10.04-21.16.38:042][139]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/VerticalSlice.VerticalSlice to /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice (0.097851s)
+[2015.10.04-21.16.38:079][139]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.04-21.16.38:090][139]LogInit: FAudioDevice initialized.
+[2015.10.04-21.16.38:124][139]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.04-21.16.38:188][139]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.04-21.16.38:188][139]LogWorld: Bringing World /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice up for play (max tick rate 0) at 2015.10.04-17.16.38
+[2015.10.04-21.16.38:189][139]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.GameSession_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-21.16.38:189][139]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.GameNetworkManager_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-21.16.38:196][139]LogWorld: Bringing up level for play took: 0.069641
+[2015.10.04-21.16.38:198][139]LogBlueprintUserMessages: Hello
+[2015.10.04-21.16.38:198][139]LogBlueprintUserMessages: Hello
+[2015.10.04-21.16.38:198][139]LogBlueprintUserMessages: Hello
+[2015.10.04-21.16.38:199][139]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_VerticalSlice -0.456
+[2015.10.04-21.16.43:572][768]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004294F10D60
+[2015.10.04-21.16.45:943][994]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.16.59:347][248]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.10.04-21.16.59:347][248]PIE: New page: SIE session: VerticalSlice (Oct 4, 2015, 1:16:59 PM)
+[2015.10.04-21.16.59:347][248]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_VerticalSlice
+[2015.10.04-21.16.59:441][248]LogPlayLevel: PIE: StaticDuplicateObject took: (0.093306s)
+[2015.10.04-21.16.59:441][248]LogAIModule: Creating AISystem for world VerticalSlice
+[2015.10.04-21.16.59:442][248]LogPlayLevel: PIE: World Init took: (0.001028s)
+[2015.10.04-21.16.59:442][248]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/VerticalSlice.VerticalSlice to /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice (0.094572s)
+[2015.10.04-21.16.59:479][248]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.04-21.16.59:490][248]LogInit: FAudioDevice initialized.
+[2015.10.04-21.16.59:524][248]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.04-21.16.59:591][248]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.04-21.16.59:591][248]LogWorld: Bringing World /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice up for play (max tick rate 0) at 2015.10.04-17.16.59
+[2015.10.04-21.16.59:591][248]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.GameSession_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-21.16.59:592][248]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.GameNetworkManager_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-21.16.59:599][248]LogWorld: Bringing up level for play took: 0.072386
+[2015.10.04-21.16.59:601][248]LogBlueprintUserMessages: Hello
+[2015.10.04-21.16.59:601][248]LogBlueprintUserMessages: Hello
+[2015.10.04-21.16.59:601][248]LogBlueprintUserMessages: Hello
+[2015.10.04-21.16.59:602][248]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_VerticalSlice 0.947
+[2015.10.04-21.17.10:971][592]LogBlueprintUserMessages: I can see you
+[2015.10.04-21.17.11:475][652]LogBlueprintUserMessages: I can see you
+[2015.10.04-21.17.11:976][712]LogBlueprintUserMessages: I can see you
+[2015.10.04-21.17.13:966][938]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004294E91580
+[2015.10.04-21.17.40:200][199]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.10.04-21.17.40:200][199]PIE: New page: SIE session: VerticalSlice (Oct 4, 2015, 1:17:40 PM)
+[2015.10.04-21.17.40:200][199]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_VerticalSlice
+[2015.10.04-21.17.40:301][199]LogPlayLevel: PIE: StaticDuplicateObject took: (0.100748s)
+[2015.10.04-21.17.40:302][199]LogAIModule: Creating AISystem for world VerticalSlice
+[2015.10.04-21.17.40:302][199]LogPlayLevel: PIE: World Init took: (0.001063s)
+[2015.10.04-21.17.40:302][199]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/VerticalSlice.VerticalSlice to /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice (0.102071s)
+[2015.10.04-21.17.40:302][199]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.04-21.17.40:302][199]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.10.04-21.17.40:303][199]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.10.04-21.17.40:342][199]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.04-21.17.40:354][199]LogInit: FAudioDevice initialized.
+[2015.10.04-21.17.40:392][199]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.04-21.17.40:457][199]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.04-21.17.40:457][199]LogWorld: Bringing World /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice up for play (max tick rate 0) at 2015.10.04-17.17.40
+[2015.10.04-21.17.40:457][199]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.GameSession_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-21.17.40:458][199]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.GameNetworkManager_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-21.17.40:465][199]LogWorld: Bringing up level for play took: 0.070900
+[2015.10.04-21.17.40:468][199]LogBlueprintUserMessages: Hello
+[2015.10.04-21.17.40:468][199]LogBlueprintUserMessages: Hello
+[2015.10.04-21.17.40:468][199]LogBlueprintUserMessages: Hello
+[2015.10.04-21.17.40:470][199]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_VerticalSlice -0.185
+[2015.10.04-21.17.50:898][204]LogBlueprintUserMessages: I can see you
+[2015.10.04-21.17.51:405][255]LogBlueprintUserMessages: I can see you
+[2015.10.04-21.17.51:906][305]LogBlueprintUserMessages: I can see you
+[2015.10.04-21.17.52:410][353]LogBlueprintUserMessages: I can see you
+[2015.10.04-21.17.53:921][494]LogBlueprintUserMessages: I can see you
+[2015.10.04-21.17.55:930][675]LogBlueprintUserMessages: I can see you
+[2015.10.04-21.17.56:431][723]LogBlueprintUserMessages: I can see you
+[2015.10.04-21.17.56:661][745]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsThird_Person_Character3' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.10.04-21.18.11:629][976]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.10.04-21.18.11:629][976]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.10.04-21.18.11:637][977]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.10.04-21.18.11:637][977]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.10.04-21.18.11:676][978]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.10.04-21.18.11:676][978]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.10.04-21.18.11:687][979]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.10.04-21.18.11:687][979]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.10.04-21.18.11:695][980]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.10.04-21.18.11:695][980]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.10.04-21.18.11:705][981]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.10.04-21.18.11:705][981]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.10.04-21.18.12:116][ 12]LogBlueprintUserMessages: I can see you
+[2015.10.04-21.18.12:621][ 50]LogBlueprintUserMessages: I can see you
+[2015.10.04-21.18.29:203][326]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.10.04-21.18.29:203][326]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.10.04-21.18.29:211][327]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.10.04-21.18.29:211][327]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.10.04-21.18.29:220][328]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.10.04-21.18.29:220][328]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.10.04-21.18.29:228][329]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.10.04-21.18.29:229][329]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.10.04-21.18.29:237][330]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.10.04-21.18.29:237][330]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.10.04-21.18.29:276][331]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.10.04-21.18.29:276][331]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.10.04-21.18.29:377][338]LogBlueprintUserMessages: I can see you
+[2015.10.04-21.18.29:884][380]LogBlueprintUserMessages: I can see you
+[2015.10.04-21.18.36:873][939]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004294ED31A0
+[2015.10.04-21.18.36:895][939]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.18.52:712][371]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.18.52:765][371]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.04-21.18.52:865][371]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.18.52:910][371]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.04-21.18.52:917][371]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.18.52:940][371]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.10.04-21.18.54:898][449]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.18.55:721][498]MaterialEditorStats: Info Base pass shader with static lighting: 57 instructions
+[2015.10.04-21.18.55:721][498]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.10.04-21.18.55:721][498]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 68 instructions
+[2015.10.04-21.18.55:721][498]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.10.04-21.18.55:721][498]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.04-21.18.58:945][706]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.04-21.18.58:952][706]LogMaterial: 0.000137 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.18.58:981][706]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.10.04-21.19.01:063][820]MaterialEditorStats: Info Base pass shader with static lighting: 57 instructions
+[2015.10.04-21.19.01:064][820]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.10.04-21.19.01:064][820]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 68 instructions
+[2015.10.04-21.19.01:064][820]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.10.04-21.19.01:064][820]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.04-21.19.09:130][359]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionScalarParameter_0, compiling. 
+[2015.10.04-21.19.12:459][574]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.04-21.19.12:466][574]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.19.12:489][574]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionScalarParameter_0, compiling. 
+[2015.10.04-21.19.14:524][683]MaterialEditorStats: Info Base pass shader with static lighting: 57 instructions
+[2015.10.04-21.19.14:524][683]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.10.04-21.19.14:524][683]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 68 instructions
+[2015.10.04-21.19.14:524][683]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.10.04-21.19.14:524][683]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.04-21.19.16:292][800]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.04-21.19.16:298][800]LogMaterial: 0.000053 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.19.18:277][902]MaterialEditorStats: Info Base pass shader with static lighting: 57 instructions
+[2015.10.04-21.19.18:278][902]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.10.04-21.19.18:278][902]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 68 instructions
+[2015.10.04-21.19.18:278][902]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.10.04-21.19.18:278][902]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.04-21.19.20:566][ 53]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.04-21.19.20:572][ 53]LogMaterial: 0.000081 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.19.22:547][156]MaterialEditorStats: Info Base pass shader with static lighting: 56 instructions
+[2015.10.04-21.19.22:547][156]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.10.04-21.19.22:547][156]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 67 instructions
+[2015.10.04-21.19.22:547][156]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.10.04-21.19.22:547][156]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.04-21.19.24:580][291]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.19.26:172][318]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.19.27:538][407]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.19.28:084][441]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.19.33:876][819]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.19.34:468][857]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.19.36:265][969]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.04-21.19.36:272][969]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.19.36:274][969]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.04-21.19.36:281][969]LogMaterial: 0.000083 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.19.38:264][ 80]MaterialEditorStats: Info Base pass shader with static lighting: 56 instructions
+[2015.10.04-21.19.38:264][ 80]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.10.04-21.19.38:264][ 80]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 67 instructions
+[2015.10.04-21.19.38:264][ 80]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.10.04-21.19.38:264][ 80]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.04-21.19.49:043][793]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.04-21.19.49:050][793]LogMaterial: 0.000195 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.19.49:784][826]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.04-21.19.49:793][826]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.19.51:508][906]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.19.52:011][936]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.19.52:046][937]MaterialEditorStats: Info Base pass shader with static lighting: 51 instructions
+[2015.10.04-21.19.52:046][937]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2015.10.04-21.19.52:046][937]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 62 instructions
+[2015.10.04-21.19.52:046][937]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.10.04-21.19.52:046][937]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.04-21.19.53:697][ 41]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.04-21.19.53:703][ 41]LogMaterial: 0.000108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.19.53:706][ 41]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.04-21.19.53:712][ 41]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.19.55:693][150]MaterialEditorStats: Info Base pass shader with static lighting: 50 instructions
+[2015.10.04-21.19.55:693][150]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2015.10.04-21.19.55:693][150]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2015.10.04-21.19.55:693][150]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.10.04-21.19.55:693][150]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.04-21.19.59:092][376]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.04-21.19.59:098][376]LogMaterial: 0.000088 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.20.01:010][480]MaterialEditorStats: Info Base pass shader with static lighting: 51 instructions
+[2015.10.04-21.20.01:010][480]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2015.10.04-21.20.01:010][480]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 62 instructions
+[2015.10.04-21.20.01:010][480]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.10.04-21.20.01:011][480]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.04-21.20.02:621][585]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.20.03:037][611]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.20.06:644][839]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.04-21.20.06:651][839]LogMaterial: 0.000126 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.20.06:653][839]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.04-21.20.06:660][839]LogMaterial: 0.000026 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.20.08:620][946]MaterialEditorStats: Info Base pass shader with static lighting: 51 instructions
+[2015.10.04-21.20.08:620][946]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2015.10.04-21.20.08:620][946]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 62 instructions
+[2015.10.04-21.20.08:620][946]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.10.04-21.20.08:620][946]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.04-21.20.12:160][181]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.04-21.20.12:166][181]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.20.13:700][256]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.20.14:114][282]MaterialEditorStats: Info Base pass shader with static lighting: 51 instructions
+[2015.10.04-21.20.14:114][282]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2015.10.04-21.20.14:114][282]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 62 instructions
+[2015.10.04-21.20.14:114][282]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.10.04-21.20.14:114][282]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.04-21.20.14:259][291]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.20.18:166][541]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.04-21.20.18:172][541]LogMaterial: 0.000136 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.20.18:172][541]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2015.10.04-21.20.18:177][541]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.04-21.20.18:183][541]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.20.18:206][541]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2015.10.04-21.20.20:275][652]MaterialEditorStats: Info Base pass shader with static lighting: 51 instructions
+[2015.10.04-21.20.20:275][652]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2015.10.04-21.20.20:275][652]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 62 instructions
+[2015.10.04-21.20.20:275][652]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.10.04-21.20.20:275][652]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.04-21.20.20:575][669]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.20.25:319][972]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.04-21.20.25:325][972]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.20.25:352][972]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2015.10.04-21.20.27:365][ 81]MaterialEditorStats: Info Base pass shader with static lighting: 51 instructions
+[2015.10.04-21.20.27:365][ 81]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2015.10.04-21.20.27:365][ 81]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 62 instructions
+[2015.10.04-21.20.27:365][ 81]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.10.04-21.20.27:365][ 81]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.04-21.20.31:470][353]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.04-21.20.31:476][353]LogMaterial: 0.000105 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.20.33:488][467]MaterialEditorStats: Info Base pass shader with static lighting: 53 instructions
+[2015.10.04-21.20.33:488][467]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 28 instructions
+[2015.10.04-21.20.33:488][467]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 64 instructions
+[2015.10.04-21.20.33:489][467]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.10.04-21.20.33:489][467]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.04-21.20.38:872][821]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.20.39:867][885]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.04-21.20.39:914][885]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.04-21.20.39:920][885]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.20.40:759][923]MaterialEditorStats: Info Base pass shader with static lighting: 65 instructions
+[2015.10.04-21.20.40:759][923]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2015.10.04-21.20.40:759][923]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.04-21.20.40:759][923]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.10.04-21.21.25:906][546]LogMaterialEditor: Saving and Compiling material NewMaterial
+[2015.10.04-21.21.26:300][546]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.04-21.21.26:327][546]LogMaterial: 0.000109 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.21.26:330][546]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.21.26:369][546]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.04-21.21.26:415][546]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.04-21.21.26:435][546]LogMaterial: 0.007760 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.21.26:474][546]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.21.28:874][546]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMaterial" FILE="../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Content/NewMaterial.uasset" SILENT=true
+[2015.10.04-21.21.28:902][546]LogSavePackage: Save=11.605636ms
+[2015.10.04-21.21.28:902][546]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/NewMaterialC53AADC94ED3FB845C126094A5450B07.tmp' to '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Content/NewMaterial.uasset'
+[2015.10.04-21.21.28:911][546]MaterialEditorStats: Info Base pass shader with static lighting: 96 instructions
+[2015.10.04-21.21.28:911][546]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.10.04-21.21.28:911][546]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.04-21.21.28:911][546]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.10.04-21.21.32:291][796]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.10.04-21.21.32:291][796]PIE: New page: SIE session: VerticalSlice (Oct 4, 2015, 1:21:32 PM)
+[2015.10.04-21.21.32:291][796]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_VerticalSlice
+[2015.10.04-21.21.32:389][796]LogPlayLevel: PIE: StaticDuplicateObject took: (0.097352s)
+[2015.10.04-21.21.32:389][796]LogAIModule: Creating AISystem for world VerticalSlice
+[2015.10.04-21.21.32:390][796]LogPlayLevel: PIE: World Init took: (0.001259s)
+[2015.10.04-21.21.32:390][796]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/VerticalSlice.VerticalSlice to /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice (0.098868s)
+[2015.10.04-21.21.32:390][796]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.04-21.21.32:390][796]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.10.04-21.21.32:391][796]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.10.04-21.21.32:439][796]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.04-21.21.32:450][796]LogInit: FAudioDevice initialized.
+[2015.10.04-21.21.32:486][796]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.04-21.21.32:553][796]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.04-21.21.32:553][796]LogWorld: Bringing World /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice up for play (max tick rate 0) at 2015.10.04-17.21.32
+[2015.10.04-21.21.32:553][796]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.GameSession_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-21.21.32:553][796]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.GameNetworkManager_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-21.21.32:560][796]LogWorld: Bringing up level for play took: 0.071809
+[2015.10.04-21.21.32:562][796]LogBlueprintUserMessages: Hello
+[2015.10.04-21.21.32:562][796]LogBlueprintUserMessages: Hello
+[2015.10.04-21.21.32:562][796]LogBlueprintUserMessages: Hello
+[2015.10.04-21.21.32:563][796]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_VerticalSlice -0.092
+[2015.10.04-21.21.35:041][ 18]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.21.38:156][322]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.21.39:858][493]LogEditorViewport: Clicking Background
+[2015.10.04-21.21.43:728][826]LogEditorViewport: Clicking Background
+[2015.10.04-21.21.44:477][879]LogSelection:Warning: PIE object was selected: "Brush /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.BoxBrush3"
+[2015.10.04-21.21.47:875][ 92]LogSavePackage: Save=375.935730ms
+[2015.10.04-21.21.47:875][ 92]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/VerticalSliceEAD9368A40C3642D7B837AAA28F94748.tmp' to '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Content/Levels/VerticalSlice.umap'
+[2015.10.04-21.21.50:414][277]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.21.52:211][457]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000042EFE36200
+[2015.10.04-21.21.55:072][709]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.21.57:657][963]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.22.03:169][464]LogEditorViewport: Clicking on Actor (LMB): AIGuardChar_C (AIGuardChar)
+[2015.10.04-21.22.03:957][515]LogEditorViewport: Clicking on Actor (LMB): AIGuardChar_C (AIGuardChar)
+[2015.10.04-21.22.05:444][619]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.22.27:435][668]Cmd: EDCALLBACK SURFPROPS
+[2015.10.04-21.22.46:119][816]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.22.50:208][ 41]MapCheck: New page: Map Check
+[2015.10.04-21.22.50:323][ 41]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.22.50:361][ 41]Cmd: MAP REBUILD ALLVISIBLE
+[2015.10.04-21.22.50:361][ 41]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.04-21.22.54:235][ 41]LightingResults: New page: Lighting Build - Oct 4, 2015, 1:22:54 PM
+[2015.10.04-21.23.08:665][ 41]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2015.10.04-21.23.08:668][ 41]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.10.04-21.23.08:668][ 41]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.10.04-21.23.08:668][ 41]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.10.04-21.23.08:668][ 41]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.10.04-21.23.08:668][ 41]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.10.04-21.23.09:430][ 41]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.23.09:453][ 41]LogEditorBuildUtils: Build time 0:00:19
+[2015.10.04-21.23.09:467][ 41]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.23.09:473][ 41]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer baseColor, compiling. 
+[2015.10.04-21.23.09:476][ 41]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer baseColor, compiling. 
+[2015.10.04-21.23.09:520][ 41]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer innerBevel, compiling. 
+[2015.10.04-21.23.09:523][ 41]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer innerBevel, compiling. 
+[2015.10.04-21.23.09:560][ 42]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer torsoBase, compiling. 
+[2015.10.04-21.23.09:565][ 42]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer torsoBase, compiling. 
+[2015.10.04-21.23.09:589][ 43]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer metalRandom, compiling. 
+[2015.10.04-21.23.09:594][ 43]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer metalRandom, compiling. 
+[2015.10.04-21.23.09:621][ 43]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer eyeGlow, compiling. 
+[2015.10.04-21.23.09:676][ 43]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer eyeGlow, compiling. 
+[2015.10.04-21.23.09:705][ 44]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Glasses_RightGadget_Material, compiling. 
+[2015.10.04-21.23.09:710][ 44]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Glasses_RightGadget_Material, compiling. 
+[2015.10.04-21.23.09:715][ 44]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer HandSkin_Material, compiling. 
+[2015.10.04-21.23.09:719][ 44]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer HandSkin_Material, compiling. 
+[2015.10.04-21.23.09:753][ 45]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OuterShirt_Material, compiling. 
+[2015.10.04-21.23.09:758][ 45]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OuterShirt_Material, compiling. 
+[2015.10.04-21.23.09:787][ 45]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer ArmBraceRight_Material, compiling. 
+[2015.10.04-21.23.09:791][ 45]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer ArmBraceRight_Material, compiling. 
+[2015.10.04-21.23.09:820][ 46]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer ShirtStraps_Material, compiling. 
+[2015.10.04-21.23.09:825][ 46]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer ShirtStraps_Material, compiling. 
+[2015.10.04-21.23.09:830][ 46]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MouthMask_Material, compiling. 
+[2015.10.04-21.23.09:834][ 46]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MouthMask_Material, compiling. 
+[2015.10.04-21.23.09:870][ 47]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer GlassesRim_Material, compiling. 
+[2015.10.04-21.23.09:873][ 47]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer GlassesRim_Material, compiling. 
+[2015.10.04-21.23.09:877][ 47]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LongPants_Material, compiling. 
+[2015.10.04-21.23.09:882][ 47]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LongPants_Material, compiling. 
+[2015.10.04-21.23.09:920][ 48]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Shoes_Material, compiling. 
+[2015.10.04-21.23.09:923][ 48]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Shoes_Material, compiling. 
+[2015.10.04-21.23.09:927][ 48]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LegsSkin_Material, compiling. 
+[2015.10.04-21.23.09:931][ 48]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LegsSkin_Material, compiling. 
+[2015.10.04-21.23.09:951][ 49]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Hat_Material, compiling. 
+[2015.10.04-21.23.09:956][ 49]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Hat_Material, compiling. 
+[2015.10.04-21.23.09:960][ 49]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Hair_Material, compiling. 
+[2015.10.04-21.23.09:964][ 49]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Hair_Material, compiling. 
+[2015.10.04-21.23.09:986][ 50]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer VNeckInsideShirt_Material, compiling. 
+[2015.10.04-21.23.09:990][ 50]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer VNeckInsideShirt_Material, compiling. 
+[2015.10.04-21.23.09:995][ 50]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer ForheadSkin_Material, compiling. 
+[2015.10.04-21.23.10:000][ 50]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer ForheadSkin_Material, compiling. 
+[2015.10.04-21.23.10:022][ 51]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Belts_Material, compiling. 
+[2015.10.04-21.23.10:079][ 51]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Belts_Material, compiling. 
+[2015.10.04-21.23.10:113][ 52]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert10, compiling. 
+[2015.10.04-21.23.10:118][ 52]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert10, compiling. 
+[2015.10.04-21.23.10:140][ 53]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Glasses_LeftGadget_Material, compiling. 
+[2015.10.04-21.23.10:145][ 53]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Glasses_LeftGadget_Material, compiling. 
+[2015.10.04-21.23.10:166][ 54]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer GlassesLens_Material, compiling. 
+[2015.10.04-21.23.10:170][ 54]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer GlassesLens_Material, compiling. 
+[2015.10.04-21.23.10:189][ 55]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2015.10.04-21.23.10:195][ 55]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2015.10.04-21.23.10:250][ 57]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer displayCaseBase1, compiling. 
+[2015.10.04-21.23.10:255][ 57]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer displayCaseBase1, compiling. 
+[2015.10.04-21.23.10:276][ 58]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer glass, compiling. 
+[2015.10.04-21.23.10:281][ 58]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer glass, compiling. 
+[2015.10.04-21.23.10:306][ 59]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer displayCaseBase1, compiling. 
+[2015.10.04-21.23.10:311][ 59]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer displayCaseBase1, compiling. 
+[2015.10.04-21.23.10:339][ 60]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer glass, compiling. 
+[2015.10.04-21.23.10:343][ 60]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer glass, compiling. 
+[2015.10.04-21.23.10:379][ 60]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2015.10.04-21.23.10:386][ 60]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2015.10.04-21.23.10:460][ 61]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer NewMaterial, compiling. 
+[2015.10.04-21.23.10:465][ 61]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer NewMaterial, compiling. 
+[2015.10.04-21.23.17:653][144]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.23.23:834][532]Cmd: TRANSACTION UNDO
+[2015.10.04-21.23.23:834][532]LogEditorTransaction: Undo Replace component used material
+[2015.10.04-21.23.23:846][532]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.04-21.23.23:854][532]LogMaterial: 0.000091 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.23.23:857][532]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.23.26:458][680]MaterialEditorStats: Info Base pass shader with static lighting: 65 instructions
+[2015.10.04-21.23.26:458][680]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 33 instructions
+[2015.10.04-21.23.26:458][680]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.04-21.23.26:458][680]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.10.04-21.23.29:673][871]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.23.34:337][ 79]Job is a success!
+[2015.10.04-21.23.34:389][ 80]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.23.34:391][ 80]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.23.35:194][ 80]LogMaterial:Warning: Material /Game/Assets/VerticalSliceAssets/characterAssets/character/Glasses_RightGadget_Material.Glasses_RightGadget_Material needed to have new flag set bUsedWithStaticLighting !
+[2015.10.04-21.23.35:196][ 80]LogMaterial: Missing cached shader map for material Glasses_RightGadget_Material, compiling. 
+[2015.10.04-21.23.35:210][ 80]LogMaterial: 0.000188 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.23.35:210][ 80]LogMaterial:Warning: Material /Game/Assets/VerticalSliceAssets/characterAssets/character/HandSkin_Material.HandSkin_Material needed to have new flag set bUsedWithStaticLighting !
+[2015.10.04-21.23.35:212][ 80]LogMaterial: Missing cached shader map for material HandSkin_Material, compiling. 
+[2015.10.04-21.23.35:224][ 80]LogMaterial: 0.000140 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.23.35:224][ 80]LogMaterial:Warning: Material /Game/Assets/VerticalSliceAssets/characterAssets/character/OuterShirt_Material.OuterShirt_Material needed to have new flag set bUsedWithStaticLighting !
+[2015.10.04-21.23.35:226][ 80]LogMaterial: Missing cached shader map for material OuterShirt_Material, compiling. 
+[2015.10.04-21.23.35:241][ 80]LogMaterial: 0.000129 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.23.35:241][ 80]LogMaterial:Warning: Material /Game/Assets/VerticalSliceAssets/characterAssets/character/ArmBraceRight_Material.ArmBraceRight_Material needed to have new flag set bUsedWithStaticLighting !
+[2015.10.04-21.23.35:243][ 80]LogMaterial: Missing cached shader map for material ArmBraceRight_Material, compiling. 
+[2015.10.04-21.23.35:259][ 80]LogMaterial: 0.000173 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.23.35:259][ 80]LogMaterial:Warning: Material /Game/Assets/VerticalSliceAssets/characterAssets/character/ShirtStraps_Material.ShirtStraps_Material needed to have new flag set bUsedWithStaticLighting !
+[2015.10.04-21.23.35:262][ 80]LogMaterial: Missing cached shader map for material ShirtStraps_Material, compiling. 
+[2015.10.04-21.23.35:277][ 80]LogMaterial: 0.000124 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.23.35:277][ 80]LogMaterial:Warning: Material /Game/Assets/VerticalSliceAssets/characterAssets/character/MouthMask_Material.MouthMask_Material needed to have new flag set bUsedWithStaticLighting !
+[2015.10.04-21.23.35:279][ 80]LogMaterial: Missing cached shader map for material MouthMask_Material, compiling. 
+[2015.10.04-21.23.35:294][ 80]LogMaterial: 0.000132 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.23.35:294][ 80]LogMaterial:Warning: Material /Game/Assets/VerticalSliceAssets/characterAssets/character/GlassesRim_Material.GlassesRim_Material needed to have new flag set bUsedWithStaticLighting !
+[2015.10.04-21.23.35:295][ 80]LogMaterial: Missing cached shader map for material GlassesRim_Material, compiling. 
+[2015.10.04-21.23.35:310][ 80]LogMaterial: 0.000129 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.23.35:310][ 80]LogMaterial:Warning: Material /Game/Assets/VerticalSliceAssets/characterAssets/character/LongPants_Material.LongPants_Material needed to have new flag set bUsedWithStaticLighting !
+[2015.10.04-21.23.35:313][ 80]LogMaterial: Missing cached shader map for material LongPants_Material, compiling. 
+[2015.10.04-21.23.35:327][ 80]LogMaterial: 0.000114 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.23.35:327][ 80]LogMaterial:Warning: Material /Game/Assets/VerticalSliceAssets/characterAssets/character/Shoes_Material.Shoes_Material needed to have new flag set bUsedWithStaticLighting !
+[2015.10.04-21.23.35:329][ 80]LogMaterial: Missing cached shader map for material Shoes_Material, compiling. 
+[2015.10.04-21.23.35:345][ 80]LogMaterial: 0.000149 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.23.35:345][ 80]LogMaterial:Warning: Material /Game/Assets/VerticalSliceAssets/characterAssets/character/LegsSkin_Material.LegsSkin_Material needed to have new flag set bUsedWithStaticLighting !
+[2015.10.04-21.23.35:401][ 80]LogMaterial: Missing cached shader map for material LegsSkin_Material, compiling. 
+[2015.10.04-21.23.35:419][ 80]LogMaterial: 0.000123 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.23.35:419][ 80]LogMaterial:Warning: Material /Game/Assets/VerticalSliceAssets/characterAssets/character/Hat_Material.Hat_Material needed to have new flag set bUsedWithStaticLighting !
+[2015.10.04-21.23.35:421][ 80]LogMaterial: Missing cached shader map for material Hat_Material, compiling. 
+[2015.10.04-21.23.35:436][ 80]LogMaterial: 0.000120 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.23.35:436][ 80]LogMaterial:Warning: Material /Game/Assets/VerticalSliceAssets/characterAssets/character/Hair_Material.Hair_Material needed to have new flag set bUsedWithStaticLighting !
+[2015.10.04-21.23.35:495][ 80]LogMaterial: Missing cached shader map for material Hair_Material, compiling. 
+[2015.10.04-21.23.35:511][ 80]LogMaterial: 0.000125 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.23.35:511][ 80]LogMaterial:Warning: Material /Game/Assets/VerticalSliceAssets/characterAssets/character/VNeckInsideShirt_Material.VNeckInsideShirt_Material needed to have new flag set bUsedWithStaticLighting !
+[2015.10.04-21.23.35:513][ 80]LogMaterial: Missing cached shader map for material VNeckInsideShirt_Material, compiling. 
+[2015.10.04-21.23.35:529][ 80]LogMaterial: 0.000118 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.23.35:529][ 80]LogMaterial:Warning: Material /Game/Assets/VerticalSliceAssets/characterAssets/character/ForheadSkin_Material.ForheadSkin_Material needed to have new flag set bUsedWithStaticLighting !
+[2015.10.04-21.23.35:531][ 80]LogMaterial: Missing cached shader map for material ForheadSkin_Material, compiling. 
+[2015.10.04-21.23.35:548][ 80]LogMaterial: 0.000132 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.23.35:548][ 80]LogMaterial:Warning: Material /Game/Assets/VerticalSliceAssets/characterAssets/character/Belts_Material.Belts_Material needed to have new flag set bUsedWithStaticLighting !
+[2015.10.04-21.23.35:550][ 80]LogMaterial: Missing cached shader map for material Belts_Material, compiling. 
+[2015.10.04-21.23.35:567][ 80]LogMaterial: 0.000149 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.23.35:567][ 80]LogMaterial:Warning: Material /Game/Assets/VerticalSliceAssets/characterAssets/character/lambert10.lambert10 needed to have new flag set bUsedWithStaticLighting !
+[2015.10.04-21.23.35:569][ 80]LogMaterial: Missing cached shader map for material lambert10, compiling. 
+[2015.10.04-21.23.35:585][ 80]LogMaterial: 0.000159 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.23.35:585][ 80]LogMaterial:Warning: Material /Game/Assets/VerticalSliceAssets/characterAssets/character/Glasses_LeftGadget_Material.Glasses_LeftGadget_Material needed to have new flag set bUsedWithStaticLighting !
+[2015.10.04-21.23.35:587][ 80]LogMaterial: Missing cached shader map for material Glasses_LeftGadget_Material, compiling. 
+[2015.10.04-21.23.35:602][ 80]LogMaterial: 0.000120 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.23.35:602][ 80]LogMaterial:Warning: Material /Game/Assets/VerticalSliceAssets/characterAssets/character/GlassesLens_Material.GlassesLens_Material needed to have new flag set bUsedWithStaticLighting !
+[2015.10.04-21.23.35:605][ 80]LogMaterial: Missing cached shader map for material GlassesLens_Material, compiling. 
+[2015.10.04-21.23.35:868][ 80]LogMaterial: 0.000137 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.23.35:872][ 80]LogMaterial:Warning: Material /Game/Assets/VerticalSliceAssets/egyptianAssets/displayCaseShort/displayCaseBase1.displayCaseBase1 needed to have new flag set bUsedWithStaticLighting !
+[2015.10.04-21.23.35:877][ 80]LogMaterial: Missing cached shader map for material displayCaseBase1, compiling. 
+[2015.10.04-21.23.35:893][ 80]LogMaterial: 0.000154 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.23.35:893][ 80]LogMaterial:Warning: Material /Game/Assets/VerticalSliceAssets/egyptianAssets/displayCaseShort/glass.glass needed to have new flag set bUsedWithStaticLighting !
+[2015.10.04-21.23.35:895][ 80]LogMaterial: Missing cached shader map for material glass, compiling. 
+[2015.10.04-21.23.35:912][ 80]LogMaterial: 0.000133 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.23.35:914][ 80]LogMaterial:Warning: Material /Game/Assets/VerticalSliceAssets/egyptianAssets/displayCaseLong/displayCaseBase1.displayCaseBase1 needed to have new flag set bUsedWithStaticLighting !
+[2015.10.04-21.23.35:917][ 80]LogMaterial: Missing cached shader map for material displayCaseBase1, compiling. 
+[2015.10.04-21.23.35:932][ 80]LogMaterial: 0.000133 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.23.35:933][ 80]LogMaterial:Warning: Material /Game/Assets/VerticalSliceAssets/egyptianAssets/displayCaseLong/glass.glass needed to have new flag set bUsedWithStaticLighting !
+[2015.10.04-21.23.35:935][ 80]LogMaterial: Missing cached shader map for material glass, compiling. 
+[2015.10.04-21.23.35:951][ 80]LogMaterial: 0.000126 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.04-21.23.36:350][ 80]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.10.04-21.23.36:440][ 80]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2015.10.04-21.23.36:444][ 80]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.10.04-21.23.36:454][ 80]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2015.10.04-21.23.36:473][ 80]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.10.04-21.23.36:531][ 80]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.10.04-21.23.36:535][ 80]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.10.04-21.23.36:547][ 80]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.10.04-21.23.36:615][ 80]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.10.04-21.23.36:752][ 80]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.10.04-21.23.36:838][ 80]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.10.04-21.23.37:018][ 80]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.10.04-21.23.37:069][ 80]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.10.04-21.23.37:210][ 80]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.10.04-21.23.38:658][ 80]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.10.04-21.23.38:993][ 80]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.10.04-21.23.39:225][ 80]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2015.10.04-21.23.39:254][ 80]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2015.10.04-21.23.39:259][ 80]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2015.10.04-21.23.50:967][ 80]Lightmass on STEPHENMANGOLD1: 22.1 sec total, 280 ms importing, 51 ms setup, 2.29 sec photons, 19.2 sec processing, 0 ms extra exporting [1068/1068 mappings]. Threads: 2:14 min total, 1:21 min processing.
+[2015.10.04-21.23.50:967][ 80]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.23.52:278][ 80]LogStaticLightingSystem: Illumination: 57.9 sec (3.26 sec encoding lightmaps)
+[2015.10.04-21.23.52:278][ 80]LogStaticLightingSystem: Lightmap texture memory:  5.5 MB (0.2 MB streaming, 5.3 MB non-streaming), 14 textures
+[2015.10.04-21.23.52:278][ 80]LogStaticLightingSystem: Shadowmap texture memory: 16.1 MB (0.1 MB streaming, 16.0 MB non-streaming), 5 textures
+[2015.10.04-21.23.52:713][ 81]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.10.04-21.23.52:714][ 81]MapCheck: New page: VerticalSlice - Oct 4, 2015, 1:23:52 PM
+[2015.10.04-21.23.52:714][ 81]MapCheck:Warning: Warning AIGuardChar_C_0 Static mesh actor has NULL StaticMesh property 
+[2015.10.04-21.23.52:715][ 81]MapCheck:Warning: Warning AIGuardChar_C_2 Static mesh actor has NULL StaticMesh property 
+[2015.10.04-21.23.52:715][ 81]MapCheck:Warning: Warning AIGuardChar_C_3 Static mesh actor has NULL StaticMesh property 
+[2015.10.04-21.23.52:963][ 81]MapCheck: Info Map check complete: 0 Error(s), 3 Warning(s), took 249.363ms to complete.
+[2015.10.04-21.23.52:966][ 81]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.23.53:904][113]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.23.53:981][118]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.24.01:211][500]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.24.10:605][118]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.25.03:203][901]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.10.04-21.25.03:203][901]PIE: New page: SIE session: VerticalSlice (Oct 4, 2015, 1:25:03 PM)
+[2015.10.04-21.25.03:204][901]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_VerticalSlice
+[2015.10.04-21.25.03:300][901]LogPlayLevel: PIE: StaticDuplicateObject took: (0.096371s)
+[2015.10.04-21.25.03:301][901]LogAIModule: Creating AISystem for world VerticalSlice
+[2015.10.04-21.25.03:301][901]LogPlayLevel: PIE: World Init took: (0.001105s)
+[2015.10.04-21.25.03:301][901]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/VerticalSlice.VerticalSlice to /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice (0.097760s)
+[2015.10.04-21.25.03:332][901]LogSelection:Warning: PIE object was selected: "Brush /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.BoxBrush3"
+[2015.10.04-21.25.03:340][901]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.04-21.25.03:353][901]LogInit: FAudioDevice initialized.
+[2015.10.04-21.25.03:384][901]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.04-21.25.03:450][901]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.04-21.25.03:450][901]LogWorld: Bringing World /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice up for play (max tick rate 0) at 2015.10.04-17.25.03
+[2015.10.04-21.25.03:450][901]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.GameSession_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-21.25.03:451][901]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.GameNetworkManager_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-21.25.03:457][901]LogWorld: Bringing up level for play took: 0.071091
+[2015.10.04-21.25.03:460][901]LogBlueprintUserMessages: Hello
+[2015.10.04-21.25.03:460][901]LogBlueprintUserMessages: Hello
+[2015.10.04-21.25.03:460][901]LogBlueprintUserMessages: Hello
+[2015.10.04-21.25.03:460][901]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_VerticalSlice 0.806
+[2015.10.04-21.25.03:468][901]LogSelection:Warning: PIE object was selected: "Brush /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.BoxBrush3"
+[2015.10.04-21.25.11:051][765]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000042C6F331A0
+[2015.10.04-21.25.14:875][139]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.25.15:509][139]LogSavePackage: Save=565.532288ms
+[2015.10.04-21.25.15:510][139]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/VerticalSlice555F3D514912CC12BB72758502382D33.tmp' to '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Content/Levels/VerticalSlice.umap'
+[2015.10.04-21.35.06:440][ 59]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.35.15:441][ 86]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.35.15:791][ 86]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/VerticalSlice' took 0.073
+[2015.10.04-21.35.15:800][ 86]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/VerticalSliceAssets/egyptianAssets/displayCaseLong/displayCaseBase1] ([1] browsable assets)...
+[2015.10.04-21.35.15:852][ 86]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/VerticalSliceAssets/egyptianAssets/displayCaseLong/displayCaseBase1.displayCaseBase1]
+[2015.10.04-21.35.15:852][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/VerticalSliceAssets/egyptianAssets/displayCaseLong/displayCaseBase1]
+[2015.10.04-21.35.15:888][ 86]LogSavePackage: Save=14.214618ms
+[2015.10.04-21.35.15:888][ 86]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/displayCaseBase1_Auto32C362DBB49923CC6DB9857AFDA3B6667.tmp' to '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/Autosaves/Game/Assets/VerticalSliceAssets/egyptianAssets/displayCaseLong/displayCaseBase1_Auto3.uasset'
+[2015.10.04-21.35.15:895][ 86]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/VerticalSliceAssets/egyptianAssets/displayCaseLong/glass] ([1] browsable assets)...
+[2015.10.04-21.35.15:914][ 86]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/VerticalSliceAssets/egyptianAssets/displayCaseLong/glass.glass]
+[2015.10.04-21.35.15:914][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/VerticalSliceAssets/egyptianAssets/displayCaseLong/glass]
+[2015.10.04-21.35.15:947][ 86]LogSavePackage: Save=12.760253ms
+[2015.10.04-21.35.15:947][ 86]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/glass_Auto3FDE05B5D48A26355D581059508C61D35.tmp' to '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/Autosaves/Game/Assets/VerticalSliceAssets/egyptianAssets/displayCaseLong/glass_Auto3.uasset'
+[2015.10.04-21.35.15:955][ 86]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/VerticalSliceAssets/egyptianAssets/displayCaseShort/displayCaseBase1] ([1] browsable assets)...
+[2015.10.04-21.35.15:971][ 86]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/VerticalSliceAssets/egyptianAssets/displayCaseShort/displayCaseBase1.displayCaseBase1]
+[2015.10.04-21.35.15:971][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/VerticalSliceAssets/egyptianAssets/displayCaseShort/displayCaseBase1]
+[2015.10.04-21.35.16:007][ 86]LogSavePackage: Save=14.934555ms
+[2015.10.04-21.35.16:007][ 86]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/displayCaseBase1_Auto32E99931141ED7E2DD86A9E9093153583.tmp' to '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/Autosaves/Game/Assets/VerticalSliceAssets/egyptianAssets/displayCaseShort/displayCaseBase1_Auto3.uasset'
+[2015.10.04-21.35.16:015][ 86]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/VerticalSliceAssets/egyptianAssets/displayCaseShort/glass] ([1] browsable assets)...
+[2015.10.04-21.35.16:031][ 86]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/VerticalSliceAssets/egyptianAssets/displayCaseShort/glass.glass]
+[2015.10.04-21.35.16:031][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/VerticalSliceAssets/egyptianAssets/displayCaseShort/glass]
+[2015.10.04-21.35.16:063][ 86]LogSavePackage: Save=13.475662ms
+[2015.10.04-21.35.16:063][ 86]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/glass_Auto3BCBCD7634182542FEA001E83AF2E94B9.tmp' to '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/Autosaves/Game/Assets/VerticalSliceAssets/egyptianAssets/displayCaseShort/glass_Auto3.uasset'
+[2015.10.04-21.35.16:072][ 86]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/VerticalSliceAssets/characterAssets/character/ArmBraceRight_Material] ([1] browsable assets)...
+[2015.10.04-21.35.16:088][ 86]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/VerticalSliceAssets/characterAssets/character/ArmBraceRight_Material.ArmBraceRight_Material]
+[2015.10.04-21.35.16:088][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/VerticalSliceAssets/characterAssets/character/ArmBraceRight_Material]
+[2015.10.04-21.35.16:125][ 86]LogSavePackage: Save=16.067438ms
+[2015.10.04-21.35.16:125][ 86]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/ArmBraceRight_Material_Auto3FDB57D894928772588070A8A328E675E.tmp' to '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/Autosaves/Game/Assets/VerticalSliceAssets/characterAssets/character/ArmBraceRight_Material_Auto3.uasset'
+[2015.10.04-21.35.16:133][ 86]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/VerticalSliceAssets/characterAssets/character/Belts_Material] ([1] browsable assets)...
+[2015.10.04-21.35.16:149][ 86]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/VerticalSliceAssets/characterAssets/character/Belts_Material.Belts_Material]
+[2015.10.04-21.35.16:149][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/VerticalSliceAssets/characterAssets/character/Belts_Material]
+[2015.10.04-21.35.16:184][ 86]LogSavePackage: Save=14.732611ms
+[2015.10.04-21.35.16:184][ 86]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/Belts_Material_Auto35B1B2C7B4B55A9E40ED551892ECA0514.tmp' to '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/Autosaves/Game/Assets/VerticalSliceAssets/characterAssets/character/Belts_Material_Auto3.uasset'
+[2015.10.04-21.35.16:191][ 86]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/VerticalSliceAssets/characterAssets/character/ForheadSkin_Material] ([1] browsable assets)...
+[2015.10.04-21.35.16:208][ 86]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/VerticalSliceAssets/characterAssets/character/ForheadSkin_Material.ForheadSkin_Material]
+[2015.10.04-21.35.16:208][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/VerticalSliceAssets/characterAssets/character/ForheadSkin_Material]
+[2015.10.04-21.35.16:244][ 86]LogSavePackage: Save=14.695784ms
+[2015.10.04-21.35.16:244][ 86]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/ForheadSkin_Material_Auto3960C935748FB83E416CAA993C2F6F870.tmp' to '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/Autosaves/Game/Assets/VerticalSliceAssets/characterAssets/character/ForheadSkin_Material_Auto3.uasset'
+[2015.10.04-21.35.16:267][ 86]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/VerticalSliceAssets/characterAssets/character/Glasses_LeftGadget_Material] ([1] browsable assets)...
+[2015.10.04-21.35.16:283][ 86]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/VerticalSliceAssets/characterAssets/character/Glasses_LeftGadget_Material.Glasses_LeftGadget_Material]
+[2015.10.04-21.35.16:283][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/VerticalSliceAssets/characterAssets/character/Glasses_LeftGadget_Material]
+[2015.10.04-21.35.16:323][ 86]LogSavePackage: Save=19.633318ms
+[2015.10.04-21.35.16:323][ 86]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/Glasses_LeftGadget_Material_Auto30DAD4A76434696E33570BBBDD7DD224C.tmp' to '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/Autosaves/Game/Assets/VerticalSliceAssets/characterAssets/character/Glasses_LeftGadget_Material_Auto3.uasset'
+[2015.10.04-21.35.16:331][ 86]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/VerticalSliceAssets/characterAssets/character/Glasses_RightGadget_Material] ([1] browsable assets)...
+[2015.10.04-21.35.16:347][ 86]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/VerticalSliceAssets/characterAssets/character/Glasses_RightGadget_Material.Glasses_RightGadget_Material]
+[2015.10.04-21.35.16:347][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/VerticalSliceAssets/characterAssets/character/Glasses_RightGadget_Material]
+[2015.10.04-21.35.16:383][ 86]LogSavePackage: Save=14.359209ms
+[2015.10.04-21.35.16:383][ 86]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/Glasses_RightGadget_Material_Auto3AD5486C44E1D24DCFFDF04A5B131504E.tmp' to '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/Autosaves/Game/Assets/VerticalSliceAssets/characterAssets/character/Glasses_RightGadget_Material_Auto3.uasset'
+[2015.10.04-21.35.16:391][ 86]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/VerticalSliceAssets/characterAssets/character/GlassesLens_Material] ([1] browsable assets)...
+[2015.10.04-21.35.16:414][ 86]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/VerticalSliceAssets/characterAssets/character/GlassesLens_Material.GlassesLens_Material]
+[2015.10.04-21.35.16:414][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/VerticalSliceAssets/characterAssets/character/GlassesLens_Material]
+[2015.10.04-21.35.16:449][ 86]LogSavePackage: Save=13.550222ms
+[2015.10.04-21.35.16:449][ 86]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/GlassesLens_Material_Auto3EB8623B748F33355DE9AC6B473816733.tmp' to '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/Autosaves/Game/Assets/VerticalSliceAssets/characterAssets/character/GlassesLens_Material_Auto3.uasset'
+[2015.10.04-21.35.16:458][ 86]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/VerticalSliceAssets/characterAssets/character/GlassesRim_Material] ([1] browsable assets)...
+[2015.10.04-21.35.16:474][ 86]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/VerticalSliceAssets/characterAssets/character/GlassesRim_Material.GlassesRim_Material]
+[2015.10.04-21.35.16:474][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/VerticalSliceAssets/characterAssets/character/GlassesRim_Material]
+[2015.10.04-21.35.16:510][ 86]LogSavePackage: Save=14.797812ms
+[2015.10.04-21.35.16:510][ 86]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/GlassesRim_Material_Auto312DB43384E517E66529133A6F34C1A56.tmp' to '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/Autosaves/Game/Assets/VerticalSliceAssets/characterAssets/character/GlassesRim_Material_Auto3.uasset'
+[2015.10.04-21.35.16:517][ 86]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/VerticalSliceAssets/characterAssets/character/Hair_Material] ([1] browsable assets)...
+[2015.10.04-21.35.16:533][ 86]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/VerticalSliceAssets/characterAssets/character/Hair_Material.Hair_Material]
+[2015.10.04-21.35.16:533][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/VerticalSliceAssets/characterAssets/character/Hair_Material]
+[2015.10.04-21.35.16:570][ 86]LogSavePackage: Save=15.729354ms
+[2015.10.04-21.35.16:570][ 86]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/Hair_Material_Auto3C41E5E73434B4459AAE07DA345A9FEFC.tmp' to '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/Autosaves/Game/Assets/VerticalSliceAssets/characterAssets/character/Hair_Material_Auto3.uasset'
+[2015.10.04-21.35.16:578][ 86]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/VerticalSliceAssets/characterAssets/character/HandSkin_Material] ([1] browsable assets)...
+[2015.10.04-21.35.16:594][ 86]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/VerticalSliceAssets/characterAssets/character/HandSkin_Material.HandSkin_Material]
+[2015.10.04-21.35.16:594][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/VerticalSliceAssets/characterAssets/character/HandSkin_Material]
+[2015.10.04-21.35.16:630][ 86]LogSavePackage: Save=15.013642ms
+[2015.10.04-21.35.16:630][ 86]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/HandSkin_Material_Auto39A8BDC2A4BD208E8D581B2AA172BC1C9.tmp' to '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/Autosaves/Game/Assets/VerticalSliceAssets/characterAssets/character/HandSkin_Material_Auto3.uasset'
+[2015.10.04-21.35.16:639][ 86]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/VerticalSliceAssets/characterAssets/character/Hat_Material] ([1] browsable assets)...
+[2015.10.04-21.35.16:654][ 86]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/VerticalSliceAssets/characterAssets/character/Hat_Material.Hat_Material]
+[2015.10.04-21.35.16:654][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/VerticalSliceAssets/characterAssets/character/Hat_Material]
+[2015.10.04-21.35.16:690][ 86]LogSavePackage: Save=14.312722ms
+[2015.10.04-21.35.16:690][ 86]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/Hat_Material_Auto35BD194D841BDB28E69B95592218A6919.tmp' to '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/Autosaves/Game/Assets/VerticalSliceAssets/characterAssets/character/Hat_Material_Auto3.uasset'
+[2015.10.04-21.35.16:697][ 86]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/VerticalSliceAssets/characterAssets/character/lambert10] ([1] browsable assets)...
+[2015.10.04-21.35.16:712][ 86]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/VerticalSliceAssets/characterAssets/character/lambert10.lambert10]
+[2015.10.04-21.35.16:712][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/VerticalSliceAssets/characterAssets/character/lambert10]
+[2015.10.04-21.35.16:748][ 86]LogSavePackage: Save=13.969506ms
+[2015.10.04-21.35.16:748][ 86]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/lambert10_Auto3EA64286047174993534967A3099A8E84.tmp' to '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/Autosaves/Game/Assets/VerticalSliceAssets/characterAssets/character/lambert10_Auto3.uasset'
+[2015.10.04-21.35.16:756][ 86]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/VerticalSliceAssets/characterAssets/character/LegsSkin_Material] ([1] browsable assets)...
+[2015.10.04-21.35.16:771][ 86]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/VerticalSliceAssets/characterAssets/character/LegsSkin_Material.LegsSkin_Material]
+[2015.10.04-21.35.16:771][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/VerticalSliceAssets/characterAssets/character/LegsSkin_Material]
+[2015.10.04-21.35.16:807][ 86]LogSavePackage: Save=14.127078ms
+[2015.10.04-21.35.16:807][ 86]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/LegsSkin_Material_Auto3E605D4AD4BF355865CABB5AB7205FDCC.tmp' to '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/Autosaves/Game/Assets/VerticalSliceAssets/characterAssets/character/LegsSkin_Material_Auto3.uasset'
+[2015.10.04-21.35.16:814][ 86]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/VerticalSliceAssets/characterAssets/character/LongPants_Material] ([1] browsable assets)...
+[2015.10.04-21.35.16:830][ 86]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/VerticalSliceAssets/characterAssets/character/LongPants_Material.LongPants_Material]
+[2015.10.04-21.35.16:830][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/VerticalSliceAssets/characterAssets/character/LongPants_Material]
+[2015.10.04-21.35.16:867][ 86]LogSavePackage: Save=15.073411ms
+[2015.10.04-21.35.16:867][ 86]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/LongPants_Material_Auto344A465E64A123E1E09C378BC27EA222D.tmp' to '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/Autosaves/Game/Assets/VerticalSliceAssets/characterAssets/character/LongPants_Material_Auto3.uasset'
+[2015.10.04-21.35.16:874][ 86]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/VerticalSliceAssets/characterAssets/character/MouthMask_Material] ([1] browsable assets)...
+[2015.10.04-21.35.16:890][ 86]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/VerticalSliceAssets/characterAssets/character/MouthMask_Material.MouthMask_Material]
+[2015.10.04-21.35.16:890][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/VerticalSliceAssets/characterAssets/character/MouthMask_Material]
+[2015.10.04-21.35.16:928][ 86]LogSavePackage: Save=15.032660ms
+[2015.10.04-21.35.16:928][ 86]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/MouthMask_Material_Auto3A4165DBA4FAFF622EC02C192A5F9FB2C.tmp' to '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/Autosaves/Game/Assets/VerticalSliceAssets/characterAssets/character/MouthMask_Material_Auto3.uasset'
+[2015.10.04-21.35.16:936][ 86]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/VerticalSliceAssets/characterAssets/character/OuterShirt_Material] ([1] browsable assets)...
+[2015.10.04-21.35.16:952][ 86]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/VerticalSliceAssets/characterAssets/character/OuterShirt_Material.OuterShirt_Material]
+[2015.10.04-21.35.16:952][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/VerticalSliceAssets/characterAssets/character/OuterShirt_Material]
+[2015.10.04-21.35.16:988][ 86]LogSavePackage: Save=13.989731ms
+[2015.10.04-21.35.16:988][ 86]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/OuterShirt_Material_Auto35CB9E8E34D87866F381AE9958440A320.tmp' to '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/Autosaves/Game/Assets/VerticalSliceAssets/characterAssets/character/OuterShirt_Material_Auto3.uasset'
+[2015.10.04-21.35.16:996][ 86]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/VerticalSliceAssets/characterAssets/character/ShirtStraps_Material] ([1] browsable assets)...
+[2015.10.04-21.35.17:013][ 86]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/VerticalSliceAssets/characterAssets/character/ShirtStraps_Material.ShirtStraps_Material]
+[2015.10.04-21.35.17:013][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/VerticalSliceAssets/characterAssets/character/ShirtStraps_Material]
+[2015.10.04-21.35.17:057][ 86]LogSavePackage: Save=22.624756ms
+[2015.10.04-21.35.17:057][ 86]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/ShirtStraps_Material_Auto3D14B6DB84C57D65C669EE3844E1C4028.tmp' to '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/Autosaves/Game/Assets/VerticalSliceAssets/characterAssets/character/ShirtStraps_Material_Auto3.uasset'
+[2015.10.04-21.35.17:083][ 86]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/VerticalSliceAssets/characterAssets/character/Shoes_Material] ([1] browsable assets)...
+[2015.10.04-21.35.17:098][ 86]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/VerticalSliceAssets/characterAssets/character/Shoes_Material.Shoes_Material]
+[2015.10.04-21.35.17:098][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/VerticalSliceAssets/characterAssets/character/Shoes_Material]
+[2015.10.04-21.35.17:135][ 86]LogSavePackage: Save=14.802944ms
+[2015.10.04-21.35.17:135][ 86]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/Shoes_Material_Auto3B216F7D945E1B25ED6C5A3A2C0C1DB72.tmp' to '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/Autosaves/Game/Assets/VerticalSliceAssets/characterAssets/character/Shoes_Material_Auto3.uasset'
+[2015.10.04-21.35.17:142][ 86]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/VerticalSliceAssets/characterAssets/character/VNeckInsideShirt_Material] ([1] browsable assets)...
+[2015.10.04-21.35.17:157][ 86]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/VerticalSliceAssets/characterAssets/character/VNeckInsideShirt_Material.VNeckInsideShirt_Material]
+[2015.10.04-21.35.17:157][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/VerticalSliceAssets/characterAssets/character/VNeckInsideShirt_Material]
+[2015.10.04-21.35.17:194][ 86]LogSavePackage: Save=15.243962ms
+[2015.10.04-21.35.17:194][ 86]LogSavePackage: Moving '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/VNeckInsideShirt_Material_Auto341FFC9B842725B392EB2539EF4E3DF6B.tmp' to '../../../../../../Users/Stephen Paul Mangold/The-Curators/AlexPrototype/Saved/Autosaves/Game/Assets/VerticalSliceAssets/characterAssets/character/VNeckInsideShirt_Material_Auto3.uasset'
+[2015.10.04-21.35.17:196][ 86]LogFileHelpers: Auto-saving content packages took 1.403
+[2015.10.04-21.35.48:121][827]LogBlueprint:Warning: Timeline Alarm Delay Track Delay Duration in /Engine/Transient.REINST_SecurityCameraTracker_C_276 has an invalid curve.  Please fix!
+[2015.10.04-21.35.48:202][827]LogBlueprint:Warning: Timeline Alarm Delay Track Delay Duration in /Engine/Transient.REINST_SecurityCameraTracker_C_280 has an invalid curve.  Please fix!
+[2015.10.04-21.35.48:447][827]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.35.53:264][213]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.35.53:497][213]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.36.07:754][944]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.36.10:551][ 77]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.37.04:515][917]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.37.07:090][ 46]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.37.48:105][366]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.37.48:338][366]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.37.58:752][976]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.38.05:910][385]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.04-21.38.05:910][385]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.10.04-21.38.05:911][385]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.10.04-21.38.08:154][486]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.38.19:510][ 67]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.38.21:065][147]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.38.27:764][498]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.38.29:346][581]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.38.41:529][238]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.38.42:312][275]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.39.11:749][793]BlueprintLog: New page: Compile SecurityCameraTracker
+[2015.10.04-21.39.11:773][793]LogBlueprint:Warning: Timeline Alarm Delay Track Delay Duration in /Engine/Transient.REINST_SecurityCameraTracker_C_294 has an invalid curve.  Please fix!
+[2015.10.04-21.39.11:819][793]LogBlueprint:Warning: [compiler SecurityCameraTracker] Warning 'AIGuard Cont' does not inherit from 'Spot Light Component' ( Cast To AIGuardCont  would always fail).
+[2015.10.04-21.39.11:992][793]LogBlueprint:Warning: [compiler SecurityCameraTracker] Warning [3501.76] Compile of SecurityCameraTracker successful, but with 1 Warning(s) [in 242 ms]
+[2015.10.04-21.39.11:992][793]BlueprintEditorCompileResults:Warning: Warning 'AIGuard Cont' does not inherit from 'Spot Light Component' ( Cast To AIGuardCont  would always fail).
+[2015.10.04-21.39.11:992][793]BlueprintEditorCompileResults:Warning: Warning [3501.76] Compile of SecurityCameraTracker successful, but with 1 Warning(s) [in 242 ms]
+[2015.10.04-21.39.23:850][425]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.39.50:991][859]BlueprintLog: New page: Compile SecurityCameraTracker
+[2015.10.04-21.39.51:014][859]LogBlueprint:Warning: Timeline Alarm Delay Track Delay Duration in /Engine/Transient.REINST_SecurityCameraTracker_C_298 has an invalid curve.  Please fix!
+[2015.10.04-21.39.51:071][859]LogBlueprint:Error: [compiler SecurityCameraTracker] Error The type of  Object  is undetermined.  Connect something to  Cast To AIGuardCont  to imply a specific type.
+[2015.10.04-21.39.51:072][859]LogBlueprint:Error: [compiler SecurityCameraTracker] Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2015.10.04-21.39.51:132][859]LogBlueprint:Warning: Timeline Alarm Delay Track Delay Duration in /Engine/Transient.REINST_SecurityCameraTracker_C_302 has an invalid curve.  Please fix!
+[2015.10.04-21.39.51:259][859]LogBlueprint:Warning: [compiler SecurityCameraTracker] Warning [3541.03] Compile of SecurityCameraTracker failed. 2 Fatal Issue(s) 0 Warning(s) [in 268 ms]
+[2015.10.04-21.39.51:259][859]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To AIGuardCont  to imply a specific type.
+[2015.10.04-21.39.51:259][859]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2015.10.04-21.39.51:259][859]BlueprintEditorCompileResults:Warning: Warning [3541.03] Compile of SecurityCameraTracker failed. 2 Fatal Issue(s) 0 Warning(s) [in 268 ms]
+[2015.10.04-21.39.57:573][196]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.39.58:265][229]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.40.01:480][385]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.40.03:096][460]BlueprintLog: New page: Compile SecurityCameraTracker
+[2015.10.04-21.40.03:119][460]LogBlueprint:Warning: Timeline Alarm Delay Track Delay Duration in /Engine/Transient.REINST_SecurityCameraTracker_C_304 has an invalid curve.  Please fix!
+[2015.10.04-21.40.03:292][460]BlueprintEditorCompileResults: Info [3553.06] Compile of SecurityCameraTracker successful! [in 196 ms]
+[2015.10.04-21.40.05:909][605]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.10.04-21.40.05:909][605]PIE: New page: SIE session: VerticalSlice (Oct 4, 2015, 1:40:05 PM)
+[2015.10.04-21.40.05:909][605]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_VerticalSlice
+[2015.10.04-21.40.06:017][605]LogPlayLevel: PIE: StaticDuplicateObject took: (0.107827s)
+[2015.10.04-21.40.06:018][605]LogAIModule: Creating AISystem for world VerticalSlice
+[2015.10.04-21.40.06:018][605]LogPlayLevel: PIE: World Init took: (0.001115s)
+[2015.10.04-21.40.06:019][605]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/VerticalSlice.VerticalSlice to /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice (0.109202s)
+[2015.10.04-21.40.06:053][605]LogSelection:Warning: PIE object was selected: "SecurityCameraTracker_C /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.SecurityCameraTracker_C_0"
+[2015.10.04-21.40.06:061][605]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.04-21.40.06:074][605]LogInit: FAudioDevice initialized.
+[2015.10.04-21.40.06:105][605]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.04-21.40.06:173][605]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.04-21.40.06:173][605]LogWorld: Bringing World /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice up for play (max tick rate 0) at 2015.10.04-17.40.06
+[2015.10.04-21.40.06:173][605]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.GameSession_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-21.40.06:173][605]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.GameNetworkManager_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-21.40.06:180][605]LogWorld: Bringing up level for play took: 0.072744
+[2015.10.04-21.40.06:183][605]LogBlueprintUserMessages: Hello
+[2015.10.04-21.40.06:183][605]LogBlueprintUserMessages: Hello
+[2015.10.04-21.40.06:183][605]LogBlueprintUserMessages: Hello
+[2015.10.04-21.40.06:184][605]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_VerticalSlice -0.471
+[2015.10.04-21.40.06:190][605]LogSelection:Warning: PIE object was selected: "SecurityCameraTracker_C /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.SecurityCameraTracker_C_0"
+[2015.10.04-21.40.13:263][245]LogBlueprintUserMessages: Press E to Charge
+[2015.10.04-21.40.14:777][380]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000042A0E47380
+[2015.10.04-21.40.29:419][245]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.40.36:455][609]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.40.46:344][133]BlueprintLog: New page: Compile SecurityCameraTracker
+[2015.10.04-21.40.46:367][133]LogBlueprint:Warning: Timeline Alarm Delay Track Delay Duration in /Engine/Transient.REINST_SecurityCameraTracker_C_308 has an invalid curve.  Please fix!
+[2015.10.04-21.40.46:481][133]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.04-21.40.46:482][133]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.10.04-21.40.46:483][133]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.10.04-21.40.46:535][133]BlueprintEditorCompileResults: Info [3596.30] Compile of SecurityCameraTracker successful! [in 190 ms]
+[2015.10.04-21.40.48:650][260]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.10.04-21.40.48:650][260]PIE: New page: SIE session: VerticalSlice (Oct 4, 2015, 1:40:48 PM)
+[2015.10.04-21.40.48:650][260]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_VerticalSlice
+[2015.10.04-21.40.48:753][260]LogPlayLevel: PIE: StaticDuplicateObject took: (0.102536s)
+[2015.10.04-21.40.48:753][260]LogAIModule: Creating AISystem for world VerticalSlice
+[2015.10.04-21.40.48:754][260]LogPlayLevel: PIE: World Init took: (0.001015s)
+[2015.10.04-21.40.48:754][260]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/VerticalSlice.VerticalSlice to /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice (0.103801s)
+[2015.10.04-21.40.48:788][260]LogSelection:Warning: PIE object was selected: "SecurityCameraTracker_C /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.SecurityCameraTracker_C_0"
+[2015.10.04-21.40.48:795][260]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.04-21.40.48:808][260]LogInit: FAudioDevice initialized.
+[2015.10.04-21.40.48:841][260]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.04-21.40.48:911][260]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.04-21.40.48:911][260]LogWorld: Bringing World /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice up for play (max tick rate 0) at 2015.10.04-17.40.48
+[2015.10.04-21.40.48:911][260]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.GameSession_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-21.40.48:911][260]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.GameNetworkManager_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-21.40.48:918][260]LogWorld: Bringing up level for play took: 0.074883
+[2015.10.04-21.40.48:920][260]LogBlueprintUserMessages: Hello
+[2015.10.04-21.40.48:920][260]LogBlueprintUserMessages: Hello
+[2015.10.04-21.40.48:920][260]LogBlueprintUserMessages: Hello
+[2015.10.04-21.40.48:921][260]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_VerticalSlice 0.267
+[2015.10.04-21.40.48:927][260]LogSelection:Warning: PIE object was selected: "SecurityCameraTracker_C /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.SecurityCameraTracker_C_0"
+[2015.10.04-21.40.52:264][567]LogBlueprintUserMessages: alarm works
+[2015.10.04-21.40.57:560][ 76]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000042F3D8E480
+[2015.10.04-21.41.38:522][429]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.41.43:961][702]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.41.45:593][789]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.41.49:398][982]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.41.50:060][ 11]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.41.58:265][443]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.41.58:905][471]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.44.02:838][623]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.44.08:182][940]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.44.10:312][ 54]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/AIGuard/AIGuardCont.AIGuardCont:EventGraph.K2Node_CallFunction_2535 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2535
+[2015.10.04-21.44.10:312][ 54]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/AIGuard/AIGuardCont.AIGuardCont:EventGraph.K2Node_CallFunction_2535.EdGraphPin_13802) from referencer (EdGraphPin /Game/Assets/Blueprints/SecurityCameraTracker.SecurityCameraTracker:EventGraph.K2Node_CallFunction_2758.EdGraphPin_13942).  Import failed...
+[2015.10.04-21.44.10:312][ 54]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2535.EdGraphPin_13802''
+[2015.10.04-21.44.10:312][ 54]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/AIGuard/AIGuardCont.AIGuardCont:EventGraph.K2Node_CallFunction_4285.EdGraphPin_13935) from referencer (EdGraphPin /Game/Assets/Blueprints/SecurityCameraTracker.SecurityCameraTracker:EventGraph.K2Node_CallFunction_2758.EdGraphPin_13944).  Import failed...
+[2015.10.04-21.44.10:312][ 54]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4285.EdGraphPin_13935''
+[2015.10.04-21.44.10:312][ 54]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/AIGuard/AIGuardCont.AIGuardCont:EventGraph.K2Node_VariableGet_1348.EdGraphPin_13690) from referencer (EdGraphPin /Game/Assets/Blueprints/SecurityCameraTracker.SecurityCameraTracker:EventGraph.K2Node_CallFunction_2758.EdGraphPin_13945).  Import failed...
+[2015.10.04-21.44.10:312][ 54]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1348.EdGraphPin_13690''
+[2015.10.04-21.44.10:312][ 54]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/AIGuard/AIGuardCont.AIGuardCont:EventGraph.K2Node_ComponentBoundEvent_24.EdGraphPin_13444) from referencer (EdGraphPin /Game/Assets/Blueprints/SecurityCameraTracker.SecurityCameraTracker:EventGraph.K2Node_CallFunction_2758.EdGraphPin_13946).  Import failed...
+[2015.10.04-21.44.10:312][ 54]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ComponentBoundEvent_24.EdGraphPin_13444''
+[2015.10.04-21.44.15:572][333]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.44.19:703][548]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.44.26:848][928]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.44.31:697][180]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.44.53:813][441]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.44.57:179][621]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.44.58:946][711]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/AIGuard/AIGuardCont.AIGuardCont:EventGraph.K2Node_CallFunction_4285 or K2Node_CallFunction /Game/Assets/Blueprints/SecurityCameraTracker.SecurityCameraTracker:EventGraph.K2Node_CallFunction_4285
+[2015.10.04-21.44.58:946][711]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/AIGuard/AIGuardCont.AIGuardCont:EventGraph.K2Node_CallFunction_4285.EdGraphPin_13934) from referencer (EdGraphPin /Game/Assets/Blueprints/SecurityCameraTracker.SecurityCameraTracker:EventGraph.K2Node_Self_74.EdGraphPin_13663).  Import failed...
+[2015.10.04-21.44.58:946][711]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4285.EdGraphPin_13934''
+[2015.10.04-21.44.58:946][711]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/AIGuard/AIGuardCont.AIGuardCont:EventGraph.K2Node_CallFunction_2758 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2758
+[2015.10.04-21.44.58:946][711]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/AIGuard/AIGuardCont.AIGuardCont:EventGraph.K2Node_CallFunction_2758 or K2Node_CallFunction /Game/Assets/Blueprints/SecurityCameraTracker.SecurityCameraTracker:EventGraph.K2Node_CallFunction_2758
+[2015.10.04-21.44.58:946][711]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/AIGuard/AIGuardCont.AIGuardCont:EventGraph.K2Node_CallFunction_2758.EdGraphPin_13944) from referencer (EdGraphPin /Game/Assets/Blueprints/SecurityCameraTracker.SecurityCameraTracker:EventGraph.K2Node_CallFunction_4285.EdGraphPin_13935).  Import failed...
+[2015.10.04-21.44.58:946][711]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2758.EdGraphPin_13944''
+[2015.10.04-21.45.00:630][795]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.45.03:392][930]BlueprintLog: New page: Compile SecurityCameraTracker
+[2015.10.04-21.45.03:415][930]LogBlueprint:Warning: Timeline Alarm Delay Track Delay Duration in /Engine/Transient.REINST_SecurityCameraTracker_C_312 has an invalid curve.  Please fix!
+[2015.10.04-21.45.03:468][930]LogBlueprint:Error: [compiler SecurityCameraTracker] Error The type of  Object  is undetermined.  Connect something to  Cast To AIGuardCont  to imply a specific type.
+[2015.10.04-21.45.03:470][930]LogBlueprint:Error: [compiler SecurityCameraTracker] Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2015.10.04-21.45.03:527][930]LogBlueprint:Warning: Timeline Alarm Delay Track Delay Duration in /Engine/Transient.REINST_SecurityCameraTracker_C_316 has an invalid curve.  Please fix!
+[2015.10.04-21.45.03:599][930]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.04-21.45.03:599][930]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.10.04-21.45.03:600][930]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.10.04-21.45.03:662][930]LogBlueprint:Warning: [compiler SecurityCameraTracker] Warning [3853.43] Compile of SecurityCameraTracker failed. 2 Fatal Issue(s) 0 Warning(s) [in 270 ms]
+[2015.10.04-21.45.03:663][930]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To AIGuardCont  to imply a specific type.
+[2015.10.04-21.45.03:663][930]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2015.10.04-21.45.03:663][930]BlueprintEditorCompileResults:Warning: Warning [3853.43] Compile of SecurityCameraTracker failed. 2 Fatal Issue(s) 0 Warning(s) [in 270 ms]
+[2015.10.04-21.45.09:958][262]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.45.10:679][292]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.45.32:442][474]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.45.33:168][505]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.45.42:445][933]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.45.43:323][975]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.45.45:871][ 96]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.45.46:807][134]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.45.49:426][255]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.45.53:451][442]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.45.54:048][465]LogD3D11RHI: InitD3DDevice
+[2015.10.04-21.46.04:059][940]BlueprintLog: New page: Compile SecurityCameraTracker
+[2015.10.04-21.46.04:082][940]LogBlueprint:Warning: Timeline Alarm Delay Track Delay Duration in /Engine/Transient.REINST_SecurityCameraTracker_C_318 has an invalid curve.  Please fix!
+[2015.10.04-21.46.04:248][940]BlueprintEditorCompileResults: Info [3914.02] Compile of SecurityCameraTracker successful! [in 188 ms]
+[2015.10.04-21.46.06:988][ 95]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.10.04-21.46.06:988][ 95]PIE: New page: SIE session: VerticalSlice (Oct 4, 2015, 1:46:06 PM)
+[2015.10.04-21.46.06:989][ 95]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_VerticalSlice
+[2015.10.04-21.46.07:090][ 95]LogPlayLevel: PIE: StaticDuplicateObject took: (0.101131s)
+[2015.10.04-21.46.07:090][ 95]LogAIModule: Creating AISystem for world VerticalSlice
+[2015.10.04-21.46.07:091][ 95]LogPlayLevel: PIE: World Init took: (0.001130s)
+[2015.10.04-21.46.07:091][ 95]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/VerticalSlice.VerticalSlice to /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice (0.102527s)
+[2015.10.04-21.46.07:127][ 95]LogSelection:Warning: PIE object was selected: "SecurityCameraTracker_C /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.SecurityCameraTracker_C_0"
+[2015.10.04-21.46.07:135][ 95]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.04-21.46.07:146][ 95]LogInit: FAudioDevice initialized.
+[2015.10.04-21.46.07:177][ 95]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.04-21.46.07:243][ 95]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.04-21.46.07:243][ 95]LogWorld: Bringing World /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice up for play (max tick rate 0) at 2015.10.04-17.46.07
+[2015.10.04-21.46.07:243][ 95]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.GameSession_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-21.46.07:243][ 95]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.GameNetworkManager_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-21.46.07:250][ 95]LogWorld: Bringing up level for play took: 0.071004
+[2015.10.04-21.46.07:252][ 95]LogBlueprintUserMessages: Hello
+[2015.10.04-21.46.07:253][ 95]LogBlueprintUserMessages: Hello
+[2015.10.04-21.46.07:253][ 95]LogBlueprintUserMessages: Hello
+[2015.10.04-21.46.07:254][ 95]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_VerticalSlice 0.599
+[2015.10.04-21.46.07:260][ 95]LogSelection:Warning: PIE object was selected: "SecurityCameraTracker_C /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.SecurityCameraTracker_C_0"
+[2015.10.04-21.46.11:046][427]LogBlueprintUserMessages: alarm works
+[2015.10.04-21.46.12:116][528]LogBlueprintUserMessages: alarm works
+[2015.10.04-21.46.15:486][841]LogBlueprintUserMessages: alarm works
+[2015.10.04-21.46.20:843][327]LogBlueprintUserMessages: alarm works
+[2015.10.04-21.46.28:982][ 63]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000042C7863380
+[2015.10.04-21.46.57:075][794]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.04-21.46.57:075][794]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.10.04-21.46.57:076][794]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.10.04-21.46.58:039][849]BlueprintLog: New page: Compile SecurityCameraTracker
+[2015.10.04-21.46.58:063][849]LogBlueprint:Warning: Timeline Alarm Delay Track Delay Duration in /Engine/Transient.REINST_SecurityCameraTracker_C_322 has an invalid curve.  Please fix!
+[2015.10.04-21.46.58:230][849]BlueprintEditorCompileResults: Info [3968.00] Compile of SecurityCameraTracker successful! [in 190 ms]
+[2015.10.04-21.47.02:441][110]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.10.04-21.47.02:441][110]PIE: New page: SIE session: VerticalSlice (Oct 4, 2015, 1:47:02 PM)
+[2015.10.04-21.47.02:441][110]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_VerticalSlice
+[2015.10.04-21.47.02:538][110]LogPlayLevel: PIE: StaticDuplicateObject took: (0.096591s)
+[2015.10.04-21.47.02:538][110]LogAIModule: Creating AISystem for world VerticalSlice
+[2015.10.04-21.47.02:539][110]LogPlayLevel: PIE: World Init took: (0.001055s)
+[2015.10.04-21.47.02:539][110]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/VerticalSlice.VerticalSlice to /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice (0.097907s)
+[2015.10.04-21.47.02:573][110]LogSelection:Warning: PIE object was selected: "SecurityCameraTracker_C /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.SecurityCameraTracker_C_0"
+[2015.10.04-21.47.02:580][110]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.04-21.47.02:592][110]LogInit: FAudioDevice initialized.
+[2015.10.04-21.47.02:628][110]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.04-21.47.02:697][110]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.04-21.47.02:697][110]LogWorld: Bringing World /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice up for play (max tick rate 0) at 2015.10.04-17.47.02
+[2015.10.04-21.47.02:697][110]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.GameSession_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-21.47.02:697][110]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_VerticalSlice.VerticalSlice:PersistentLevel.GameNetworkManager_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.04-21.47.02:704][110]LogWorld: Bringing up level for play took: 0.072996
+[2015.10.04-21.47.02:706][110]LogBlueprintUserMessages: Hello
+[2015.
