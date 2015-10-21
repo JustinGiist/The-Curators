@@ -1,0 +1,1484 @@
+﻿[2015.10.20-23.42.32:639][  0]Log file open, 10/20/15 19:42:32
+[2015.10.20-23.42.32:639][  0]LogInit:Display: Running engine for game: MyProject
+[2015.10.20-23.42.32:639][  0]LogInit:Display: RandInit(-51614358) SRandInit(-51614357).
+[2015.10.20-23.42.32:639][  0]LogTaskGraph: Started task graph with 4 named threads and 6 total threads.
+[2015.10.20-23.42.32:639][  0]LogStats: Stats thread started
+[2015.10.20-23.42.32:639][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.10.20-23.42.32:639][  0]LogInit: API Version: 2579680
+[2015.10.20-23.42.32:639][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.10.20-23.42.32:639][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.20-23.42.32:639][  0]LogInit: Build Configuration: Development
+[2015.10.20-23.42.32:639][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.10.20-23.42.32:639][  0]LogInit: Command line:  
+[2015.10.20-23.42.32:639][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.10.20-23.42.32:639][  0]LogInit: Rocket: 1
+[2015.10.20-23.42.32:717][  0]LogInit: Using libcurl 7.41.0
+[2015.10.20-23.42.32:717][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.20-23.42.32:717][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.20-23.42.32:717][  0]LogInit:  - other features:
+[2015.10.20-23.42.32:717][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.20-23.42.32:717][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.20-23.42.32:717][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.20-23.42.32:717][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.20-23.42.32:717][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.20-23.42.32:717][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.20-23.42.32:719][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.20-23.42.32:719][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.20-23.42.32:719][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.20-23.42.32:719][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.20-23.42.32:763][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.10.20-23.42.32:969][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.20-23.42.33:105][  0]LogInit: Object subsystem initialized
+[2015.10.20-23.42.33:195][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.10.20-23.42.33:195][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.10.20-23.42.33:195][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.10.20-23.42.33:195][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.10.20-23.42.33:195][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.10.20-23.42.33:195][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.10.20-23.42.33:251][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.20-23.42.33:251][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.20-23.42.33:395][  0]LogInit: Computer: KIDO-PC
+[2015.10.20-23.42.33:395][  0]LogInit: User: Kido
+[2015.10.20-23.42.33:395][  0]LogInit: CPU Page size=4096, Cores=3
+[2015.10.20-23.42.33:395][  0]LogInit: High frequency timer resolution =3.429511 MHz
+[2015.10.20-23.42.33:401][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.10.20-23.42.33:409][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.20-23.42.33:409][  0]LogMemory: Process Physical Memory: 51.41 MB used, 51.41 MB peak
+[2015.10.20-23.42.33:409][  0]LogMemory: Process Virtual Memory: 25.19 MB used, 25.19 MB peak
+[2015.10.20-23.42.33:409][  0]LogMemory: Physical Memory: 4635.57 MB used, 8088.61 MB total
+[2015.10.20-23.42.33:409][  0]LogMemory: Virtual Memory: 284.89 MB used, 8388608.00 MB total
+[2015.10.20-23.42.35:215][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.10.20-23.42.35:696][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.10.20-23.42.36:909][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R9 200 Series (Feature Level 11_0)
+[2015.10.20-23.42.36:909][  0]LogD3D11RHI: Adapter has 2027MB of dedicated video memory, 0MB of dedicated system memory, and 3788MB of shared system memory, 2 output[s]
+[2015.10.20-23.42.36:909][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.20-23.42.36:923][  0]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.42.36:923][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.20-23.42.36:923][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.20-23.42.36:933][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.10.20-23.42.37:132][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.20-23.42.42:764][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.10.20-23.42.42:794][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.20-23.42.42:825][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.20-23.42.42:873][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.20-23.42.42:915][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.20-23.42.42:993][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.20-23.42.43:045][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.20-23.42.43:085][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.20-23.42.43:119][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.20-23.42.43:159][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.20-23.42.43:200][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.20-23.42.43:245][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.20-23.42.43:412][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.20-23.42.43:452][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.20-23.42.43:484][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.20-23.42.43:526][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.20-23.42.43:526][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.20-23.42.44:757][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.20-23.42.45:503][  0]LogDerivedDataCache: Loaded boot cache 0.75s 53MB C:/Users/Kido/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.10.20-23.42.45:503][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Kido/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.10.20-23.42.45:503][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.20-23.42.45:503][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.20-23.42.45:504][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.20-23.42.45:504][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.20-23.42.45:734][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.20-23.42.45:746][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kido/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.20-23.42.55:902][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.20-23.42.56:031][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.10.20-23.42.56:033][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.10.20-23.42.56:328][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.20-23.42.56:328][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.20-23.42.59:923][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.20-23.43.28:477][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.20-23.43.30:557][  0]SourceControl: Info Source control is disabled
+[2015.10.20-23.43.31:096][  0]SourceControl: Info Source control is disabled
+[2015.10.20-23.43.31:145][  0]SourceControl: Info Source control is disabled
+[2015.10.20-23.43.31:198][  0]SourceControl: Info Source control is disabled
+[2015.10.20-23.43.32:423][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.10.20-23.43.32:423][  0]LogUObjectAllocator: 5409256 out of 0 bytes used by permanent object pool.
+[2015.10.20-23.43.33:119][  0]LogEngine: Initializing Engine...
+[2015.10.20-23.43.33:180][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.10.20-23.43.33:248][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 100
+[2015.10.20-23.43.34:481][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.20-23.43.34:897][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.20-23.43.34:936][  0]LogInit: FAudioDevice initialized.
+[2015.10.20-23.43.35:015][  0]LogDerivedDataCache: Saved boot cache 0.08s 53MB C:/Users/Kido/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.10.20-23.43.35:029][  0]LogInit: Texture streaming: Disabled
+[2015.10.20-23.43.35:111][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.20-23.43.35:111][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.10.20-23.43.35:111][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 43320ea4426e19879c0674aa75267495|ac704d33c08e461d905fa8a004e85986|70feb17f-f50f-4812-9d0e-586ab78027fa
+[2015.10.20-23.43.35:112][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.20-23.43.35:631][  0]LogInit: Transaction tracking system initialized
+[2015.10.20-23.43.36:267][  0]BlueprintLog: New page: Editor Load
+[2015.10.20-23.43.36:523][  0]LogAssetRegistry: FAssetRegistry took 0.0121 seconds to start up
+[2015.10.20-23.43.36:619][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.10.20-23.43.45:159][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.10.20-23.43.45:159][  0]LogConsoleResponse:Display: 
+[2015.10.20-23.43.47:527][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.20-23.43.49:551][  0]SourceControl: Info Source control is disabled
+[2015.10.20-23.43.49:570][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.20-23.43.49:613][  0]LightingResults: New page: Lighting Build
+[2015.10.20-23.43.49:768][  0]MapCheck: New page: Map Check
+[2015.10.20-23.43.49:768][  0]LightingResults: New page: Lighting Build
+[2015.10.20-23.43.49:960][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B9B89A0
+[2015.10.20-23.43.55:354][  0]LogBlueprint:Warning: [compiler ErichCharBlue] Warning InputAction Event references unknown Action 'Walk' for  InputAction Walk 
+[2015.10.20-23.43.55:358][  0]LogBlueprint:Warning: [compiler ErichCharBlue] Warning [0087.60] Compile of ErichCharBlue successful, but with 1 Warning(s) [in 58 ms]
+[2015.10.20-23.43.55:358][  0]LogBlueprint:Warning: [compiler ErichCharBlue] Warning [0087.60] Compile of ErichCharBlue successful, but with 2 Warning(s) [in 0 ms]
+[2015.10.20-23.43.55:358][  0]LogBlueprint:Warning: [compiler ErichCharBlue] Warning [0087.60] Compile of ErichCharBlue successful, but with 3 Warning(s) [in 0 ms]
+[2015.10.20-23.43.55:437][  0]LogBlueprint:Warning: [compiler ErichCharBlue] Warning InputAction Event references unknown Action 'Walk' for  InputAction Walk 
+[2015.10.20-23.43.55:442][  0]LogBlueprint:Warning: [compiler ErichCharBlue] Warning [0087.69] Compile of ErichCharBlue successful, but with 1 Warning(s) [in 43 ms]
+[2015.10.20-23.43.55:443][  0]LogBlueprint:Warning: [compiler ErichCharBlue] Warning [0087.69] Compile of ErichCharBlue successful, but with 2 Warning(s) [in 0 ms]
+[2015.10.20-23.44.11:033][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.10.20-23.44.12:326][  0]LogEditorServer: Finished looking for orphan Actors (0.070 secs)
+[2015.10.20-23.44.13:134][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.20-23.44.13:317][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 182.577ms to complete.
+[2015.10.20-23.44.13:317][  0]LogFileHelpers: Loading map 'Minimal_Default' took 23.747
+[2015.10.20-23.44.15:715][  0]LogCollectionManager: Loaded 0 collections in 0.002617 seconds
+[2015.10.20-23.44.15:793][  0]LogContentBrowser: Native class hierarchy populated in 0.0728 seconds. Added 1792 classes and 301 folders.
+[2015.10.20-23.44.16:403][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0021 seconds. Added 0 classes and 0 folders.
+[2015.10.20-23.44.18:100][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2015.10.20-23.44.18:214][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2015.10.20-23.44.19:844][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.20-23.44.19:969][  0]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.44.19:995][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.20-23.44.20:109][  0]LogLoad: Full Startup: 112.35 seconds (BP compile: 1.98 seconds)
+[2015.10.20-23.44.20:484][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.20-23.44.20:934][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.10.20-23.44.21:806][  0]LogRenderer: Reallocating scene render targets to support 1224x656 (Frame:2).
+[2015.10.20-23.44.22:647][ 15]LogAssetRegistry: Asset discovery search completed in 46.1356 seconds
+[2015.10.20-23.44.52:474][519]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.44.58:389][157]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.45.00:070][157]LogLinker:Warning: Can't find file '/Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun'
+[2015.10.20-23.45.00:070][157]LogLinker:Warning: Can't find file for asset '/Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun' while loading ../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Content/Tech/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2015.10.20-23.45.00:071][157]LoadErrors:Error: Error /Game/Tech/ThirdPersonBP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun
+[2015.10.20-23.45.00:662][157]LogLinker:Warning: Can't find file '/Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun'
+[2015.10.20-23.45.00:662][157]LogLinker:Warning: Can't find file for asset '/Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun' while loading ../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Content/Tech/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2015.10.20-23.45.00:766][157]LogLinker:Warning: Can't find file '/Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun'
+[2015.10.20-23.45.00:766][157]LoadErrors: Info Failed to load /Game/Tech/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C Referenced by gun8C1B0D41B94BE5FEA7D9F08DA0F2B523
+[2015.10.20-23.45.00:766][157]LogLinker:Warning: Can't find file for asset '/Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun' while loading ../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Content/Tech/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2015.10.20-23.45.01:975][157]LogLinker:Warning: Can't find file '/Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun'
+[2015.10.20-23.45.01:976][157]LogLinker:Warning: Can't find file for asset '/Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun' while loading ../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Content/Tech/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2015.10.20-23.45.01:977][157]LogLinker:Warning: Can't find file '/Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun'
+[2015.10.20-23.45.01:977][157]LogLinker:Warning: Can't find file for asset '/Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun' while loading ../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Content/Tech/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2015.10.20-23.45.04:728][157]LogAIModule: Creating AISystem for world Level4
+[2015.10.20-23.45.05:358][157]Cmd: MAP LOAD FILE="../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Content/Levels/Level4.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.20-23.45.05:360][157]LightingResults: New page: Lighting Build
+[2015.10.20-23.45.05:414][157]LoadErrors: New page: Loading map: Level4.umap
+[2015.10.20-23.45.05:424][157]MapCheck: New page: Map Check
+[2015.10.20-23.45.05:424][157]LightingResults: New page: Lighting Build
+[2015.10.20-23.45.05:485][157]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F369D00
+[2015.10.20-23.45.05:771][157]LogAIModule: Creating AISystem for world Level4
+[2015.10.20-23.45.05:855][157]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.20-23.45.05:908][157]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.20-23.45.06:064][157]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 155.232ms to complete.
+[2015.10.20-23.45.06:065][157]LogFileHelpers: Loading map 'Level4' took 0.709
+[2015.10.20-23.46.12:706][982]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.46.16:700][426]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.46.21:625][990]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.20-23.46.21:665][990]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.46.34:066][343]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.47.03:253][584]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.47.04:678][739]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.47.06:705][961]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.20-23.47.08:421][156]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush14)
+[2015.10.20-23.47.08:460][156]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.47.09:793][310]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush15)
+[2015.10.20-23.47.14:447][859]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.47.17:390][198]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.47.18:854][371]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush26)
+[2015.10.20-23.47.21:701][708]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush15)
+[2015.10.20-23.47.28:957][556]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.47.29:113][560]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.47.42:206][ 84]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit22)
+[2015.10.20-23.47.42:206][ 84]LogGeometryMode:Warning: Unable to find BaseFloorF1Exibit22 Brush(s) in new BSP
+[2015.10.20-23.47.42:206][ 84]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.10.20-23.47.43:608][248]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush15)
+[2015.10.20-23.47.48:081][770]LogEditorViewport: Clicking Background
+[2015.10.20-23.47.48:924][864]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.47.49:797][964]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.47.50:885][ 89]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.47.51:043][104]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.47.52:055][221]MapCheck: New page: Map Check
+[2015.10.20-23.47.52:078][221]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.47.52:085][221]Cmd: MAP REBUILD
+[2015.10.20-23.47.52:086][221]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.20-23.47.54:262][221]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.10.20-23.47.54:442][221]MapCheck: New page: Level4 - Oct 20, 2015, 3:47:54 PM
+[2015.10.20-23.47.54:618][221]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 355.917ms to complete.
+[2015.10.20-23.47.54:639][221]LogEditorBuildUtils: Build time 0:00:02
+[2015.10.20-23.48.18:738][101]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.48.20:473][293]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.48.21:629][429]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.20-23.48.23:807][658]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.48.27:007][ 31]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.48.27:587][ 94]LogEditorViewport: Clicking on Actor (context menu): Brush (VentRoom)
+[2015.10.20-23.48.27:624][ 94]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.48.28:489][184]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.48.29:105][255]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush17)
+[2015.10.20-23.48.36:732][153]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.48.38:122][319]LogEditorViewport: Clicking Background
+[2015.10.20-23.48.38:967][419]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush16)
+[2015.10.20-23.48.42:050][781]LogEditorViewport: Clicking on Actor (context menu): Brush (VentRoom)
+[2015.10.20-23.48.42:087][781]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.48.43:411][936]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush16)
+[2015.10.20-23.48.46:237][267]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.48.48:451][530]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush17)
+[2015.10.20-23.48.48:451][530]LogGeometryMode:Warning: Unable to find BoxBrush17 Brush(s) in new BSP
+[2015.10.20-23.48.48:451][530]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.10.20-23.49.02:274][110]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.49.04:105][321]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.49.30:777][479]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.49.34:652][939]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush16)
+[2015.10.20-23.49.34:652][939]LogGeometryMode:Warning: Unable to find BoxBrush16 Brush(s) in new BSP
+[2015.10.20-23.49.34:652][939]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.10.20-23.49.46:474][311]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.49.46:665][330]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.49.47:367][412]MapCheck: New page: Map Check
+[2015.10.20-23.49.47:393][412]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.49.47:404][412]Cmd: MAP REBUILD
+[2015.10.20-23.49.47:404][412]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.20-23.49.48:820][412]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.10.20-23.49.48:820][412]MapCheck: New page: Level4 - Oct 20, 2015, 3:49:48 PM
+[2015.10.20-23.49.49:029][412]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 208.735ms to complete.
+[2015.10.20-23.49.49:049][412]LogEditorBuildUtils: Build time 0:00:01
+[2015.10.20-23.49.49:626][479]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.50.08:204][661]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.50.11:404][ 14]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.50.14:778][378]Cmd: POLY TEXPAN U=-0.000000 V=-16.000000
+[2015.10.20-23.50.15:846][425]Cmd: POLY TEXPAN U=-0.000000 V=-16.000000
+[2015.10.20-23.50.17:168][480]Cmd: POLY TEXPAN U=-0.000000 V=-16.000000
+[2015.10.20-23.50.20:353][665]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.20-23.50.22:820][942]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.50.25:985][280]Cmd: POLY TEXPAN U=-0.000000 V=-1.000000
+[2015.10.20-23.50.27:484][333]Cmd: POLY TEXPAN U=-0.000000 V=-1.000000
+[2015.10.20-23.50.30:124][518]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.20-23.51.27:125][137]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.51.38:868][475]LogEditorViewport: Clicking on Actor (context menu): Brush (BaseFloorF1Exibit85)
+[2015.10.20-23.51.38:909][475]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.52.26:524][ 52]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.52.51:648][ 23]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.52.53:406][188]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.52.54:763][347]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.20-23.53.06:726][743]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.53.31:026][597]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush9)
+[2015.10.20-23.53.31:026][597]LogGeometryMode:Warning: Unable to find 4 Vertex(s) in new BSP
+[2015.10.20-23.53.31:026][597]LogGeometryMode:Warning: Unable to resolve BoxBrush9 Brush in new BSP, see above
+[2015.10.20-23.53.31:026][597]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.10.20-23.53.40:147][681]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush9)
+[2015.10.20-23.53.48:590][685]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush7)
+[2015.10.20-23.53.50:078][860]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush9)
+[2015.10.20-23.54.07:704][933]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush33)
+[2015.10.20-23.54.07:704][933]LogGeometryMode:Warning: Unable to find BoxBrush33 Brush(s) in new BSP
+[2015.10.20-23.54.07:704][933]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.10.20-23.54.10:160][224]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush31)
+[2015.10.20-23.54.14:561][746]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush30)
+[2015.10.20-23.54.18:360][196]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush29)
+[2015.10.20-23.54.21:503][567]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush17)
+[2015.10.20-23.54.22:722][707]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush17)
+[2015.10.20-23.54.22:757][707]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.54.23:651][808]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.54.25:105][979]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.20-23.54.30:309][575]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.54.47:772][544]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush24)
+[2015.10.20-23.54.47:805][544]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.54.49:750][753]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.55.00:376][900]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.55.01:108][984]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.20-23.55.02:146][ 86]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.55.02:923][169]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.55.06:678][607]LogEditorViewport: Clicking Background
+[2015.10.20-23.55.07:226][671]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush24)
+[2015.10.20-23.55.13:652][428]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.55.14:669][548]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.20-23.55.32:012][553]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush24)
+[2015.10.20-23.55.32:047][553]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.55.32:742][626]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.55.39:749][446]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.55.42:117][720]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.55.42:264][733]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.55.42:937][810]MapCheck: New page: Map Check
+[2015.10.20-23.55.42:964][810]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.55.42:975][810]Cmd: MAP REBUILD
+[2015.10.20-23.55.42:976][810]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.20-23.55.44:468][810]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.10.20-23.55.44:469][810]MapCheck: New page: Level4 - Oct 20, 2015, 3:55:44 PM
+[2015.10.20-23.55.44:664][810]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 195.501ms to complete.
+[2015.10.20-23.55.44:684][810]LogEditorBuildUtils: Build time 0:00:01
+[2015.10.20-23.55.47:023][ 73]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.55.49:606][369]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.55.56:000][ 93]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.20-23.56.16:728][474]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.56.33:964][680]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.56.42:984][707]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.56.43:114][707]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.20-23.56.43:116][707]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.10.20-23.56.43:116][707]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.10.20-23.56.43:118][707]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_0) Not registered. Aborting.
+[2015.10.20-23.56.43:660][707]LogSavePackage: Save=342.449707ms
+[2015.10.20-23.56.43:660][707]LogSavePackage: Moving '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Saved/Level4_Auto15974F5EF47261193D8BF9ABEBEACFE23.tmp' to '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Saved/Autosaves/Game/Levels/Level4_Auto1.umap'
+[2015.10.20-23.56.43:679][707]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level4' took 0.565
+[2015.10.20-23.56.43:679][707]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.565
+[2015.10.20-23.58.09:821][ 21]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.20-23.58.10:925][146]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit79)
+[2015.10.20-23.58.11:615][220]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.58.12:262][296]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.20-23.58.14:933][603]LogEditorViewport: Clicking Background
+[2015.10.20-23.58.16:299][765]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit79)
+[2015.10.20-23.58.17:058][849]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.58.39:581][483]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.58.42:036][775]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.20-23.58.45:042][110]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.58.45:885][208]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit79)
+[2015.10.20-23.58.58:637][705]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.59.09:257][963]LogEditorViewport: Clicking Background
+[2015.10.20-23.59.10:445][104]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit79)
+[2015.10.20-23.59.14:895][629]LogEditorViewport: Clicking Background
+[2015.10.20-23.59.16:067][768]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit79)
+[2015.10.20-23.59.17:064][879]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.59.38:408][432]LogEditorViewport: Clicking on Actor (context menu): Brush (BaseFloorF1Exibit50)
+[2015.10.20-23.59.38:409][432]LogGeometryMode:Warning: Unable to find BaseFloorF1Exibit50 Brush(s) in new BSP
+[2015.10.20-23.59.38:409][432]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.10.20-23.59.38:448][432]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.59.39:397][540]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit79)
+[2015.10.20-23.59.40:448][632]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.59.41:583][767]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.20-23.59.51:512][925]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.59.51:568][928]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.59.52:567][ 43]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.59.52:911][ 81]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.59.53:215][114]LogD3D11RHI: InitD3DDevice
+[2015.10.20-23.59.58:316][710]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.00.03:143][274]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.00.03:782][344]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.00.05:245][517]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.00.10:805][158]LogEditorViewport: Clicking on Actor (context menu): Brush (BaseFloorF1Exibit79)
+[2015.10.21-00.00.10:834][158]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.00.12:274][323]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.00.12:432][337]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.00.16:836][843]LogGeometryMode:Warning: Unable to find BaseFloorF1Exibit43 Brush(s) in new BSP
+[2015.10.21-00.00.16:836][843]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.10.21-00.00.20:282][210]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.00.41:041][666]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.00.47:491][415]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.00.48:743][561]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.00.50:029][713]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.00.55:504][351]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.00.58:116][656]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.01.00:080][883]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.01.00:299][905]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.01.00:977][982]MapCheck: New page: Map Check
+[2015.10.21-00.01.01:005][982]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.01.01:017][982]Cmd: MAP REBUILD
+[2015.10.21-00.01.01:018][982]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.21-00.01.03:622][982]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.10.21-00.01.03:623][982]MapCheck: New page: Level4 - Oct 20, 2015, 4:01:03 PM
+[2015.10.21-00.01.03:798][982]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 175.207ms to complete.
+[2015.10.21-00.01.03:818][982]LogEditorBuildUtils: Build time 0:00:02
+[2015.10.21-00.01.45:720][832]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.01.46:848][962]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit81)
+[2015.10.21-00.01.50:846][387]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit81)
+[2015.10.21-00.01.52:010][518]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.02.06:494][191]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.02.18:364][519]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit81)
+[2015.10.21-00.02.36:984][636]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.02.38:692][839]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.02.53:516][579]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.02.56:064][851]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.02.56:257][870]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.02.57:297][992]MapCheck: New page: Map Check
+[2015.10.21-00.02.57:325][992]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.02.57:334][992]Cmd: MAP REBUILD
+[2015.10.21-00.02.57:334][992]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.21-00.02.59:430][992]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.10.21-00.02.59:430][992]MapCheck: New page: Level4 - Oct 20, 2015, 4:02:59 PM
+[2015.10.21-00.02.59:661][992]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 230.805ms to complete.
+[2015.10.21-00.02.59:681][992]LogEditorBuildUtils: Build time 0:00:02
+[2015.10.21-00.03.21:629][576]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.03.35:527][135]Cmd: POLY TEXPAN U=-1.000000 V=-0.000000
+[2015.10.21-00.03.38:100][136]Cmd: POLY TEXPAN U=-1.000000 V=-0.000000
+[2015.10.21-00.03.40:243][137]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.03.47:497][977]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.21-00.03.47:539][977]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.03.48:037][ 29]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.21-00.04.00:099][415]LogEditorViewport: Clicking on Actor (context menu): Brush (BaseFloorF1Exibit81)
+[2015.10.21-00.04.00:139][415]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.04.00:844][493]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit80)
+[2015.10.21-00.05.24:193][ 50]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.05.46:508][575]LogEditorViewport: Clicking on Actor (context menu): Brush (BaseFloorF1Exibit81)
+[2015.10.21-00.05.46:547][575]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.05.47:384][665]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.05.47:732][700]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.05.49:280][877]MapCheck: New page: Map Check
+[2015.10.21-00.05.49:304][877]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.05.49:313][877]Cmd: MAP REBUILD
+[2015.10.21-00.05.49:314][877]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.21-00.05.52:061][877]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.10.21-00.05.52:061][877]MapCheck: New page: Level4 - Oct 20, 2015, 4:05:52 PM
+[2015.10.21-00.05.52:280][877]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 218.607ms to complete.
+[2015.10.21-00.05.52:300][877]LogEditorBuildUtils: Build time 0:00:02
+[2015.10.21-00.05.59:276][679]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.06.07:748][626]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.06.09:205][795]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit87)
+[2015.10.21-00.06.21:688][265]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit87)
+[2015.10.21-00.06.22:503][354]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.06.23:233][439]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.06.55:636][265]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.07.04:603][ 41]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit87)
+[2015.10.21-00.07.05:954][194]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.07.06:642][273]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.07.17:272][515]LogEditorViewport: Clicking Background
+[2015.10.21-00.07.17:827][580]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit89)
+[2015.10.21-00.07.20:063][842]LogEditorViewport: Clicking Background
+[2015.10.21-00.07.26:275][581]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit89)
+[2015.10.21-00.07.30:699][ 94]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.07.47:585][ 98]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit89)
+[2015.10.21-00.07.58:710][402]LogEditorViewport: Clicking on Actor (context menu): Brush (BaseFloorF1Exibit90)
+[2015.10.21-00.07.58:747][402]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.10.14:380][237]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit28)
+[2015.10.21-00.10.15:791][402]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit94)
+[2015.10.21-00.10.23:199][279]LogEditorViewport: Clicking Background
+[2015.10.21-00.10.25:597][561]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit94)
+[2015.10.21-00.11.22:848][285]LogEditorViewport: Clicking Background
+[2015.10.21-00.11.24:114][431]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit96)
+[2015.10.21-00.11.55:020][ 97]LogEditorViewport: Clicking Background
+[2015.10.21-00.12.00:794][765]LogEditorViewport: Clicking Background
+[2015.10.21-00.12.12:083][862]LogEditorViewport: Clicking Background
+[2015.10.21-00.12.20:992][219]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit98)
+[2015.10.21-00.12.50:995][780]LogEditorViewport: Clicking Background
+[2015.10.21-00.12.59:828][838]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit99)
+[2015.10.21-00.13.12:393][321]LogEditorViewport: Clicking Background
+[2015.10.21-00.13.13:502][451]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit100)
+[2015.10.21-00.13.39:732][542]Cmd: DELETE
+[2015.10.21-00.13.39:732][542]Cmd: ACTOR DELETE
+[2015.10.21-00.13.39:735][542]LogEditorActor: Deleted Actor: Brush
+[2015.10.21-00.13.39:735][542]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-00.13.39:736][542]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.10.21-00.13.39:736][542]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.10.21-00.13.39:739][542]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_1) Not registered. Aborting.
+[2015.10.21-00.13.39:797][542]LogEditorActor: Deleted 1 Actors (0.065 secs)
+[2015.10.21-00.13.40:782][659]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit101)
+[2015.10.21-00.14.25:408][116]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.14.33:665][ 96]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit101)
+[2015.10.21-00.14.59:420][157]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.14.59:560][168]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.15.00:319][258]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit100)
+[2015.10.21-00.15.03:488][627]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.15.05:431][851]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.15.05:823][890]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.15.06:700][989]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.15.08:310][178]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit100)
+[2015.10.21-00.15.20:186][590]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit101)
+[2015.10.21-00.15.37:540][656]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit103)
+[2015.10.21-00.15.39:318][865]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit102)
+[2015.10.21-00.15.44:582][490]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit103)
+[2015.10.21-00.15.50:253][160]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit102)
+[2015.10.21-00.16.10:976][629]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit103)
+[2015.10.21-00.16.15:522][164]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.16.16:773][312]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.16.24:860][246]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.16.30:284][882]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit103)
+[2015.10.21-00.16.34:816][416]LogEditorViewport: Clicking Background
+[2015.10.21-00.16.36:546][619]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.16.39:350][953]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit103)
+[2015.10.21-00.16.48:956][ 96]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.17.12:857][955]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.21-00.17.12:895][955]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.17.13:793][ 52]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.17.14:013][ 73]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.17.15:016][189]MapCheck: New page: Map Check
+[2015.10.21-00.17.15:042][189]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.17.15:053][189]Cmd: MAP REBUILD
+[2015.10.21-00.17.15:062][189]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.21-00.17.17:793][189]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.10.21-00.17.17:794][189]MapCheck: New page: Level4 - Oct 20, 2015, 4:17:17 PM
+[2015.10.21-00.17.17:980][189]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 186.863ms to complete.
+[2015.10.21-00.17.18:001][189]LogEditorBuildUtils: Build time 0:00:02
+[2015.10.21-00.17.18:558][254]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.21-00.17.19:520][359]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.17.20:237][359]LogSavePackage: Save=364.620209ms
+[2015.10.21-00.17.20:237][359]LogSavePackage: Moving '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Saved/Level43E27E05048BF05D850E4D99F1C5F00C3.tmp' to '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Content/Levels/Level4.umap'
+[2015.10.21-00.17.20:294][359]LogFileHelpers: Saving map 'Level4' took 0.755
+[2015.10.21-00.17.37:172][348]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.17.42:569][972]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.18.15:912][931]LogEditorViewport: Clicking Background
+[2015.10.21-00.18.18:796][272]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit104)
+[2015.10.21-00.19.01:697][356]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit105)
+[2015.10.21-00.19.26:397][287]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.19.26:990][351]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.20.20:614][723]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit107)
+[2015.10.21-00.20.33:342][223]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.20.36:261][569]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit92)
+[2015.10.21-00.20.40:533][ 67]Cmd: DELETE
+[2015.10.21-00.20.40:533][ 67]Cmd: ACTOR DELETE
+[2015.10.21-00.20.40:536][ 67]LogEditorActor: Deleted Actor: Brush
+[2015.10.21-00.20.40:536][ 67]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-00.20.40:537][ 67]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.10.21-00.20.40:537][ 67]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.10.21-00.20.40:539][ 67]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_2) Not registered. Aborting.
+[2015.10.21-00.20.40:584][ 67]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2015.10.21-00.20.42:647][309]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit102)
+[2015.10.21-00.20.44:240][496]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit103)
+[2015.10.21-00.21.10:174][532]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.21.22:303][951]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.21.23:016][951]LogSavePackage: Save=388.443146ms
+[2015.10.21-00.21.23:016][951]LogSavePackage: Moving '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Saved/Level4DCDD107F48B98F93AACEE4955AF26884.tmp' to '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Content/Levels/Level4.umap'
+[2015.10.21-00.21.23:115][951]LogFileHelpers: Saving map 'Level4' took 0.805
+[2015.10.21-00.21.25:205][194]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.21.30:135][770]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit103)
+[2015.10.21-00.21.44:535][465]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit98)
+[2015.10.21-00.22.02:318][567]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.22.03:049][652]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.22.24:466][113]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.22.25:609][245]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit115)
+[2015.10.21-00.22.36:180][399]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.22.36:866][480]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.23.07:602][112]LogEditorViewport: Clicking Background
+[2015.10.21-00.23.08:858][261]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit114)
+[2015.10.21-00.23.11:383][550]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.23.12:381][668]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (BaseFloorF1Exibit115)
+[2015.10.21-00.23.13:347][777]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.23.14:176][875]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.23.16:442][123]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.23.20:588][600]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.23.23:171][898]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.23.24:271][ 21]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.23.26:314][224]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit9)
+[2015.10.21-00.23.26:741][260]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.23.26:893][274]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.23.27:657][363]MapCheck: New page: Map Check
+[2015.10.21-00.23.27:682][363]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.23.27:694][363]Cmd: MAP REBUILD
+[2015.10.21-00.23.27:696][363]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.21-00.23.30:572][363]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.10.21-00.23.30:572][363]MapCheck: New page: Level4 - Oct 20, 2015, 4:23:30 PM
+[2015.10.21-00.23.30:748][363]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 176.204ms to complete.
+[2015.10.21-00.23.30:769][363]LogEditorBuildUtils: Build time 0:00:03
+[2015.10.21-00.23.58:401][624]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.24.26:820][843]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.24.26:894][844]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.24.48:337][321]LogEditorViewport: Clicking on Actor (context menu): Brush (BaseFloorF1Exibit117)
+[2015.10.21-00.24.48:374][321]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.24.49:761][481]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit118)
+[2015.10.21-00.24.56:590][277]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.25.00:048][681]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.25.01:757][877]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.25.01:925][893]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.25.02:656][978]MapCheck: New page: Map Check
+[2015.10.21-00.25.02:680][978]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.25.02:694][978]Cmd: MAP REBUILD
+[2015.10.21-00.25.02:695][978]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.21-00.25.04:973][978]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.10.21-00.25.04:973][978]MapCheck: New page: Level4 - Oct 20, 2015, 4:25:04 PM
+[2015.10.21-00.25.05:154][978]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 181.107ms to complete.
+[2015.10.21-00.25.05:174][978]LogEditorBuildUtils: Build time 0:00:02
+[2015.10.21-00.25.15:408][201]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit118)
+[2015.10.21-00.25.17:918][492]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.25.18:570][568]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.25.28:542][743]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit117)
+[2015.10.21-00.25.32:814][248]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit118)
+[2015.10.21-00.25.42:356][377]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.25.51:536][460]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.25.54:862][838]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.25.55:028][853]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.25.56:286][998]MapCheck: New page: Map Check
+[2015.10.21-00.25.56:312][998]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.25.56:329][998]Cmd: MAP REBUILD
+[2015.10.21-00.25.56:329][998]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.21-00.25.58:672][998]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.10.21-00.25.58:672][998]MapCheck: New page: Level4 - Oct 20, 2015, 4:25:58 PM
+[2015.10.21-00.25.58:848][998]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 176.063ms to complete.
+[2015.10.21-00.25.58:869][998]LogEditorBuildUtils: Build time 0:00:02
+[2015.10.21-00.26.05:488][731]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.26.06:545][854]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.26.14:290][754]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.26.14:436][767]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.26.15:232][859]MapCheck: New page: Map Check
+[2015.10.21-00.26.15:259][859]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.26.15:277][859]Cmd: MAP REBUILD
+[2015.10.21-00.26.15:277][859]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.21-00.26.17:548][859]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.10.21-00.26.17:548][859]MapCheck: New page: Level4 - Oct 20, 2015, 4:26:17 PM
+[2015.10.21-00.26.17:722][859]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 174.003ms to complete.
+[2015.10.21-00.26.17:743][859]LogEditorBuildUtils: Build time 0:00:02
+[2015.10.21-00.26.18:803][973]LogEditorViewport: Clicking on Actor (context menu): Brush (BaseFloorF1Exibit117)
+[2015.10.21-00.26.18:837][973]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.26.20:169][125]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.26.34:767][749]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.26.35:872][879]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.26.55:139][158]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.26.56:756][350]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.26.59:611][672]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.27.03:121][ 80]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.27.32:639][609]LogEditorViewport: Clicking on Actor (context menu): Brush (BaseFloorF1Exibit102)
+[2015.10.21-00.27.32:679][609]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.27.32:902][625]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.27.33:139][633]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.27.45:526][ 58]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.27.45:707][ 75]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.28.01:590][902]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.28.01:865][930]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.28.03:058][ 68]MapCheck: New page: Map Check
+[2015.10.21-00.28.03:085][ 68]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.28.03:095][ 68]Cmd: MAP REBUILD
+[2015.10.21-00.28.03:095][ 68]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.21-00.28.05:408][ 68]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.10.21-00.28.05:408][ 68]MapCheck: New page: Level4 - Oct 20, 2015, 4:28:05 PM
+[2015.10.21-00.28.05:587][ 68]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 179.157ms to complete.
+[2015.10.21-00.28.05:608][ 68]LogEditorBuildUtils: Build time 0:00:02
+[2015.10.21-00.28.21:941][965]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.28.22:508][ 28]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.28.23:356][128]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.28.31:365][ 70]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.28.34:820][474]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit117)
+[2015.10.21-00.28.34:820][474]LogGeometryMode:Warning: Unable to find BaseFloorF1Exibit117 Brush(s) in new BSP
+[2015.10.21-00.28.34:820][474]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.10.21-00.28.53:652][707]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit118)
+[2015.10.21-00.28.53:652][707]LogGeometryMode:Warning: Unable to find BaseFloorF1Exibit118 Brush(s) in new BSP
+[2015.10.21-00.28.53:652][707]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.10.21-00.29.10:774][727]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.29.15:969][338]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit120)
+[2015.10.21-00.29.25:014][404]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit117)
+[2015.10.21-00.29.25:015][404]LogGeometryMode:Warning: Unable to find BaseFloorF1Exibit117 Brush(s) in new BSP
+[2015.10.21-00.29.25:015][404]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.10.21-00.29.28:789][837]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit121)
+[2015.10.21-00.29.28:789][837]LogGeometryMode:Warning: Unable to find BaseFloorF1Exibit121 Brush(s) in new BSP
+[2015.10.21-00.29.28:789][837]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.10.21-00.29.33:065][328]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.29.33:440][369]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.29.34:131][446]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.29.35:047][554]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.29.37:166][793]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.29.37:400][817]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.29.38:175][907]MapCheck: New page: Map Check
+[2015.10.21-00.29.38:201][907]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.29.38:212][907]Cmd: MAP REBUILD
+[2015.10.21-00.29.38:213][907]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.21-00.29.40:667][907]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.10.21-00.29.40:668][907]MapCheck: New page: Level4 - Oct 20, 2015, 4:29:40 PM
+[2015.10.21-00.29.40:847][907]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 179.361ms to complete.
+[2015.10.21-00.29.40:867][907]LogEditorBuildUtils: Build time 0:00:02
+[2015.10.21-00.29.41:283][954]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.29.52:944][334]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.21-00.30.03:289][496]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.30.04:089][589]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.30.06:817][898]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit121)
+[2015.10.21-00.30.18:864][327]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.30.19:164][359]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.30.20:558][522]MapCheck: New page: Map Check
+[2015.10.21-00.30.20:584][522]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.30.20:595][522]Cmd: MAP REBUILD
+[2015.10.21-00.30.20:595][522]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.21-00.30.22:957][522]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.10.21-00.30.22:957][522]MapCheck: New page: Level4 - Oct 20, 2015, 4:30:22 PM
+[2015.10.21-00.30.23:132][522]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 174.439ms to complete.
+[2015.10.21-00.30.23:152][522]LogEditorBuildUtils: Build time 0:00:02
+[2015.10.21-00.30.24:253][650]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.30.24:640][685]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.30.25:174][746]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.30.27:937][ 61]LogGeometryMode:Warning: Unable to find BaseFloorF1Exibit117 Brush(s) in new BSP
+[2015.10.21-00.30.27:937][ 61]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.10.21-00.30.51:180][756]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.30.52:106][865]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.30.58:011][558]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit119)
+[2015.10.21-00.31.06:771][587]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.31.07:807][709]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.31.12:727][273]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit121)
+[2015.10.21-00.31.33:098][699]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.31.40:043][524]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.31.45:564][175]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit119)
+[2015.10.21-00.31.56:172][423]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit119)
+[2015.10.21-00.32.00:753][965]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit119)
+[2015.10.21-00.32.05:920][573]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit121)
+[2015.10.21-00.32.05:920][573]LogGeometryMode:Warning: Unable to find BaseFloorF1Exibit121 Brush(s) in new BSP
+[2015.10.21-00.32.05:920][573]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.10.21-00.32.10:525][111]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.32.11:408][213]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit117)
+[2015.10.21-00.32.16:520][817]LogEditorViewport: Clicking Background
+[2015.10.21-00.32.17:866][977]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit121)
+[2015.10.21-00.32.21:668][424]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.32.21:853][441]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.32.22:869][559]MapCheck: New page: Map Check
+[2015.10.21-00.32.22:894][559]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.32.22:913][559]Cmd: MAP REBUILD
+[2015.10.21-00.32.22:914][559]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.21-00.32.25:198][559]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.10.21-00.32.25:198][559]MapCheck: New page: Level4 - Oct 20, 2015, 4:32:25 PM
+[2015.10.21-00.32.25:372][559]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 174.087ms to complete.
+[2015.10.21-00.32.25:392][559]LogEditorBuildUtils: Build time 0:00:02
+[2015.10.21-00.32.25:709][594]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.32.54:746][860]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.32.54:939][879]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.32.55:644][959]MapCheck: New page: Map Check
+[2015.10.21-00.32.55:669][959]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.32.55:680][959]Cmd: MAP REBUILD
+[2015.10.21-00.32.55:681][959]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.21-00.32.58:439][959]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.10.21-00.32.58:439][959]MapCheck: New page: Level4 - Oct 20, 2015, 4:32:58 PM
+[2015.10.21-00.32.58:617][959]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 178.171ms to complete.
+[2015.10.21-00.32.58:637][959]LogEditorBuildUtils: Build time 0:00:02
+[2015.10.21-00.33.23:407][907]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit120)
+[2015.10.21-00.33.24:143][990]Cmd: DELETE
+[2015.10.21-00.33.24:159][990]Cmd: ACTOR DELETE
+[2015.10.21-00.33.24:162][990]LogEditorActor: Deleted Actor: Brush
+[2015.10.21-00.33.24:162][990]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-00.33.24:163][990]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.10.21-00.33.24:163][990]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.10.21-00.33.24:165][990]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_3) Not registered. Aborting.
+[2015.10.21-00.33.24:229][990]LogEditorActor: Deleted 1 Actors (0.070 secs)
+[2015.10.21-00.33.39:565][703]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.21-00.33.39:603][703]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.33.43:888][161]Cmd: POLY TEXPAN U=-4.000000 V=-0.000000
+[2015.10.21-00.33.45:579][217]Cmd: POLY TEXPAN U=-4.000000 V=-0.000000
+[2015.10.21-00.33.47:243][266]Cmd: POLY TEXPAN U=-4.000000 V=-0.000000
+[2015.10.21-00.33.49:229][362]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.21-00.33.51:352][593]Cmd: POLY TEXPAN U=1.000000 V=0.000000
+[2015.10.21-00.33.53:417][667]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.21-00.33.56:665][ 34]Cmd: POLY TEXPAN U=1.000000 V=0.000000
+[2015.10.21-00.33.58:368][ 86]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.21-00.34.13:002][760]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-00.34.13:003][760]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.10.21-00.34.13:003][760]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.10.21-00.34.13:004][760]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_4) Not registered. Aborting.
+[2015.10.21-00.34.13:074][760]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.34.14:084][760]LogSavePackage: Save=418.731720ms
+[2015.10.21-00.34.14:084][760]LogSavePackage: Moving '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Saved/Level4442D300A4B4F93B71808A8B1B071C3D0.tmp' to '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Content/Levels/Level4.umap'
+[2015.10.21-00.34.14:144][760]LogFileHelpers: Saving map 'Level4' took 1.059
+[2015.10.21-00.34.38:025][341]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.34.38:108][342]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.34.39:669][521]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.34.46:515][322]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit120)
+[2015.10.21-00.34.51:284][878]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.34.55:210][335]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.35.00:875][996]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.35.01:586][ 67]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.35.17:412][867]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.35.25:177][774]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit120)
+[2015.10.21-00.35.48:486][499]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.35.49:836][657]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit120)
+[2015.10.21-00.35.52:762][985]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.35.53:553][ 77]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.35.59:879][802]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.36.10:045][  2]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.36.23:476][600]LogEditorViewport: Clicking Background
+[2015.10.21-00.36.26:240][929]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit122)
+[2015.10.21-00.36.30:683][450]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.36.41:942][786]LogEditorViewport: Clicking Background
+[2015.10.21-00.36.43:289][943]LogEditorViewport: Clicking Background
+[2015.10.21-00.36.43:715][993]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit120)
+[2015.10.21-00.37.01:450][ 83]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.37.02:141][164]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.37.08:308][886]LogEditorViewport: Clicking on Actor (context menu): Brush (BaseFloorF1Exibit79)
+[2015.10.21-00.37.08:348][886]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.37.09:867][ 64]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit123)
+[2015.10.21-00.37.13:714][512]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.37.22:179][493]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit122)
+[2015.10.21-00.37.26:698][950]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.21-00.37.26:738][950]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.37.27:900][ 77]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.37.28:125][ 99]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.37.29:793][282]MapCheck: New page: Map Check
+[2015.10.21-00.37.29:823][282]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.37.29:836][282]Cmd: MAP REBUILD
+[2015.10.21-00.37.29:838][282]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.21-00.37.31:896][282]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.10.21-00.37.31:896][282]MapCheck: New page: Level4 - Oct 20, 2015, 4:37:31 PM
+[2015.10.21-00.37.32:070][282]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 174.475ms to complete.
+[2015.10.21-00.37.32:091][282]LogEditorBuildUtils: Build time 0:00:02
+[2015.10.21-00.37.45:077][776]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.37.45:326][797]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.10.21-00.37.46:048][797]LogSavePackage: Save=399.540924ms
+[2015.10.21-00.37.46:048][797]LogSavePackage: Moving '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Saved/Level4A828F00A402081F26BB1A1AB6E801D8B.tmp' to '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Content/Levels/Level4.umap'
+[2015.10.21-00.37.46:128][797]LogFileHelpers: Saving map 'Level4' took 0.801
+[2015.10.21-00.38.44:675][380]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.38.53:787][400]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.38.55:834][643]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.39.03:395][518]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.39.04:871][692]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.39.19:356][720]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.39.32:789][267]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.39.33:764][381]LogEditorViewport: Clicking on Actor (LMB): Brush (Door4)
+[2015.10.21-00.39.36:789][737]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush4)
+[2015.10.21-00.39.41:944][346]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.39.58:128][251]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.40.12:213][917]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.40.20:207][860]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.40.37:513][898]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit61)
+[2015.10.21-00.40.37:513][898]LogGeometryMode:Warning: Unable to find BaseFloorF1Exibit61 Brush(s) in new BSP
+[2015.10.21-00.40.37:513][898]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.10.21-00.40.38:622][ 25]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit55)
+[2015.10.21-00.40.39:296][102]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush5)
+[2015.10.21-00.40.45:456][810]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.40.46:174][893]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit53)
+[2015.10.21-00.40.47:438][ 41]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush4)
+[2015.10.21-00.40.53:199][726]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush5)
+[2015.10.21-00.40.58:651][370]LogEditorViewport: Clicking on Actor (LMB): Brush (Door3)
+[2015.10.21-00.40.59:658][487]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush5)
+[2015.10.21-00.41.25:502][534]LogEditorViewport: Clicking on Actor (LMB): Brush (Door5)
+[2015.10.21-00.41.25:502][534]LogGeometryMode:Warning: Unable to find Door5 Brush(s) in new BSP
+[2015.10.21-00.41.25:502][534]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.10.21-00.41.27:416][757]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.41.28:092][836]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.41.36:102][753]LogEditorViewport: Clicking on Actor (LMB): Brush (Door6)
+[2015.10.21-00.41.41:644][364]LogEditorViewport: Clicking on Actor (LMB): Brush (Door4)
+[2015.10.21-00.41.44:924][717]LogEditorViewport: Clicking on Actor (LMB): Brush (Door7)
+[2015.10.21-00.41.47:611][ 28]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.41.47:783][ 44]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.41.48:543][131]MapCheck: New page: Map Check
+[2015.10.21-00.41.48:568][131]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.41.48:573][131]Cmd: MAP REBUILD
+[2015.10.21-00.41.48:574][131]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.21-00.41.50:819][131]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.10.21-00.41.50:819][131]MapCheck: New page: Level4 - Oct 20, 2015, 4:41:50 PM
+[2015.10.21-00.41.50:994][131]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 174.25ms to complete.
+[2015.10.21-00.41.51:014][131]LogEditorBuildUtils: Build time 0:00:02
+[2015.10.21-00.42.03:265][590]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.42.08:515][155]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.42.09:493][270]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.42.23:432][898]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.42.24:221][988]LogEditorViewport: Clicking on Actor (LMB): Brush (FirstFloorMiddleRight)
+[2015.10.21-00.42.25:508][138]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush5)
+[2015.10.21-00.42.26:238][216]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.42.27:142][318]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.42.27:772][391]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.42.35:228][232]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.42.36:697][407]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.42.41:689][974]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.42.43:295][161]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush4)
+[2015.10.21-00.42.46:906][582]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush6)
+[2015.10.21-00.42.54:775][511]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush6)
+[2015.10.21-00.43.02:742][446]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.43.15:548][951]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.43.23:660][913]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.43.26:454][203]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.43.26:644][221]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.43.27:441][315]MapCheck: New page: Map Check
+[2015.10.21-00.43.27:467][315]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.43.27:475][315]Cmd: MAP REBUILD
+[2015.10.21-00.43.27:475][315]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.21-00.43.30:158][315]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.10.21-00.43.30:158][315]MapCheck: New page: Level4 - Oct 20, 2015, 4:43:30 PM
+[2015.10.21-00.43.30:335][315]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 176.997ms to complete.
+[2015.10.21-00.43.30:355][315]LogEditorBuildUtils: Build time 0:00:02
+[2015.10.21-00.44.26:895][400]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.44.27:506][467]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.21-00.45.22:459][794]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.21-00.45.22:504][794]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.45.24:014][955]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-00.45.24:015][955]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.10.21-00.45.24:015][955]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.10.21-00.45.24:017][955]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_5) Not registered. Aborting.
+[2015.10.21-00.45.24:090][955]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.45.24:852][955]LogSavePackage: Save=412.132233ms
+[2015.10.21-00.45.24:852][955]LogSavePackage: Moving '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Saved/Level459D2F90E480CFAC13A11D98FCA97B599.tmp' to '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Content/Levels/Level4.umap'
+[2015.10.21-00.45.24:911][955]LogFileHelpers: Saving map 'Level4' took 0.799
+[2015.10.21-00.45.52:397][ 85]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.45.53:091][154]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.46.17:121][ 28]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.21-00.46.17:161][ 28]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.46.17:757][ 93]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.21-00.46.18:039][116]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.46.18:762][116]LogSavePackage: Save=397.895508ms
+[2015.10.21-00.46.18:762][116]LogSavePackage: Moving '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Saved/Level4BCA0B84B484123B67BC16ABBD0DA6459.tmp' to '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Content/Levels/Level4.umap'
+[2015.10.21-00.46.18:821][116]LogFileHelpers: Saving map 'Level4' took 0.774
+[2015.10.21-00.47.16:663][734]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.47.19:372][ 18]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.47.23:743][504]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.47.23:947][523]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.47.24:586][593]MapCheck: New page: Map Check
+[2015.10.21-00.47.24:611][593]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.47.24:629][593]Cmd: MAP REBUILD
+[2015.10.21-00.47.24:629][593]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.21-00.47.26:715][593]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.10.21-00.47.26:715][593]MapCheck: New page: Level4 - Oct 20, 2015, 4:47:26 PM
+[2015.10.21-00.47.26:908][593]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 193.002ms to complete.
+[2015.10.21-00.47.26:929][593]LogEditorBuildUtils: Build time 0:00:02
+[2015.10.21-00.47.53:113][634]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.47.57:919][157]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.47.58:716][248]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush2)
+[2015.10.21-00.48.01:224][524]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush41)
+[2015.10.21-00.48.06:690][163]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush10)
+[2015.10.21-00.48.06:731][163]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.48.08:151][327]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush41)
+[2015.10.21-00.48.10:346][545]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush2)
+[2015.10.21-00.48.12:891][844]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush41)
+[2015.10.21-00.48.22:489][974]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.48.26:102][385]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.48.36:436][598]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.49.22:703][ 63]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush2)
+[2015.10.21-00.49.22:740][ 63]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.49.23:749][179]LogEditorViewport: Clicking Background
+[2015.10.21-00.49.25:129][343]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush41)
+[2015.10.21-00.49.41:797][291]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.49.44:941][656]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.49.45:815][756]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush41)
+[2015.10.21-00.49.46:599][840]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.49.51:375][411]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.49.55:888][920]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.49.56:579][  0]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.50.00:471][426]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.50.00:655][443]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.50.01:325][520]MapCheck: New page: Map Check
+[2015.10.21-00.50.01:350][520]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.50.01:364][520]Cmd: MAP REBUILD
+[2015.10.21-00.50.01:366][520]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.21-00.50.03:488][520]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.10.21-00.50.03:488][520]MapCheck: New page: Level4 - Oct 20, 2015, 4:50:03 PM
+[2015.10.21-00.50.03:697][520]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 208.875ms to complete.
+[2015.10.21-00.50.03:717][520]LogEditorBuildUtils: Build time 0:00:02
+[2015.10.21-00.50.08:188][ 44]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.50.09:267][169]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush2)
+[2015.10.21-00.50.13:196][607]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.50.17:666][116]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush2)
+[2015.10.21-00.50.28:827][420]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.50.29:025][439]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.50.29:871][535]MapCheck: New page: Map Check
+[2015.10.21-00.50.29:900][535]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.50.29:914][535]Cmd: MAP REBUILD
+[2015.10.21-00.50.29:915][535]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.21-00.50.32:153][535]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.10.21-00.50.32:154][535]MapCheck: New page: Level4 - Oct 20, 2015, 4:50:32 PM
+[2015.10.21-00.50.32:342][535]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 188.795ms to complete.
+[2015.10.21-00.50.32:363][535]LogEditorBuildUtils: Build time 0:00:02
+[2015.10.21-00.50.36:948][ 74]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.50.38:016][198]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.21-00.50.38:648][250]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.50.38:882][273]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.50.39:657][356]MapCheck: New page: Map Check
+[2015.10.21-00.50.39:685][356]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.50.39:698][356]Cmd: MAP REBUILD
+[2015.10.21-00.50.39:698][356]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.21-00.50.42:321][356]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.10.21-00.50.42:322][356]MapCheck: New page: Level4 - Oct 20, 2015, 4:50:42 PM
+[2015.10.21-00.50.42:510][356]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 188.844ms to complete.
+[2015.10.21-00.50.42:531][356]LogEditorBuildUtils: Build time 0:00:02
+[2015.10.21-00.50.45:538][659]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush2)
+[2015.10.21-00.50.49:562][122]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.50.50:674][245]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.50.51:759][371]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush2)
+[2015.10.21-00.50.59:570][271]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.51.00:035][318]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.51.02:703][612]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush2)
+[2015.10.21-00.51.04:138][766]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.51.05:552][931]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush2)
+[2015.10.21-00.51.16:601][201]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.51.17:831][347]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.51.31:712][968]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.51.33:454][167]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.51.33:633][183]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.51.34:467][277]MapCheck: New page: Map Check
+[2015.10.21-00.51.34:491][277]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.51.34:499][277]Cmd: MAP REBUILD
+[2015.10.21-00.51.34:500][277]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.21-00.51.36:783][277]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.10.21-00.51.36:783][277]MapCheck: New page: Level4 - Oct 20, 2015, 4:51:36 PM
+[2015.10.21-00.51.36:981][277]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 197.897ms to complete.
+[2015.10.21-00.51.37:001][277]LogEditorBuildUtils: Build time 0:00:02
+[2015.10.21-00.51.39:425][563]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.21-00.51.39:463][563]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.51.39:783][594]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.21-00.51.46:126][282]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush42)
+[2015.10.21-00.51.46:924][372]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush41)
+[2015.10.21-00.51.48:129][511]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (Box Brush42)
+[2015.10.21-00.51.51:863][935]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.51.52:585][ 20]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.52.05:291][520]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush3)
+[2015.10.21-00.52.06:453][655]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush43)
+[2015.10.21-00.52.07:395][759]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.52.08:589][899]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush3)
+[2015.10.21-00.52.12:249][330]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush43)
+[2015.10.21-00.52.34:942][978]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush3)
+[2015.10.21-00.52.38:696][414]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush45)
+[2015.10.21-00.52.54:752][302]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.52.59:026][807]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush3)
+[2015.10.21-00.53.07:332][776]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.53.09:201][992]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.53.09:369][  8]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.53.10:166][ 98]MapCheck: New page: Map Check
+[2015.10.21-00.53.10:194][ 98]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.53.10:201][ 98]Cmd: MAP REBUILD
+[2015.10.21-00.53.10:203][ 98]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.21-00.53.12:385][ 98]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.10.21-00.53.12:385][ 98]MapCheck: New page: Level4 - Oct 20, 2015, 4:53:12 PM
+[2015.10.21-00.53.12:581][ 98]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 196.085ms to complete.
+[2015.10.21-00.53.12:602][ 98]LogEditorBuildUtils: Build time 0:00:02
+[2015.10.21-00.53.14:943][359]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.21-00.53.15:987][460]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.53.16:754][460]LogSavePackage: Save=411.523407ms
+[2015.10.21-00.53.16:754][460]LogSavePackage: Moving '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Saved/Level402C214DF41086357F37A58B16D218A61.tmp' to '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Content/Levels/Level4.umap'
+[2015.10.21-00.53.16:811][460]LogFileHelpers: Saving map 'Level4' took 0.808
+[2015.10.21-00.53.18:349][612]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.53.19:951][612]LogAIModule: Creating AISystem for world Level1
+[2015.10.21-00.53.20:038][612]Cmd: MAP LOAD FILE="../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.21-00.53.20:038][612]LightingResults: New page: Lighting Build
+[2015.10.21-00.53.20:095][612]LoadErrors: New page: Loading map: Level1.umap
+[2015.10.21-00.53.20:098][612]MapCheck: New page: Map Check
+[2015.10.21-00.53.20:098][612]LightingResults: New page: Lighting Build
+[2015.10.21-00.53.20:120][612]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000189107C0
+[2015.10.21-00.53.20:454][612]LogAIModule: Creating AISystem for world Level1
+[2015.10.21-00.53.20:561][612]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.21-00.53.20:697][612]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.21-00.53.20:872][612]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 174.618ms to complete.
+[2015.10.21-00.53.20:874][612]LogFileHelpers: Loading map 'Level1' took 0.839
+[2015.10.21-00.53.32:106][862]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.53.32:279][862]LogAIModule: Creating AISystem for world Level4
+[2015.10.21-00.53.32:303][862]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-00.53.32:304][862]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.10.21-00.53.32:304][862]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.10.21-00.53.32:306][862]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_6) Not registered. Aborting.
+[2015.10.21-00.53.32:353][862]Cmd: MAP LOAD FILE="../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Content/Levels/Level4.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.21-00.53.32:353][862]LightingResults: New page: Lighting Build
+[2015.10.21-00.53.32:412][862]LoadErrors: New page: Loading map: Level4.umap
+[2015.10.21-00.53.32:414][862]MapCheck: New page: Map Check
+[2015.10.21-00.53.32:414][862]LightingResults: New page: Lighting Build
+[2015.10.21-00.53.32:435][862]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011E46A20
+[2015.10.21-00.53.32:727][862]LogAIModule: Creating AISystem for world Level4
+[2015.10.21-00.53.32:790][862]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.21-00.53.32:843][862]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.21-00.53.33:017][862]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 173.703ms to complete.
+[2015.10.21-00.53.33:019][862]LogFileHelpers: Loading map 'Level4' took 0.669
+[2015.10.21-00.53.45:014][ 48]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.53.48:119][367]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.53.48:855][448]LogEditorViewport: Clicking on Actor (LMB): Erich_C (Erich)
+[2015.10.21-00.54.05:757][167]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.54.23:369][189]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.54.24:836][363]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-00.54.30:389][  0]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush43)
+[2015.10.21-00.54.37:707][867]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush44)
+[2015.10.21-00.54.46:039][845]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush)
+[2015.10.21-00.54.47:033][960]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush44)
+[2015.10.21-00.54.50:456][357]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.54.59:041][314]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush44)
+[2015.10.21-00.55.03:654][842]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.55.03:805][856]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.55.04:863][979]MapCheck: New page: Map Check
+[2015.10.21-00.55.04:890][979]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.55.04:901][979]Cmd: MAP REBUILD
+[2015.10.21-00.55.04:902][979]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.21-00.55.07:138][979]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.10.21-00.55.07:139][979]MapCheck: New page: Level4 - Oct 20, 2015, 4:55:07 PM
+[2015.10.21-00.55.07:313][979]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 174.344ms to complete.
+[2015.10.21-00.55.07:333][979]LogEditorBuildUtils: Build time 0:00:02
+[2015.10.21-00.55.22:182][723]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush44)
+[2015.10.21-00.55.22:223][723]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.55.34:960][149]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.55.35:135][165]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.55.35:823][243]MapCheck: New page: Map Check
+[2015.10.21-00.55.35:851][243]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.55.35:954][243]Cmd: MAP REBUILD ALLVISIBLE
+[2015.10.21-00.55.35:954][243]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.21-00.55.38:199][243]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.10.21-00.55.38:199][243]MapCheck: New page: Level4 - Oct 20, 2015, 4:55:38 PM
+[2015.10.21-00.55.38:378][243]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 179.034ms to complete.
+[2015.10.21-00.55.38:399][243]LogEditorBuildUtils: Build time 0:00:02
+[2015.10.21-00.55.50:285][553]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush46)
+[2015.10.21-00.56.01:183][790]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.56.01:386][810]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.56.02:000][879]MapCheck: New page: Map Check
+[2015.10.21-00.56.02:027][879]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.56.02:035][879]Cmd: MAP REBUILD
+[2015.10.21-00.56.02:035][879]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.21-00.56.04:038][879]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.10.21-00.56.04:038][879]MapCheck: New page: Level4 - Oct 20, 2015, 4:56:04 PM
+[2015.10.21-00.56.04:217][879]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 179.516ms to complete.
+[2015.10.21-00.56.04:238][879]LogEditorBuildUtils: Build time 0:00:02
+[2015.10.21-00.56.09:747][518]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.21-00.56.50:646][294]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.21-00.56.58:658][233]LogEditorViewport: Clicking on Actor (context menu): Brush (BaseFloorF1Exibit)
+[2015.10.21-00.56.58:701][233]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.57.01:108][508]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-00.57.01:109][508]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.10.21-00.57.01:109][508]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.10.21-00.57.01:111][508]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_7) Not registered. Aborting.
+[2015.10.21-00.57.01:191][508]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.57.01:935][508]LogSavePackage: Save=409.919952ms
+[2015.10.21-00.57.01:935][508]LogSavePackage: Moving '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Saved/Level4EAB7FA51412E0AD6255010BAD5EC15E4.tmp' to '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Content/Levels/Level4.umap'
+[2015.10.21-00.57.02:013][508]LogFileHelpers: Saving map 'Level4' took 0.809
+[2015.10.21-00.59.07:040][874]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.59.08:283][  6]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.59.14:143][704]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.59.14:179][705]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.59.14:261][709]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.59.15:151][812]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.59.16:541][973]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.59.18:516][206]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.59.22:213][646]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.59.23:975][830]Cmd: ACTOR HIDE SELECTED
+[2015.10.21-00.59.24:792][830]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level4.Level4:PersistentLevel.ModelComponent_2228' invalid (10380 verts, 0 indices).
+[2015.10.21-00.59.25:865][923]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.21-00.59.25:907][923]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.59.25:981][924]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.59.26:564][987]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.21-00.59.26:595][987]LogD3D11RHI: InitD3DDevice
+[2015.10.21-00.59.27:695][114]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.21-00.59.32:380][616]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit)
+[2015.10.21-00.59.59:088][675]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.00.02:579][ 62]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.00.04:227][250]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.00.17:106][783]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.00.44:457][431]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-01.01.11:724][528]LogEditorViewport: Clicking on Actor (context menu): Brush (BaseFloorF1Exibit2)
+[2015.10.21-01.01.11:769][528]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.01.39:075][129]LogEditorViewport: Clicking on Actor (LMB): Brush (SecondFloorMain)
+[2015.10.21-01.01.40:730][271]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-01.02.46:439][394]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-01.02.58:749][809]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.03.03:425][360]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-01.03.17:759][998]LogEditorViewport: Clicking on Actor (context menu): Brush (BaseFloorF1Exibit96)
+[2015.10.21-01.03.17:798][998]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.03.23:491][660]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.03.54:063][ 93]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.03.59:490][739]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.04.10:502][ 51]LogEditorViewport: Clicking on Actor (context menu): Brush (BaseFloorF1Exibit43)
+[2015.10.21-01.04.10:545][ 51]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.04.19:888][ 88]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.04.42:453][651]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level4.Level4:PersistentLevel.ModelComponent_2175' invalid (10380 verts, 0 indices).
+[2015.10.21-01.04.42:453][651]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level4.Level4:PersistentLevel.ModelComponent_2176' invalid (10380 verts, 0 indices).
+[2015.10.21-01.04.42:454][651]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level4.Level4:PersistentLevel.ModelComponent_2177' invalid (10380 verts, 0 indices).
+[2015.10.21-01.04.42:495][651]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level4.Level4:PersistentLevel.ModelComponent_2195' invalid (10380 verts, 0 indices).
+[2015.10.21-01.04.42:517][651]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level4.Level4:PersistentLevel.ModelComponent_2196' invalid (10380 verts, 0 indices).
+[2015.10.21-01.04.42:545][651]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level4.Level4:PersistentLevel.ModelComponent_2197' invalid (10380 verts, 0 indices).
+[2015.10.21-01.04.42:586][651]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level4.Level4:PersistentLevel.ModelComponent_2198' invalid (10380 verts, 0 indices).
+[2015.10.21-01.04.42:598][651]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level4.Level4:PersistentLevel.ModelComponent_2199' invalid (10380 verts, 0 indices).
+[2015.10.21-01.04.42:624][651]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level4.Level4:PersistentLevel.ModelComponent_2200' invalid (10380 verts, 0 indices).
+[2015.10.21-01.04.42:625][651]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level4.Level4:PersistentLevel.ModelComponent_2201' invalid (10380 verts, 0 indices).
+[2015.10.21-01.04.42:671][651]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level4.Level4:PersistentLevel.ModelComponent_2202' invalid (10380 verts, 0 indices).
+[2015.10.21-01.04.42:682][651]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level4.Level4:PersistentLevel.ModelComponent_2203' invalid (10380 verts, 0 indices).
+[2015.10.21-01.04.42:695][651]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level4.Level4:PersistentLevel.ModelComponent_2204' invalid (10380 verts, 0 indices).
+[2015.10.21-01.04.42:723][651]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level4.Level4:PersistentLevel.ModelComponent_2206' invalid (10380 verts, 0 indices).
+[2015.10.21-01.04.42:741][651]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level4.Level4:PersistentLevel.ModelComponent_2207' invalid (10380 verts, 0 indices).
+[2015.10.21-01.04.42:741][651]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Levels/Level4.Level4:PersistentLevel.ModelComponent_2208' invalid (10380 verts, 0 indices).
+[2015.10.21-01.05.16:899][206]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.05.37:136][590]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.05.44:965][492]LogEditorViewport: Clicking on Actor (context menu): Brush (BaseFloorF1Exibit27)
+[2015.10.21-01.05.45:002][492]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.06.00:961][337]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.06.57:879][ 46]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.06.58:505][118]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.07.01:092][424]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.07.48:580][ 28]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.07.49:604][140]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit75)
+[2015.10.21-01.07.50:878][231]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (BaseFloorF1Exibit58)
+[2015.10.21-01.07.55:526][640]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.08.11:409][347]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.08.23:922][640]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.08.26:232][856]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (BaseFloorF1Exibit49)
+[2015.10.21-01.08.28:373][ 96]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.08.31:510][409]LogEditorViewport: Clicking on Actor (CTRL LMB): Brush (BaseFloorF1Exibit49)
+[2015.10.21-01.08.44:056][826]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.08.55:818][210]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.09.05:364][329]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.09.06:427][452]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit13)
+[2015.10.21-01.09.07:771][575]LogEditorViewport: Clicking on Actor (LMB): Brush (BaseFloorF1Exibit49)
+[2015.10.21-01.09.29:426][104]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.09.33:278][500]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.09.39:790][268]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.09.48:269][219]LogEditorViewport: Clicking on Actor (context menu): Brush (BaseFloorF1Exibit17)
+[2015.10.21-01.09.48:309][219]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.09.50:699][479]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.09.52:667][692]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.21-01.09.52:711][692]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.09.56:605][138]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.10.21-01.09.56:634][138]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.10.03:378][889]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush3)
+[2015.10.21-01.10.03:422][889]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.10.16:377][371]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.10.24:349][295]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush44)
+[2015.10.21-01.10.24:393][295]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.10.35:278][455]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.10.39:268][906]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.10.45:011][520]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush8)
+[2015.10.21-01.10.57:185][857]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.10.58:184][973]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-01.11.07:997][ 85]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.11.20:938][594]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.12.11:972][523]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.12.12:981][635]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-01.12.15:413][906]LogEditorViewport: Clicking on Actor (context menu): Brush (Linear Stair Brush4)
+[2015.10.21-01.12.15:452][906]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.12.16:691][ 40]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.12.24:552][923]LogEditorViewport: Clicking on Actor (context menu): Brush (BaseFloorF1Exibit19)
+[2015.10.21-01.12.24:598][923]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.12.26:656][154]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.12.35:254][ 20]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.12.43:594][968]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.12.59:537][729]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.13.00:607][855]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-01.13.14:399][429]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.13.37:191][ 70]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.13.45:125][988]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.13.45:866][ 71]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-01.13.50:006][544]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.14.01:414][844]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.14.10:039][846]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.14.10:909][948]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-01.14.13:109][185]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.14.13:803][266]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-01.14.29:468][ 53]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.14.37:770][976]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.14.38:988][118]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-01.14.44:995][781]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.14.45:725][864]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-01.16.25:464][271]LogEditorViewport: Clicking on Actor (LMB): Brush (Door8)
+[2015.10.21-01.16.27:863][547]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.16.35:033][387]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.16.39:029][814]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.16.47:372][766]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.17.01:396][362]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-01.17.10:271][384]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.17.19:280][441]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.17.30:493][725]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.18.15:438][826]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.18.20:701][424]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.18.44:732][214]LogEditorViewport: Clicking on Actor (context menu): Brush (SecondFloorRoom3)
+[2015.10.21-01.18.44:776][214]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.19.15:367][640]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.19.16:692][797]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-01.19.25:509][805]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-01.19.29:624][271]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.19.40:663][551]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.19.41:400][637]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-01.19.46:846][254]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.19.54:611][163]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.20.09:246][834]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush4)
+[2015.10.21-01.20.12:126][165]LogEditorViewport: Clicking on Actor (LMB): Brush (SecondFloorBackBottomRight9)
+[2015.10.21-01.20.13:472][317]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.20.15:210][522]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-01.20.18:057][817]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.20.30:893][330]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.20.34:583][760]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.20.36:526][991]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-01.20.36:526][991]Can't find target actor or component.
+[2015.10.21-01.20.44:231][890]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.20.44:993][979]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-01.20.50:391][565]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.20.55:908][194]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.20.58:383][478]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.21.19:884][ 15]LogEditorViewport: Clicking on Actor (context menu): Brush (Railing3)
+[2015.10.21-01.21.19:924][ 15]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.21.24:905][566]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush42)
+[2015.10.21-01.21.24:945][566]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.21.28:897][979]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.21.30:117][123]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.10.21-01.21.48:276][201]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.22.00:287][594]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.22.03:367][949]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.22.16:923][533]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.22.21:379][ 46]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.22.25:537][523]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.22.27:585][759]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.22.32:074][286]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.22.43:263][592]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.22.56:062][101]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.22.57:108][101]LogSavePackage: Save=434.458740ms
+[2015.10.21-01.22.57:108][101]LogSavePackage: Moving '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Saved/Level4C824388E48D487A04640BD8D2B33AD27.tmp' to '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Content/Levels/Level4.umap'
+[2015.10.21-01.22.57:250][101]LogFileHelpers: Saving map 'Level4' took 1.180
+[2015.10.21-01.22.58:913][294]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.23.09:704][576]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.23.23:320][205]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.23.23:482][221]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.23.32:044][245]LogD3D11RHI: InitD3DDevice
+[2015.10.21-01.23.58:002][266]Cmd: QUIT_EDITOR
+[2015.10.21-01.23.58:547][266]LogExit: Preparing to exit.
+[2015.10.21-01.23.59:049][266]LogExit: Editor shut down
+[2015.10.21-01.23.59:049][266]LogExit: Transaction tracking system shut down
+[2015.10.21-01.23.59:052][266]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D842660
+[2015.10.21-01.23.59:053][266]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000189DF6A0
+[2015.10.21-01.23.59:053][266]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018910FE0
+[2015.10.21-01.23.59:053][266]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000253DC9A0
+[2015.10.21-01.23.59:053][266]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027BAB6A0
+[2015.10.21-01.23.59:054][266]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016730FE0
+[2015.10.21-01.23.59:987][266]LogExit: Object subsystem successfully closed.
+[2015.10.21-01.24.00:364][266]LogD3D11RHI: Shutdown
+[2015.10.21-01.24.00:364][266]LogD3D11RHI: CleanupD3DDevice
+[2015.10.21-01.24.00:486][266]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.10.21-01.24.00:578][266]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.10.21-01.24.00:578][266]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.10.21-01.24.00:578][266]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.10.21-01.24.00:578][266]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.10.21-01.24.00:594][266]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.10.21-01.24.00:606][266]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.10.21-01.24.00:606][266]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.10.21-01.24.00:606][266]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.10.21-01.24.00:606][266]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.10.21-01.24.00:606][266]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.10.21-01.24.00:632][266]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.10.21-01.24.00:633][266]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.10.21-01.24.00:633][266]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.10.21-01.24.00:633][266]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.10.21-01.24.00:633][266]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.10.21-01.24.00:633][266]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.10.21-01.24.00:633][266]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.10.21-01.24.00:633][266]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.10.21-01.24.00:633][266]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.10.21-01.24.00:633][266]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.10.21-01.24.00:633][266]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.10.21-01.24.00:656][266]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.10.21-01.24.00:672][266]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.10.21-01.24.00:672][266]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.10.21-01.24.00:672][266]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.10.21-01.24.00:672][266]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.10.21-01.24.01:277][266]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.10.21-01.24.01:277][266]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.10.21-01.24.01:277][266]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.10.21-01.24.01:277][266]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.10.21-01.24.01:291][266]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.10.21-01.24.01:291][266]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.10.21-01.24.01:302][266]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.10.21-01.24.01:302][266]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.10.21-01.24.01:302][266]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.10.21-01.24.01:302][266]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.10.21-01.24.01:302][266]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.10.21-01.24.01:302][266]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.10.21-01.24.01:310][266]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.10.21-01.24.01:311][266]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.10.21-01.24.01:326][266]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.10.21-01.24.01:326][266]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.10.21-01.24.01:326][266]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.10.21-01.24.01:326][266]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.10.21-01.24.01:326][266]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.10.21-01.24.01:326][266]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.10.21-01.24.01:342][266]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.10.21-01.24.01:357][266]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.10.21-01.24.01:357][266]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.10.21-01.24.01:370][266]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.10.21-01.24.01:370][266]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.10.21-01.24.01:370][266]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.10.21-01.24.01:370][266]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.10.21-01.24.01:383][266]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.10.21-01.24.01:405][266]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.10.21-01.24.01:405][266]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.10.21-01.24.01:405][266]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.10.21-01.24.01:418][266]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.10.21-01.24.01:554][266]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.10.21-01.24.01:575][266]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.10.21-01.24.01:589][266]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.10.21-01.24.01:625][266]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.10.21-01.24.01:625][266]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.10.21-01.24.01:625][266]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.10.21-01.24.01:642][266]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.10.21-01.24.01:658][266]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.10.21-01.24.01:658][266]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.10.21-01.24.01:669][266]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.10.21-01.24.01:669][266]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.10.21-01.24.01:685][266]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.10.21-01.24.01:685][266]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.10.21-01.24.01:685][266]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.10.21-01.24.01:685][266]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.10.21-01.24.01:685][266]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.10.21-01.24.01:685][266]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.10.21-01.24.01:685][266]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.10.21-01.24.01:838][266]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.10.21-01.24.01:857][266]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.10.21-01.24.01:857][266]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.10.21-01.24.01:857][266]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.10.21-01.24.01:857][266]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.10.21-01.24.01:857][266]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.10.21-01.24.01:857][266]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.10.21-01.24.01:889][266]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.10.21-01.24.01:889][266]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.10.21-01.24.01:889][266]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.10.21-01.24.01:915][266]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.10.21-01.24.01:934][266]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.10.21-01.24.01:934][266]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.10.21-01.24.01:934][266]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.10.21-01.24.01:935][266]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.10.21-01.24.01:945][266]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.10.21-01.24.01:945][266]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.10.21-01.24.01:945][266]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.10.21-01.24.01:945][266]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.10.21-01.24.01:954][266]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.10.21-01.24.01:965][266]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.10.21-01.24.01:965][266]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.10.21-01.24.01:965][266]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.10.21-01.24.01:965][266]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.10.21-01.24.01:965][266]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.10.21-01.24.01:965][266]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.10.21-01.24.01:983][266]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.10.21-01.24.01:983][266]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.10.21-01.24.01:983][266]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.10.21-01.24.01:984][266]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.10.21-01.24.02:004][266]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.10.21-01.24.02:004][266]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.10.21-01.24.02:014][266]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.10.21-01.24.02:114][266]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.10.21-01.24.02:114][266]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.10.21-01.24.02:143][266]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.10.21-01.24.02:144][266]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.10.21-01.24.02:170][266]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.10.21-01.24.02:170][266]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.10.21-01.24.02:170][266]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.10.21-01.24.02:188][266]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.10.21-01.24.02:188][266]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.10.21-01.24.02:196][266]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.10.21-01.24.02:196][266]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.10.21-01.24.02:196][266]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.10.21-01.24.02:218][266]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.10.21-01.24.02:245][266]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.10.21-01.24.02:257][266]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.10.21-01.24.02:272][266]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.10.21-01.24.02:272][266]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.10.21-01.24.02:283][266]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.10.21-01.24.02:283][266]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.10.21-01.24.02:283][266]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.10.21-01.24.02:283][266]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.10.21-01.24.02:283][266]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.10.21-01.24.02:283][266]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.10.21-01.24.02:283][266]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.10.21-01.24.02:283][266]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.10.21-01.24.02:283][266]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.10.21-01.24.02:302][266]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.10.21-01.24.02:331][266]LogDerivedDataCache: Shutdown
+[2015.10.21-01.24.02:331][266]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.10.21-01.24.02:345][266]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.10.21-01.24.02:361][266]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.10.21-01.24.02:380][266]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.10.21-01.24.02:380][266]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.10.21-01.24.02:394][266]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.10.21-01.24.02:405][266]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.10.21-01.24.02:421][266]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.10.21-01.24.02:421][266]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.10.21-01.24.02:421][266]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.10.21-01.24.02:421][266]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.10.21-01.24.02:421][266]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.10.21-01.24.02:426][266]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.10.21-01.24.02:426][266]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.10.21-01.24.02:426][266]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.10.21-01.24.02:426][266]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.10.21-01.24.02:426][266]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.10.21-01.24.02:426][266]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.10.21-01.24.02:426][266]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.10.21-01.24.02:426][266]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.10.21-01.24.02:426][266]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.10.21-01.24.02:426][266]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.10.21-01.24.02:426][266]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.10.21-01.24.02:426][266]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.10.21-01.24.02:426][266]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.10.21-01.24.02:426][266]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.10.21-01.24.02:426][266]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.10.21-01.24.02:426][266]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.10.21-01.24.02:426][266]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.10.21-01.24.02:426][266]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.10.21-01.24.02:426][266]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.10.21-01.24.02:426][266]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.10.21-01.24.02:426][266]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.10.21-01.24.02:426][266]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.10.21-01.24.02:427][266]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.10.21-01.24.02:427][266]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.10.21-01.24.02:427][266]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.10.21-01.24.02:427][266]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.10.21-01.24.02:438][266]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.10.21-01.24.02:438][266]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.10.21-01.24.02:438][266]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.10.21-01.24.02:454][266]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.10.21-01.24.02:467][266]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.10.21-01.24.02:467][266]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.10.21-01.24.02:467][266]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.10.21-01.24.02:467][266]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.10.21-01.24.02:467][266]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.10.21-01.24.02:475][266]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.10.21-01.24.02:480][266]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.10.21-01.24.02:484][266]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.10.21-01.24.02:485][266]LogExit: Exiting.
+[2015.10.21-01.24.02:488][266]Log file closed, 10/20/15 21:24:02
