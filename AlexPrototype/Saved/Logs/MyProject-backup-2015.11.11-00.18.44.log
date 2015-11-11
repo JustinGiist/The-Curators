@@ -1,0 +1,1080 @@
+﻿[2015.11.11-04.59.49:842][  0]Log file open, 11/10/15 23:59:49
+[2015.11.11-04.59.49:842][  0]LogInit:Display: Running engine for game: MyProject
+[2015.11.11-04.59.49:842][  0]LogInit:Display: RandInit(-2001008879) SRandInit(-2001008879).
+[2015.11.11-04.59.49:842][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.11-04.59.49:842][  0]LogStats: Stats thread started
+[2015.11.11-04.59.49:842][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.11.11-04.59.49:842][  0]LogInit: API Version: 2579680
+[2015.11.11-04.59.49:842][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.11.11-04.59.49:842][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.11-04.59.49:842][  0]LogInit: Build Configuration: Development
+[2015.11.11-04.59.49:842][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.11.11-04.59.49:842][  0]LogInit: Command line: 
+[2015.11.11-04.59.49:842][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.11.11-04.59.49:843][  0]LogInit: Rocket: 1
+[2015.11.11-04.59.49:864][  0]LogInit: Using libcurl 7.41.0
+[2015.11.11-04.59.49:864][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.11-04.59.49:864][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.11-04.59.49:864][  0]LogInit:  - other features:
+[2015.11.11-04.59.49:864][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.11-04.59.49:864][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.11-04.59.49:864][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.11-04.59.49:864][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.11-04.59.49:864][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.11-04.59.49:864][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.11-04.59.49:864][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.11-04.59.49:864][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.11-04.59.49:864][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.11-04.59.49:864][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.11-04.59.49:876][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.11.11-04.59.49:891][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.11-04.59.49:899][  0]LogInit: Object subsystem initialized
+[2015.11.11-04.59.49:900][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.11.11-04.59.49:900][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.11.11-04.59.49:900][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.11.11-04.59.49:900][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.11.11-04.59.49:900][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.11.11-04.59.49:900][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.11.11-04.59.49:900][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.11-04.59.49:900][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.11-04.59.49:909][  0]LogInit: Computer: CHRISTOPHER-S70
+[2015.11.11-04.59.49:909][  0]LogInit: User: Christopher
+[2015.11.11-04.59.49:909][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.11-04.59.49:909][  0]LogInit: High frequency timer resolution =2.435780 MHz
+[2015.11.11-04.59.49:909][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2015.11.11-04.59.49:909][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.11-04.59.49:909][  0]LogMemory: Process Physical Memory: 50.16 MB used, 50.16 MB peak
+[2015.11.11-04.59.49:909][  0]LogMemory: Process Virtual Memory: 24.59 MB used, 24.59 MB peak
+[2015.11.11-04.59.49:909][  0]LogMemory: Physical Memory: 3583.48 MB used, 12200.09 MB total
+[2015.11.11-04.59.49:909][  0]LogMemory: Virtual Memory: 312.92 MB used, 134217728.00 MB total
+[2015.11.11-04.59.49:941][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.11.11-04.59.50:179][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.11.11-04.59.50:551][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.11.11-04.59.50:551][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 6100MB of shared system memory, 1 output[s]
+[2015.11.11-04.59.51:069][  0]LogD3D11RHI: Found D3D11 adapter 1: AMD Radeon R9 M265X (Feature Level 11_0)
+[2015.11.11-04.59.51:069][  0]LogD3D11RHI: Adapter has 2026MB of dedicated video memory, 0MB of dedicated system memory, and 6100MB of shared system memory, 0 output[s]
+[2015.11.11-04.59.51:070][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.11-04.59.51:070][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 6100MB of shared system memory, 0 output[s]
+[2015.11.11-04.59.51:070][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.11-04.59.51:074][  0]LogD3D11RHI: InitD3DDevice
+[2015.11.11-04.59.51:074][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.11-04.59.51:074][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.11-04.59.51:079][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.11-04.59.51:083][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.11-04.59.51:925][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.11.11-04.59.51:944][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.11-04.59.51:964][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.11-04.59.51:979][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.11-04.59.51:995][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.11-04.59.52:008][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.11-04.59.52:021][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.11-04.59.52:036][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.11-04.59.52:058][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.11-04.59.52:073][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.11-04.59.52:086][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.11-04.59.52:099][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.11-04.59.52:153][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.11-04.59.52:169][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.11-04.59.52:182][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.11-04.59.52:197][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.11-04.59.52:197][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.11-04.59.52:442][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.11-04.59.52:521][  0]LogDerivedDataCache: Loaded boot cache 0.08s 53MB C:/Users/Christopher/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.11.11-04.59.52:521][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Christopher/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.11.11-04.59.52:521][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.11-04.59.52:521][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.11-04.59.52:521][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.11-04.59.52:521][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.11-04.59.52:691][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.11-04.59.52:703][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Christopher/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.11-04.59.52:939][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.11-04.59.53:038][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.11.11-04.59.53:038][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.11.11-04.59.53:076][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.11-04.59.53:076][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.11-04.59.53:480][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.11-04.59.54:521][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.11-04.59.54:896][  0]SourceControl: Info Source control is disabled
+[2015.11.11-04.59.54:906][  0]SourceControl: Info Source control is disabled
+[2015.11.11-04.59.54:917][  0]SourceControl: Info Source control is disabled
+[2015.11.11-04.59.54:928][  0]SourceControl: Info Source control is disabled
+[2015.11.11-04.59.55:188][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.11.11-04.59.55:188][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.11.11-04.59.55:272][  0]LogEngine: Initializing Engine...
+[2015.11.11-04.59.55:274][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.11.11-04.59.55:275][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.11.11-04.59.55:464][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.11-04.59.55:467][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-04.59.55:475][  0]LogInit: FAudioDevice initialized.
+[2015.11.11-04.59.55:512][  0]LogDerivedDataCache: Saved boot cache 0.04s 53MB C:/Users/Christopher/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.11.11-04.59.55:520][  0]LogInit: Texture streaming: Disabled
+[2015.11.11-04.59.55:553][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.11-04.59.55:553][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.11.11-04.59.55:553][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId ee8c485444fe82b8e773c5ac08d91953|2c1976e1aa9b48b0b119ac4e9eb64ec6|e685999b-cf46-4ff8-9f2e-f2a1072524f0
+[2015.11.11-04.59.55:553][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.11-04.59.55:586][  0]LogInit: Transaction tracking system initialized
+[2015.11.11-04.59.55:759][  0]BlueprintLog: New page: Editor Load
+[2015.11.11-04.59.55:797][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
+[2015.11.11-04.59.55:798][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.11.11-04.59.56:670][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.11.11-04.59.56:670][  0]LogConsoleResponse:Display: 
+[2015.11.11-04.59.56:806][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.11-04.59.57:081][  0]SourceControl: Info Source control is disabled
+[2015.11.11-04.59.57:081][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.11-04.59.57:082][  0]LightingResults: New page: Lighting Build
+[2015.11.11-04.59.57:100][  0]MapCheck: New page: Map Check
+[2015.11.11-04.59.57:100][  0]LightingResults: New page: Lighting Build
+[2015.11.11-04.59.57:109][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000078462A49A0
+[2015.11.11-04.59.57:651][  0]LogLinker:Warning: Can't find file '/Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun'
+[2015.11.11-04.59.57:652][  0]LoadErrors: Info Failed to load /Game/Tech/AIGuard/GameHud.GameHud_C Referenced by gun8C1B0D41B94BE5FEA7D9F08DA0F2B523
+[2015.11.11-04.59.57:652][  0]LogLinker:Warning: Can't find file for asset '/Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun' while loading ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Tech/AIGuard/GameHud.uasset.
+[2015.11.11-04.59.57:652][  0]LoadErrors: Info Failed to load /Game/Tech/AIGuard/GameHud.GameHud_C Referenced by gun8C1B0D41B94BE5FEA7D9F08DA0F2B523
+[2015.11.11-04.59.57:652][  0]LoadErrors:Error: Error /Game/Tech/AIGuard/GameHud : Can't find file for asset. /Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun
+[2015.11.11-04.59.57:854][  0]LogLinker:Warning: Can't find file '/Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun'
+[2015.11.11-04.59.57:854][  0]LogLinker:Warning: Can't find file for asset '/Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun' while loading ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Tech/AIGuard/GameHud.uasset.
+[2015.11.11-04.59.57:854][  0]LoadErrors:Error: Error /Game/Tech/AIGuard/GameHud : Can't find file for asset. /Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun
+[2015.11.11-04.59.57:856][  0]LogLinker:Warning: Can't find file '/Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun'
+[2015.11.11-04.59.57:856][  0]LogLinker:Warning: Can't find file for asset '/Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun' while loading ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Tech/AIGuard/GameHud.uasset.
+[2015.11.11-04.59.57:856][  0]LoadErrors:Error: Error /Game/Tech/AIGuard/GameHud : Can't find file for asset. /Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun
+[2015.11.11-04.59.58:138][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.11-04.59.58:172][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0009.96] Compile of ThirdPersonCharacter successful, but with 1 Warning(s) [in 151 ms]
+[2015.11.11-04.59.58:173][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0009.96] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 0 ms]
+[2015.11.11-04.59.58:173][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0009.96] Compile of ThirdPersonCharacter successful, but with 3 Warning(s) [in 0 ms]
+[2015.11.11-04.59.58:423][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.11-04.59.58:461][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0010.25] Compile of ThirdPersonCharacter successful, but with 1 Warning(s) [in 130 ms]
+[2015.11.11-04.59.58:462][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0010.25] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 0 ms]
+[2015.11.11-04.59.58:471][  0]LogLinker:Warning: Can't find file '/Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun'
+[2015.11.11-04.59.58:471][  0]LogLinker:Warning: Can't find file for asset '/Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun' while loading ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Tech/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2015.11.11-04.59.58:471][  0]LoadErrors:Error: Error /Game/Tech/ThirdPersonBP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun
+[2015.11.11-04.59.58:472][  0]LogLinker:Warning: Can't find file '/Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun'
+[2015.11.11-04.59.58:473][  0]LogLinker:Warning: Can't find file for asset '/Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun' while loading ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Tech/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2015.11.11-04.59.58:473][  0]LoadErrors:Error: Error /Game/Tech/ThirdPersonBP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun
+[2015.11.11-04.59.59:927][  0]LogBlueprint:Warning: [compiler ErichCharBlueRyan] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.11-04.59.59:929][  0]LogBlueprint:Warning: [compiler ErichCharBlueRyan] Warning InputAction Event references unknown Action 'Walk' for  InputAction Walk 
+[2015.11.11-04.59.59:966][  0]LogBlueprint:Warning: [compiler ErichCharBlueRyan] Warning [0011.75] Compile of ErichCharBlueRyan successful, but with 2 Warning(s) [in 130 ms]
+[2015.11.11-04.59.59:967][  0]LogBlueprint:Warning: [compiler ErichCharBlueRyan] Warning [0011.75] Compile of ErichCharBlueRyan successful, but with 3 Warning(s) [in 0 ms]
+[2015.11.11-04.59.59:967][  0]LogBlueprint:Warning: [compiler ErichCharBlueRyan] Warning [0011.75] Compile of ErichCharBlueRyan successful, but with 4 Warning(s) [in 0 ms]
+[2015.11.11-05.00.00:209][  0]LogBlueprint:Warning: [compiler ErichCharBlueRyan] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.11-05.00.00:210][  0]LogBlueprint:Warning: [compiler ErichCharBlueRyan] Warning InputAction Event references unknown Action 'Walk' for  InputAction Walk 
+[2015.11.11-05.00.00:253][  0]LogBlueprint:Warning: [compiler ErichCharBlueRyan] Warning [0012.04] Compile of ErichCharBlueRyan successful, but with 2 Warning(s) [in 139 ms]
+[2015.11.11-05.00.00:255][  0]LogBlueprint:Warning: [compiler ErichCharBlueRyan] Warning [0012.04] Compile of ErichCharBlueRyan successful, but with 3 Warning(s) [in 1 ms]
+[2015.11.11-05.00.01:538][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.11.11-05.00.01:560][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.11-05.00.01:575][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.11-05.00.01:665][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 89.798ms to complete.
+[2015.11.11-05.00.01:665][  0]LogFileHelpers: Loading map 'Minimal_Default' took 4.584
+[2015.11.11-05.00.01:806][  0]LogCollectionManager: Loaded 0 collections in 0.002240 seconds
+[2015.11.11-05.00.01:813][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 1792 classes and 301 folders.
+[2015.11.11-05.00.01:867][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.11.11-05.00.01:893][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.11.11-05.00.01:911][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2015.11.11-05.00.01:970][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.11-05.00.01:971][  0]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.00.01:975][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.11-05.00.01:996][  0]LogLoad: Full Startup: 13.78 seconds (BP compile: 2.06 seconds)
+[2015.11.11-05.00.02:067][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.11-05.00.02:238][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.11.11-05.00.02:240][  0]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.00.02:554][  0]LogRenderer: Reallocating scene render targets to support 1008x456 (Frame:2).
+[2015.11.11-05.00.03:169][  8]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.00.04:109][ 26]LogAssetRegistry: Asset discovery search completed in 8.3226 seconds
+[2015.11.11-05.00.07:070][127]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.00.10:677][254]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Metallic'
+[2015.11.11-05.00.10:677][254]LogLinker:Warning: Can't find file for asset '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Metallic' while loading ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup2.uasset.
+[2015.11.11-05.00.10:677][254]LoadErrors:Error: Error /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup2 : Can't find file for asset. /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Metallic
+[2015.11.11-05.00.10:677][254]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Normal_DirectX'
+[2015.11.11-05.00.10:677][254]LogLinker:Warning: Can't find file for asset '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Normal_DirectX' while loading ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup2.uasset.
+[2015.11.11-05.00.10:677][254]LoadErrors:Error: Error /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup2 : Can't find file for asset. /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Normal_DirectX
+[2015.11.11-05.00.10:678][254]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Opacity'
+[2015.11.11-05.00.10:678][254]LogLinker:Warning: Can't find file for asset '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Opacity' while loading ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup2.uasset.
+[2015.11.11-05.00.10:678][254]LoadErrors:Error: Error /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup2 : Can't find file for asset. /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Opacity
+[2015.11.11-05.00.10:678][254]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Roughness'
+[2015.11.11-05.00.10:678][254]LogLinker:Warning: Can't find file for asset '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Roughness' while loading ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup2.uasset.
+[2015.11.11-05.00.10:678][254]LoadErrors:Error: Error /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup2 : Can't find file for asset. /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Roughness
+[2015.11.11-05.00.10:679][254]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Metallic'
+[2015.11.11-05.00.10:679][254]LogLinker:Warning: Can't find file for asset '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Metallic' while loading ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup2.uasset.
+[2015.11.11-05.00.10:679][254]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Normal_DirectX'
+[2015.11.11-05.00.10:679][254]LogLinker:Warning: Can't find file for asset '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Normal_DirectX' while loading ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup2.uasset.
+[2015.11.11-05.00.10:679][254]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Opacity'
+[2015.11.11-05.00.10:680][254]LogLinker:Warning: Can't find file for asset '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Opacity' while loading ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup2.uasset.
+[2015.11.11-05.00.10:680][254]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Roughness'
+[2015.11.11-05.00.10:680][254]LogLinker:Warning: Can't find file for asset '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Roughness' while loading ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup2.uasset.
+[2015.11.11-05.00.10:681][254]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Metallic'
+[2015.11.11-05.00.10:681][254]LoadErrors: Info Failed to load /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Metallic.healthPickup_Metallic Referenced by MaterialExpressionTextureSample_76
+[2015.11.11-05.00.10:681][254]LogLinker:Warning: Can't find file for asset '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Metallic' while loading NULL.
+[2015.11.11-05.00.10:681][254]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Normal_DirectX'
+[2015.11.11-05.00.10:682][254]LoadErrors: Info Failed to load /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Normal_DirectX.healthPickup_Normal_DirectX Referenced by MaterialExpressionTextureSample_77
+[2015.11.11-05.00.10:682][254]LogLinker:Warning: Can't find file for asset '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Normal_DirectX' while loading NULL.
+[2015.11.11-05.00.10:682][254]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Opacity'
+[2015.11.11-05.00.10:682][254]LoadErrors: Info Failed to load /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Opacity.healthPickup_Opacity Referenced by MaterialExpressionTextureSample_78
+[2015.11.11-05.00.10:682][254]LogLinker:Warning: Can't find file for asset '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Opacity' while loading NULL.
+[2015.11.11-05.00.10:682][254]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Roughness'
+[2015.11.11-05.00.10:682][254]LoadErrors: Info Failed to load /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Roughness.healthPickup_Roughness Referenced by MaterialExpressionTextureSample_79
+[2015.11.11-05.00.10:683][254]LogLinker:Warning: Can't find file for asset '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Roughness' while loading NULL.
+[2015.11.11-05.00.10:684][254]LogMaterial: Missing cached shader map for material healthPickup2, compiling. 
+[2015.11.11-05.00.10:685][254]LogMaterial:Warning: Failed to compile Material /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup2.healthPickup2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.00.10:685][254]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.00.10:687][254]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.00.10:714][254]LogMaterial: Missing cached shader map for material healthPickup2, compiling. 
+[2015.11.11-05.00.10:715][254]LogMaterial:Warning: Failed to compile Material /Engine/Transient.healthPickup2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.00.10:715][254]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.00.10:784][254]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.00.10:880][254]LogMaterial: Missing cached shader map for material healthPickup2, compiling. 
+[2015.11.11-05.00.10:881][254]LogMaterial:Warning: Failed to compile Material /Engine/Transient.healthPickup2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.00.10:881][254]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.00.10:881][254]LogMaterial: 0.000353 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.00.10:906][254]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2015.11.11-05.00.10:913][254]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_76, compiling. 
+[2015.11.11-05.00.10:915][254]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_79, compiling. 
+[2015.11.11-05.00.10:916][254]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_77, compiling. 
+[2015.11.11-05.00.10:917][254]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_78, compiling. 
+[2015.11.11-05.00.10:918][254]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2015.11.11-05.00.10:923][254]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.00.19:372][474]LogMaterialEditor: Saving and Compiling material healthPickup2
+[2015.11.11-05.00.19:389][474]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.00.19:503][474]LogSavePackage: Save=17.182587ms
+[2015.11.11-05.00.19:504][474]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/healthPickup2838228AA47A9AC281D874ABD471AA1AD.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup2.uasset'
+[2015.11.11-05.00.30:516][784]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.00.31:801][844]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.00.31:923][844]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007836A0A340
+[2015.11.11-05.00.32:293][844]LogSavePackage: Save=111.502274ms
+[2015.11.11-05.00.32:293][844]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Minimal_DefaultEE40B7EC4F22E59B573C5482583081F8.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.11.11-05.00.33:135][875]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.00.36:797][ 20]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.00.44:121][321]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.00.48:110][479]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.00.48:983][522]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.00.49:168][522]LogSavePackage: Save=111.470657ms
+[2015.11.11-05.00.49:168][522]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Minimal_Default5D516CD84B2955461C27BDA98F75E0EC.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.11.11-05.01.06:216][165]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Base_Color'
+[2015.11.11-05.01.06:216][165]LogLinker:Warning: Can't find file for asset '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Base_Color' while loading ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup2.uasset.
+[2015.11.11-05.01.06:216][165]LoadErrors:Error: Error /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup2 : Can't find file for asset. /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Base_Color
+[2015.11.11-05.01.06:217][165]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Emissive'
+[2015.11.11-05.01.06:217][165]LogLinker:Warning: Can't find file for asset '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Emissive' while loading ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup2.uasset.
+[2015.11.11-05.01.06:217][165]LoadErrors:Error: Error /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup2 : Can't find file for asset. /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Emissive
+[2015.11.11-05.01.06:217][165]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Metallic'
+[2015.11.11-05.01.06:217][165]LogLinker:Warning: Can't find file for asset '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Metallic' while loading ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup2.uasset.
+[2015.11.11-05.01.06:217][165]LoadErrors:Error: Error /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup2 : Can't find file for asset. /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Metallic
+[2015.11.11-05.01.06:217][165]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Normal_DirectX'
+[2015.11.11-05.01.06:218][165]LogLinker:Warning: Can't find file for asset '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Normal_DirectX' while loading ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup2.uasset.
+[2015.11.11-05.01.06:218][165]LoadErrors:Error: Error /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup2 : Can't find file for asset. /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Normal_DirectX
+[2015.11.11-05.01.06:218][165]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Opacity'
+[2015.11.11-05.01.06:219][165]LogLinker:Warning: Can't find file for asset '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Opacity' while loading ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup2.uasset.
+[2015.11.11-05.01.06:219][165]LoadErrors:Error: Error /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup2 : Can't find file for asset. /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Opacity
+[2015.11.11-05.01.06:219][165]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Roughness'
+[2015.11.11-05.01.06:219][165]LogLinker:Warning: Can't find file for asset '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Roughness' while loading ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup2.uasset.
+[2015.11.11-05.01.06:219][165]LoadErrors:Error: Error /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup2 : Can't find file for asset. /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Roughness
+[2015.11.11-05.01.06:219][165]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Base_Color'
+[2015.11.11-05.01.06:220][165]LogLinker:Warning: Can't find file for asset '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Base_Color' while loading ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup2.uasset.
+[2015.11.11-05.01.06:220][165]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Emissive'
+[2015.11.11-05.01.06:220][165]LogLinker:Warning: Can't find file for asset '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Emissive' while loading ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup2.uasset.
+[2015.11.11-05.01.06:220][165]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Metallic'
+[2015.11.11-05.01.06:221][165]LogLinker:Warning: Can't find file for asset '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Metallic' while loading ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup2.uasset.
+[2015.11.11-05.01.06:221][165]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Normal_DirectX'
+[2015.11.11-05.01.06:221][165]LogLinker:Warning: Can't find file for asset '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Normal_DirectX' while loading ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup2.uasset.
+[2015.11.11-05.01.06:221][165]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Opacity'
+[2015.11.11-05.01.06:221][165]LogLinker:Warning: Can't find file for asset '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Opacity' while loading ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup2.uasset.
+[2015.11.11-05.01.06:222][165]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Roughness'
+[2015.11.11-05.01.06:222][165]LogLinker:Warning: Can't find file for asset '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Roughness' while loading ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup2.uasset.
+[2015.11.11-05.01.06:223][165]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Base_Color'
+[2015.11.11-05.01.06:223][165]LoadErrors: Info Failed to load /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Base_Color.energyPickup_Base_Color Referenced by MaterialExpressionTextureSample_66
+[2015.11.11-05.01.06:223][165]LogLinker:Warning: Can't find file for asset '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Base_Color' while loading NULL.
+[2015.11.11-05.01.06:224][165]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Emissive'
+[2015.11.11-05.01.06:224][165]LoadErrors: Info Failed to load /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Emissive.energyPickup_Emissive Referenced by MaterialExpressionTextureSample_67
+[2015.11.11-05.01.06:224][165]LogLinker:Warning: Can't find file for asset '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Emissive' while loading NULL.
+[2015.11.11-05.01.06:224][165]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Metallic'
+[2015.11.11-05.01.06:225][165]LoadErrors: Info Failed to load /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Metallic.energyPickup_Metallic Referenced by MaterialExpressionTextureSample_69
+[2015.11.11-05.01.06:225][165]LogLinker:Warning: Can't find file for asset '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Metallic' while loading NULL.
+[2015.11.11-05.01.06:225][165]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Normal_DirectX'
+[2015.11.11-05.01.06:225][165]LoadErrors: Info Failed to load /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Normal_DirectX.energyPickup_Normal_DirectX Referenced by MaterialExpressionTextureSample_70
+[2015.11.11-05.01.06:226][165]LogLinker:Warning: Can't find file for asset '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Normal_DirectX' while loading NULL.
+[2015.11.11-05.01.06:226][165]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Opacity'
+[2015.11.11-05.01.06:226][165]LoadErrors: Info Failed to load /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Opacity.energyPickup_Opacity Referenced by MaterialExpressionTextureSample_71
+[2015.11.11-05.01.06:226][165]LogLinker:Warning: Can't find file for asset '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Opacity' while loading NULL.
+[2015.11.11-05.01.06:227][165]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Roughness'
+[2015.11.11-05.01.06:227][165]LoadErrors: Info Failed to load /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Roughness.energyPickup_Roughness Referenced by MaterialExpressionTextureSample_72
+[2015.11.11-05.01.06:227][165]LogLinker:Warning: Can't find file for asset '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Roughness' while loading NULL.
+[2015.11.11-05.01.06:229][165]LogMaterial: Missing cached shader map for material energyPickup2, compiling. 
+[2015.11.11-05.01.06:230][165]LogMaterial:Warning: Failed to compile Material /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup2.energyPickup2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.01.06:230][165]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.01.06:234][165]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.01.06:244][165]LogMaterial: Missing cached shader map for material energyPickup2, compiling. 
+[2015.11.11-05.01.06:246][165]LogMaterial:Warning: Failed to compile Material /Engine/Transient.energyPickup2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.01.06:246][165]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.01.06:316][165]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.01.06:417][165]LogMaterial: Missing cached shader map for material energyPickup2, compiling. 
+[2015.11.11-05.01.06:418][165]LogMaterial:Warning: Failed to compile Material /Engine/Transient.energyPickup2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.01.06:418][165]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.01.06:418][165]LogMaterial: 0.000079 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.01.06:448][165]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_66, compiling. 
+[2015.11.11-05.01.06:449][165]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_69, compiling. 
+[2015.11.11-05.01.06:450][165]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_72, compiling. 
+[2015.11.11-05.01.06:453][165]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_70, compiling. 
+[2015.11.11-05.01.06:455][165]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_71, compiling. 
+[2015.11.11-05.01.06:456][165]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_67, compiling. 
+[2015.11.11-05.01.06:461][165]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.01.52:994][766]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.01.53:070][766]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.01.53:248][766]LogRenderer: Reallocating scene render targets to support 1192x744 (Frame:4002).
+[2015.11.11-05.02.23:255][594]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.02.23:320][594]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.02.39:409][  2]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.02.39:499][  2]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.02.57:754][484]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.02.57:814][484]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.03.05:678][757]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.03.05:718][757]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.04.36:357][707]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.04.36:409][707]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.05.10:442][639]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.05.10:455][639]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.11.11-05.05.10:456][639]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.05.10:456][639]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.05.10:527][639]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.05.10:616][639]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.11.11-05.05.10:617][639]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.05.10:617][639]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.05.10:617][639]LogMaterial: 0.000103 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.05.10:645][639]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_66, compiling. 
+[2015.11.11-05.05.10:647][639]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_69, compiling. 
+[2015.11.11-05.05.10:649][639]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_72, compiling. 
+[2015.11.11-05.05.10:650][639]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_70, compiling. 
+[2015.11.11-05.05.10:651][639]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_71, compiling. 
+[2015.11.11-05.05.10:652][639]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_67, compiling. 
+[2015.11.11-05.05.10:655][639]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.06.03:807][ 27]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.06.03:834][ 27]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Christopher\Desktop\documents-export-2015-11-10\energyPickup\energyPickup_Metallic.png)
+[2015.11.11-05.06.03:840][ 27]LogTexture:Display: Building textures: energyPickup_Metallic (AutoDXT)
+[2015.11.11-05.06.03:952][ 27]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Christopher\Desktop\documents-export-2015-11-10\energyPickup\energyPickup_Normal_DirectX.png)
+[2015.11.11-05.06.04:055][ 27]LogTexture:Display: Building textures: energyPickup_Normal_DirectX (AutoDXT)
+[2015.11.11-05.06.04:270][ 27]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Christopher\Desktop\documents-export-2015-11-10\energyPickup\energyPickup_Opacity.png)
+[2015.11.11-05.06.04:275][ 27]LogTexture:Display: Building textures: energyPickup_Opacity (AutoDXT)
+[2015.11.11-05.06.04:457][ 27]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Christopher\Desktop\documents-export-2015-11-10\energyPickup\energyPickup_Roughness.png)
+[2015.11.11-05.06.04:464][ 27]LogTexture:Display: Building textures: energyPickup_Roughness (AutoDXT)
+[2015.11.11-05.06.04:655][ 27]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Christopher\Desktop\documents-export-2015-11-10\energyPickup\energyPickup_Base_Color.png)
+[2015.11.11-05.06.04:710][ 27]LogTexture:Display: Building textures: energyPickup_Base_Color (AutoDXT)
+[2015.11.11-05.06.04:876][ 27]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Christopher\Desktop\documents-export-2015-11-10\energyPickup\energyPickup_Emissive.png)
+[2015.11.11-05.06.04:936][ 27]LogTexture:Display: Building textures: energyPickup_Emissive (AutoDXT)
+[2015.11.11-05.06.05:115][ 27]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Christopher\Desktop\documents-export-2015-11-10\energyPickup\energyPickup_Height.png)
+[2015.11.11-05.06.05:185][ 27]LogTexture:Display: Building textures: energyPickup_Height (AutoDXT)
+[2015.11.11-05.06.11:549][176]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.06.11:635][176]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.06.15:778][280]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.06.15:789][280]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.11.11-05.06.15:790][280]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.06.15:790][280]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.06.15:859][280]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.06.15:948][280]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.11.11-05.06.15:949][280]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.06.15:949][280]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.06.15:949][280]LogMaterial: 0.000140 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.06.15:978][280]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_66, compiling. 
+[2015.11.11-05.06.15:979][280]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_69, compiling. 
+[2015.11.11-05.06.15:980][280]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_72, compiling. 
+[2015.11.11-05.06.15:981][280]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_70, compiling. 
+[2015.11.11-05.06.15:982][280]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_71, compiling. 
+[2015.11.11-05.06.15:983][280]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_67, compiling. 
+[2015.11.11-05.06.15:985][280]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.06.26:276][546]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.06.52:663][183]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.07.13:007][766]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.07.34:231][392]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.07.34:955][425]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.11.11-05.07.34:955][425]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.07.34:955][425]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.07.34:955][425]LogMaterial: 0.000083 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.07.34:956][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.11-05.07.34:988][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_66, compiling. 
+[2015.11.11-05.07.34:990][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_69, compiling. 
+[2015.11.11-05.07.34:992][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_72, compiling. 
+[2015.11.11-05.07.34:995][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_70, compiling. 
+[2015.11.11-05.07.34:997][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_71, compiling. 
+[2015.11.11-05.07.34:999][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_67, compiling. 
+[2015.11.11-05.07.35:001][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.11-05.07.35:024][425]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.11.11-05.07.35:025][425]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.07.35:025][425]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.07.35:025][425]LogMaterial: 0.000066 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.07.35:054][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.11.11-05.07.35:081][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_66, compiling. 
+[2015.11.11-05.07.35:082][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_69, compiling. 
+[2015.11.11-05.07.35:083][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_72, compiling. 
+[2015.11.11-05.07.35:084][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_70, compiling. 
+[2015.11.11-05.07.35:085][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_71, compiling. 
+[2015.11.11-05.07.35:086][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_67, compiling. 
+[2015.11.11-05.07.35:086][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.11-05.07.35:089][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.11.11-05.07.35:107][425]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.11.11-05.07.35:108][425]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.07.35:108][425]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.07.35:108][425]LogMaterial: 0.000137 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.07.35:109][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.11.11-05.07.35:137][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_66, compiling. 
+[2015.11.11-05.07.35:138][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_69, compiling. 
+[2015.11.11-05.07.35:140][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_72, compiling. 
+[2015.11.11-05.07.35:141][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_70, compiling. 
+[2015.11.11-05.07.35:142][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_71, compiling. 
+[2015.11.11-05.07.35:143][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_67, compiling. 
+[2015.11.11-05.07.35:145][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.11-05.07.35:150][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.11.11-05.07.35:153][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.11.11-05.07.35:168][425]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.11.11-05.07.35:168][425]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.07.35:168][425]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.07.35:168][425]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.07.35:169][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.11.11-05.07.35:196][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_66, compiling. 
+[2015.11.11-05.07.35:197][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_69, compiling. 
+[2015.11.11-05.07.35:199][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_72, compiling. 
+[2015.11.11-05.07.35:201][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_70, compiling. 
+[2015.11.11-05.07.35:203][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_71, compiling. 
+[2015.11.11-05.07.35:204][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_67, compiling. 
+[2015.11.11-05.07.35:207][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.11-05.07.35:214][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.11.11-05.07.35:218][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.11.11-05.07.35:222][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.11.11-05.07.35:237][425]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.11.11-05.07.35:237][425]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.07.35:237][425]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.07.35:237][425]LogMaterial: 0.000043 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.07.35:238][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.11.11-05.07.35:267][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_66, compiling. 
+[2015.11.11-05.07.35:269][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_69, compiling. 
+[2015.11.11-05.07.35:270][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_72, compiling. 
+[2015.11.11-05.07.35:271][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_70, compiling. 
+[2015.11.11-05.07.35:272][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_71, compiling. 
+[2015.11.11-05.07.35:273][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_67, compiling. 
+[2015.11.11-05.07.35:274][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.11-05.07.35:279][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.11.11-05.07.35:282][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.11.11-05.07.35:319][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.11.11-05.07.35:322][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.11.11-05.07.35:336][425]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.11.11-05.07.35:336][425]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.07.35:336][425]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.07.35:336][425]LogMaterial: 0.000075 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.07.35:337][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.11.11-05.07.35:363][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_66, compiling. 
+[2015.11.11-05.07.35:364][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_69, compiling. 
+[2015.11.11-05.07.35:365][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_72, compiling. 
+[2015.11.11-05.07.35:377][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_70, compiling. 
+[2015.11.11-05.07.35:379][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_71, compiling. 
+[2015.11.11-05.07.35:380][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_67, compiling. 
+[2015.11.11-05.07.35:381][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.11-05.07.35:385][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.11.11-05.07.35:389][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.11.11-05.07.35:396][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.11.11-05.07.35:400][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.11.11-05.07.35:405][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.11.11-05.07.35:427][425]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.11.11-05.07.35:427][425]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.07.35:427][425]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.07.35:428][425]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.07.35:428][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2015.11.11-05.07.35:453][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_66, compiling. 
+[2015.11.11-05.07.35:454][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_69, compiling. 
+[2015.11.11-05.07.35:455][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_72, compiling. 
+[2015.11.11-05.07.35:456][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_70, compiling. 
+[2015.11.11-05.07.35:457][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_71, compiling. 
+[2015.11.11-05.07.35:458][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_67, compiling. 
+[2015.11.11-05.07.35:459][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.11-05.07.35:463][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.11.11-05.07.35:466][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.11.11-05.07.35:469][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.11.11-05.07.35:474][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.11.11-05.07.35:476][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.11.11-05.07.35:480][425]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2015.11.11-05.07.48:445][741]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.07.56:046][930]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.11.11-05.07.56:047][930]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.07.56:047][930]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.07.56:047][930]LogMaterial: 0.000145 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.07.58:428][995]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.07.59:959][ 41]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.08.02:143][103]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.08.03:530][149]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.11.11-05.08.03:531][149]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.08.03:531][149]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.08.03:532][149]LogMaterial: 0.000160 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.08.03:560][149]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.11-05.08.19:222][522]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.11.11-05.08.19:222][522]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.08.19:222][522]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.08.19:223][522]LogMaterial: 0.000129 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.08.22:544][613]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.08.24:106][671]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.11.11-05.08.24:107][671]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.08.24:107][671]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.08.24:107][671]LogMaterial: 0.000083 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.08.24:134][671]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.11.11-05.08.32:027][859]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.11.11-05.08.32:028][859]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.08.32:028][859]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.08.32:028][859]LogMaterial: 0.000163 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.08.44:931][189]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.11.11-05.08.44:932][189]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.08.44:932][189]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.08.44:932][189]LogMaterial: 0.000193 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.08.49:563][325]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.08.50:758][364]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.11.11-05.08.50:759][364]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.08.50:759][364]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.08.50:760][364]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.08.50:789][364]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.11.11-05.09.22:164][ 99]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.11.11-05.09.22:165][ 99]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.09.22:165][ 99]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.09.22:166][ 99]LogMaterial: 0.000291 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.09.28:659][274]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.09.29:847][314]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.11.11-05.09.29:848][314]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.09.29:848][314]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.09.29:848][314]LogMaterial: 0.000292 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.09.29:874][314]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.11.11-05.09.51:264][816]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.11.11-05.09.51:264][816]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.09.51:264][816]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.09.51:265][816]LogMaterial: 0.000222 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.09.56:427][968]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.09.59:039][ 66]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.11.11-05.09.59:040][ 66]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.09.59:040][ 66]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.09.59:040][ 66]LogMaterial: 0.000303 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.09.59:069][ 66]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.11.11-05.11.47:846][453]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.11.11-05.11.47:872][453]LogMaterial: 0.000120 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.11.51:632][551]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.11.52:477][586]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 35 instructions
+[2015.11.11-05.11.52:477][586]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 71 instructions
+[2015.11.11-05.11.52:477][586]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.11.11-05.11.52:477][586]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.11.11-05.11.52:935][607]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.11.11-05.11.52:944][607]LogMaterial: 0.000121 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.11.52:970][607]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2015.11.11-05.11.57:374][710]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2015.11.11-05.11.57:374][710]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 75 instructions
+[2015.11.11-05.11.57:374][710]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.11.11-05.11.57:374][710]MaterialEditorStats: Info Texture samplers: 10/16
+[2015.11.11-05.12.10:704][117]LogMaterialEditor: Saving and Compiling material energyPickup2
+[2015.11.11-05.12.11:092][117]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.11.11-05.12.11:119][117]LogMaterial: 0.000128 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.12.11:120][117]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.12.11:138][117]LogMaterial: Missing cached shader map for material energyPickup2, compiling. 
+[2015.11.11-05.12.11:168][117]LogMaterial: Missing cached shader map for material energyPickup2, compiling. 
+[2015.11.11-05.12.11:180][117]LogMaterial: 0.000909 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.12.11:194][117]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.12.15:409][117]LogSavePackage: Save=12.636199ms
+[2015.11.11-05.12.15:409][117]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/energyPickup20883BED34E048C1A1863FE80FE78E882.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup2.uasset'
+[2015.11.11-05.12.15:417][117]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.11.11-05.12.15:417][117]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 96 instructions
+[2015.11.11-05.12.15:417][117]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.11.11-05.12.15:417][117]MaterialEditorStats: Info Texture samplers: 10/16
+[2015.11.11-05.12.28:261][561]LogMaterialEditor: Saving and Compiling material energyPickup2
+[2015.11.11-05.12.28:267][561]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.12.28:317][561]LogSavePackage: Save=5.870399ms
+[2015.11.11-05.12.28:317][561]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/energyPickup27F27FDBB4F4C7DBA92EB5A8ED82ED32E.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup2.uasset'
+[2015.11.11-05.12.31:928][676]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.12.31:973][676]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.12.40:938][915]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.12.41:013][915]LogSavePackage: Save=14.840831ms
+[2015.11.11-05.12.41:013][915]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/energyPickup93F0104B4855EF196785BD8F1F41C509.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup.uasset'
+[2015.11.11-05.12.47:115][139]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.12.47:946][188]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.12.47:989][188]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000784E80CB80
+[2015.11.11-05.12.47:989][188]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007850B50720
+[2015.11.11-05.12.47:990][188]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007851307060
+[2015.11.11-05.12.47:990][188]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007850B52020
+[2015.11.11-05.12.47:991][188]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007850ADCFE0
+[2015.11.11-05.12.47:991][188]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007850ADED40
+[2015.11.11-05.12.47:991][188]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007850B50E00
+[2015.11.11-05.12.47:992][188]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000078458A6AC0
+[2015.11.11-05.12.47:992][188]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007850B7A5C0
+[2015.11.11-05.12.47:992][188]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000784F9BB740
+[2015.11.11-05.12.47:992][188]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007869C79120
+[2015.11.11-05.12.48:163][188]LogSavePackage: Save=131.591934ms
+[2015.11.11-05.12.48:164][188]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Minimal_Default42BC180D413B57B639980CB9D097758F.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.11.11-05.12.49:226][227]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.12.50:301][288]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.12.50:418][288]LogSavePackage: Save=87.158119ms
+[2015.11.11-05.12.50:418][288]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/energyPickup_Normal_DirectXAEA7C99B421B40E520CF0C8A10E4D77F.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Normal_DirectX.uasset'
+[2015.11.11-05.12.50:450][288]LogSavePackage: Save=15.935758ms
+[2015.11.11-05.12.50:450][288]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/energyPickup_Metallic2E64E79848F07CE9D2C10CBBC2DB7000.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Metallic.uasset'
+[2015.11.11-05.12.50:515][288]LogSavePackage: Save=45.853485ms
+[2015.11.11-05.12.50:515][288]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/energyPickup_Emissive95DA4CB640F14A146DDC648ADF4F28C0.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Emissive.uasset'
+[2015.11.11-05.12.50:576][288]LogSavePackage: Save=40.907635ms
+[2015.11.11-05.12.50:576][288]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/energyPickup_Base_ColorF108C0754A6F885DC114AFBE6A8FC989.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Base_Color.uasset'
+[2015.11.11-05.12.50:620][288]LogSavePackage: Save=14.335038ms
+[2015.11.11-05.12.50:620][288]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/energyPickup_OpacityB849E4744AF5D5EE3C0C10B597903DBC.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Opacity.uasset'
+[2015.11.11-05.12.50:656][288]LogSavePackage: Save=15.028040ms
+[2015.11.11-05.12.50:656][288]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/energyPickup_Roughness81FE7D4C44C16D4041A307BFBA243B7D.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Roughness.uasset'
+[2015.11.11-05.12.50:763][288]LogSavePackage: Save=87.711945ms
+[2015.11.11-05.12.50:763][288]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/energyPickup_Height9010AC50488554B816BF05902429099B.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup_Height.uasset'
+[2015.11.11-05.13.19:057][318]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.13.19:069][318]LogMaterial: Missing cached shader map for material healthPickup2, compiling. 
+[2015.11.11-05.13.19:069][318]LogMaterial:Warning: Failed to compile Material /Engine/Transient.healthPickup2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.13.19:069][318]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.13.19:130][318]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.13.19:202][318]LogMaterial: Missing cached shader map for material healthPickup2, compiling. 
+[2015.11.11-05.13.19:202][318]LogMaterial:Warning: Failed to compile Material /Engine/Transient.healthPickup2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.13.19:202][318]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.13.19:202][318]LogMaterial: 0.000117 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.13.19:230][318]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2015.11.11-05.13.19:234][318]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_76, compiling. 
+[2015.11.11-05.13.19:234][318]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_79, compiling. 
+[2015.11.11-05.13.19:235][318]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_77, compiling. 
+[2015.11.11-05.13.19:236][318]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_78, compiling. 
+[2015.11.11-05.13.19:236][318]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2015.11.11-05.13.19:239][318]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.13.53:208][245]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.13.53:230][245]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Christopher\Desktop\documents-export-2015-11-10\healthPickup\healthPickup_Height.png)
+[2015.11.11-05.13.53:290][245]LogTexture:Display: Building textures: healthPickup_Height (AutoDXT)
+[2015.11.11-05.13.53:453][245]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Christopher\Desktop\documents-export-2015-11-10\healthPickup\healthPickup_Metallic.png)
+[2015.11.11-05.13.53:458][245]LogTexture:Display: Building textures: healthPickup_Metallic (AutoDXT)
+[2015.11.11-05.13.53:551][245]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Christopher\Desktop\documents-export-2015-11-10\healthPickup\healthPickup_Normal_DirectX.png)
+[2015.11.11-05.13.53:636][245]LogTexture:Display: Building textures: healthPickup_Normal_DirectX (AutoDXT)
+[2015.11.11-05.13.53:812][245]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Christopher\Desktop\documents-export-2015-11-10\healthPickup\healthPickup_Opacity.png)
+[2015.11.11-05.13.53:817][245]LogTexture:Display: Building textures: healthPickup_Opacity (AutoDXT)
+[2015.11.11-05.13.53:974][245]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Christopher\Desktop\documents-export-2015-11-10\healthPickup\healthPickup_Roughness.png)
+[2015.11.11-05.13.53:978][245]LogTexture:Display: Building textures: healthPickup_Roughness (AutoDXT)
+[2015.11.11-05.13.54:145][245]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\Christopher\Desktop\documents-export-2015-11-10\healthPickup\healthPickup.fbx)
+[2015.11.11-05.13.54:153][245]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.11.11-05.13.54:153][245]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.11.11-05.13.54:153][245]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.11.11-05.13.54:153][245]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.11.11-05.13.54:153][245]LogFbx: ItemName: Material, ItemCount : 1
+[2015.11.11-05.13.54:153][245]LogFbx: ItemName: Model, ItemCount : 1
+[2015.11.11-05.13.54:163][245]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.13.55:869][245]LogFbx: Loading FBX Scene from C:\Users\Christopher\Desktop\documents-export-2015-11-10\healthPickup\healthPickup.fbx
+[2015.11.11-05.13.55:875][245]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.11-05.13.55:878][245]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup'
+[2015.11.11-05.13.55:878][245]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup'
+[2015.11.11-05.13.55:878][245]LogLinker:Warning: Can't find file '/Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup'
+[2015.11.11-05.13.55:878][245]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup.healthPickup'
+[2015.11.11-05.13.55:889][245]LogMaterial: Missing cached shader map for material healthPickup3, compiling. 
+[2015.11.11-05.13.55:908][245]LogFbx:Warning: Triangulating static mesh pCube1
+[2015.11.11-05.13.55:915][245]LogStaticMesh: Building static mesh healthPickup...
+[2015.11.11-05.13.55:923][245]LogStaticMesh: Built static mesh [0.008554.2s] /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup.healthPickup
+[2015.11.11-05.13.55:931][245]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2015.11.11-05.13.55:934][245]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.13.55:940][245]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Christopher\Desktop\documents-export-2015-11-10\healthPickup\healthPickup_Base_Color.png)
+[2015.11.11-05.13.56:003][245]LogTexture:Display: Building textures: healthPickup_Base_Color (AutoDXT)
+[2015.11.11-05.13.56:194][245]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Christopher\Desktop\documents-export-2015-11-10\healthPickup\healthPickup_Emissive.png)
+[2015.11.11-05.13.56:248][245]LogTexture:Display: Building textures: healthPickup_Emissive (AutoDXT)
+[2015.11.11-05.14.17:665][ 23]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007869CA9940
+[2015.11.11-05.14.17:695][ 23]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.14.19:273][ 23]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.14.23:556][115]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.14.24:859][191]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.14.25:029][191]LogSavePackage: Save=86.305000ms
+[2015.11.11-05.14.25:029][191]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Minimal_Default3BD993D9440C567879DB8B98F46CDCDE.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.11.11-05.14.26:043][229]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.14.27:555][317]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.14.27:702][317]LogSavePackage: Save=85.877625ms
+[2015.11.11-05.14.27:702][317]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/healthPickup_Height6D91C0C443ACFF5917D24087ACE9DB75.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Height.uasset'
+[2015.11.11-05.14.27:762][317]LogSavePackage: Save=16.070417ms
+[2015.11.11-05.14.27:762][317]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/healthPickup_Metallic5004708141F9F9C24F61B8B2506C388F.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Metallic.uasset'
+[2015.11.11-05.14.27:894][317]LogSavePackage: Save=94.070068ms
+[2015.11.11-05.14.27:894][317]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/healthPickup_Normal_DirectX8D41BDBD4DB3CA583EF4959D8393D597.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Normal_DirectX.uasset'
+[2015.11.11-05.14.27:940][317]LogSavePackage: Save=14.767344ms
+[2015.11.11-05.14.27:940][317]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/healthPickup_OpacityC33C558C4939F70EBA53ADA906537863.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Opacity.uasset'
+[2015.11.11-05.14.27:975][317]LogSavePackage: Save=14.963174ms
+[2015.11.11-05.14.27:975][317]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/healthPickup_Roughness2F66CC914372D93DCFC5CEA4BADB1CDC.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Roughness.uasset'
+[2015.11.11-05.14.28:022][317]LogSavePackage: Save=10.569510ms
+[2015.11.11-05.14.28:022][317]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/healthPickup0A782C75415CC37D5D2F71B084B9E13F.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup.uasset'
+[2015.11.11-05.14.28:085][317]LogSavePackage: Save=43.759289ms
+[2015.11.11-05.14.28:085][317]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/healthPickup_Base_Color42EC233D4D0A2F4E6F0500A6FF0EF423.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Base_Color.uasset'
+[2015.11.11-05.14.28:153][317]LogSavePackage: Save=43.336426ms
+[2015.11.11-05.14.28:153][317]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/healthPickup_EmissiveECA8D49C4EED5CCE4D00AA918EE832B4.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup_Emissive.uasset'
+[2015.11.11-05.14.33:905][522]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.14.33:916][522]LogMaterial: Missing cached shader map for material healthPickup2, compiling. 
+[2015.11.11-05.14.33:916][522]LogMaterial:Warning: Failed to compile Material /Engine/Transient.healthPickup2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.14.33:916][522]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.14.33:954][522]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.14.34:032][522]LogMaterial: Missing cached shader map for material healthPickup2, compiling. 
+[2015.11.11-05.14.34:032][522]LogMaterial:Warning: Failed to compile Material /Engine/Transient.healthPickup2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.14.34:032][522]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.14.34:032][522]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.14.34:055][522]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2015.11.11-05.14.34:058][522]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_76, compiling. 
+[2015.11.11-05.14.34:059][522]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_79, compiling. 
+[2015.11.11-05.14.34:060][522]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_77, compiling. 
+[2015.11.11-05.14.34:061][522]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_78, compiling. 
+[2015.11.11-05.14.34:061][522]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2015.11.11-05.14.34:065][522]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.14.51:954][ 53]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.14.52:550][ 85]LogMaterial: Missing cached shader map for material healthPickup2, compiling. 
+[2015.11.11-05.14.52:550][ 85]LogMaterial:Warning: Failed to compile Material /Engine/Transient.healthPickup2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.14.52:550][ 85]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.14.52:550][ 85]LogMaterial: 0.000154 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.14.52:551][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.11.11-05.14.52:579][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2015.11.11-05.14.52:583][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_76, compiling. 
+[2015.11.11-05.14.52:584][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_79, compiling. 
+[2015.11.11-05.14.52:586][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_77, compiling. 
+[2015.11.11-05.14.52:587][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_78, compiling. 
+[2015.11.11-05.14.52:589][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2015.11.11-05.14.52:593][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.11.11-05.14.52:613][ 85]LogMaterial: Missing cached shader map for material healthPickup2, compiling. 
+[2015.11.11-05.14.52:613][ 85]LogMaterial:Warning: Failed to compile Material /Engine/Transient.healthPickup2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.14.52:613][ 85]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.14.52:613][ 85]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.14.52:614][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.11.11-05.14.52:642][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2015.11.11-05.14.52:646][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_76, compiling. 
+[2015.11.11-05.14.52:647][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_79, compiling. 
+[2015.11.11-05.14.52:648][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_77, compiling. 
+[2015.11.11-05.14.52:649][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_78, compiling. 
+[2015.11.11-05.14.52:650][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2015.11.11-05.14.52:652][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.11.11-05.14.52:655][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.11.11-05.14.52:668][ 85]LogMaterial: Missing cached shader map for material healthPickup2, compiling. 
+[2015.11.11-05.14.52:669][ 85]LogMaterial:Warning: Failed to compile Material /Engine/Transient.healthPickup2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.14.52:669][ 85]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.14.52:669][ 85]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.14.52:670][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.11.11-05.14.52:699][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2015.11.11-05.14.52:703][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_76, compiling. 
+[2015.11.11-05.14.52:704][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_79, compiling. 
+[2015.11.11-05.14.52:706][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_77, compiling. 
+[2015.11.11-05.14.52:707][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_78, compiling. 
+[2015.11.11-05.14.52:708][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2015.11.11-05.14.52:713][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.11.11-05.14.52:717][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.11.11-05.14.52:721][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.11.11-05.14.52:738][ 85]LogMaterial: Missing cached shader map for material healthPickup2, compiling. 
+[2015.11.11-05.14.52:738][ 85]LogMaterial:Warning: Failed to compile Material /Engine/Transient.healthPickup2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.14.52:738][ 85]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.14.52:738][ 85]LogMaterial: 0.000026 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.14.52:739][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2015.11.11-05.14.52:764][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2015.11.11-05.14.52:768][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_76, compiling. 
+[2015.11.11-05.14.52:770][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_79, compiling. 
+[2015.11.11-05.14.52:771][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_77, compiling. 
+[2015.11.11-05.14.52:772][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_78, compiling. 
+[2015.11.11-05.14.52:773][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2015.11.11-05.14.52:778][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.11.11-05.14.52:783][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.11.11-05.14.52:788][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.11.11-05.14.52:793][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2015.11.11-05.15.15:219][803]LogMaterial: Missing cached shader map for material healthPickup2, compiling. 
+[2015.11.11-05.15.15:219][803]LogMaterial:Warning: Failed to compile Material /Engine/Transient.healthPickup2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.15.15:219][803]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.15.15:220][803]LogMaterial: 0.000228 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.15.18:360][914]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.15.20:390][ 11]LogMaterial: Missing cached shader map for material healthPickup2, compiling. 
+[2015.11.11-05.15.20:391][ 11]LogMaterial:Warning: Failed to compile Material /Engine/Transient.healthPickup2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.15.20:391][ 11]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.15.20:391][ 11]LogMaterial: 0.000103 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.15.20:421][ 11]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2015.11.11-05.15.26:549][179]LogMaterial: Missing cached shader map for material healthPickup2, compiling. 
+[2015.11.11-05.15.26:550][179]LogMaterial:Warning: Failed to compile Material /Engine/Transient.healthPickup2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.15.26:550][179]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.15.26:550][179]LogMaterial: 0.000139 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.15.52:525][ 32]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.15.53:838][ 92]LogMaterial: Missing cached shader map for material healthPickup2, compiling. 
+[2015.11.11-05.15.53:838][ 92]LogMaterial:Warning: Failed to compile Material /Engine/Transient.healthPickup2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.15.53:838][ 92]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.15.53:838][ 92]LogMaterial: 0.000129 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.15.53:864][ 92]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.11.11-05.15.58:218][209]LogMaterial: Missing cached shader map for material healthPickup2, compiling. 
+[2015.11.11-05.15.58:219][209]LogMaterial:Warning: Failed to compile Material /Engine/Transient.healthPickup2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.15.58:219][209]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.15.58:219][209]LogMaterial: 0.000159 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.16.03:559][411]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.16.04:821][467]LogMaterial: Missing cached shader map for material healthPickup2, compiling. 
+[2015.11.11-05.16.04:822][467]LogMaterial:Warning: Failed to compile Material /Engine/Transient.healthPickup2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.11.11-05.16.04:822][467]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.11.11-05.16.04:822][467]LogMaterial: 0.000116 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.16.04:847][467]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.11.11-05.16.06:921][522]LogMaterial: Missing cached shader map for material healthPickup2, compiling. 
+[2015.11.11-05.16.06:932][522]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.16.10:857][637]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.11.11-05.16.10:857][637]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 68 instructions
+[2015.11.11-05.16.10:857][637]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.11.11-05.16.10:857][637]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.11.11-05.16.13:261][714]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.16.14:673][778]LogMaterial: Missing cached shader map for material healthPickup2, compiling. 
+[2015.11.11-05.16.14:681][778]LogMaterial: 0.000101 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.16.14:710][778]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.11.11-05.16.19:375][881]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.11.11-05.16.19:375][881]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 73 instructions
+[2015.11.11-05.16.19:375][881]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.11.11-05.16.19:375][881]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.11.11-05.16.21:933][952]LogMaterialEditor: Saving and Compiling material healthPickup2
+[2015.11.11-05.16.22:313][952]LogMaterial: Missing cached shader map for material healthPickup2, compiling. 
+[2015.11.11-05.16.22:338][952]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.16.22:340][952]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.16.22:368][952]LogMaterial: Missing cached shader map for material healthPickup2, compiling. 
+[2015.11.11-05.16.22:409][952]LogMaterial: Missing cached shader map for material healthPickup2, compiling. 
+[2015.11.11-05.16.22:423][952]LogMaterial: 0.000866 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.11-05.16.22:435][952]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.16.26:600][952]LogSavePackage: Save=13.318116ms
+[2015.11.11-05.16.26:600][952]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/healthPickup29909F23347B3D91BD67E908D92F13AF1.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup2.uasset'
+[2015.11.11-05.16.26:612][952]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2015.11.11-05.16.26:612][952]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 94 instructions
+[2015.11.11-05.16.26:612][952]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.11.11-05.16.26:612][952]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.11.11-05.16.31:199][ 97]LogMaterialEditor: Saving and Compiling material healthPickup2
+[2015.11.11-05.16.31:209][ 97]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.16.31:248][ 97]LogSavePackage: Save=5.428651ms
+[2015.11.11-05.16.31:248][ 97]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/healthPickup275826291472DF7830B809BBFA5D289D2.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup2.uasset'
+[2015.11.11-05.16.34:229][188]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.16.35:077][238]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.16.35:158][238]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000078629CF060
+[2015.11.11-05.16.35:262][238]LogSavePackage: Save=103.857491ms
+[2015.11.11-05.16.35:262][238]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Minimal_DefaultCC67BB9B44F56B54C450B68DF755008A.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.11.11-05.16.35:928][263]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.16.38:329][375]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.16.40:913][506]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.16.41:624][547]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.16.41:780][547]LogSavePackage: Save=98.462097ms
+[2015.11.11-05.16.41:780][547]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Minimal_Default49ACC83C423653FCB460439267258AE6.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.11.11-05.16.44:731][658]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.16.44:778][658]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.16.53:071][893]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.17.03:117][301]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.17.03:183][301]LogSavePackage: Save=12.756899ms
+[2015.11.11-05.17.03:183][301]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/healthPickup0E80C66C4BA0CE11A767599E9E586147.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup.uasset'
+[2015.11.11-05.17.05:136][363]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.17.05:173][363]LogSavePackage: Save=5.139627ms
+[2015.11.11-05.17.05:173][363]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/healthPickup84F1C3304193F8301BDEBEBC8632570A.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup.uasset'
+[2015.11.11-05.17.05:747][383]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.17.05:773][383]LogSavePackage: Save=5.493107ms
+[2015.11.11-05.17.05:773][383]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/healthPickup31869BA74016FF7311693294FF3A53CE.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/healthPickup/healthPickup.uasset'
+[2015.11.11-05.17.10:055][519]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.17.10:809][561]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.17.10:846][561]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007866946F20
+[2015.11.11-05.17.10:983][561]LogSavePackage: Save=110.010757ms
+[2015.11.11-05.17.10:983][561]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Minimal_DefaultA8ADB8764140A5DB1620148A8AAD6142.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.11.11-05.17.11:519][580]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.17.14:151][703]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.17.18:765][942]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.17.20:928][ 52]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.17.21:805][103]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.17.21:951][103]LogSavePackage: Save=88.588051ms
+[2015.11.11-05.17.21:951][103]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Minimal_Default698ED0CC4183FB0E573BCC81140251ED.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.11.11-05.17.27:024][297]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.17.27:070][297]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.17.38:118][675]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.17.38:161][675]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.17.42:871][804]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.17.42:928][804]LogSavePackage: Save=5.748466ms
+[2015.11.11-05.17.42:928][804]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/energyPickup2FD9EB2D46DE7DF59B49D586132529CB.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/energyPickup/energyPickup.uasset'
+[2015.11.11-05.17.45:150][883]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.17.46:442][959]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.17.46:474][959]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000786D6E84A0
+[2015.11.11-05.17.46:474][959]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007850ADE480
+[2015.11.11-05.17.46:587][959]LogSavePackage: Save=83.940254ms
+[2015.11.11-05.17.46:587][959]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Minimal_Default8E851E054943BEB3A1B27AB02DCEE6D8.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.11.11-05.17.47:328][987]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.17.58:621][489]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.17.59:270][526]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.17.59:498][526]LogSavePackage: Save=139.885376ms
+[2015.11.11-05.17.59:498][526]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Minimal_Default8C235E7B4DB72ADA4F2D4497C608939D.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.11.11-05.18.00:528][564]LogD3D11RHI: InitD3DDevice
+[2015.11.11-05.18.06:471][829]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.11-05.18.06:755][830]Cmd: QUIT_EDITOR
+[2015.11.11-05.18.07:026][830]LogExit: Preparing to exit.
+[2015.11.11-05.18.08:129][830]LogExit: Editor shut down
+[2015.11.11-05.18.08:130][830]LogExit: Transaction tracking system shut down
+[2015.11.11-05.18.08:136][830]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007853560EA0
+[2015.11.11-05.18.08:136][830]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000078629CE700
+[2015.11.11-05.18.08:136][830]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000784F9B4220
+[2015.11.11-05.18.08:137][830]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007862A34860
+[2015.11.11-05.18.08:281][830]LogExit: Object subsystem successfully closed.
+[2015.11.11-05.18.08:298][830]LogD3D11RHI: Shutdown
+[2015.11.11-05.18.08:298][830]LogD3D11RHI: CleanupD3DDevice
+[2015.11.11-05.18.08:374][830]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.11-05.18.08:391][830]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (190)
+[2015.11.11-05.18.08:391][830]LogModuleManager: Shutting down and abandoning module MaterialEditor (189)
+[2015.11.11-05.18.08:391][830]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.11.11-05.18.08:391][830]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.11.11-05.18.08:391][830]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.11.11-05.18.08:391][830]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.11.11-05.18.08:391][830]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.11.11-05.18.08:392][830]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.11.11-05.18.08:392][830]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.11.11-05.18.08:392][830]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.11.11-05.18.08:392][830]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.11.11-05.18.08:392][830]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.11.11-05.18.08:392][830]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.11.11-05.18.08:392][830]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.11.11-05.18.08:392][830]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.11.11-05.18.08:392][830]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.11.11-05.18.08:392][830]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.11.11-05.18.08:392][830]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.11.11-05.18.08:392][830]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.11.11-05.18.08:392][830]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.11.11-05.18.08:392][830]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.11.11-05.18.08:392][830]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.11.11-05.18.08:393][830]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.11.11-05.18.08:393][830]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.11.11-05.18.08:393][830]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.11.11-05.18.08:393][830]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.11.11-05.18.08:393][830]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.11.11-05.18.08:393][830]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.11.11-05.18.08:762][830]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.11.11-05.18.08:762][830]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.11.11-05.18.08:762][830]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.11.11-05.18.08:762][830]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.11.11-05.18.08:762][830]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.11.11-05.18.08:762][830]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.11.11-05.18.08:762][830]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.11.11-05.18.08:762][830]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.11.11-05.18.08:762][830]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.11.11-05.18.08:762][830]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.11.11-05.18.08:762][830]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.11.11-05.18.08:762][830]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.11.11-05.18.08:762][830]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.11.11-05.18.08:762][830]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.11.11-05.18.08:762][830]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.11.11-05.18.08:762][830]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.11.11-05.18.08:762][830]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.11.11-05.18.08:762][830]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.11.11-05.18.08:762][830]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.11.11-05.18.08:762][830]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.11.11-05.18.08:762][830]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.11.11-05.18.08:762][830]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.11.11-05.18.08:762][830]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.11.11-05.18.08:762][830]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.11.11-05.18.08:763][830]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.11.11-05.18.08:763][830]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.11.11-05.18.08:763][830]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.11.11-05.18.08:763][830]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.11.11-05.18.08:763][830]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.11.11-05.18.08:763][830]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.11.11-05.18.08:763][830]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.11.11-05.18.08:763][830]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.11.11-05.18.08:956][830]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.11.11-05.18.08:956][830]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.11.11-05.18.08:956][830]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.11.11-05.18.08:956][830]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.11.11-05.18.08:956][830]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.11.11-05.18.08:956][830]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.11.11-05.18.08:956][830]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.11.11-05.18.08:956][830]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.11.11-05.18.08:956][830]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.11.11-05.18.08:956][830]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.11.11-05.18.08:956][830]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.11.11-05.18.08:956][830]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.11.11-05.18.08:956][830]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.11.11-05.18.08:956][830]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.11.11-05.18.08:956][830]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.11.11-05.18.08:956][830]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.11.11-05.18.08:956][830]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.11.11-05.18.08:956][830]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.11.11-05.18.09:076][830]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.11.11-05.18.09:076][830]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.11.11-05.18.09:076][830]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.11.11-05.18.09:076][830]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.11.11-05.18.09:076][830]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.11.11-05.18.09:076][830]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.11.11-05.18.09:076][830]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.11.11-05.18.09:090][830]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.11.11-05.18.09:090][830]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.11.11-05.18.09:090][830]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.11.11-05.18.09:090][830]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.11.11-05.18.09:090][830]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.11.11-05.18.09:091][830]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.11.11-05.18.09:091][830]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.11.11-05.18.09:091][830]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.11.11-05.18.09:091][830]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.11.11-05.18.09:091][830]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.11.11-05.18.09:091][830]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.11.11-05.18.09:091][830]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.11.11-05.18.09:091][830]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.11.11-05.18.09:091][830]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.11.11-05.18.09:091][830]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.11.11-05.18.09:091][830]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.11.11-05.18.09:091][830]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.11.11-05.18.09:091][830]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.11.11-05.18.09:091][830]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.11.11-05.18.09:091][830]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.11.11-05.18.09:092][830]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.11.11-05.18.09:092][830]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.11.11-05.18.09:092][830]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.11.11-05.18.09:093][830]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.11.11-05.18.09:096][830]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.11.11-05.18.09:096][830]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.11.11-05.18.09:197][830]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.11.11-05.18.09:197][830]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.11.11-05.18.09:205][830]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.11.11-05.18.09:206][830]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.11.11-05.18.09:206][830]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.11.11-05.18.09:206][830]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.11.11-05.18.09:206][830]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.11.11-05.18.09:206][830]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.11.11-05.18.09:206][830]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.11.11-05.18.09:206][830]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.11.11-05.18.09:206][830]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.11.11-05.18.09:206][830]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.11.11-05.18.09:206][830]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.11.11-05.18.09:206][830]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.11.11-05.18.09:207][830]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.11.11-05.18.09:207][830]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.11.11-05.18.09:207][830]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.11.11-05.18.09:210][830]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.11.11-05.18.09:210][830]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.11.11-05.18.09:211][830]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.11.11-05.18.09:211][830]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.11.11-05.18.09:211][830]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.11.11-05.18.09:211][830]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.11.11-05.18.09:211][830]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.11.11-05.18.09:211][830]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.11.11-05.18.09:211][830]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.11.11-05.18.09:211][830]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.11.11-05.18.09:221][830]LogDerivedDataCache: Shutdown
+[2015.11.11-05.18.09:221][830]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.11.11-05.18.09:221][830]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.11.11-05.18.09:221][830]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.11.11-05.18.09:221][830]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.11.11-05.18.09:221][830]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.11.11-05.18.09:221][830]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.11.11-05.18.09:221][830]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.11.11-05.18.09:221][830]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.11.11-05.18.09:221][830]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.11.11-05.18.09:221][830]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.11.11-05.18.09:221][830]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.11.11-05.18.09:221][830]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.11.11-05.18.09:221][830]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.11.11-05.18.09:221][830]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.11.11-05.18.09:221][830]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.11.11-05.18.09:221][830]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.11.11-05.18.09:222][830]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.11.11-05.18.09:222][830]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.11.11-05.18.09:222][830]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.11.11-05.18.09:222][830]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.11.11-05.18.09:222][830]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.11.11-05.18.09:222][830]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.11.11-05.18.09:222][830]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.11.11-05.18.09:222][830]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.11.11-05.18.09:222][830]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.11.11-05.18.09:222][830]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.11.11-05.18.09:222][830]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.11.11-05.18.09:222][830]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.11.11-05.18.09:222][830]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.11.11-05.18.09:222][830]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.11.11-05.18.09:222][830]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.11.11-05.18.09:222][830]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.11.11-05.18.09:222][830]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.11.11-05.18.09:222][830]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.11.11-05.18.09:222][830]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.11.11-05.18.09:222][830]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.11.11-05.18.09:222][830]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.11.11-05.18.09:222][830]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.11.11-05.18.09:222][830]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.11.11-05.18.09:222][830]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.11.11-05.18.09:222][830]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.11.11-05.18.09:226][830]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.11.11-05.18.09:226][830]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.11.11-05.18.09:226][830]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.11-05.18.09:226][830]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.11-05.18.09:226][830]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.11-05.18.09:226][830]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.11-05.18.09:226][830]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.11-05.18.09:226][830]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.11-05.18.09:226][830]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.11-05.18.09:226][830]LogExit: Exiting.
+[2015.11.11-05.18.09:228][830]Log file closed, 11/11/15 00:18:09
