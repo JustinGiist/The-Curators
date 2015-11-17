@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿[2015.11.17-23.25.42:319][  0]Log file open, 11/17/15 18:25:42
 [2015.11.17-23.25.42:319][  0]LogInit:Display: Running engine for game: MyProject
 [2015.11.17-23.25.42:319][  0]LogInit:Display: RandInit(-1853945340) SRandInit(-1853945339).
@@ -378,3 +379,686 @@ Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localizat
 [2015.11.17-23.49.00:401][812]LogModuleManager: Shutting down and abandoning module PakFile (1)
 [2015.11.17-23.49.00:402][812]LogExit: Exiting.
 [2015.11.17-23.49.00:404][812]Log file closed, 11/17/15 18:49:00
+=======
+﻿[2015.11.17-23.15.46:157][  0]Log file open, 11/17/15 18:15:46
+[2015.11.17-23.15.46:157][  0]LogInit:Display: Running engine for game: MyProject
+[2015.11.17-23.15.46:157][  0]LogInit:Display: RandInit(-1297846092) SRandInit(-1297846092).
+[2015.11.17-23.15.46:157][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.17-23.15.46:157][  0]LogStats: Stats thread started
+[2015.11.17-23.15.46:157][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.11.17-23.15.46:157][  0]LogInit: API Version: 2579680
+[2015.11.17-23.15.46:157][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.11.17-23.15.46:157][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.17-23.15.46:157][  0]LogInit: Build Configuration: Development
+[2015.11.17-23.15.46:157][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.11.17-23.15.46:157][  0]LogInit: Command line: 
+[2015.11.17-23.15.46:157][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.11.17-23.15.46:157][  0]LogInit: Rocket: 1
+[2015.11.17-23.15.46:175][  0]LogInit: Using libcurl 7.41.0
+[2015.11.17-23.15.46:175][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.17-23.15.46:175][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.17-23.15.46:175][  0]LogInit:  - other features:
+[2015.11.17-23.15.46:175][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.17-23.15.46:175][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.17-23.15.46:175][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.17-23.15.46:175][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.17-23.15.46:175][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.17-23.15.46:175][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.17-23.15.46:175][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.17-23.15.46:175][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.17-23.15.46:175][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.17-23.15.46:175][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.17-23.15.46:192][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.11.17-23.15.46:211][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.17-23.15.46:218][  0]LogInit: Object subsystem initialized
+[2015.11.17-23.15.46:219][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.11.17-23.15.46:219][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.11.17-23.15.46:219][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.11.17-23.15.46:219][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.11.17-23.15.46:219][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.11.17-23.15.46:219][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.11.17-23.15.46:219][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.17-23.15.46:219][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.17-23.15.46:232][  0]LogInit: Computer: CHRISTOPHER-S70
+[2015.11.17-23.15.46:232][  0]LogInit: User: Christopher
+[2015.11.17-23.15.46:232][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.17-23.15.46:232][  0]LogInit: High frequency timer resolution =2.435778 MHz
+[2015.11.17-23.15.46:232][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2015.11.17-23.15.46:232][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.17-23.15.46:232][  0]LogMemory: Process Physical Memory: 50.05 MB used, 50.05 MB peak
+[2015.11.17-23.15.46:232][  0]LogMemory: Process Virtual Memory: 24.43 MB used, 25.37 MB peak
+[2015.11.17-23.15.46:232][  0]LogMemory: Physical Memory: 3897.60 MB used, 12200.09 MB total
+[2015.11.17-23.15.46:232][  0]LogMemory: Virtual Memory: 316.82 MB used, 134217728.00 MB total
+[2015.11.17-23.15.46:266][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.11.17-23.15.46:470][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.11.17-23.15.46:923][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.11.17-23.15.46:923][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 6100MB of shared system memory, 1 output[s]
+[2015.11.17-23.15.46:935][  0]LogD3D11RHI: Found D3D11 adapter 1: AMD Radeon R9 M265X (Feature Level 11_0)
+[2015.11.17-23.15.46:935][  0]LogD3D11RHI: Adapter has 2026MB of dedicated video memory, 0MB of dedicated system memory, and 6100MB of shared system memory, 0 output[s]
+[2015.11.17-23.15.46:936][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.17-23.15.46:937][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 6100MB of shared system memory, 0 output[s]
+[2015.11.17-23.15.46:937][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.17-23.15.46:941][  0]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.15.46:941][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.17-23.15.46:941][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.17-23.15.46:946][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.17-23.15.46:949][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.17-23.15.47:716][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.11.17-23.15.47:733][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.17-23.15.47:749][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.17-23.15.47:766][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.17-23.15.47:783][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.17-23.15.47:797][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.17-23.15.47:812][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.17-23.15.47:826][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.17-23.15.47:840][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.17-23.15.47:855][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.17-23.15.47:870][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.17-23.15.47:884][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.17-23.15.47:941][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.17-23.15.47:955][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.17-23.15.47:970][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.17-23.15.47:986][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.17-23.15.47:986][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.17-23.15.48:230][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.17-23.15.48:289][  0]LogDerivedDataCache: Loaded boot cache 0.06s 53MB C:/Users/Christopher/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.11.17-23.15.48:289][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Christopher/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.11.17-23.15.48:289][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.17-23.15.48:289][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.17-23.15.48:289][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.17-23.15.48:289][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.17-23.15.48:437][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.17-23.15.48:449][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Christopher/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.17-23.15.48:650][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.17-23.15.48:733][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.11.17-23.15.48:734][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.11.17-23.15.48:766][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.17-23.15.48:766][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.17-23.15.49:098][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.17-23.15.50:032][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.17-23.15.50:373][  0]SourceControl: Info Source control is disabled
+[2015.11.17-23.15.50:382][  0]SourceControl: Info Source control is disabled
+[2015.11.17-23.15.50:394][  0]SourceControl: Info Source control is disabled
+[2015.11.17-23.15.50:406][  0]SourceControl: Info Source control is disabled
+[2015.11.17-23.15.50:652][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.11.17-23.15.50:652][  0]LogUObjectAllocator: 5409256 out of 0 bytes used by permanent object pool.
+[2015.11.17-23.15.50:734][  0]LogEngine: Initializing Engine...
+[2015.11.17-23.15.50:736][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.11.17-23.15.50:737][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.11.17-23.15.50:889][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.17-23.15.50:893][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.17-23.15.50:916][  0]LogInit: FAudioDevice initialized.
+[2015.11.17-23.15.50:947][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/Christopher/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.11.17-23.15.50:955][  0]LogInit: Texture streaming: Disabled
+[2015.11.17-23.15.50:985][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.17-23.15.50:985][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.11.17-23.15.50:985][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId ee8c485444fe82b8e773c5ac08d91953|2c1976e1aa9b48b0b119ac4e9eb64ec6|e685999b-cf46-4ff8-9f2e-f2a1072524f0
+[2015.11.17-23.15.50:985][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.17-23.15.51:016][  0]LogInit: Transaction tracking system initialized
+[2015.11.17-23.15.51:174][  0]BlueprintLog: New page: Editor Load
+[2015.11.17-23.15.51:216][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2015.11.17-23.15.51:216][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.11.17-23.15.52:018][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.11.17-23.15.52:022][  0]LogConsoleResponse:Display: 
+[2015.11.17-23.15.52:145][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.17-23.15.52:351][  0]SourceControl: Info Source control is disabled
+[2015.11.17-23.15.52:351][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.17-23.15.52:450][  0]LightingResults: New page: Lighting Build
+[2015.11.17-23.15.52:469][  0]MapCheck: New page: Map Check
+[2015.11.17-23.15.52:469][  0]LightingResults: New page: Lighting Build
+[2015.11.17-23.15.52:479][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018E623789A0
+[2015.11.17-23.15.54:644][  0]LogLinker:Warning: Can't find file '/Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun'
+[2015.11.17-23.15.54:644][  0]LoadErrors: Info Failed to load /Game/Tech/AIGuard/GameHud.GameHud_C Referenced by gun8C1B0D41B94BE5FEA7D9F08DA0F2B523
+[2015.11.17-23.15.54:645][  0]LogLinker:Warning: Can't find file for asset '/Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun' while loading ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Tech/AIGuard/GameHud.uasset.
+[2015.11.17-23.15.54:645][  0]LoadErrors: Info Failed to load /Game/Tech/AIGuard/GameHud.GameHud_C Referenced by gun8C1B0D41B94BE5FEA7D9F08DA0F2B523
+[2015.11.17-23.15.54:645][  0]LoadErrors:Error: Error /Game/Tech/AIGuard/GameHud : Can't find file for asset. /Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun
+[2015.11.17-23.15.55:154][  0]LogLinker:Warning: Can't find file '/Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun'
+[2015.11.17-23.15.55:154][  0]LogLinker:Warning: Can't find file for asset '/Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun' while loading ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Tech/AIGuard/GameHud.uasset.
+[2015.11.17-23.15.55:154][  0]LoadErrors:Error: Error /Game/Tech/AIGuard/GameHud : Can't find file for asset. /Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun
+[2015.11.17-23.15.55:200][  0]LogLinker:Warning: Can't find file '/Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun'
+[2015.11.17-23.15.55:201][  0]LogLinker:Warning: Can't find file for asset '/Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun' while loading ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Tech/AIGuard/GameHud.uasset.
+[2015.11.17-23.15.55:201][  0]LoadErrors:Error: Error /Game/Tech/AIGuard/GameHud : Can't find file for asset. /Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun
+[2015.11.17-23.15.55:489][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.17-23.15.55:515][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0010.77] Compile of ThirdPersonCharacter successful, but with 1 Warning(s) [in 104 ms]
+[2015.11.17-23.15.55:515][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0010.77] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 0 ms]
+[2015.11.17-23.15.55:516][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0010.77] Compile of ThirdPersonCharacter successful, but with 3 Warning(s) [in 0 ms]
+[2015.11.17-23.15.55:748][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.17-23.15.55:778][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0011.04] Compile of ThirdPersonCharacter successful, but with 1 Warning(s) [in 124 ms]
+[2015.11.17-23.15.55:779][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0011.04] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 0 ms]
+[2015.11.17-23.15.55:789][  0]LogLinker:Warning: Can't find file '/Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun'
+[2015.11.17-23.15.55:789][  0]LogLinker:Warning: Can't find file for asset '/Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun' while loading ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Tech/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2015.11.17-23.15.55:789][  0]LoadErrors:Error: Error /Game/Tech/ThirdPersonBP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun
+[2015.11.17-23.15.55:790][  0]LogLinker:Warning: Can't find file '/Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun'
+[2015.11.17-23.15.55:790][  0]LogLinker:Warning: Can't find file for asset '/Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun' while loading ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Tech/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset.
+[2015.11.17-23.15.55:790][  0]LoadErrors:Error: Error /Game/Tech/ThirdPersonBP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Game/Art/Assets/VerticalSliceAssets/characterAssets/gun/gun
+[2015.11.17-23.16.01:834][  0]LogBlueprint:Warning: [compiler ErichCharBlueRyan] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.17-23.16.01:835][  0]LogBlueprint:Warning: [compiler ErichCharBlueRyan] Warning InputAction Event references unknown Action 'Walk' for  InputAction Walk 
+[2015.11.17-23.16.01:861][  0]LogBlueprint:Warning: [compiler ErichCharBlueRyan] Warning [0017.12] Compile of ErichCharBlueRyan successful, but with 2 Warning(s) [in 108 ms]
+[2015.11.17-23.16.01:862][  0]LogBlueprint:Warning: [compiler ErichCharBlueRyan] Warning [0017.12] Compile of ErichCharBlueRyan successful, but with 3 Warning(s) [in 0 ms]
+[2015.11.17-23.16.01:862][  0]LogBlueprint:Warning: [compiler ErichCharBlueRyan] Warning [0017.12] Compile of ErichCharBlueRyan successful, but with 4 Warning(s) [in 0 ms]
+[2015.11.17-23.16.02:066][  0]LogBlueprint:Warning: [compiler ErichCharBlueRyan] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.17-23.16.02:068][  0]LogBlueprint:Warning: [compiler ErichCharBlueRyan] Warning InputAction Event references unknown Action 'Walk' for  InputAction Walk 
+[2015.11.17-23.16.02:100][  0]LogBlueprint:Warning: [compiler ErichCharBlueRyan] Warning [0017.36] Compile of ErichCharBlueRyan successful, but with 2 Warning(s) [in 118 ms]
+[2015.11.17-23.16.02:101][  0]LogBlueprint:Warning: [compiler ErichCharBlueRyan] Warning [0017.36] Compile of ErichCharBlueRyan successful, but with 3 Warning(s) [in 0 ms]
+[2015.11.17-23.16.24:858][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.11.17-23.16.24:913][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.17-23.16.24:919][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.17-23.16.25:004][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 84.045ms to complete.
+[2015.11.17-23.16.25:004][  0]LogFileHelpers: Loading map 'Minimal_Default' took 32.653
+[2015.11.17-23.16.25:348][  0]LogCollectionManager: Loaded 0 collections in 0.003273 seconds
+[2015.11.17-23.16.25:357][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 1792 classes and 301 folders.
+[2015.11.17-23.16.25:489][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.11.17-23.16.26:489][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.11.17-23.16.26:506][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.11.17-23.16.26:699][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.17-23.16.26:700][  0]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.16.26:703][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.17-23.16.26:726][  0]LogLoad: Full Startup: 41.98 seconds (BP compile: 1.74 seconds)
+[2015.11.17-23.16.27:397][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.17-23.16.27:487][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.11.17-23.16.27:491][  0]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.16.27:703][  0]LogRenderer: Reallocating scene render targets to support 1008x456 (Frame:2).
+[2015.11.17-23.16.28:631][ 27]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.17.18:453][562]LogAssetRegistry: Asset discovery search completed in 87.2472 seconds
+[2015.11.17-23.20.32:998][782]LogStaticMesh: Building static mesh door2a...
+[2015.11.17-23.20.33:002][782]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.20.33:157][782]LogStaticMesh: Built static mesh [0.166057.2s] /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/door2a/door2a.door2a
+[2015.11.17-23.20.33:289][782]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.20.33:518][782]LogRenderer: Reallocating scene render targets to support 1192x744 (Frame:1023).
+[2015.11.17-23.21.15:826][565]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.21.15:933][565]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.21.24:721][565]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\Christopher\Desktop\documents-export-2015-11-17\door2a.fbx)
+[2015.11.17-23.21.24:915][565]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.11.17-23.21.24:915][565]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.11.17-23.21.24:915][565]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.11.17-23.21.24:915][565]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.11.17-23.21.24:915][565]LogFbx: ItemName: Material, ItemCount : 2
+[2015.11.17-23.21.24:915][565]LogFbx: ItemName: Model, ItemCount : 1
+[2015.11.17-23.21.25:108][565]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.21.50:010][565]LogFbx: Loading FBX Scene from C:\Users\Christopher\Desktop\documents-export-2015-11-17\door2a.fbx
+[2015.11.17-23.21.50:061][565]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.17-23.21.50:141][565]LogFbx:Warning: Triangulating static mesh polySurface1
+[2015.11.17-23.21.50:298][565]LogStaticMesh: Building static mesh door2a...
+[2015.11.17-23.21.50:328][565]LogStaticMesh: Built static mesh [0.060517.2s] /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/door2a/door2a.door2a
+[2015.11.17-23.21.57:524][970]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.22.10:113][716]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.22.10:253][716]LogSavePackage: Save=17.493795ms
+[2015.11.17-23.22.10:253][716]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/door2a15F20CDB4A80D8F1853BFF8D399255D4.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/door2a/door2a.uasset'
+[2015.11.17-23.22.12:749][861]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.22.12:775][861]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2015.11.17-23.22.12:821][861]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.22.12:896][861]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2015.11.17-23.22.12:902][861]LogMaterial: 0.000156 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.17-23.22.12:928][861]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.17-23.22.12:956][861]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.11.17-23.22.12:981][861]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.11.17-23.22.12:995][861]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.11.17-23.22.15:072][935]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 52 instructions
+[2015.11.17-23.22.15:072][935]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.17-23.22.15:072][935]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.11.17-23.22.37:380][813]LogMaterialEditor: Saving and Compiling material lambert2
+[2015.11.17-23.22.37:385][813]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.22.37:454][813]LogSavePackage: Save=15.377838ms
+[2015.11.17-23.22.37:454][813]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/lambert2582C04E144D3AACC46AD92B25016231F.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/door2a/lambert2.uasset'
+[2015.11.17-23.22.41:959][ 36]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.22.41:966][ 36]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.11.17-23.22.41:996][ 36]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.22.42:088][ 36]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.11.17-23.22.42:093][ 36]LogMaterial: 0.000103 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.17-23.22.42:171][ 36]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.11.17-23.22.42:201][ 36]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.11.17-23.22.42:224][ 36]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.11.17-23.22.42:230][ 36]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.11.17-23.22.43:892][ 91]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 52 instructions
+[2015.11.17-23.22.43:892][ 91]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.17-23.22.43:892][ 91]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.11.17-23.22.46:895][224]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.22.46:924][224]LogMaterial: Missing cached shader map for material windowpane3, compiling. 
+[2015.11.17-23.22.46:963][224]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.22.47:028][224]LogMaterial: Missing cached shader map for material windowpane3, compiling. 
+[2015.11.17-23.22.47:034][224]LogMaterial: 0.000146 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.17-23.22.47:079][224]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.11.17-23.22.47:082][224]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.11.17-23.22.47:085][224]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2015.11.17-23.22.47:129][224]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.11.17-23.22.47:136][224]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.11.17-23.22.50:194][335]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.11.17-23.22.50:194][335]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 73 instructions
+[2015.11.17-23.22.50:194][335]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.11.17-23.22.50:194][335]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.11.17-23.22.52:883][456]LogMaterialEditor: Saving and Compiling material windowpane3
+[2015.11.17-23.22.52:888][456]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.22.52:981][456]LogSavePackage: Save=45.673290ms
+[2015.11.17-23.22.52:981][456]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/windowpane36BCD0CED4C485029B8FA57ABA8EA31AA.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/door2a/windowpane3.uasset'
+[2015.11.17-23.23.07:393][283]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.23.07:416][283]LogSavePackage: Save=4.802983ms
+[2015.11.17-23.23.07:416][283]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/door2a3B49234D4D75A53B129BBCA1B020A7C6.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/door2a/door2a.uasset'
+[2015.11.17-23.23.30:449][644]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.23.31:483][706]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.23.31:508][706]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.17-23.23.31:566][706]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018E11E69580
+[2015.11.17-23.23.31:566][706]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018E6BDD8180
+[2015.11.17-23.23.31:567][706]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018E0A5BB560
+[2015.11.17-23.23.31:567][706]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018E086E6CA0
+[2015.11.17-23.23.31:567][706]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018E7D67BC40
+[2015.11.17-23.23.31:887][706]LogSavePackage: Save=145.518600ms
+[2015.11.17-23.23.31:887][706]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Minimal_Default646E59264A0188E50F0318926840C4D3.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.11.17-23.23.32:924][765]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.23.37:674][ 27]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.23.43:280][356]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.23.43:312][356]LogSavePackage: Save=4.761107ms
+[2015.11.17-23.23.43:312][356]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/door2aDFFF87394A4CA1B8FAE61B8B1E63F384.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/door2a/door2a.uasset'
+[2015.11.17-23.23.46:271][531]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.23.46:822][564]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.23.46:868][564]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018E73FF3B00
+[2015.11.17-23.23.46:946][564]LogSavePackage: Save=77.578911ms
+[2015.11.17-23.23.46:946][564]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Minimal_DefaultBC6951AD45EB587B1C07D586C646F1D3.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.11.17-23.23.47:418][589]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.23.53:192][926]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.23.53:939][971]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.23.54:063][971]LogSavePackage: Save=78.349915ms
+[2015.11.17-23.23.54:063][971]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Minimal_DefaultD5558D114AE6FA8D8F575F8AF7D1529F.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.11.17-23.23.54:638][  2]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.24.00:720][180]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.24.26:344][601]LogStaticMesh: Building static mesh door2b...
+[2015.11.17-23.24.26:348][601]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.24.26:424][601]LogStaticMesh: Built static mesh [0.080084.2s] /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/door2b/door2b.door2b
+[2015.11.17-23.24.26:463][601]LogMaterial: Missing cached shader map for material windowpane3, compiling. 
+[2015.11.17-23.24.26:493][601]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.25.10:989][623]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.25.11:016][623]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.25.18:035][623]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\Christopher\Desktop\documents-export-2015-11-17\door2b.fbx)
+[2015.11.17-23.25.18:039][623]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.11.17-23.25.18:039][623]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.11.17-23.25.18:039][623]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.11.17-23.25.18:039][623]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.11.17-23.25.18:039][623]LogFbx: ItemName: Material, ItemCount : 2
+[2015.11.17-23.25.18:039][623]LogFbx: ItemName: Model, ItemCount : 1
+[2015.11.17-23.25.18:048][623]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.25.19:904][623]LogFbx: Loading FBX Scene from C:\Users\Christopher\Desktop\documents-export-2015-11-17\door2b.fbx
+[2015.11.17-23.25.19:910][623]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.17-23.25.19:916][623]LogFbx:Warning: Triangulating static mesh polySurface2
+[2015.11.17-23.25.20:029][623]LogStaticMesh: Building static mesh door2b...
+[2015.11.17-23.25.20:062][623]LogStaticMesh: Built static mesh [0.058532.2s] /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/door2b/door2b.door2b
+[2015.11.17-23.25.25:782][945]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.25.25:816][945]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2015.11.17-23.25.25:846][945]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.25.25:928][945]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2015.11.17-23.25.25:935][945]LogMaterial: 0.000095 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.17-23.25.25:962][945]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2015.11.17-23.25.25:993][945]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2015.11.17-23.25.25:999][945]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_15, compiling. 
+[2015.11.17-23.25.26:003][945]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_14, compiling. 
+[2015.11.17-23.25.27:480][  1]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 52 instructions
+[2015.11.17-23.25.27:481][  1]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.17-23.25.27:481][  1]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.11.17-23.25.37:420][426]LogMaterialEditor: Saving and Compiling material lambert2
+[2015.11.17-23.25.37:426][426]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.25.37:489][426]LogSavePackage: Save=14.750524ms
+[2015.11.17-23.25.37:489][426]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/lambert211F614ED4871A38DBF3E0586F61F9C7E.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/door2b/lambert2.uasset'
+[2015.11.17-23.25.39:566][522]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.25.39:596][522]LogMaterial: Missing cached shader map for material windowpane3, compiling. 
+[2015.11.17-23.25.39:627][522]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.25.39:703][522]LogMaterial: Missing cached shader map for material windowpane3, compiling. 
+[2015.11.17-23.25.39:711][522]LogMaterial: 0.000113 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.17-23.25.39:737][522]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_16, compiling. 
+[2015.11.17-23.25.39:757][522]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_18, compiling. 
+[2015.11.17-23.25.39:760][522]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_21, compiling. 
+[2015.11.17-23.25.39:765][522]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_19, compiling. 
+[2015.11.17-23.25.39:770][522]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_20, compiling. 
+[2015.11.17-23.25.43:128][655]MaterialEditorStats: Info Base pass shader with static lighting: 77 instructions
+[2015.11.17-23.25.43:128][655]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.11.17-23.25.43:128][655]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 73 instructions
+[2015.11.17-23.25.43:128][655]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.11.17-23.25.43:128][655]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.11.17-23.25.44:281][700]LogMaterialEditor: Saving and Compiling material windowpane3
+[2015.11.17-23.25.44:288][700]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.25.44:362][700]LogSavePackage: Save=33.502644ms
+[2015.11.17-23.25.44:362][700]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/windowpane37177298D4A1520F937F70F8E4D66147C.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/door2b/windowpane3.uasset'
+[2015.11.17-23.25.46:937][818]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.26.06:737][991]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.26.06:784][991]LogSavePackage: Save=11.255952ms
+[2015.11.17-23.26.06:785][991]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/door2b1CFDAEE645307992569905BBAA65F001.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/door2b/door2b.uasset'
+[2015.11.17-23.26.10:828][228]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.26.11:943][295]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.26.11:980][295]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018E6C734CC0
+[2015.11.17-23.26.11:981][295]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018E6A0B5260
+[2015.11.17-23.26.11:981][295]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018E6AF36FC0
+[2015.11.17-23.26.12:003][295]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018E6CBAE520
+[2015.11.17-23.26.12:080][295]LogSavePackage: Save=77.233231ms
+[2015.11.17-23.26.12:080][295]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Minimal_DefaultE22DAA5448200A77E3F70EB9ABFB8C12.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.11.17-23.26.12:940][343]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.26.21:828][859]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.26.28:377][242]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.26.28:408][242]LogSavePackage: Save=4.111212ms
+[2015.11.17-23.26.28:408][242]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/door2aA8A2AB9F4B9F9DEC00E05DA5865020F7.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/door2a/door2a.uasset'
+[2015.11.17-23.26.31:939][445]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.26.32:522][480]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.26.32:566][480]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018E6C734EA0
+[2015.11.17-23.26.32:643][480]LogSavePackage: Save=77.486534ms
+[2015.11.17-23.26.32:643][480]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Minimal_Default31A810CE45E9FA6E91989C958EAB921F.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.11.17-23.26.33:175][508]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.26.55:429][725]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.27.23:497][684]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.27.23:529][684]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.27.31:006][684]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\Christopher\Desktop\documents-export-2015-11-17\lockerFace.fbx)
+[2015.11.17-23.27.31:012][684]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.11.17-23.27.31:012][684]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.11.17-23.27.31:012][684]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.11.17-23.27.31:012][684]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.11.17-23.27.31:012][684]LogFbx: ItemName: Material, ItemCount : 2
+[2015.11.17-23.27.31:012][684]LogFbx: ItemName: Model, ItemCount : 1
+[2015.11.17-23.27.31:021][684]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.27.32:593][684]LogFbx: Loading FBX Scene from C:\Users\Christopher\Desktop\documents-export-2015-11-17\lockerFace.fbx
+[2015.11.17-23.27.32:599][684]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.17-23.27.32:628][684]LogFbx:Warning: Triangulating static mesh polySurface1
+[2015.11.17-23.27.32:726][684]LogStaticMesh: Building static mesh lockerFace...
+[2015.11.17-23.27.32:751][684]LogStaticMesh: Built static mesh [0.033282.2s] /Game/Art/AlphaModels/AlphaModels/GeneralMuseumItems/lockerFace/lockerFace.lockerFace
+[2015.11.17-23.27.32:754][684]LogStaticMesh:Warning: lockerFace has degenerate tangent bases which will result in incorrect shading. 
+[2015.11.17-23.27.32:804][684]FBXImport:Warning: Warning lockerFace has degenerate tangent bases which will result in incorrect shading.  
+[2015.11.17-23.27.32:815][684]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.27.38:692][ 26]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.27.38:733][ 26]LogMaterial: Missing cached shader map for material LockerFaceBase, compiling. 
+[2015.11.17-23.27.38:761][ 26]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.27.38:830][ 26]LogMaterial: Missing cached shader map for material LockerFaceBase, compiling. 
+[2015.11.17-23.27.38:835][ 26]LogMaterial: 0.000132 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.17-23.27.38:859][ 26]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.11.17-23.27.38:862][ 26]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.11.17-23.27.38:864][ 26]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.11.17-23.27.38:866][ 26]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.11.17-23.27.40:509][ 90]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 57 instructions
+[2015.11.17-23.27.40:509][ 90]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.17-23.27.40:509][ 90]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.11.17-23.27.48:256][510]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.27.48:264][510]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.11.17-23.27.48:301][510]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.27.48:378][510]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.11.17-23.27.48:385][510]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.17-23.27.48:436][510]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.11.17-23.27.48:438][510]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2015.11.17-23.27.48:454][510]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.11.17-23.27.48:459][510]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.11.17-23.27.49:475][541]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 57 instructions
+[2015.11.17-23.27.49:475][541]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.17-23.27.49:475][541]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.11.17-23.28.04:064][133]LogMaterialEditor: Saving and Compiling material LockerFaceBase
+[2015.11.17-23.28.04:069][133]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.28.04:156][133]LogSavePackage: Save=46.660656ms
+[2015.11.17-23.28.04:156][133]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/LockerFaceBaseA27312A5495775C773A861A07EEA6D30.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/lockerFace/LockerFaceBase.uasset'
+[2015.11.17-23.28.07:613][290]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.28.07:625][290]LogMaterial: Missing cached shader map for material LockerHandle, compiling. 
+[2015.11.17-23.28.07:657][290]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.28.07:767][290]LogMaterial: Missing cached shader map for material LockerHandle, compiling. 
+[2015.11.17-23.28.07:773][290]LogMaterial: 0.000082 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.11.17-23.28.07:799][290]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2015.11.17-23.28.07:829][290]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2015.11.17-23.28.07:833][290]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_15, compiling. 
+[2015.11.17-23.28.07:844][290]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_14, compiling. 
+[2015.11.17-23.28.07:847][290]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2015.11.17-23.28.08:853][319]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 54 instructions
+[2015.11.17-23.28.08:853][319]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.11.17-23.28.08:853][319]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.11.17-23.28.23:074][915]LogMaterialEditor: Saving and Compiling material LockerHandle
+[2015.11.17-23.28.23:078][915]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.28.23:142][915]LogSavePackage: Save=14.849465ms
+[2015.11.17-23.28.23:142][915]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/LockerHandleE88040C749293541EA628FB32AD787A2.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/lockerFace/LockerHandle.uasset'
+[2015.11.17-23.28.26:351][ 62]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.28.40:455][899]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.28.40:518][899]LogSavePackage: Save=14.235288ms
+[2015.11.17-23.28.40:518][899]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/lockerFace940428E5498B892481508084D81EC47D.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/lockerFace/lockerFace.uasset'
+[2015.11.17-23.28.49:832][455]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.28.49:856][455]LogSavePackage: Save=4.505337ms
+[2015.11.17-23.28.49:856][455]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/lockerFace9FD1A3B44B7D35980E5EE5BF23C01D3E.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/lockerFace/lockerFace.uasset'
+[2015.11.17-23.28.58:036][939]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.28.58:055][939]LogSavePackage: Save=4.315664ms
+[2015.11.17-23.28.58:055][939]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/lockerFaceC098016F4683AE8769B8FC83C88838C5.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Art/AlphaModels/AlphaModels/GeneralMuseumItems/lockerFace/lockerFace.uasset'
+[2015.11.17-23.29.01:014][114]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.29.01:882][166]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.29.01:911][166]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018E66849620
+[2015.11.17-23.29.01:912][166]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018E68F90CC0
+[2015.11.17-23.29.01:912][166]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018E6663CD60
+[2015.11.17-23.29.01:912][166]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018E6B6A7240
+[2015.11.17-23.29.01:938][166]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018E6B358CC0
+[2015.11.17-23.29.02:018][166]LogSavePackage: Save=79.530235ms
+[2015.11.17-23.29.02:018][166]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Minimal_Default3245541B45BD197BDAC252B4183750D2.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.11.17-23.29.02:792][209]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.29.03:956][279]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.29.04:096][279]LogSavePackage: Save=77.282082ms
+[2015.11.17-23.29.04:096][279]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Minimal_DefaultDCD6C0F1479A5F176F5E1B929E55A0D9.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.11.17-23.29.04:685][311]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.29.08:970][555]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.29.09:784][604]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.29.09:909][604]LogSavePackage: Save=78.870079ms
+[2015.11.17-23.29.09:909][604]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Minimal_DefaultF70041364378C6BEE1B4CF9809C8A783.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.11.17-23.29.10:402][630]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.29.11:273][682]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.29.11:408][682]LogSavePackage: Save=76.970070ms
+[2015.11.17-23.29.11:408][682]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Minimal_DefaultD4DA3ACF4D4142377B8A889A7691DA00.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.11.17-23.29.12:303][732]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.29.13:250][789]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.29.13:376][789]LogSavePackage: Save=79.070831ms
+[2015.11.17-23.29.13:376][789]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Minimal_Default5023B63F4A0AF77F468483A66DFCD524.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.11.17-23.29.14:134][831]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.29.29:699][743]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.29.32:188][892]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.29.34:290][ 18]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.29.38:186][251]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.29.39:902][354]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.29.51:434][ 45]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.29.52:266][ 95]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.29.52:399][ 95]LogSavePackage: Save=84.613625ms
+[2015.11.17-23.29.52:399][ 95]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Minimal_Default42F22B02421075677617F7B46EB0E20B.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.11.17-23.29.53:514][158]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.29.55:570][280]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.29.56:400][330]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.29.56:524][330]LogSavePackage: Save=79.141861ms
+[2015.11.17-23.29.56:524][330]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Minimal_DefaultBFD75CFB46B88C5FA22760B24E02B728.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.11.17-23.29.56:847][346]LogD3D11RHI: InitD3DDevice
+[2015.11.17-23.29.59:786][510]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.17-23.30.00:027][511]Cmd: QUIT_EDITOR
+[2015.11.17-23.30.00:290][511]LogExit: Preparing to exit.
+[2015.11.17-23.30.01:399][511]LogExit: Editor shut down
+[2015.11.17-23.30.01:399][511]LogExit: Transaction tracking system shut down
+[2015.11.17-23.30.01:403][511]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018E6CB41F80
+[2015.11.17-23.30.01:403][511]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018E73FF28E0
+[2015.11.17-23.30.01:403][511]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018E73F45940
+[2015.11.17-23.30.01:403][511]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018E7D3F45E0
+[2015.11.17-23.30.01:403][511]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000018E08BD76A0
+[2015.11.17-23.30.01:513][511]LogExit: Object subsystem successfully closed.
+[2015.11.17-23.30.01:522][511]LogD3D11RHI: Shutdown
+[2015.11.17-23.30.01:522][511]LogD3D11RHI: CleanupD3DDevice
+[2015.11.17-23.30.01:613][511]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.17-23.30.01:627][511]LogModuleManager: Shutting down and abandoning module MaterialEditor (190)
+[2015.11.17-23.30.01:627][511]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (189)
+[2015.11.17-23.30.01:627][511]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.11.17-23.30.01:627][511]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.11.17-23.30.01:627][511]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.11.17-23.30.01:627][511]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.11.17-23.30.01:627][511]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.11.17-23.30.01:628][511]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.11.17-23.30.01:628][511]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.11.17-23.30.01:628][511]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.11.17-23.30.01:628][511]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.11.17-23.30.01:628][511]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.11.17-23.30.01:628][511]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.11.17-23.30.01:628][511]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.11.17-23.30.01:628][511]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.11.17-23.30.01:628][511]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.11.17-23.30.01:628][511]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.11.17-23.30.01:628][511]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.11.17-23.30.01:628][511]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.11.17-23.30.01:628][511]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.11.17-23.30.01:628][511]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.11.17-23.30.01:628][511]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.11.17-23.30.01:628][511]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.11.17-23.30.01:628][511]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.11.17-23.30.01:628][511]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.11.17-23.30.01:628][511]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.11.17-23.30.01:628][511]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.11.17-23.30.01:628][511]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.11.17-23.30.02:044][511]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.11.17-23.30.02:044][511]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.11.17-23.30.02:044][511]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.11.17-23.30.02:044][511]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.11.17-23.30.02:044][511]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.11.17-23.30.02:044][511]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.11.17-23.30.02:044][511]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.11.17-23.30.02:044][511]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.11.17-23.30.02:044][511]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.11.17-23.30.02:044][511]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.11.17-23.30.02:044][511]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.11.17-23.30.02:044][511]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.11.17-23.30.02:044][511]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.11.17-23.30.02:044][511]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.11.17-23.30.02:045][511]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.11.17-23.30.02:045][511]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.11.17-23.30.02:045][511]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.11.17-23.30.02:045][511]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.11.17-23.30.02:045][511]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.11.17-23.30.02:045][511]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.11.17-23.30.02:046][511]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.11.17-23.30.02:046][511]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.11.17-23.30.02:046][511]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.11.17-23.30.02:046][511]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.11.17-23.30.02:046][511]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.11.17-23.30.02:046][511]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.11.17-23.30.02:046][511]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.11.17-23.30.02:046][511]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.11.17-23.30.02:046][511]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.11.17-23.30.02:046][511]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.11.17-23.30.02:047][511]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.11.17-23.30.02:047][511]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.11.17-23.30.02:212][511]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.11.17-23.30.02:212][511]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.11.17-23.30.02:212][511]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.11.17-23.30.02:212][511]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.11.17-23.30.02:212][511]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.11.17-23.30.02:212][511]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.11.17-23.30.02:212][511]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.11.17-23.30.02:212][511]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.11.17-23.30.02:212][511]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.11.17-23.30.02:212][511]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.11.17-23.30.02:212][511]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.11.17-23.30.02:212][511]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.11.17-23.30.02:212][511]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.11.17-23.30.02:212][511]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.11.17-23.30.02:212][511]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.11.17-23.30.02:212][511]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.11.17-23.30.02:212][511]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.11.17-23.30.02:212][511]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.11.17-23.30.02:223][511]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.11.17-23.30.02:223][511]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.11.17-23.30.02:223][511]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.11.17-23.30.02:223][511]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.11.17-23.30.02:223][511]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.11.17-23.30.02:223][511]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.11.17-23.30.02:223][511]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.11.17-23.30.02:235][511]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.11.17-23.30.02:235][511]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.11.17-23.30.02:235][511]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.11.17-23.30.02:235][511]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.11.17-23.30.02:235][511]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.11.17-23.30.02:235][511]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.11.17-23.30.02:235][511]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.11.17-23.30.02:235][511]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.11.17-23.30.02:235][511]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.11.17-23.30.02:235][511]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.11.17-23.30.02:235][511]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.11.17-23.30.02:235][511]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.11.17-23.30.02:235][511]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.11.17-23.30.02:235][511]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.11.17-23.30.02:235][511]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.11.17-23.30.02:235][511]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.11.17-23.30.02:235][511]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.11.17-23.30.02:235][511]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.11.17-23.30.02:235][511]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.11.17-23.30.02:235][511]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.11.17-23.30.02:235][511]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.11.17-23.30.02:235][511]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.11.17-23.30.02:235][511]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.11.17-23.30.02:236][511]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.11.17-23.30.02:237][511]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.11.17-23.30.02:237][511]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.11.17-23.30.02:337][511]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.11.17-23.30.02:337][511]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.11.17-23.30.02:348][511]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.11.17-23.30.02:348][511]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.11.17-23.30.02:349][511]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.11.17-23.30.02:349][511]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.11.17-23.30.02:349][511]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.11.17-23.30.02:349][511]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.11.17-23.30.02:349][511]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.11.17-23.30.02:349][511]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.11.17-23.30.02:349][511]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.11.17-23.30.02:349][511]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.11.17-23.30.02:349][511]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.11.17-23.30.02:349][511]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.11.17-23.30.02:349][511]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.11.17-23.30.02:349][511]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.11.17-23.30.02:349][511]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.11.17-23.30.02:357][511]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.11.17-23.30.02:357][511]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.11.17-23.30.02:357][511]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.11.17-23.30.02:357][511]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.11.17-23.30.02:358][511]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.11.17-23.30.02:358][511]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.11.17-23.30.02:358][511]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.11.17-23.30.02:358][511]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.11.17-23.30.02:358][511]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.11.17-23.30.02:358][511]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.11.17-23.30.02:406][511]LogDerivedDataCache: Shutdown
+[2015.11.17-23.30.02:406][511]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.11.17-23.30.02:406][511]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.11.17-23.30.02:406][511]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.11.17-23.30.02:406][511]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.11.17-23.30.02:406][511]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.11.17-23.30.02:406][511]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.11.17-23.30.02:406][511]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.11.17-23.30.02:406][511]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.11.17-23.30.02:406][511]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.11.17-23.30.02:406][511]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.11.17-23.30.02:406][511]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.11.17-23.30.02:406][511]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.11.17-23.30.02:406][511]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.11.17-23.30.02:407][511]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.11.17-23.30.02:407][511]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.11.17-23.30.02:407][511]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.11.17-23.30.02:407][511]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.11.17-23.30.02:407][511]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.11.17-23.30.02:407][511]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.11.17-23.30.02:407][511]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.11.17-23.30.02:407][511]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.11.17-23.30.02:407][511]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.11.17-23.30.02:407][511]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.11.17-23.30.02:407][511]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.11.17-23.30.02:407][511]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.11.17-23.30.02:407][511]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.11.17-23.30.02:407][511]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.11.17-23.30.02:407][511]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.11.17-23.30.02:407][511]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.11.17-23.30.02:407][511]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.11.17-23.30.02:407][511]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.11.17-23.30.02:407][511]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.11.17-23.30.02:407][511]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.11.17-23.30.02:407][511]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.11.17-23.30.02:407][511]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.11.17-23.30.02:407][511]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.11.17-23.30.02:408][511]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.11.17-23.30.02:408][511]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.11.17-23.30.02:408][511]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.11.17-23.30.02:408][511]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.11.17-23.30.02:408][511]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.11.17-23.30.02:414][511]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.11.17-23.30.02:414][511]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.11.17-23.30.02:414][511]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.17-23.30.02:415][511]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.17-23.30.02:415][511]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.17-23.30.02:415][511]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.17-23.30.02:415][511]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.17-23.30.02:415][511]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.17-23.30.02:415][511]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.17-23.30.02:416][511]LogExit: Exiting.
+[2015.11.17-23.30.02:475][511]Log file closed, 11/17/15 18:30:02
+>>>>>>> fce6f2414b0efdd1b1edfce1102168d85f2ff983
