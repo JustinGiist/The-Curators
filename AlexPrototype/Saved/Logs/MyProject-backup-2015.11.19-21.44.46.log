@@ -1,0 +1,533 @@
+﻿[2015.11.20-00.11.19:695][  0]Log file open, 11/19/15 19:11:19
+[2015.11.20-00.11.19:695][  0]LogInit:Display: Running engine for game: MyProject
+[2015.11.20-00.11.19:695][  0]LogInit:Display: RandInit(-1580742813) SRandInit(-1580742812).
+[2015.11.20-00.11.19:695][  0]LogTaskGraph: Started task graph with 4 named threads and 6 total threads.
+[2015.11.20-00.11.19:695][  0]LogStats: Stats thread started
+[2015.11.20-00.11.19:695][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.11.20-00.11.19:695][  0]LogInit: API Version: 2579680
+[2015.11.20-00.11.19:695][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.11.20-00.11.19:695][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.20-00.11.19:695][  0]LogInit: Build Configuration: Development
+[2015.11.20-00.11.19:695][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.11.20-00.11.19:695][  0]LogInit: Command line:  
+[2015.11.20-00.11.19:695][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.11.20-00.11.19:695][  0]LogInit: Rocket: 1
+[2015.11.20-00.11.19:730][  0]LogInit: Using libcurl 7.41.0
+[2015.11.20-00.11.19:730][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.20-00.11.19:730][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.20-00.11.19:730][  0]LogInit:  - other features:
+[2015.11.20-00.11.19:730][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.20-00.11.19:730][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.20-00.11.19:730][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.20-00.11.19:730][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.20-00.11.19:730][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.20-00.11.19:730][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.20-00.11.19:730][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.20-00.11.19:730][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.20-00.11.19:730][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.20-00.11.19:730][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.20-00.11.19:760][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.11.20-00.11.19:793][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.20-00.11.19:806][  0]LogInit: Object subsystem initialized
+[2015.11.20-00.11.19:807][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.11.20-00.11.19:808][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.11.20-00.11.19:808][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.11.20-00.11.19:808][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.11.20-00.11.19:808][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.11.20-00.11.19:808][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.11.20-00.11.19:808][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.20-00.11.19:808][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.20-00.11.19:822][  0]LogInit: Computer: KIDO-PC
+[2015.11.20-00.11.19:822][  0]LogInit: User: Kido
+[2015.11.20-00.11.19:822][  0]LogInit: CPU Page size=4096, Cores=3
+[2015.11.20-00.11.19:822][  0]LogInit: High frequency timer resolution =3.429511 MHz
+[2015.11.20-00.11.19:822][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.11.20-00.11.19:822][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.20-00.11.19:822][  0]LogMemory: Process Physical Memory: 56.00 MB used, 56.00 MB peak
+[2015.11.20-00.11.19:822][  0]LogMemory: Process Virtual Memory: 28.17 MB used, 28.17 MB peak
+[2015.11.20-00.11.19:822][  0]LogMemory: Physical Memory: 4058.07 MB used, 8088.61 MB total
+[2015.11.20-00.11.19:822][  0]LogMemory: Virtual Memory: 288.50 MB used, 8388608.00 MB total
+[2015.11.20-00.11.19:911][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.11.20-00.11.20:195][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.11.20-00.11.20:907][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R9 200 Series (Feature Level 11_0)
+[2015.11.20-00.11.20:907][  0]LogD3D11RHI: Adapter has 2027MB of dedicated video memory, 0MB of dedicated system memory, and 3788MB of shared system memory, 2 output[s]
+[2015.11.20-00.11.20:907][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.20-00.11.20:916][  0]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.11.20:916][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.20-00.11.20:916][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.20-00.11.20:954][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.11.20-00.11.21:292][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.20-00.11.34:077][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.11.20-00.11.34:152][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.20-00.11.34:267][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.20-00.11.34:356][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.20-00.11.34:482][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.20-00.11.34:602][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.20-00.11.34:709][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.20-00.11.34:812][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.20-00.11.34:924][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.20-00.11.34:992][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.20-00.11.35:111][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.20-00.11.35:189][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.20-00.11.35:551][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.20-00.11.35:604][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.20-00.11.35:687][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.20-00.11.35:768][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.20-00.11.35:768][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.20-00.11.38:483][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.20-00.11.40:354][  0]LogDerivedDataCache: Loaded boot cache 1.87s 53MB C:/Users/Kido/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.11.20-00.11.40:354][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Kido/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.11.20-00.11.40:354][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.20-00.11.40:354][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.20-00.11.40:354][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.20-00.11.40:354][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.20-00.11.40:706][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.20-00.11.40:719][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kido/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.20-00.11.57:499][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.20-00.11.57:722][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.11.20-00.11.57:722][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.11.20-00.11.57:931][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.20-00.11.57:931][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.20-00.12.02:715][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.20-00.12.49:145][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.20-00.12.53:539][  0]SourceControl: Info Source control is disabled
+[2015.11.20-00.12.53:665][  0]SourceControl: Info Source control is disabled
+[2015.11.20-00.12.53:881][  0]SourceControl: Info Source control is disabled
+[2015.11.20-00.12.54:005][  0]SourceControl: Info Source control is disabled
+[2015.11.20-00.12.56:288][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.11.20-00.12.56:288][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.11.20-00.12.56:828][  0]LogEngine: Initializing Engine...
+[2015.11.20-00.12.56:888][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.11.20-00.12.57:026][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 100
+[2015.11.20-00.12.57:525][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.20-00.12.57:537][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.20-00.12.57:592][  0]LogInit: FAudioDevice initialized.
+[2015.11.20-00.12.57:662][  0]LogDerivedDataCache: Saved boot cache 0.07s 53MB C:/Users/Kido/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.11.20-00.12.57:676][  0]LogInit: Texture streaming: Disabled
+[2015.11.20-00.12.57:769][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.20-00.12.57:769][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.11.20-00.12.57:769][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 43320ea4426e19879c0674aa75267495|ac704d33c08e461d905fa8a004e85986|70feb17f-f50f-4812-9d0e-586ab78027fa
+[2015.11.20-00.12.57:769][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.20-00.12.58:054][  0]LogInit: Transaction tracking system initialized
+[2015.11.20-00.12.58:792][  0]BlueprintLog: New page: Editor Load
+[2015.11.20-00.12.58:909][  0]LogAssetRegistry: FAssetRegistry took 0.0102 seconds to start up
+[2015.11.20-00.12.58:910][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.11.20-00.13.04:489][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.11.20-00.13.04:489][  0]LogConsoleResponse:Display: 
+[2015.11.20-00.13.06:407][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.20-00.13.07:883][  0]SourceControl: Info Source control is disabled
+[2015.11.20-00.13.07:936][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.20-00.13.07:997][  0]LightingResults: New page: Lighting Build
+[2015.11.20-00.13.08:178][  0]MapCheck: New page: Map Check
+[2015.11.20-00.13.08:178][  0]LightingResults: New page: Lighting Build
+[2015.11.20-00.13.08:192][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016A149A0
+[2015.11.20-00.13.11:050][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.20-00.13.11:077][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0114.53] Compile of ThirdPersonCharacter successful, but with 1 Warning(s) [in 321 ms]
+[2015.11.20-00.13.11:077][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0114.53] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 0 ms]
+[2015.11.20-00.13.11:078][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0114.53] Compile of ThirdPersonCharacter successful, but with 3 Warning(s) [in 0 ms]
+[2015.11.20-00.13.13:393][  0]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.20-00.13.13:421][  0]LogBlueprint:Error: [compiler ErichFinalCharCombined] Error Default value '' for  Inventory  is invalid: 'Array inputs (like 'Inventory') must have an input wired into them (try connecting a MakeArray node).'
+[2015.11.20-00.13.13:530][  0]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning [0116.98] Compile of ErichFinalCharCombined failed. 1 Fatal Issue(s) 1 Warning(s) [in 339 ms]
+[2015.11.20-00.13.13:530][  0]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning [0116.98] Compile of ErichFinalCharCombined failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.11.20-00.13.13:531][  0]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning [0116.98] Compile of ErichFinalCharCombined failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.11.20-00.13.14:030][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.20-00.13.14:065][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0117.52] Compile of ThirdPersonCharacter successful, but with 1 Warning(s) [in 215 ms]
+[2015.11.20-00.13.14:065][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0117.52] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 0 ms]
+[2015.11.20-00.13.14:557][  0]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.20-00.13.14:584][  0]LogBlueprint:Error: [compiler ErichFinalCharCombined] Error Default value '' for  Inventory  is invalid: 'Array inputs (like 'Inventory') must have an input wired into them (try connecting a MakeArray node).'
+[2015.11.20-00.13.14:683][  0]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning [0118.14] Compile of ErichFinalCharCombined failed. 1 Fatal Issue(s) 1 Warning(s) [in 317 ms]
+[2015.11.20-00.13.14:684][  0]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning [0118.14] Compile of ErichFinalCharCombined failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.11.20-00.13.16:229][  0]LogBlueprint:Error: [compiler PlayerHUD] Error Default value '' for  Inventory  is invalid: 'Array inputs (like 'Inventory') must have an input wired into them (try connecting a MakeArray node).'
+[2015.11.20-00.13.16:269][  0]LogBlueprint:Warning: [compiler PlayerHUD] Warning [0119.72] Compile of PlayerHUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 131 ms]
+[2015.11.20-00.13.16:269][  0]LogBlueprint:Warning: [compiler PlayerHUD] Warning [0119.72] Compile of PlayerHUD failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.11.20-00.13.16:269][  0]LogBlueprint:Warning: [compiler PlayerHUD] Warning [0119.72] Compile of PlayerHUD failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.11.20-00.13.45:668][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.11.20-00.13.45:809][  0]LogEditorServer: Finished looking for orphan Actors (0.029 secs)
+[2015.11.20-00.13.45:817][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.20-00.13.46:018][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 201.076ms to complete.
+[2015.11.20-00.13.46:018][  0]LogFileHelpers: Loading map 'Minimal_Default' took 38.082
+[2015.11.20-00.13.46:911][  0]LogCollectionManager: Loaded 0 collections in 0.003440 seconds
+[2015.11.20-00.13.46:959][  0]LogContentBrowser: Native class hierarchy populated in 0.0475 seconds. Added 1792 classes and 301 folders.
+[2015.11.20-00.13.47:261][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2015.11.20-00.13.47:894][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2015.11.20-00.13.48:264][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2015.11.20-00.13.48:766][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.20-00.13.48:777][  0]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.13.48:789][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.20-00.13.48:842][  0]LogLoad: Full Startup: 152.29 seconds (BP compile: 4.38 seconds)
+[2015.11.20-00.13.49:430][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.20-00.13.49:625][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.11.20-00.13.49:954][  0]LogRenderer: Reallocating scene render targets to support 1080x904 (Frame:2).
+[2015.11.20-00.13.50:553][  2]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.13.58:666][ 26]LogAssetRegistry: Asset discovery search completed in 59.7679 seconds
+[2015.11.20-00.14.12:295][138]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.14.19:180][648]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.14.19:389][648]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.20-00.14.19:506][648]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.20-00.14.33:811][939]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.14.38:520][ 99]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.11.20-00.14.38:541][ 99]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.11.20-00.14.38:542][ 99]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.11.20-00.14.38:542][ 99]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.11.20-00.14.38:554][100]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.11.20-00.14.38:554][100]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.11.20-00.14.38:554][100]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.11.20-00.14.38:554][100]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.11.20-00.14.38:588][101]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.11.20-00.14.38:588][101]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.11.20-00.14.38:588][101]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.11.20-00.14.38:588][101]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.11.20-00.14.38:637][103]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.11.20-00.14.38:637][103]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.11.20-00.14.38:638][103]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.11.20-00.14.38:638][103]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.11.20-00.14.38:640][103]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.11.20-00.14.38:640][103]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.11.20-00.14.38:641][103]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.11.20-00.14.38:641][103]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.11.20-00.14.38:748][106]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.11.20-00.14.38:748][106]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.11.20-00.14.38:748][106]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.11.20-00.14.38:748][106]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.11.20-00.14.38:761][107]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.11.20-00.14.38:762][107]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.11.20-00.14.38:762][107]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.11.20-00.14.38:762][107]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.11.20-00.14.38:855][110]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.11.20-00.14.38:855][110]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.11.20-00.14.38:855][110]LogLinker:Warning: Can't find file '/Game/UE4_Mannequin/Mesh/UE4_Mannequin'
+[2015.11.20-00.14.38:855][110]LogUObjectGlobals:Warning: Failed to find object 'SkeletalMesh /Game/UE4_Mannequin/Mesh/UE4_Mannequin.UE4_Mannequin'
+[2015.11.20-00.14.43:313][330]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.20-00.14.43:339][330]LogBlueprint:Error: [compiler ThirdPersonCharacter] Error Default value '' for  Inventory  is invalid: 'Array inputs (like 'Inventory') must have an input wired into them (try connecting a MakeArray node).'
+[2015.11.20-00.14.43:459][330]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0206.91] Compile of ThirdPersonCharacter failed. 1 Fatal Issue(s) 1 Warning(s) [in 395 ms]
+[2015.11.20-00.14.43:459][330]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0206.91] Compile of ThirdPersonCharacter failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.11.20-00.14.43:459][330]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0206.91] Compile of ThirdPersonCharacter failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.11.20-00.14.43:762][330]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.20-00.14.43:784][330]LogBlueprint:Error: [compiler ThirdPersonCharacter] Error Default value '' for  Inventory  is invalid: 'Array inputs (like 'Inventory') must have an input wired into them (try connecting a MakeArray node).'
+[2015.11.20-00.14.43:911][330]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0207.36] Compile of ThirdPersonCharacter failed. 1 Fatal Issue(s) 1 Warning(s) [in 400 ms]
+[2015.11.20-00.14.43:911][330]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0207.36] Compile of ThirdPersonCharacter failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.11.20-00.14.44:020][330]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.14.50:646][702]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2015.11.20-00.14.50:955][702]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.20-00.14.50:977][702]LogBlueprint:Error: [compiler ThirdPersonCharacter] Error Default value '' for  Inventory  is invalid: 'Array inputs (like 'Inventory') must have an input wired into them (try connecting a MakeArray node).'
+[2015.11.20-00.14.51:381][702]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.20-00.14.51:384][702]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.11.20-00.14.51:385][702]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.11.20-00.14.51:388][702]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_0) Not registered. Aborting.
+[2015.11.20-00.14.52:153][702]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0215.61] Compile of ThirdPersonCharacter failed. 1 Fatal Issue(s) 1 Warning(s) [in 1,507 ms]
+[2015.11.20-00.14.52:153][702]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.20-00.14.52:153][702]BlueprintEditorCompileResults:Error: Error Default value '' for  Inventory  is invalid: 'Array inputs (like 'Inventory') must have an input wired into them (try connecting a MakeArray node).'
+[2015.11.20-00.14.52:153][702]BlueprintEditorCompileResults:Warning: Warning [0215.61] Compile of ThirdPersonCharacter failed. 1 Fatal Issue(s) 1 Warning(s) [in 1,507 ms]
+[2015.11.20-00.15.02:736][609]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.15.03:539][689]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.15.04:450][787]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.15.05:088][854]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.15.06:706][ 36]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.15.10:046][430]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2015.11.20-00.15.10:358][430]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.20-00.15.10:437][430]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.20-00.15.10:440][430]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.11.20-00.15.10:555][430]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0234.01] Compile of ThirdPersonCharacter successful, but with 1 Warning(s) [in 508 ms]
+[2015.11.20-00.15.10:555][430]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.20-00.15.10:555][430]BlueprintEditorCompileResults:Warning: Warning [0234.01] Compile of ThirdPersonCharacter successful, but with 1 Warning(s) [in 508 ms]
+[2015.11.20-00.15.28:087][431]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.15.36:063][335]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.15.39:878][790]LogEditorTransaction: Undo Move Node
+[2015.11.20-00.15.39:920][790]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.20-00.15.39:922][790]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.11.20-00.15.39:966][790]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.15.41:253][918]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.16.00:442][215]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.17.15:147][135]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.17.33:772][365]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.17.38:047][876]BlueprintLog: New page: Compile AlexRedDoor
+[2015.11.20-00.17.38:305][876]BlueprintEditorCompileResults: Info [0381.76] Compile of AlexRedDoor successful! [in 257 ms]
+[2015.11.20-00.19.12:172][732]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.19.40:102][408]LogEditorTransaction: Undo Move Node
+[2015.11.20-00.19.40:198][408]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.20.34:966][720]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.20.35:333][749]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.20.42:514][556]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.21.23:067][169]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.21.27:331][678]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.21.28:160][773]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.21.31:432][158]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.21.32:683][303]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.21.42:808][377]BlueprintLog: New page: Compile AlexHackableDoor
+[2015.11.20-00.21.43:115][377]BlueprintEditorCompileResults: Info [0626.56] Compile of AlexHackableDoor successful! [in 307 ms]
+[2015.11.20-00.22.06:596][151]BlueprintLog: New page: Compile AlexHackableDoor
+[2015.11.20-00.22.06:863][151]BlueprintEditorCompileResults: Info [0650.31] Compile of AlexHackableDoor successful! [in 266 ms]
+[2015.11.20-00.22.07:425][197]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.22.07:697][197]LogSavePackage: Save=159.886353ms
+[2015.11.20-00.22.07:698][197]LogSavePackage: Moving '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Saved/AlexHackableDoor3B48A90C4B2EE3BDFE5B25B0C92A5F0B.tmp' to '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Content/Art/Assets/Blueprints/AlexHackableDoor.uasset'
+[2015.11.20-00.22.11:083][593]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.22.11:247][593]LogSavePackage: Save=104.692474ms
+[2015.11.20-00.22.11:247][593]LogSavePackage: Moving '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Saved/AlexRedDoor1461E25A44591ACF6C994B8849130A75.tmp' to '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Content/Art/Assets/Blueprints/AlexRedDoor.uasset'
+[2015.11.20-00.22.12:562][739]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.22.13:219][739]LogSavePackage: Save=569.085205ms
+[2015.11.20-00.22.13:219][739]LogSavePackage: Moving '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Saved/ThirdPersonCharacterB0A98B6A41DE1D5179B598B114E762A0.tmp' to '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Content/Blueprints/Tech/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2015.11.20-00.23.21:061][492]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.23.56:478][659]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.23.59:062][835]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.23.59:114][835]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.24.10:899][404]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.24.15:345][777]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.24.16:043][831]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.24.18:094][981]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.24.18:231][989]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.24.20:404][151]BlueprintLog: New page: Compile ErichFinalCharCombined
+[2015.11.20-00.24.20:670][151]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.20-00.24.20:814][151]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.20-00.24.20:815][151]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.11.20-00.24.20:816][151]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.11.20-00.24.20:817][151]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_1) Not registered. Aborting.
+[2015.11.20-00.24.20:818][151]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.11.20-00.24.20:819][151]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_2) Not registered. Aborting.
+[2015.11.20-00.24.21:138][151]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.AIGuardChar_1413.CollisionCylinder and CapsuleComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.AIGuardChar_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.20-00.24.21:138][151]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.AIGuardChar_1413.Arrow and ArrowComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.AIGuardChar_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.20-00.24.21:138][151]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.AIGuardChar_1413.CharMoveComp and CharacterMovementComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.AIGuardChar_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.20-00.24.21:138][151]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.AIGuardChar_1413.CharacterMesh0 and SkeletalMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.AIGuardChar_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.20-00.24.21:202][151]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.20-00.24.21:202][151]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.20-00.24.21:203][151]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.20-00.24.21:203][151]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.20-00.24.21:203][151]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.20-00.24.21:313][151]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.20-00.24.21:313][151]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.20-00.24.21:313][151]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.20-00.24.21:314][151]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.20-00.24.21:314][151]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.20-00.24.21:315][151]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.20-00.24.21:315][151]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.20-00.24.21:315][151]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.20-00.24.21:334][151]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning [0784.78] Compile of ErichFinalCharCombined successful, but with 1 Warning(s) [in 929 ms]
+[2015.11.20-00.24.21:334][151]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.20-00.24.21:334][151]BlueprintEditorCompileResults:Warning: Warning [0784.78] Compile of ErichFinalCharCombined successful, but with 1 Warning(s) [in 929 ms]
+[2015.11.20-00.24.46:551][555]LogRenderer: Reallocating scene render targets to support 1144x904 (Frame:3385).
+[2015.11.20-00.24.50:004][773]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.24.50:749][773]LogSavePackage: Save=650.707336ms
+[2015.11.20-00.24.50:749][773]LogSavePackage: Moving '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Saved/ErichFinalCharCombined682ABF714B17165DC92EAB90596D0B3B.tmp' to '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Content/Tech/ThirdPersonBP/Blueprints/ErichFinalCharCombined.uasset'
+[2015.11.20-00.25.29:559][370]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.25.30:236][370]LogSavePackage: Save=645.455566ms
+[2015.11.20-00.25.30:236][370]LogSavePackage: Moving '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Saved/ErichFinalCharCombined8DF8EBC1439AB73C9A82DE8E9A095A20.tmp' to '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Content/Tech/ThirdPersonBP/Blueprints/ErichFinalCharCombined.uasset'
+[2015.11.20-00.25.33:630][668]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.11.20-00.25.34:297][734]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.11.20-00.25.40:043][410]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.20-00.25.40:044][410]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.11.20-00.25.40:086][410]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000344005E0
+[2015.11.20-00.25.40:087][410]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003B9DB740
+[2015.11.20-00.25.40:087][410]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D137740
+[2015.11.20-00.25.40:160][410]LogD3D11RHI: InitD3DDevice
+[2015.11.20-00.25.40:736][410]LogSavePackage: Save=233.827209ms
+[2015.11.20-00.25.40:736][410]LogSavePackage: Moving '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Saved/Minimal_DefaultBE56189F4AF6937F8583CF8E99E45D5C.tmp' to '../../../../../../Users/Kido/Documents/GitHub/NMNYD/The-Curators/AlexPrototype/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.11.20-00.25.40:825][410]LogFileHelpers: Saving map 'Minimal_Default' took 0.652
+[2015.11.20-00.25.45:888][945]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.11.20-00.25.45:931][945]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.11.20-00.25.46:275][946]Cmd: QUIT_EDITOR
+[2015.11.20-00.25.46:607][946]LogExit: Preparing to exit.
+[2015.11.20-00.25.47:308][946]LogExit: Editor shut down
+[2015.11.20-00.25.47:308][946]LogExit: Transaction tracking system shut down
+[2015.11.20-00.25.47:318][946]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002148AC00
+[2015.11.20-00.25.47:318][946]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F0C72E0
+[2015.11.20-00.25.47:318][946]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027865C60
+[2015.11.20-00.25.47:318][946]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F0E1C60
+[2015.11.20-00.25.47:318][946]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000032292700
+[2015.11.20-00.25.47:323][946]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019FFA5C0
+[2015.11.20-00.25.47:323][946]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001DDA0220
+[2015.11.20-00.25.47:323][946]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003B9DB560
+[2015.11.20-00.25.47:324][946]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003B9DAD40
+[2015.11.20-00.25.47:591][946]LogExit: Object subsystem successfully closed.
+[2015.11.20-00.25.47:607][946]LogD3D11RHI: Shutdown
+[2015.11.20-00.25.47:607][946]LogD3D11RHI: CleanupD3DDevice
+[2015.11.20-00.25.47:675][946]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.20-00.25.47:729][946]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.11.20-00.25.47:729][946]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.11.20-00.25.47:729][946]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.11.20-00.25.47:729][946]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.11.20-00.25.47:729][946]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.11.20-00.25.47:730][946]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.11.20-00.25.47:730][946]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.11.20-00.25.47:730][946]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.11.20-00.25.47:730][946]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.11.20-00.25.47:730][946]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.11.20-00.25.47:731][946]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.11.20-00.25.47:731][946]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.11.20-00.25.47:731][946]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.11.20-00.25.47:731][946]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.11.20-00.25.47:731][946]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.11.20-00.25.47:731][946]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.11.20-00.25.47:731][946]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.11.20-00.25.47:731][946]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.11.20-00.25.47:731][946]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.11.20-00.25.47:731][946]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.11.20-00.25.47:731][946]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.11.20-00.25.47:731][946]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.11.20-00.25.47:731][946]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.11.20-00.25.47:731][946]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.11.20-00.25.47:731][946]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.11.20-00.25.47:731][946]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.11.20-00.25.48:229][946]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.11.20-00.25.48:229][946]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.11.20-00.25.48:229][946]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.11.20-00.25.48:229][946]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.11.20-00.25.48:229][946]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.11.20-00.25.48:229][946]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.11.20-00.25.48:229][946]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.11.20-00.25.48:229][946]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.11.20-00.25.48:229][946]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.11.20-00.25.48:229][946]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.11.20-00.25.48:229][946]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.11.20-00.25.48:229][946]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.11.20-00.25.48:229][946]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.11.20-00.25.48:229][946]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.11.20-00.25.48:229][946]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.11.20-00.25.48:229][946]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.11.20-00.25.48:229][946]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.11.20-00.25.48:229][946]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.11.20-00.25.48:229][946]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.11.20-00.25.48:229][946]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.11.20-00.25.48:229][946]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.11.20-00.25.48:229][946]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.11.20-00.25.48:229][946]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.11.20-00.25.48:229][946]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.11.20-00.25.48:229][946]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.11.20-00.25.48:230][946]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.11.20-00.25.48:230][946]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.11.20-00.25.48:230][946]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.11.20-00.25.48:230][946]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.11.20-00.25.48:230][946]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.11.20-00.25.48:230][946]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.11.20-00.25.48:230][946]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.11.20-00.25.48:434][946]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.11.20-00.25.48:434][946]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.11.20-00.25.48:434][946]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.11.20-00.25.48:434][946]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.11.20-00.25.48:434][946]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.11.20-00.25.48:434][946]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.11.20-00.25.48:434][946]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.11.20-00.25.48:434][946]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.11.20-00.25.48:434][946]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.11.20-00.25.48:434][946]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.11.20-00.25.48:434][946]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.11.20-00.25.48:434][946]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.11.20-00.25.48:434][946]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.11.20-00.25.48:434][946]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.11.20-00.25.48:434][946]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.11.20-00.25.48:434][946]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.11.20-00.25.48:434][946]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.11.20-00.25.48:434][946]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.11.20-00.25.48:625][946]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.11.20-00.25.48:625][946]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.11.20-00.25.48:625][946]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.11.20-00.25.48:625][946]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.11.20-00.25.48:625][946]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.11.20-00.25.48:625][946]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.11.20-00.25.48:625][946]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.11.20-00.25.48:640][946]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.11.20-00.25.48:640][946]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.11.20-00.25.48:640][946]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.11.20-00.25.48:640][946]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.11.20-00.25.48:640][946]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.11.20-00.25.48:640][946]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.11.20-00.25.48:641][946]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.11.20-00.25.48:641][946]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.11.20-00.25.48:641][946]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.11.20-00.25.48:641][946]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.11.20-00.25.48:641][946]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.11.20-00.25.48:641][946]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.11.20-00.25.48:641][946]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.11.20-00.25.48:641][946]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.11.20-00.25.48:641][946]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.11.20-00.25.48:641][946]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.11.20-00.25.48:641][946]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.11.20-00.25.48:641][946]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.11.20-00.25.48:641][946]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.11.20-00.25.48:641][946]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.11.20-00.25.48:643][946]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.11.20-00.25.48:643][946]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.11.20-00.25.48:643][946]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.11.20-00.25.48:644][946]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.11.20-00.25.48:645][946]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.11.20-00.25.48:645][946]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.11.20-00.25.48:745][946]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.11.20-00.25.48:745][946]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.11.20-00.25.48:751][946]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.11.20-00.25.48:752][946]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.11.20-00.25.48:752][946]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.11.20-00.25.48:752][946]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.11.20-00.25.48:752][946]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.11.20-00.25.48:752][946]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.11.20-00.25.48:752][946]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.11.20-00.25.48:752][946]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.11.20-00.25.48:752][946]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.11.20-00.25.48:752][946]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.11.20-00.25.48:752][946]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.11.20-00.25.48:752][946]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.11.20-00.25.48:752][946]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.11.20-00.25.48:752][946]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.11.20-00.25.48:752][946]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.11.20-00.25.48:759][946]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.11.20-00.25.48:759][946]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.11.20-00.25.48:759][946]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.11.20-00.25.48:759][946]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.11.20-00.25.48:759][946]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.11.20-00.25.48:759][946]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.11.20-00.25.48:759][946]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.11.20-00.25.48:759][946]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.11.20-00.25.48:759][946]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.11.20-00.25.48:759][946]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.11.20-00.25.48:849][946]LogDerivedDataCache: Shutdown
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.11.20-00.25.48:849][946]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.11.20-00.25.48:850][946]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.11.20-00.25.48:850][946]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.11.20-00.25.48:850][946]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.11.20-00.25.48:850][946]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.11.20-00.25.48:850][946]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.11.20-00.25.48:855][946]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.11.20-00.25.48:855][946]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.11.20-00.25.48:855][946]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.20-00.25.48:855][946]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.20-00.25.48:855][946]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.20-00.25.48:855][946]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.20-00.25.48:855][946]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.20-00.25.48:855][946]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.20-00.25.48:855][946]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.20-00.25.48:856][946]LogExit: Exiting.
+[2015.11.20-00.25.48:908][946]Log file closed, 11/19/15 19:25:48
