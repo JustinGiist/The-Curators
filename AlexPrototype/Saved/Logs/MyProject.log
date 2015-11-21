@@ -22952,4 +22952,597 @@ Make sure 'inventorInterface_C' has been compiled for  Invalid Message Node
 [2015.11.21-19.54.29:581][199]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
 [2015.11.21-19.54.29:915][200]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
 [2015.11.21-19.54.29:916][200]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
-[2015.11.21-19.54.30:247][201]LogSkinnedMeshComp:Warning: GetSock
+[2015.11.21-19.54.30:247][201]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.30:247][201]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.30:578][202]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.30:579][202]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.30:912][203]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.30:912][203]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.31:247][204]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.31:248][204]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.31:580][205]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.31:581][205]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.31:581][205]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.31:581][205]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.31:581][205]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.31:581][205]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.31:582][205]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.31:582][205]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.31:582][205]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.31:582][205]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.31:582][205]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.31:583][205]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.31:583][205]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.31:583][205]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.31:913][206]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.31:913][206]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.32:245][207]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.32:245][207]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.32:578][208]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.32:579][208]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.32:914][209]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.32:914][209]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.33:247][210]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.33:247][210]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.33:581][211]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.33:581][211]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.33:914][212]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.33:914][212]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.34:247][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.34:248][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.34:580][214]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.34:580][214]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.34:914][215]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.34:914][215]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.35:247][216]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.35:247][216]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.35:580][217]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.35:580][217]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.35:913][218]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.35:914][218]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.36:247][219]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.36:248][219]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.37:247][222]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.37:581][223]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.37:582][223]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.37:582][223]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.37:583][223]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.37:583][223]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.37:583][223]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.37:583][223]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.37:583][223]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.37:584][223]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.37:584][223]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.37:584][223]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.37:584][223]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.37:584][223]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.37:914][224]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.38:247][225]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.38:581][226]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.38:913][227]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.39:248][228]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.39:580][229]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.39:915][230]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.40:247][231]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.40:580][232]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.40:917][233]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.41:248][234]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.41:580][235]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.41:913][236]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.41:913][236]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.42:247][237]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.42:247][237]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.42:580][238]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.42:581][238]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.42:913][239]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.42:914][239]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.43:246][240]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.43:246][240]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.43:581][241]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.43:582][241]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.43:914][242]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.43:915][242]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.44:247][243]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.44:247][243]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.44:581][244]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.44:582][244]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.44:914][245]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.44:915][245]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.45:246][246]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.45:246][246]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.45:580][247]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.45:581][247]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.45:916][248]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.45:917][248]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.46:249][249]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.46:250][249]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.46:580][250]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.46:581][250]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.46:581][250]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.46:581][250]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.46:581][250]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.46:582][250]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.46:582][250]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.46:582][250]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.46:582][250]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.46:582][250]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.46:583][250]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.46:583][250]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.46:583][250]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.46:583][250]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.46:583][250]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.46:583][250]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.46:584][250]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.46:584][250]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.46:584][250]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.46:584][250]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.46:584][250]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.46:585][250]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.46:585][250]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.46:585][250]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.46:585][250]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.46:586][250]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.46:913][251]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.46:914][251]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.47:247][252]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.47:247][252]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.47:580][253]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.47:581][253]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.47:913][254]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.48:247][255]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.48:581][256]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.48:914][257]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.49:247][258]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.49:580][259]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.49:913][260]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.50:247][261]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.50:581][262]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.50:915][263]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.51:247][264]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.51:582][265]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.51:584][265]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.51:584][265]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.51:584][265]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.51:584][265]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.51:584][265]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.51:585][265]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.51:585][265]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.51:585][265]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.51:585][265]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.51:585][265]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.51:586][265]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.51:586][265]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.51:914][266]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.52:247][267]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.52:582][268]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.52:917][269]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.53:248][270]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.53:249][270]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.53:581][271]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.53:581][271]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.53:913][272]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.53:914][272]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.54:247][273]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.54:247][273]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.54:581][274]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.54:582][274]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.54:914][275]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.54:915][275]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.55:248][276]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.55:249][276]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.55:580][277]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.55:580][277]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.55:913][278]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.55:913][278]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.56:246][279]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.56:581][280]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.56:914][281]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.56:914][281]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.57:247][282]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.57:247][282]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.57:581][283]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.57:581][283]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.57:913][284]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.57:913][284]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.58:245][285]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.58:246][285]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.58:578][286]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.58:579][286]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.58:911][287]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.58:912][287]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.58:912][287]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.58:912][287]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.58:912][287]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.58:912][287]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.58:912][287]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.58:912][287]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.58:912][287]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.58:912][287]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.58:912][287]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.58:913][287]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.58:913][287]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.58:913][287]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.54.59:247][288]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.59:247][288]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.59:579][289]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.59:579][289]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.59:912][290]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.54.59:912][290]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.00:246][291]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.00:246][291]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.00:578][292]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.00:579][292]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.00:912][293]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.00:912][293]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.01:245][294]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.01:245][294]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.01:579][295]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.01:579][295]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.01:912][296]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.01:912][296]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.02:247][297]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.02:247][297]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.02:579][298]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.02:579][298]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.02:913][299]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.02:913][299]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.02:913][299]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.02:913][299]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.02:913][299]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.02:913][299]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.02:913][299]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.02:913][299]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.02:914][299]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.02:914][299]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.03:247][300]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.03:247][300]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.03:581][301]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.03:582][301]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.03:914][302]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.04:247][303]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.04:580][304]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.04:580][304]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.04:914][305]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.04:915][305]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.05:246][306]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.05:246][306]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.05:581][307]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.05:581][307]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.05:582][307]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.05:583][307]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.05:583][307]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.05:583][307]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.05:583][307]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.05:583][307]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.05:584][307]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.05:584][307]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.05:584][307]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.05:584][307]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.05:584][307]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.05:585][307]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.05:914][308]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.05:914][308]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.06:248][309]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.06:248][309]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.06:585][310]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.06:586][310]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.06:912][311]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.06:913][311]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.07:245][312]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.07:245][312]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.07:578][313]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.07:579][313]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.07:914][314]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.07:914][314]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.08:249][315]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.08:249][315]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.08:581][316]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.08:582][316]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.08:914][317]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.08:914][317]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.09:248][318]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.09:249][318]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.09:580][319]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.09:580][319]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.09:914][320]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.09:915][320]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.10:247][321]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.10:247][321]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.10:580][322]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.10:580][322]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.10:914][323]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.10:915][323]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.11:246][324]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.11:246][324]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.11:579][325]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.11:580][325]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.11:914][326]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.12:247][327]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.12:581][328]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.12:915][329]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.13:247][330]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.13:580][331]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.13:917][332]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.14:248][333]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.14:582][334]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.14:914][335]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.17:247][342]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.17:619][343]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.17:922][344]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.18:255][345]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.18:581][346]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.18:913][347]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.19:247][348]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.19:581][349]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.19:582][349]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.19:582][349]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.19:582][349]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.19:582][349]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.19:583][349]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.19:583][349]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.19:583][349]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.19:583][349]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.19:583][349]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.19:584][349]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.19:584][349]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.19:584][349]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.19:915][350]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.20:248][351]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.20:580][352]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.20:580][352]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.20:915][353]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.20:915][353]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.21:248][354]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.21:249][354]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.21:580][355]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.21:581][355]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.21:914][356]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.21:915][356]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.21:915][356]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.21:915][356]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.21:915][356]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.21:916][356]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.21:916][356]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.21:916][356]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.21:916][356]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.21:916][356]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.21:917][356]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.21:917][356]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.21:917][356]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.21:917][356]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.21:917][356]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.21:918][356]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.21:918][356]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.21:918][356]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.21:918][356]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.21:918][356]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.21:919][356]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.21:919][356]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.21:919][356]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.21:919][356]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.21:919][356]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.21:920][356]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.22:247][357]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.22:247][357]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.22:581][358]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.22:581][358]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.22:914][359]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.22:914][359]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.23:255][360]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.23:255][360]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.23:582][361]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.23:583][361]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.23:913][362]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.23:913][362]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.24:245][363]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.24:246][363]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.24:581][364]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.24:581][364]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.24:914][365]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.24:914][365]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.25:247][366]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.25:247][366]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.25:581][367]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.25:581][367]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.25:912][368]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.25:912][368]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.26:340][369]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.26:341][369]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.26:341][369]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.26:342][369]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.26:342][369]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.26:342][369]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.26:343][369]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.26:343][369]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.26:343][369]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.26:345][369]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.26:346][369]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.26:346][369]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.26:347][369]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.26:347][369]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.26:611][370]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.26:612][370]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.27:046][371]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.27:047][371]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.27:439][372]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.27:439][372]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.27:754][373]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.27:754][373]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.28:099][374]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.28:100][374]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.28:475][375]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.28:475][375]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.28:885][376]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.28:885][376]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.29:185][377]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.29:185][377]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.29:520][378]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.29:520][378]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.30:000][379]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.30:000][379]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.30:202][380]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.30:220][380]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.30:717][381]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.30:717][381]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.31:413][382]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.31:413][382]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.31:750][383]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.32:733][385]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.33:078][386]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.33:078][386]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.33:409][387]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.33:409][387]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.33:789][388]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.33:789][388]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.34:151][389]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.34:151][389]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.34:493][390]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.34:494][390]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.34:494][390]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.34:494][390]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.34:495][390]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.34:495][390]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.34:495][390]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.34:495][390]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.34:495][390]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.34:495][390]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.34:495][390]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.34:497][390]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.34:497][390]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.34:497][390]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.34:868][391]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.34:868][391]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.35:176][392]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.35:176][392]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.35:510][393]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.35:510][393]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.35:842][394]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.35:843][394]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.36:174][395]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.36:175][395]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.36:508][396]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.36:509][396]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.36:841][397]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.36:841][397]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.37:174][398]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.37:174][398]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.37:507][399]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.37:508][399]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.37:508][399]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.37:508][399]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.37:508][399]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.37:508][399]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.37:508][399]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.37:509][399]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.37:509][399]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.37:509][399]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.37:509][399]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.37:509][399]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.37:509][399]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.37:509][399]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.37:840][400]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.37:840][400]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.38:174][401]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.38:174][401]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.38:507][402]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.38:508][402]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.38:508][402]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.38:508][402]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.38:508][402]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.38:508][402]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.38:508][402]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.38:508][402]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.38:508][402]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.38:508][402]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.38:508][402]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.38:509][402]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.38:509][402]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.38:509][402]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.38:509][402]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.38:509][402]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.38:509][402]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.38:509][402]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.38:840][403]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.38:841][403]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.38:841][403]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.38:841][403]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.38:841][403]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.38:841][403]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.38:841][403]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.38:841][403]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.38:841][403]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.38:841][403]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.38:841][403]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.38:842][403]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.38:842][403]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.38:842][403]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.39:175][404]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.39:176][404]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.39:510][405]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.39:511][405]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.39:842][406]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.39:842][406]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.40:176][407]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.40:177][407]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.40:509][408]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.40:510][408]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.40:842][409]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.40:843][409]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.41:174][410]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.41:174][410]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.41:507][411]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.41:508][411]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.41:840][412]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.41:841][412]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.42:174][413]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.42:174][413]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.42:507][414]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.42:508][414]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.42:840][415]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.42:841][415]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.43:174][416]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.43:175][416]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.43:507][417]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.43:840][418]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.44:174][419]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.44:508][420]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.44:840][421]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.45:173][422]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.45:507][423]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.45:840][424]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.46:173][425]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.46:507][426]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.46:840][427]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.47:176][428]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.47:508][429]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.48:510][432]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.48:510][432]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.48:510][432]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.48:511][432]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.48:511][432]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.48:511][432]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.48:511][432]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.48:511][432]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.48:512][432]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.48:512][432]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.48:512][432]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.48:512][432]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.48:843][433]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.49:175][434]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.49:509][435]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.49:841][436]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.50:175][437]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.50:509][438]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.50:845][439]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.51:175][440]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.51:509][441]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.51:842][442]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.52:175][443]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.52:517][444]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.52:840][445]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.53:173][446]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.53:173][446]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.53:509][447]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.53:509][447]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.53:842][448]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.53:842][448]LogSkinnedMeshComp:Warning: GetSocketB
