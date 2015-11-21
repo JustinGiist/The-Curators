@@ -23545,4 +23545,898 @@ Make sure 'inventorInterface_C' has been compiled for  Invalid Message Node
 [2015.11.21-19.55.53:509][447]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
 [2015.11.21-19.55.53:509][447]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
 [2015.11.21-19.55.53:842][448]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
-[2015.11.21-19.55.53:842][448]LogSkinnedMeshComp:Warning: GetSocketB
+[2015.11.21-19.55.53:842][448]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.54:175][449]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.54:175][449]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.54:508][450]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.54:509][450]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.54:509][450]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.54:509][450]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.54:509][450]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.54:509][450]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.54:509][450]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.54:509][450]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.54:510][450]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.54:510][450]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.54:510][450]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.54:510][450]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.54:510][450]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.54:510][450]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.54:841][451]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.54:842][451]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.55:175][452]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.55:175][452]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.55:508][453]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.55:508][453]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.55:841][454]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.55:842][454]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.56:174][455]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.56:174][455]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.56:508][456]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.56:509][456]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.56:841][457]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.56:841][457]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.57:176][458]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.57:176][458]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.57:509][459]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.57:510][459]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.57:844][460]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.57:844][460]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.57:845][460]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.57:845][460]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.57:845][460]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.57:845][460]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.57:845][460]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.57:846][460]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.57:846][460]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.57:846][460]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.57:846][460]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.57:846][460]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.57:847][460]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.57:847][460]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.57:847][460]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.57:847][460]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.57:848][460]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.57:848][460]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.57:848][460]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.57:848][460]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.57:849][460]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.57:849][460]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.57:849][460]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.57:849][460]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.57:850][460]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.55.57:850][460]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.58:178][461]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.58:178][461]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.58:507][462]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.58:508][462]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.58:840][463]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.58:840][463]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.59:175][464]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.59:175][464]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.59:510][465]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.55.59:842][466]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.00:180][467]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.00:180][467]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.00:511][468]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.00:511][468]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.00:841][469]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.00:842][469]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.01:175][470]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.01:175][470]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.01:507][471]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.01:508][471]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.01:841][472]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.01:841][472]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.02:177][473]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.02:177][473]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.02:509][474]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.02:509][474]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.02:510][474]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.02:510][474]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.02:511][474]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.02:511][474]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.02:511][474]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.02:511][474]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.02:511][474]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.02:512][474]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.02:512][474]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.02:512][474]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.02:512][474]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.02:513][474]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.02:843][475]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.02:844][475]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.03:174][476]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.03:174][476]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.03:507][477]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.03:507][477]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.03:840][478]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.03:840][478]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.04:176][479]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.04:176][479]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.04:509][480]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.04:510][480]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.04:843][481]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.04:844][481]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.05:176][482]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.05:177][482]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.05:508][483]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.05:509][483]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.05:841][484]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.05:841][484]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.06:175][485]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.06:176][485]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.06:508][486]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.06:509][486]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.06:842][487]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.06:843][487]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.07:175][488]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.07:175][488]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.07:511][489]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.07:842][490]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.08:176][491]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.08:176][491]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.08:508][492]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.08:508][492]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.08:842][493]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.08:842][493]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.09:175][494]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.09:176][494]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.09:509][495]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.09:510][495]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.09:842][496]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.09:842][496]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.10:175][497]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.10:176][497]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.10:507][498]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.10:507][498]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.10:842][499]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.11:175][500]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.11:509][501]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.11:840][502]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.12:175][503]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.12:507][504]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.12:840][505]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.13:176][506]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.13:509][507]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.13:843][508]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.14:177][509]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.14:177][509]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.14:177][509]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.14:178][509]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.14:178][509]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.14:178][509]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.14:178][509]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.14:179][509]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.14:179][509]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.14:511][510]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.14:842][511]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.15:177][512]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.15:510][513]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.15:844][514]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.16:176][515]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.16:176][515]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.16:507][516]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.16:508][516]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.16:508][516]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.16:508][516]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.16:509][516]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.16:509][516]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.16:509][516]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.16:509][516]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.16:509][516]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.16:509][516]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.16:510][516]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.16:510][516]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.16:510][516]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.16:510][516]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.16:841][517]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.16:841][517]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.17:175][518]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.17:176][518]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.17:508][519]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.17:509][519]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.17:843][520]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.17:844][520]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.18:175][521]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.18:175][521]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.18:510][522]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.18:510][522]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.18:843][523]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.18:843][523]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.19:176][524]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.19:176][524]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.19:509][525]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.19:509][525]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.19:842][526]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.19:842][526]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.20:176][527]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.20:176][527]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.20:509][528]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.20:510][528]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.20:842][529]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.20:842][529]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.21:175][530]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.21:176][530]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.21:511][531]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.21:511][531]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.21:842][532]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.21:842][532]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.21:842][532]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.21:843][532]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.21:843][532]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.21:843][532]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.21:843][532]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.21:843][532]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.21:843][532]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.21:843][532]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.21:844][532]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.21:844][532]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.21:844][532]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.21:844][532]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.22:176][533]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.22:176][533]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.22:509][534]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.22:511][534]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.22:842][535]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.22:842][535]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.23:177][536]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.23:508][537]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.23:841][538]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.24:174][539]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.24:507][540]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.24:842][541]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.25:176][542]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.25:509][543]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.25:841][544]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.26:174][545]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.26:507][546]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.27:508][549]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.27:875][550]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.28:392][551]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.28:638][552]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.28:638][552]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.28:907][553]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.28:907][553]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.29:267][554]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.29:267][554]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.29:704][555]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.29:704][555]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.29:975][556]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.29:975][556]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.30:303][557]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.30:303][557]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.30:638][558]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.30:638][558]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.30:971][559]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.30:971][559]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.30:972][559]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.30:972][559]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.30:972][559]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.30:972][559]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.30:973][559]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.30:973][559]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.30:973][559]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.30:973][559]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.30:973][559]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.30:973][559]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.30:973][559]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.30:974][559]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.31:303][560]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.31:304][560]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.31:643][561]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.31:644][561]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.31:982][562]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.31:983][562]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.32:305][563]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.32:305][563]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.32:305][563]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.32:306][563]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.32:306][563]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.32:306][563]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.32:306][563]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.32:306][563]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.32:639][564]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.32:639][564]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.32:978][565]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.32:978][565]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.33:310][566]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.33:311][566]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.33:640][567]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.33:640][567]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.33:973][568]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.33:973][568]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.34:306][569]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.34:306][569]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.34:644][570]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.34:645][570]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.34:972][571]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.34:973][571]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.35:310][572]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.35:310][572]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.35:640][573]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.35:640][573]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.35:978][574]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.35:978][574]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.36:306][575]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.36:306][575]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.36:640][576]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.36:642][576]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.36:974][577]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.36:974][577]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.37:306][578]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.37:307][578]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.37:641][579]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.37:641][579]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.37:974][580]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.37:974][580]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.38:306][581]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.38:641][582]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.38:973][583]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.39:306][584]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.39:640][585]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.39:973][586]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.40:306][587]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.40:641][588]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.40:974][589]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.41:307][590]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.41:639][591]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.41:973][592]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.42:316][593]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.42:640][594]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.43:640][597]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.43:640][597]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.43:974][598]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.43:974][598]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.44:306][599]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.44:306][599]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.44:641][600]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.44:641][600]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.44:976][601]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.44:976][601]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.44:977][601]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.44:977][601]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.44:977][601]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.44:978][601]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.44:978][601]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.44:978][601]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.44:978][601]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.44:978][601]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.44:978][601]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.44:979][601]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.44:979][601]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.44:979][601]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.45:306][602]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.45:307][602]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.45:640][603]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.45:641][603]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.45:973][604]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.45:974][604]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.46:306][605]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.46:306][605]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.46:640][606]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.46:640][606]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.46:973][607]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.46:974][607]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.47:306][608]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.47:306][608]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.47:639][609]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.47:640][609]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.47:973][610]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.47:973][610]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.48:306][611]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.48:307][611]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.48:640][612]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.48:640][612]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.48:973][613]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.48:973][613]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.49:306][614]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.49:306][614]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.49:306][614]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.49:306][614]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.49:307][614]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.49:307][614]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.49:307][614]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.49:307][614]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.49:307][614]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.49:307][614]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.49:307][614]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.49:307][614]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.49:307][614]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.49:307][614]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.49:640][615]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.49:641][615]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.49:641][615]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.49:641][615]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.49:641][615]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.49:641][615]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.49:641][615]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.49:642][615]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.49:642][615]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-19.56.49:642][615]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.49:973][616]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.49:974][616]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.50:308][617]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.50:309][617]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.50:639][618]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.50:640][618]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.50:972][619]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.50:972][619]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.51:308][620]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.51:308][620]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.51:641][621]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.51:641][621]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.51:974][622]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.51:975][622]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.52:308][623]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.52:309][623]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.52:640][624]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.52:640][624]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.52:972][625]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.52:972][625]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.53:308][626]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.53:309][626]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.53:641][627]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.53:641][627]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.53:974][628]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.53:975][628]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.54:309][629]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.54:641][630]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.54:973][631]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.54:973][631]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:036][632]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:037][632]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:120][633]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:120][633]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:130][634]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:130][634]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:165][635]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:165][635]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:175][636]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:175][636]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:185][637]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:185][637]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:197][638]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:197][638]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:207][639]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:207][639]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:217][640]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:217][640]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:227][641]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:227][641]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:237][642]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:237][642]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:247][643]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:247][643]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:257][644]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:257][644]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:267][645]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:268][645]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:278][646]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:278][646]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:288][647]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:288][647]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:298][648]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:298][648]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:308][649]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:308][649]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:318][650]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:318][650]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:331][651]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:331][651]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:342][652]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:342][652]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:352][653]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:352][653]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:363][654]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:363][654]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:372][655]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:373][655]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:383][656]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:383][656]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:393][657]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:393][657]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:403][658]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:403][658]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:416][659]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:416][659]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:428][660]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:428][660]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:439][661]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:439][661]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:453][662]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:453][662]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:464][663]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:464][663]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:474][664]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:474][664]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:484][665]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:484][665]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:502][666]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:502][666]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:520][667]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:520][667]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:539][668]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:539][668]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:557][669]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:557][669]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:574][670]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:575][670]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:594][671]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:595][671]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:615][672]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:615][672]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:625][673]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:625][673]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:636][674]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:636][674]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:647][675]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:648][675]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:665][676]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:665][676]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:677][677]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:677][677]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:688][678]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:688][678]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:701][679]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:701][679]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:714][680]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:714][680]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:727][681]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:727][681]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:741][682]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:741][682]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:751][683]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:752][683]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:762][684]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:762][684]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:772][685]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:773][685]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:783][686]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:783][686]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:794][687]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:794][687]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:804][688]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:804][688]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:815][689]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:815][689]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:825][690]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:825][690]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:836][691]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:836][691]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:848][692]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:848][692]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:858][693]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:858][693]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:869][694]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:869][694]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:879][695]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:879][695]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:894][696]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:894][696]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:908][697]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:908][697]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:918][698]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:918][698]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:929][699]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:929][699]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:938][700]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:939][700]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:951][701]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:951][701]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:963][702]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:963][702]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:973][703]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:974][703]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:991][704]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.55:991][704]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:006][705]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:006][705]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:021][706]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:021][706]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:034][707]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:035][707]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:048][708]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:049][708]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:059][709]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:059][709]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:071][710]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:071][710]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:083][711]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:083][711]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:096][712]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:096][712]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:106][713]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:107][713]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:117][714]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:117][714]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:128][715]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:128][715]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:139][716]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:139][716]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:150][717]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:150][717]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:160][718]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:161][718]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:171][719]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:171][719]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:182][720]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:182][720]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:194][721]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:194][721]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:205][722]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:205][722]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:220][723]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:220][723]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:232][724]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:232][724]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:243][725]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:243][725]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:257][726]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:257][726]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:267][727]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:267][727]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:279][728]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:279][728]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:289][729]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:289][729]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:300][730]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:300][730]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:310][731]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:310][731]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:320][732]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:320][732]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:333][733]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:333][733]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:347][734]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:347][734]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:356][735]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:357][735]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:367][736]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:367][736]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:377][737]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:377][737]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:388][738]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:388][738]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:398][739]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:398][739]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:408][740]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:408][740]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:419][741]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:419][741]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:430][742]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:430][742]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:441][743]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:441][743]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:451][744]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:451][744]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:462][745]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:462][745]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:472][746]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:472][746]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:482][747]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:482][747]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:492][748]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:492][748]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:502][749]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:502][749]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:514][750]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:514][750]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:524][751]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:524][751]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:534][752]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:534][752]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:545][753]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:545][753]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:555][754]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:555][754]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:565][755]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:565][755]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-19.56.56:916][769]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.21-19.56.57:262][769]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000558A9A160
+[2015.11.21-19.56.57:262][769]LogD3D11RHI: InitD3DDevice
+[2015.11.21-19.56.57:432][770]Cmd: QUIT_EDITOR
+[2015.11.21-19.56.57:722][770]LogExit: Preparing to exit.
+[2015.11.21-19.56.58:707][770]LogExit: Editor shut down
+[2015.11.21-19.56.58:708][770]LogExit: Transaction tracking system shut down
+[2015.11.21-19.56.58:715][770]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000005462E91C0
+[2015.11.21-19.56.58:715][770]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000541F9E200
+[2015.11.21-19.56.58:715][770]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000541F9E020
+[2015.11.21-19.56.58:720][770]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000051EAC4CC0
+[2015.11.21-19.56.58:727][770]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000514BBC400
+[2015.11.21-19.56.58:727][770]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000514BBFE20
+[2015.11.21-19.56.58:727][770]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000551CBF6A0
+[2015.11.21-19.56.58:728][770]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000551D24AE0
+[2015.11.21-19.56.58:899][770]LogExit: Object subsystem successfully closed.
+[2015.11.21-19.56.58:928][770]LogD3D11RHI: Shutdown
+[2015.11.21-19.56.58:928][770]LogD3D11RHI: CleanupD3DDevice
+[2015.11.21-19.56.59:130][770]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.21-19.56.59:171][770]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.11.21-19.56.59:171][770]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.11.21-19.56.59:172][770]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.11.21-19.56.59:172][770]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.11.21-19.56.59:172][770]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.11.21-19.56.59:172][770]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.11.21-19.56.59:172][770]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.11.21-19.56.59:172][770]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.11.21-19.56.59:172][770]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.11.21-19.56.59:172][770]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.11.21-19.56.59:172][770]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.11.21-19.56.59:172][770]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.11.21-19.56.59:172][770]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.11.21-19.56.59:172][770]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.11.21-19.56.59:172][770]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.11.21-19.56.59:172][770]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.11.21-19.56.59:172][770]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.11.21-19.56.59:172][770]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.11.21-19.56.59:172][770]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.11.21-19.56.59:172][770]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.11.21-19.56.59:173][770]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.11.21-19.56.59:173][770]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.11.21-19.56.59:173][770]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.11.21-19.56.59:173][770]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.11.21-19.56.59:173][770]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.11.21-19.56.59:173][770]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.11.21-19.56.59:482][770]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.11.21-19.56.59:482][770]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.11.21-19.56.59:482][770]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.11.21-19.56.59:482][770]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.11.21-19.56.59:482][770]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.11.21-19.56.59:482][770]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.11.21-19.56.59:482][770]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.11.21-19.56.59:482][770]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.11.21-19.56.59:482][770]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.11.21-19.56.59:482][770]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.11.21-19.56.59:482][770]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.11.21-19.56.59:482][770]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.11.21-19.56.59:482][770]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.11.21-19.56.59:482][770]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.11.21-19.56.59:482][770]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.11.21-19.56.59:482][770]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.11.21-19.56.59:483][770]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.11.21-19.56.59:483][770]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.11.21-19.56.59:483][770]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.11.21-19.56.59:483][770]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.11.21-19.56.59:483][770]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.11.21-19.56.59:483][770]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.11.21-19.56.59:483][770]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.11.21-19.56.59:483][770]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.11.21-19.56.59:483][770]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.11.21-19.56.59:483][770]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.11.21-19.56.59:483][770]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.11.21-19.56.59:483][770]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.11.21-19.56.59:483][770]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.11.21-19.56.59:484][770]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.11.21-19.56.59:484][770]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.11.21-19.56.59:484][770]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.11.21-19.56.59:713][770]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.11.21-19.56.59:713][770]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.11.21-19.56.59:713][770]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.11.21-19.56.59:713][770]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.11.21-19.56.59:713][770]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.11.21-19.56.59:713][770]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.11.21-19.56.59:713][770]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.11.21-19.56.59:713][770]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.11.21-19.56.59:713][770]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.11.21-19.56.59:713][770]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.11.21-19.56.59:713][770]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.11.21-19.56.59:713][770]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.11.21-19.56.59:713][770]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.11.21-19.56.59:713][770]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.11.21-19.56.59:713][770]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.11.21-19.56.59:713][770]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.11.21-19.56.59:713][770]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.11.21-19.56.59:713][770]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.11.21-19.56.59:873][770]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.11.21-19.56.59:873][770]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.11.21-19.56.59:873][770]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.11.21-19.56.59:873][770]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.11.21-19.56.59:873][770]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.11.21-19.56.59:873][770]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.11.21-19.56.59:873][770]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.11.21-19.56.59:904][770]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.11.21-19.56.59:904][770]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.11.21-19.56.59:904][770]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.11.21-19.56.59:905][770]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.11.21-19.56.59:905][770]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.11.21-19.56.59:905][770]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.11.21-19.56.59:905][770]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.11.21-19.56.59:905][770]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.11.21-19.56.59:905][770]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.11.21-19.56.59:905][770]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.11.21-19.56.59:905][770]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.11.21-19.56.59:905][770]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.11.21-19.56.59:905][770]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.11.21-19.56.59:905][770]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.11.21-19.56.59:905][770]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.11.21-19.56.59:905][770]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.11.21-19.56.59:905][770]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.11.21-19.56.59:905][770]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.11.21-19.56.59:905][770]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.11.21-19.56.59:905][770]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.11.21-19.56.59:905][770]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.11.21-19.56.59:905][770]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.11.21-19.56.59:905][770]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.11.21-19.56.59:906][770]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.11.21-19.56.59:907][770]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.11.21-19.56.59:907][770]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.11.21-19.57.00:008][770]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.11.21-19.57.00:008][770]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.11.21-19.57.00:016][770]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.11.21-19.57.00:016][770]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.11.21-19.57.00:016][770]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.11.21-19.57.00:016][770]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.11.21-19.57.00:016][770]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.11.21-19.57.00:016][770]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.11.21-19.57.00:016][770]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.11.21-19.57.00:016][770]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.11.21-19.57.00:016][770]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.11.21-19.57.00:016][770]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.11.21-19.57.00:016][770]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.11.21-19.57.00:016][770]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.11.21-19.57.00:017][770]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.11.21-19.57.00:017][770]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.11.21-19.57.00:017][770]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.11.21-19.57.00:021][770]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.11.21-19.57.00:021][770]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.11.21-19.57.00:021][770]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.11.21-19.57.00:021][770]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.11.21-19.57.00:021][770]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.11.21-19.57.00:021][770]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.11.21-19.57.00:021][770]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.11.21-19.57.00:021][770]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.11.21-19.57.00:021][770]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.11.21-19.57.00:021][770]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.11.21-19.57.00:052][770]LogDerivedDataCache: Shutdown
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.11.21-19.57.00:052][770]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.11.21-19.57.00:053][770]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.11.21-19.57.00:053][770]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.11.21-19.57.00:053][770]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.11.21-19.57.00:053][770]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.11.21-19.57.00:053][770]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.11.21-19.57.00:055][770]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.11.21-19.57.00:055][770]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.11.21-19.57.00:055][770]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.21-19.57.00:055][770]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.21-19.57.00:055][770]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.21-19.57.00:055][770]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.21-19.57.00:055][770]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.21-19.57.00:055][770]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.21-19.57.00:055][770]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.21-19.57.00:055][770]LogExit: Exiting.
+[2015.11.21-19.57.00:057][770]Log file closed, 11/21/15 14:57:00
