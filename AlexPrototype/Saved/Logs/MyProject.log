@@ -4722,4 +4722,121 @@ Localization Resource: (C:/Program Files/Unreal Engine/4.8/Engine/Content/Locali
 [2015.11.21-06.55.35:991][171]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
 [2015.11.21-06.55.35:992][171]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
 [2015.11.21-06.55.35:992][171]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
-[2015.11.21-06.55.35:992][171]LogSkinnedMeshCom
+[2015.11.21-06.55.35:992][171]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-06.55.35:993][171]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-06.55.35:993][171]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-06.55.37:009][241]LogD3D11RHI: InitD3DDevice
+[2015.11.21-06.55.38:932][399]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-06.55.38:933][399]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-06.55.38:933][399]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-06.55.38:934][399]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-06.55.38:934][399]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-06.55.38:934][399]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-06.55.38:935][399]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-06.55.38:935][399]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-06.55.44:245][737]LogD3D11RHI: InitD3DDevice
+[2015.11.21-06.55.44:320][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../The-Curators/AlexPrototype/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.21-06.55.44:332][737]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.21-06.55.44:333][737]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.11.21-06.55.44:334][737]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.11.21-06.55.46:267][737]LogSavePackage: Save=1672.157837ms
+[2015.11.21-06.55.46:267][737]LogSavePackage: Moving '../../../../../../The-Curators/AlexPrototype/Saved/Level12B2B541C422B7B0DF30293A1FA8F7516.tmp' to '../../../../../../The-Curators/AlexPrototype/Content/Levels/Level1.umap'
+[2015.11.21-06.55.46:958][773]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-06.55.46:958][773]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-06.55.46:958][773]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-06.55.46:958][773]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-06.55.46:958][773]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-06.55.46:958][773]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-06.58.20:332][526]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.21-06.58.20:518][539]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.21-06.58.24:745][808]LogD3D11RHI: InitD3DDevice
+[2015.11.21-06.58.34:036][517]LogD3D11RHI: InitD3DDevice
+[2015.11.21-07.01.24:985][417]LogD3D11RHI: InitD3DDevice
+[2015.11.21-07.01.25:191][433]LogD3D11RHI: InitD3DDevice
+[2015.11.21-07.01.26:708][556]LogD3D11RHI: InitD3DDevice
+[2015.11.21-07.01.28:905][728]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.21-07.01.29:102][744]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.21-07.01.31:065][891]LogD3D11RHI: InitD3DDevice
+[2015.11.21-07.01.41:484][649]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (columnEgyptian5)
+[2015.11.21-07.01.42:434][715]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.21-07.01.42:605][722]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.21-07.01.44:527][852]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.21-07.01.44:701][864]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.21-07.01.47:092][ 34]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (frameSquareRegular14)
+[2015.11.21-07.01.48:111][107]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.21-07.01.48:279][121]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.21-07.01.58:843][944]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (AI2Point3)
+[2015.11.21-07.02.08:218][628]LogD3D11RHI: InitD3DDevice
+[2015.11.21-07.02.37:159][463]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (AI2Point3)
+[2015.11.21-07.02.40:168][689]Cmd: DELETE
+[2015.11.21-07.02.40:168][689]Cmd: ACTOR DELETE
+[2015.11.21-07.02.40:177][689]LogD3D11RHI: InitD3DDevice
+[2015.11.21-07.02.41:311][689]LogEditorActor: Deleted Actor: TargetPoint
+[2015.11.21-07.02.41:319][689]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.21-07.02.41:320][689]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.11.21-07.02.41:321][689]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.11.21-07.02.41:377][689]LogEditorActor: Deleted 1 Actors (1.207 secs)
+[2015.11.21-07.02.42:432][774]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint2)
+[2015.11.21-07.04.54:261][927]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-07.04.54:261][927]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-07.04.54:261][927]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-07.04.54:261][927]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-07.04.54:261][927]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-07.04.54:262][927]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-07.04.56:982][137]LogD3D11RHI: InitD3DDevice
+[2015.11.21-07.04.57:014][137]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../The-Curators/AlexPrototype/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.21-07.04.57:016][137]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.21-07.04.57:016][137]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.11.21-07.04.57:017][137]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.11.21-07.04.58:459][137]LogSavePackage: Save=1377.174805ms
+[2015.11.21-07.04.58:459][137]LogSavePackage: Moving '../../../../../../The-Curators/AlexPrototype/Saved/Level1701F4D454624C5CD32DC588F2DEDC89F.tmp' to '../../../../../../The-Curators/AlexPrototype/Content/Levels/Level1.umap'
+[2015.11.21-07.05.07:102][200]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-07.05.07:102][200]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-07.05.07:102][200]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-07.05.07:102][200]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-07.05.07:102][200]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-07.05.07:103][200]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.11.21-07.05.11:851][574]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.21-07.05.11:851][574]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.11.21-07.05.11:852][574]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.11.21-07.05.11:999][574]LogD3D11RHI: InitD3DDevice
+[2015.11.21-07.05.13:711][574]LogD3D11RHI: InitD3DDevice
+[2015.11.21-07.05.13:731][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tech/AIGuard/AIGuardCont" FILE="../../../../../../The-Curators/AlexPrototype/Content/Tech/AIGuard/AIGuardCont.uasset" SILENT=true
+[2015.11.21-07.05.13:821][574]LogSavePackage: Save=82.213425ms
+[2015.11.21-07.05.13:821][574]LogSavePackage: Moving '../../../../../../The-Curators/AlexPrototype/Saved/AIGuardCont822CBD0A41255A1A8132FCBB8E78CF75.tmp' to '../../../../../../The-Curators/AlexPrototype/Content/Tech/AIGuard/AIGuardCont.uasset'
+[2015.11.21-07.05.14:327][574]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.11.21-07.05.14:372][574]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.21-07.05.15:208][575]Cmd: QUIT_EDITOR
+[2015.11.21-07.05.16:877][575]LogExit: Preparing to exit.
+[2015.11.21-07.05.19:642][575]LogExit: Editor shut down
+[2015.11.21-07.05.19:762][575]LogExit: Transaction tracking system shut down
+[2015.11.21-07.05.19:860][575]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000055C987C9A0
+[2015.11.21-07.05.19:901][575]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000055A5188A40
+[2015.11.21-07.05.19:902][575]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000055A52154E0
+[2015.11.21-07.05.19:906][575]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000055B2C29760
+[2015.11.21-07.05.19:907][575]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000559AD26C00
+[2015.11.21-07.05.19:910][575]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000055B04E6660
+[2015.11.21-07.05.19:910][575]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000055B04E5C60
+[2015.11.21-07.05.24:498][575]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005591505940
+[2015.11.21-07.05.24:498][575]LogExit: Object subsystem successfully closed.
+[2015.11.21-07.05.25:937][575]LogD3D11RHI: Shutdown
+[2015.11.21-07.05.25:953][575]LogD3D11RHI: CleanupD3DDevice
+[2015.11.21-07.05.26:320][575]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.21-07.05.26:774][575]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.11.21-07.05.26:774][575]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.11.21-07.05.26:775][575]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.11.21-07.05.26:775][575]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.11.21-07.05.26:805][575]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.11.21-07.05.27:039][575]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.11.21-07.05.27:039][575]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.11.21-07.05.27:056][575]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.11.21-07.05.27:070][575]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.11.21-07.05.27:085][575]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.11.21-07.05.27:150][575]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.11.21-07.05.27:150][575]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.11.21-07.05.27:151][575]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.11.21-07.05.27:151][575]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.11.21-07.05.27:151][575]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.11.21-07.05.27:172][575]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.11.21-07.05.27:172][575]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.11.21-07.05.27:173][575]LogModuleManager: Shutting down and abandoning module SmartS
