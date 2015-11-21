@@ -1369,4 +1369,323 @@ Make sure 'inventorInterface_C' has been compiled for  Invalid Message Node
 [2015.11.21-22.55.04:021][391]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
 [2015.11.21-22.55.04:021][391]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
 [2015.11.21-22.55.04:021][391]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
-[2015.11.21-22.55.04:021][391]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'Event
+[2015.11.21-22.55.04:021][391]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.11.21-22.55.12:359][978]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.21-22.55.12:359][978]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.11.21-22.55.12:360][978]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.11.21-22.55.12:390][978]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000031FCA7E0C0
+[2015.11.21-22.55.12:413][978]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000321F474E00
+[2015.11.21-22.55.12:421][978]LogD3D11RHI: InitD3DDevice
+[2015.11.21-22.55.14:096][978]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../a/The-Curators/AlexPrototype/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.21-22.55.15:553][978]LogSavePackage: Save=1369.156372ms
+[2015.11.21-22.55.15:553][978]LogSavePackage: Moving '../../../../../../a/The-Curators/AlexPrototype/Saved/Level1D43FE5CD4043980EA643969E328D7D0F.tmp' to '../../../../../../a/The-Curators/AlexPrototype/Content/Levels/Level1.umap'
+[2015.11.21-22.55.15:614][978]LogFileHelpers: Saving map 'Level1' took 1.961
+[2015.11.21-22.55.15:828][978]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.11.21-22.55.15:878][978]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.21-22.58.03:301][978]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: NewObject->IsA(this->GeneratedClass) [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Runtime\Engine\Private\Blueprint.cpp] [Line: 634]
+Type mismatch: Expected Level1_C, Found LevelScriptBlueprint
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ffb860bac36} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ffb85f54411} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ffb85f546c3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UBlueprint::SetObjectBeingDebugged() {0x00007ffb831c6659} + 281 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UWorld::TransferBlueprintDebugReferences() {0x00007ffb839a6acb} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::TeardownPlaySession() {0x00007ffb817867ad} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::EndPlayMap() {0x00007ffb817240b3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-LevelEditor.dll!FLevelViewportLayout::~FLevelViewportLayout() {0x00007ffb78827e4e} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-LevelEditor.dll!FLevelViewportLayout2x2::`scalar deleting destructor'() {0x00007ffb78838d6f} + 0 bytes
+UE4Editor-LevelEditor.dll!FLevelViewportTabContent::~FLevelViewportTabContent() {0x00007ffb7882835f} + 0 bytes
+UE4Editor-LevelEditor.dll!SharedPointerInternals::DestroyObject<FLevelViewportTabContent>() {0x00007ffb787fb9b2} + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-LevelEditor.dll!SViewportsOverlay::~SViewportsOverlay() {0x00007ffb788298b7} + 0 bytes
+UE4Editor-LevelEditor.dll!SViewportsOverlay::`scalar deleting destructor'() {0x00007ffb788399a4} + 0 bytes
+UE4Editor-SlateCore.dll!FSimpleSlot::~FSimpleSlot() {0x00007ffb8dc52b76} + 0 bytes
+UE4Editor-SlateCore.dll!SCompoundWidget::~SCompoundWidget() {0x00007ffb8dc54da6} + 0 bytes
+UE4Editor-Slate.dll!SBorder::`vector deleting destructor'() {0x00007ffb82c6fae6} + 0 bytes
+UE4Editor-SlateCore.dll!TIndirectArray<SOverlay::FOverlaySlot,FDefaultAllocator>::DestructAndFreeItems() {0x00007ffb8dca8037} + 55 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!TPanelChildren<SOverlay::FOverlaySlot>::~TPanelChildren<SOverlay::FOverlaySlot>() {0x00007ffb8dc4d0fc} + 0 bytes
+UE4Editor-SlateCore.dll!SOverlay::~SOverlay() {0x00007ffb8dc54e3c} + 12 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!SOverlay::`scalar deleting destructor'() {0x00007ffb82adccb5} + 0 bytes
+UE4Editor-SlateCore.dll!TIndirectArray<SBoxPanel::FSlot,FDefaultAllocator>::DestructAndFreeItems() {0x00007ffb8dca811a} + 106 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!TPanelChildren<SBoxPanel::FSlot>::~TPanelChildren<SBoxPanel::FSlot>() {0x00007ffb8dc4d16c} + 0 bytes
+UE4Editor-SlateCore.dll!SVerticalBox::~SVerticalBox() {0x00007ffb8dc54ed2} + 0 bytes
+UE4Editor-Slate.dll!SVerticalBox::`scalar deleting destructor'() {0x00007ffb82adcf65} + 0 bytes
+UE4Editor-SlateCore.dll!FSimpleSlot::~FSimpleSlot() {0x00007ffb8dc52b76} + 0 bytes
+UE4Editor-SlateCore.dll!SCompoundWidget::~SCompoundWidget() {0x00007ffb8dc54da6} + 0 bytes
+UE4Editor-Slate.dll!SDockingTabStack::`vector deleting destructor'() {0x00007ffb82ad8167} + 0 bytes
+UE4Editor-SlateCore.dll!FSlotBase::~FSlotBase() {0x00007ffb8dc53fb4} + 20 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!TIndirectArray<SSplitter::FSlot,FDefaultAllocator>::DestructAndFreeItems() {0x00007ffb82afcbd9} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!TPanelChildren<SSplitter::FSlot>::~TPanelChildren<SSplitter::FSlot>() {0x00007ffb82ab37ac} + 0 bytes
+UE4Editor-Slate.dll!SSplitter::`vector deleting destructor'() {0x00007ffb82c705df} + 0 bytes
+UE4Editor-SlateCore.dll!FSimpleSlot::~FSimpleSlot() {0x00007ffb8dc52b76} + 0 bytes
+UE4Editor-SlateCore.dll!SCompoundWidget::~SCompoundWidget() {0x00007ffb8dc54da6} + 0 bytes
+UE4Editor-Slate.dll!SDockingSplitter::`vector deleting destructor'() {0x00007ffb82ad80e7} + 0 bytes
+UE4Editor-SlateCore.dll!FSlotBase::~FSlotBase() {0x00007ffb8dc53fb4} + 20 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!TIndirectArray<SSplitter::FSlot,FDefaultAllocator>::DestructAndFreeItems() {0x00007ffb82afcbd9} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!TPanelChildren<SSplitter::FSlot>::~TPanelChildren<SSplitter::FSlot>() {0x00007ffb82ab37ac} + 0 bytes
+UE4Editor-Slate.dll!SSplitter::`vector deleting destructor'() {0x00007ffb82c705df} + 0 bytes
+UE4Editor-SlateCore.dll!TIndirectArray<SOverlay::FOverlaySlot,FDefaultAllocator>::DestructAndFreeItems() {0x00007ffb8dca8037} + 55 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!TPanelChildren<SOverlay::FOverlaySlot>::~TPanelChildren<SOverlay::FOverlaySlot>() {0x00007ffb8dc4d0fc} + 0 bytes
+UE4Editor-SlateCore.dll!SOverlay::~SOverlay() {0x00007ffb8dc54e3c} + 12 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!SOverlay::`scalar deleting destructor'() {0x00007ffb82adccb5} + 0 bytes
+UE4Editor-SlateCore.dll!FSimpleSlot::~FSimpleSlot() {0x00007ffb8dc52b76} + 0 bytes
+UE4Editor-SlateCore.dll!SCompoundWidget::~SCompoundWidget() {0x00007ffb8dc54da6} + 0 bytes
+UE4Editor-Slate.dll!SDockingArea::`vector deleting destructor'() {0x00007ffb82ad7f2a} + 0 bytes
+UE4Editor-SlateCore.dll!TIndirectArray<SBoxPanel::FSlot,FDefaultAllocator>::DestructAndFreeItems() {0x00007ffb8dca811a} + 106 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!TPanelChildren<SBoxPanel::FSlot>::~TPanelChildren<SBoxPanel::FSlot>() {0x00007ffb8dc4d16c} + 0 bytes
+UE4Editor-SlateCore.dll!SVerticalBox::~SVerticalBox() {0x00007ffb8dc54ed2} + 0 bytes
+UE4Editor-LevelEditor.dll!SVerticalBox::`scalar deleting destructor'() {0x00007ffb7874d675} + 0 bytes
+UE4Editor-SlateCore.dll!FSimpleSlot::~FSimpleSlot() {0x00007ffb8dc52b76} + 0 bytes
+UE4Editor-SlateCore.dll!SCompoundWidget::~SCompoundWidget() {0x00007ffb8dc54da6} + 0 bytes
+UE4Editor-LevelEditor.dll!SLevelEditor::`scalar deleting destructor'() {0x00007ffb78839604} + 0 bytes
+UE4Editor-SlateCore.dll!FSimpleSlot::~FSimpleSlot() {0x00007ffb8dc52b76} + 0 bytes
+UE4Editor-SlateCore.dll!SCompoundWidget::~SCompoundWidget() {0x00007ffb8dc54da6} + 0 bytes
+UE4Editor-Slate.dll!SBorder::`vector deleting destructor'() {0x00007ffb82c6fae6} + 0 bytes
+UE4Editor-SlateCore.dll!TIndirectArray<SOverlay::FOverlaySlot,FDefaultAllocator>::DestructAndFreeItems() {0x00007ffb8dca8037} + 55 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!TPanelChildren<SOverlay::FOverlaySlot>::~TPanelChildren<SOverlay::FOverlaySlot>() {0x00007ffb8dc4d0fc} + 0 bytes
+UE4Editor-SlateCore.dll!SOverlay::~SOverlay() {0x00007ffb8dc54e3c} + 12 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!SOverlay::`scalar deleting destructor'() {0x00007ffb82adccb5} + 0 bytes
+UE4Editor-SlateCore.dll!TIndirectArray<SBoxPanel::FSlot,FDefaultAllocator>::DestructAndFreeItems() {0x00007ffb8dca811a} + 106 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!TPanelChildren<SBoxPanel::FSlot>::~TPanelChildren<SBoxPanel::FSlot>() {0x00007ffb8dc4d16c} + 0 bytes
+UE4Editor-SlateCore.dll!SVerticalBox::~SVerticalBox() {0x00007ffb8dc54ed2} + 0 bytes
+UE4Editor-Slate.dll!SVerticalBox::`scalar deleting destructor'() {0x00007ffb82adcf65} + 0 bytes
+UE4Editor-SlateCore.dll!FSimpleSlot::~FSimpleSlot() {0x00007ffb8dc52b76} + 0 bytes
+UE4Editor-SlateCore.dll!SCompoundWidget::~SCompoundWidget() {0x00007ffb8dc54da6} + 0 bytes
+UE4Editor-Slate.dll!SDockingTabStack::`vector deleting destructor'() {0x00007ffb82ad8167} + 0 bytes
+UE4Editor-SlateCore.dll!FSlotBase::~FSlotBase() {0x00007ffb8dc53fb4} + 20 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!TIndirectArray<SSplitter::FSlot,FDefaultAllocator>::DestructAndFreeItems() {0x00007ffb82afcbd9} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!TPanelChildren<SSplitter::FSlot>::~TPanelChildren<SSplitter::FSlot>() {0x00007ffb82ab37ac} + 0 bytes
+UE4Editor-Slate.dll!SSplitter::`vector deleting destructor'() {0x00007ffb82c705df} + 0 bytes
+UE4Editor-SlateCore.dll!TIndirectArray<SOverlay::FOverlaySlot,FDefaultAllocator>::DestructAndFreeItems() {0x00007ffb8dca8037} + 55 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!TPanelChildren<SOverlay::FOverlaySlot>::~TPanelChildren<SOverlay::FOverlaySlot>() {0x00007ffb8dc4d0fc} + 0 bytes
+UE4Editor-SlateCore.dll!SOverlay::~SOverlay() {0x00007ffb8dc54e3c} + 12 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!SOverlay::`scalar deleting destructor'() {0x00007ffb82adccb5} + 0 bytes
+UE4Editor-SlateCore.dll!TArray<FArrangedWidget,TInlineAllocator<16,FDefaultAllocator> >::~TArray<FArrangedWidget,TInlineAllocator<16,FDefaultAllocator> >() {0x00007ffb8dc4b2c3} + 19 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() {0x00007ffb82b48952} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() {0x00007ffb82b35d84} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() {0x00007ffb860ad7ad} + 12 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() {0x00007ffb860949d1} + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() {0x00007ffb860aedc3} + 44 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() {0x00007ffb8608e5ba} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+USER32.dll {0x00007ffbb276250d} + 0 bytes
+USER32.dll {0x00007ffbb2762367} + 0 bytes
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() {0x00007ffb860b0186} + 48 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff744eb3c7a} + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff744ea49cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff744ea4a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff744eb65c9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff744eb75d9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ffbb2bf13d2} + 0 bytes
+ntdll.dll {0x00007ffbb44d5454} + 0 bytes
+ntdll.dll {0x00007ffbb44d5454} + 0 bytes
+
+[2015.11.21-22.58.32:118][978]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003202A7EF20
+[2015.11.21-22.58.32:706][978]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000320ADD80E0
+[2015.11.21-22.58.32:734][978]LogD3D11RHI: InitD3DDevice
+[2015.11.21-22.58.33:991][979]Cmd: QUIT_EDITOR
+[2015.11.21-22.58.36:102][979]LogExit: Preparing to exit.
+[2015.11.21-22.58.39:903][979]LogExit: Editor shut down
+[2015.11.21-22.58.39:903][979]LogExit: Transaction tracking system shut down
+[2015.11.21-22.58.39:918][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000032032F3CE0
+[2015.11.21-22.58.39:931][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000320AD6AE80
+[2015.11.21-22.58.39:931][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000320756CFE0
+[2015.11.21-22.58.39:931][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003210AC5F80
+[2015.11.21-22.58.39:931][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003202A7ED40
+[2015.11.21-22.58.39:931][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003202A7C860
+[2015.11.21-22.58.39:935][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000321918B4C0
+[2015.11.21-22.58.39:938][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000320E346840
+[2015.11.21-22.58.39:938][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003213D0CA40
+[2015.11.21-22.58.50:455][979]LogExit: Object subsystem successfully closed.
+[2015.11.21-22.58.54:158][979]LogD3D11RHI: Shutdown
+[2015.11.21-22.58.54:212][979]LogD3D11RHI: CleanupD3DDevice
+[2015.11.21-22.58.56:045][979]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.21-22.58.58:725][979]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.11.21-22.58.58:725][979]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.11.21-22.58.58:725][979]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.11.21-22.58.58:725][979]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.11.21-22.58.58:822][979]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.11.21-22.58.58:886][979]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.11.21-22.58.58:886][979]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.11.21-22.58.58:907][979]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.11.21-22.58.59:238][979]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.11.21-22.58.59:270][979]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.11.21-22.58.59:507][979]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.11.21-22.58.59:507][979]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.11.21-22.58.59:507][979]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.11.21-22.58.59:507][979]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.11.21-22.58.59:507][979]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.11.21-22.58.59:566][979]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.11.21-22.58.59:566][979]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.11.21-22.58.59:566][979]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.11.21-22.58.59:566][979]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.11.21-22.58.59:566][979]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.11.21-22.58.59:736][979]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.11.21-22.58.59:808][979]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.11.21-22.59.00:045][979]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.11.21-22.59.00:082][979]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.11.21-22.59.00:109][979]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.11.21-22.59.00:109][979]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.11.21-22.59.00:927][979]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.11.21-22.59.00:927][979]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.11.21-22.59.00:927][979]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.11.21-22.59.00:927][979]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.11.21-22.59.00:944][979]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.11.21-22.59.00:944][979]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.11.21-22.59.00:982][979]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.11.21-22.59.00:982][979]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.11.21-22.59.00:996][979]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.11.21-22.59.00:996][979]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.11.21-22.59.01:020][979]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.11.21-22.59.01:200][979]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.11.21-22.59.01:208][979]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.11.21-22.59.01:208][979]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.11.21-22.59.01:258][979]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.11.21-22.59.01:258][979]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.11.21-22.59.01:259][979]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.11.21-22.59.01:259][979]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.11.21-22.59.01:445][979]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.11.21-22.59.01:445][979]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.11.21-22.59.01:596][979]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.11.21-22.59.01:641][979]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.11.21-22.59.01:755][979]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.11.21-22.59.01:767][979]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.11.21-22.59.01:767][979]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.11.21-22.59.01:846][979]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.11.21-22.59.01:939][979]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.11.21-22.59.01:949][979]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.11.21-22.59.02:127][979]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.11.21-22.59.02:127][979]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.11.21-22.59.02:127][979]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.11.21-22.59.02:127][979]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.11.21-22.59.03:419][979]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.11.21-22.59.04:306][979]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.11.21-22.59.04:306][979]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.11.21-22.59.04:317][979]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.11.21-22.59.04:383][979]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.11.21-22.59.04:383][979]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.11.21-22.59.04:505][979]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.11.21-22.59.04:544][979]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.11.21-22.59.04:544][979]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.11.21-22.59.04:553][979]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.11.21-22.59.04:553][979]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.11.21-22.59.04:565][979]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.11.21-22.59.04:565][979]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.11.21-22.59.04:565][979]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.11.21-22.59.04:565][979]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.11.21-22.59.04:576][979]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.11.21-22.59.04:576][979]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.11.21-22.59.04:576][979]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.11.21-22.59.04:678][979]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.11.21-22.59.05:333][979]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.11.21-22.59.05:333][979]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.11.21-22.59.05:334][979]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.11.21-22.59.05:334][979]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.11.21-22.59.05:334][979]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.11.21-22.59.05:334][979]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.11.21-22.59.06:324][979]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.11.21-22.59.06:324][979]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.11.21-22.59.06:369][979]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.11.21-22.59.06:849][979]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.11.21-22.59.07:134][979]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.11.21-22.59.07:134][979]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.11.21-22.59.07:530][979]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.11.21-22.59.07:671][979]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.11.21-22.59.08:334][979]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.11.21-22.59.08:334][979]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.11.21-22.59.08:334][979]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.11.21-22.59.08:432][979]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.11.21-22.59.08:626][979]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.11.21-22.59.08:905][979]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.11.21-22.59.08:935][979]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.11.21-22.59.08:935][979]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.11.21-22.59.08:935][979]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.11.21-22.59.08:966][979]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.11.21-22.59.08:975][979]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.11.21-22.59.09:044][979]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.11.21-22.59.09:045][979]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.11.21-22.59.09:045][979]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.11.21-22.59.09:242][979]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.11.21-22.59.09:327][979]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.11.21-22.59.09:340][979]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.11.21-22.59.09:413][979]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.11.21-22.59.09:555][979]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.11.21-22.59.09:598][979]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.11.21-22.59.09:705][979]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.11.21-22.59.09:705][979]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.11.21-22.59.09:849][979]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.11.21-22.59.09:849][979]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.11.21-22.59.09:849][979]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.11.21-22.59.09:849][979]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.11.21-22.59.09:870][979]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.11.21-22.59.09:904][979]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.11.21-22.59.09:905][979]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.11.21-22.59.09:905][979]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.11.21-22.59.09:988][979]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.11.21-22.59.10:200][979]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.11.21-22.59.10:295][979]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.11.21-22.59.10:537][979]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.11.21-22.59.10:537][979]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.11.21-22.59.10:598][979]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.11.21-22.59.10:598][979]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.11.21-22.59.10:598][979]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.11.21-22.59.10:598][979]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.11.21-22.59.10:598][979]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.11.21-22.59.10:598][979]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.11.21-22.59.10:598][979]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.11.21-22.59.10:598][979]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.11.21-22.59.10:939][979]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.11.21-22.59.11:480][979]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.11.21-22.59.11:664][979]LogDerivedDataCache: Shutdown
+[2015.11.21-22.59.11:664][979]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.11.21-22.59.12:043][979]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.11.21-22.59.12:078][979]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.11.21-22.59.12:225][979]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.11.21-22.59.12:225][979]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.11.21-22.59.12:225][979]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.11.21-22.59.12:225][979]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.11.21-22.59.12:225][979]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.11.21-22.59.12:225][979]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.11.21-22.59.12:225][979]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.11.21-22.59.12:225][979]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.11.21-22.59.12:310][979]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.11.21-22.59.12:310][979]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.11.21-22.59.12:310][979]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.11.21-22.59.12:400][979]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.11.21-22.59.12:401][979]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.11.21-22.59.12:401][979]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.11.21-22.59.12:401][979]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.11.21-22.59.12:410][979]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.11.21-22.59.12:411][979]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.11.21-22.59.12:411][979]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.11.21-22.59.12:411][979]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.11.21-22.59.12:411][979]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.11.21-22.59.12:411][979]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.11.21-22.59.12:411][979]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.11.21-22.59.12:411][979]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.11.21-22.59.12:411][979]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.11.21-22.59.12:411][979]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.11.21-22.59.12:411][979]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.11.21-22.59.12:412][979]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.11.21-22.59.12:435][979]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.11.21-22.59.12:435][979]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.11.21-22.59.12:435][979]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.11.21-22.59.12:435][979]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.11.21-22.59.12:435][979]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.11.21-22.59.12:435][979]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.11.21-22.59.12:503][979]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.11.21-22.59.12:503][979]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.11.21-22.59.12:703][979]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.11.21-22.59.12:704][979]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.11.21-22.59.12:704][979]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.11.21-22.59.12:807][979]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.11.21-22.59.13:055][979]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.11.21-22.59.13:055][979]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.21-22.59.13:055][979]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.21-22.59.13:055][979]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.21-22.59.13:055][979]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.21-22.59.13:060][979]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.21-22.59.13:061][979]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.21-22.59.13:163][979]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.21-22.59.13:541][979]LogExit: Exiting.
+[2015.11.21-22.59.13:632][979]Log file closed, 11/21/15 17:59:13
