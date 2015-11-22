@@ -177,4 +177,370 @@ Localization Resource: (C:/Program Files/Unreal Engine/4.8/Engine/Content/Locali
 [2015.11.22-21.13.21:558][301]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_0) Not registered. Aborting.
 [2015.11.22-21.13.21:893][301]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning [0055.80] Compile of ErichFinalCharCombined successful, but with 1 Warning(s) [in 1,112 ms]
 [2015.11.22-21.13.21:893][301]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
-[2015.11.22-21.13.21:893][301]BlueprintEditorCompileResults:Warning: Warning [0055.80] Compile of ErichFinalCharCombined successful, but with 1 Warning(s) [in 1,112 ms]
+[2015.11.22-21.13.21:893][301]BlueprintEditorCompileResults:Warning: Warning [0055.80] Compile of ErichFinalCharCombined successful, but with 1 Warning(s) [in 1,112 ms]
+[2015.11.22-21.13.25:892][690]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.13.26:399][726]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.13.34:049][484]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.13.34:595][528]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.13.39:137][978]BlueprintLog: New page: Compile ErichFinalCharCombined
+[2015.11.22-21.13.39:419][978]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.22-21.13.39:827][978]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.22-21.13.39:829][978]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.11.22-21.13.39:914][978]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning [0073.82] Compile of ErichFinalCharCombined successful, but with 1 Warning(s) [in 776 ms]
+[2015.11.22-21.13.39:914][978]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.22-21.13.39:915][978]BlueprintEditorCompileResults:Warning: Warning [0073.82] Compile of ErichFinalCharCombined successful, but with 1 Warning(s) [in 776 ms]
+[2015.11.22-21.14.24:339][641]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.14.29:093][ 69]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.14.29:358][ 69]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.14.34:309][447]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.14.36:462][640]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.14.36:958][677]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.14.46:455][533]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.14.51:889][ 66]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.14.53:675][212]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.15.00:624][825]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.15.03:014][ 15]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.15.21:329][352]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.15.24:686][633]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.15.26:968][802]BlueprintLog: New page: Compile AIGuardChar
+[2015.11.22-21.15.27:086][802]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.22-21.15.27:087][802]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.11.22-21.15.27:088][802]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.11.22-21.15.27:088][802]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.11.22-21.15.27:089][802]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_1) Not registered. Aborting.
+[2015.11.22-21.15.27:205][802]BlueprintEditorCompileResults: Info [0181.11] Compile of AIGuardChar successful! [in 236 ms]
+[2015.11.22-21.17.30:385][450]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.17.30:410][450]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainMenu" FILE="../../../../../../E/The-Curators/AlexPrototype/Content/Levels/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.22-21.17.30:412][450]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.22-21.17.30:412][450]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.11.22-21.17.30:414][450]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.11.22-21.17.30:606][450]LogSavePackage: Save=111.639168ms
+[2015.11.22-21.17.30:606][450]LogSavePackage: Moving '../../../../../../E/The-Curators/AlexPrototype/Saved/MainMenuF4B4A5DB44B1F1A1D279A49943BA9441.tmp' to '../../../../../../E/The-Curators/AlexPrototype/Content/Levels/MainMenu.umap'
+[2015.11.22-21.19.14:638][771]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.19.14:717][771]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.19.16:763][957]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.19.16:838][957]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.19.43:025][104]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.19.45:738][399]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.19.51:140][951]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.19.53:784][220]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.19.59:336][804]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.20.14:933][362]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.20.16:846][549]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.20.18:103][658]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.20.21:864][ 64]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_473.EdGraphPin_46357''
+[2015.11.22-21.20.21:865][ 64]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_4313 or K2Node_CallFunction /Game/Tech/AIGuard/AIGuardChar.AIGuardChar:EventGraph.K2Node_CallFunction_4313
+[2015.11.22-21.20.21:865][ 64]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4313.EdGraphPin_47069''
+[2015.11.22-21.20.21:865][ 64]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2348.EdGraphPin_47060''
+[2015.11.22-21.20.21:865][ 64]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Self_1.EdGraphPin_46354''
+[2015.11.22-21.20.24:125][315]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.20.32:878][230]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.22-21.20.32:878][230]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.11.22-21.20.32:879][230]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.11.22-21.21.01:038][431]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.21.02:745][606]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.11.22-21.21.02:745][606]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
+[2015.11.22-21.21.02:747][606]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_2) Not registered. Aborting.
+[2015.11.22-21.21.06:248][972]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.11.22-21.21.06:248][972]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_1) Not registered. Aborting.
+[2015.11.22-21.21.06:249][972]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_3) Not registered. Aborting.
+[2015.11.22-21.21.07:914][136]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.11.22-21.21.07:914][136]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_2) Not registered. Aborting.
+[2015.11.22-21.21.07:915][136]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_4) Not registered. Aborting.
+[2015.11.22-21.21.09:523][307]LogEditorTransaction: Undo Add Variable
+[2015.11.22-21.21.09:534][307]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_687:K2Node_ComponentBoundEvent_63.
+[2015.11.22-21.21.09:535][307]LogUObjectHash:Warning: Ambiguous search, could be CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_AIGuardChar_C_3:CollisionCylinder or CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_AIGuardChar_C_3:CollisionCylinder
+[2015.11.22-21.21.09:535][307]LogUObjectHash:Warning: Ambiguous search, could be CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_AIGuardChar_C_3:CollisionCylinder or CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_AIGuardChar_C_3:CollisionCylinder
+[2015.11.22-21.21.09:535][307]LogUObjectHash:Warning: Ambiguous search, could be CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_AIGuardChar_C_3:CollisionCylinder or CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_AIGuardChar_C_3:CollisionCylinder
+[2015.11.22-21.21.09:575][307]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.11.22-21.21.09:575][307]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_3) Not registered. Aborting.
+[2015.11.22-21.21.09:577][307]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_5) Not registered. Aborting.
+[2015.11.22-21.21.09:602][307]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.21.10:529][385]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.21.12:158][557]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.11.22-21.21.12:158][557]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_4) Not registered. Aborting.
+[2015.11.22-21.21.12:159][557]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_6) Not registered. Aborting.
+[2015.11.22-21.21.15:645][933]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.11.22-21.21.15:645][933]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_5) Not registered. Aborting.
+[2015.11.22-21.21.15:647][933]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_7) Not registered. Aborting.
+[2015.11.22-21.21.18:744][252]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.21.19:447][326]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.21.22:344][633]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.21.25:797][994]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.21.34:712][ 19]BlueprintLog: New page: Compile AIGuardChar
+[2015.11.22-21.21.34:835][ 19]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.11.22-21.21.34:835][ 19]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_6) Not registered. Aborting.
+[2015.11.22-21.21.34:836][ 19]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_8) Not registered. Aborting.
+[2015.11.22-21.21.34:923][ 19]BlueprintEditorCompileResults: Info [0548.83] Compile of AIGuardChar successful! [in 211 ms]
+[2015.11.22-21.21.35:598][ 96]BlueprintLog: New page: Compile AIGuardChar
+[2015.11.22-21.21.35:722][ 96]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.22-21.21.35:722][ 96]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.11.22-21.21.35:723][ 96]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.11.22-21.21.35:781][ 96]BlueprintEditorCompileResults: Info [0549.69] Compile of AIGuardChar successful! [in 182 ms]
+[2015.11.22-21.21.42:484][855]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.21.43:011][890]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.21.45:855][196]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_2737.EdGraphPin_48566''
+[2015.11.22-21.21.45:855][196]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_4313 or K2Node_CallFunction /Game/Tech/AIGuard/AIGuardChar.AIGuardChar:EventGraph.K2Node_CallFunction_4313
+[2015.11.22-21.21.45:855][196]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4313.EdGraphPin_47940''
+[2015.11.22-21.21.45:855][196]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2348.EdGraphPin_47922''
+[2015.11.22-21.21.45:856][196]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Self_1.EdGraphPin_47929''
+[2015.11.22-21.21.47:556][381]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.21.54:182][123]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.21.54:818][187]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.21.56:912][395]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.22.06:619][444]BlueprintLog: New page: Compile AIGuardChar
+[2015.11.22-21.22.06:750][444]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.22-21.22.06:750][444]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.11.22-21.22.06:751][444]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.11.22-21.22.06:813][444]BlueprintEditorCompileResults: Info [0580.72] Compile of AIGuardChar successful! [in 193 ms]
+[2015.11.22-21.22.25:297][469]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.22.32:522][ 85]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.23.36:683][555]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.23.44:960][174]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.23.46:005][257]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.23.50:755][658]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.23.53:200][856]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.23.53:229][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tech/AIGuard/AIGuardBlackboard" FILE="../../../../../../E/The-Curators/AlexPrototype/Content/Tech/AIGuard/AIGuardBlackboard.uasset" SILENT=true
+[2015.11.22-21.23.53:256][856]LogSavePackage: Save=2.729128ms
+[2015.11.22-21.23.53:256][856]LogSavePackage: Moving '../../../../../../E/The-Curators/AlexPrototype/Saved/AIGuardBlackboardCA154DD64CFA9F8EF4F14CB9734CF528.tmp' to '../../../../../../E/The-Curators/AlexPrototype/Content/Tech/AIGuard/AIGuardBlackboard.uasset'
+[2015.11.22-21.24.09:165][914]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.24.09:182][914]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.11.22-21.24.15:588][447]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.24.19:805][842]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.24.19:825][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tech/AIGuard/AIGuardBlackboard" FILE="../../../../../../E/The-Curators/AlexPrototype/Content/Tech/AIGuard/AIGuardBlackboard.uasset" SILENT=true
+[2015.11.22-21.24.19:852][842]LogSavePackage: Save=2.823007ms
+[2015.11.22-21.24.19:852][842]LogSavePackage: Moving '../../../../../../E/The-Curators/AlexPrototype/Saved/AIGuardBlackboardC104A7DE41A1E5A7B5233E8ACD328BF3.tmp' to '../../../../../../E/The-Curators/AlexPrototype/Content/Tech/AIGuard/AIGuardBlackboard.uasset'
+[2015.11.22-21.24.24:635][204]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.24.27:409][421]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.24.28:138][480]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.24.33:717][938]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.24.37:898][288]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.24.37:925][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainMenu" FILE="../../../../../../E/The-Curators/AlexPrototype/Content/Levels/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.22-21.24.37:927][288]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.22-21.24.37:927][288]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.11.22-21.24.37:929][288]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.11.22-21.24.38:118][288]LogSavePackage: Save=123.019638ms
+[2015.11.22-21.24.38:118][288]LogSavePackage: Moving '../../../../../../E/The-Curators/AlexPrototype/Saved/MainMenu66EB66454E322470134175BFD8D869AB.tmp' to '../../../../../../E/The-Curators/AlexPrototype/Content/Levels/MainMenu.umap'
+[2015.11.22-21.24.46:574][874]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.25.18:449][531]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.25.23:497][908]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.25.23:524][908]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tech/AIGuard/AIGBT" FILE="../../../../../../E/The-Curators/AlexPrototype/Content/Tech/AIGuard/AIGBT.uasset" SILENT=true
+[2015.11.22-21.25.23:572][908]LogSavePackage: Save=23.370401ms
+[2015.11.22-21.25.23:572][908]LogSavePackage: Moving '../../../../../../E/The-Curators/AlexPrototype/Saved/AIGBTD451905B47178F6EAE3847A599DAF888.tmp' to '../../../../../../E/The-Curators/AlexPrototype/Content/Tech/AIGuard/AIGBT.uasset'
+[2015.11.22-21.25.50:353][430]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.22-21.25.50:353][430]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.11.22-21.25.50:355][430]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.11.22-21.25.50:417][430]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.25.51:468][430]LogD3D11RHI: InitD3DDevice
+[2015.11.22-21.25.51:505][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tech/AIGuard/AIGuardChar" FILE="../../../../../../E/The-Curators/AlexPrototype/Content/Tech/AIGuard/AIGuardChar.uasset" SILENT=true
+[2015.11.22-21.25.51:661][430]LogSavePackage: Save=130.952560ms
+[2015.11.22-21.25.51:661][430]LogSavePackage: Moving '../../../../../../E/The-Curators/AlexPrototype/Saved/AIGuardCharB754E1134D26B6002BD26ABAF8026702.tmp' to '../../../../../../E/The-Curators/AlexPrototype/Content/Tech/AIGuard/AIGuardChar.uasset'
+[2015.11.22-21.25.52:362][430]LogSavePackage: Save=619.378296ms
+[2015.11.22-21.25.52:362][430]LogSavePackage: Moving '../../../../../../E/The-Curators/AlexPrototype/Saved/ErichFinalCharCombined3906BA50472F7D56D09A0885D71EEF75.tmp' to '../../../../../../E/The-Curators/AlexPrototype/Content/Tech/ThirdPersonBP/Blueprints/ErichFinalCharCombined.uasset'
+[2015.11.22-21.25.52:666][430]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.11.22-21.25.52:705][430]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.22-21.25.52:981][431]Cmd: QUIT_EDITOR
+[2015.11.22-21.25.53:593][431]LogExit: Preparing to exit.
+[2015.11.22-21.25.54:484][431]LogExit: Editor shut down
+[2015.11.22-21.25.54:484][431]LogExit: Transaction tracking system shut down
+[2015.11.22-21.25.54:487][431]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000772D477600
+[2015.11.22-21.25.54:488][431]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000773534EDE0
+[2015.11.22-21.25.54:495][431]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000773CC1A5C0
+[2015.11.22-21.25.54:498][431]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007749292980
+[2015.11.22-21.25.54:500][431]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000774A841DA0
+[2015.11.22-21.25.54:501][431]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000077233DD760
+[2015.11.22-21.25.54:501][431]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000077233DFCE0
+[2015.11.22-21.25.54:708][431]LogExit: Object subsystem successfully closed.
+[2015.11.22-21.25.54:722][431]LogD3D11RHI: Shutdown
+[2015.11.22-21.25.54:722][431]LogD3D11RHI: CleanupD3DDevice
+[2015.11.22-21.25.54:787][431]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.22-21.25.54:844][431]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (189)
+[2015.11.22-21.25.54:844][431]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.11.22-21.25.54:844][431]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.11.22-21.25.54:844][431]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.11.22-21.25.54:844][431]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.11.22-21.25.54:844][431]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.11.22-21.25.54:845][431]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.11.22-21.25.54:845][431]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.11.22-21.25.54:846][431]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.11.22-21.25.54:846][431]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.11.22-21.25.54:846][431]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.11.22-21.25.54:846][431]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.11.22-21.25.54:846][431]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.11.22-21.25.54:846][431]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.11.22-21.25.54:846][431]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.11.22-21.25.54:846][431]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.11.22-21.25.54:846][431]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.11.22-21.25.54:846][431]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.11.22-21.25.54:846][431]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.11.22-21.25.54:846][431]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.11.22-21.25.54:846][431]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.11.22-21.25.54:846][431]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.11.22-21.25.54:846][431]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.11.22-21.25.54:846][431]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.11.22-21.25.54:846][431]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.11.22-21.25.54:846][431]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.11.22-21.25.54:846][431]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.11.22-21.25.55:572][431]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.11.22-21.25.55:572][431]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.11.22-21.25.55:572][431]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.11.22-21.25.55:572][431]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.11.22-21.25.55:572][431]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.11.22-21.25.55:572][431]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.11.22-21.25.55:572][431]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.11.22-21.25.55:572][431]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.11.22-21.25.55:572][431]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.11.22-21.25.55:572][431]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.11.22-21.25.55:572][431]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.11.22-21.25.55:572][431]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.11.22-21.25.55:572][431]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.11.22-21.25.55:572][431]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.11.22-21.25.55:572][431]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.11.22-21.25.55:572][431]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.11.22-21.25.55:572][431]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.11.22-21.25.55:573][431]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.11.22-21.25.55:573][431]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.11.22-21.25.55:573][431]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.11.22-21.25.55:573][431]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.11.22-21.25.55:573][431]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.11.22-21.25.55:573][431]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.11.22-21.25.55:573][431]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.11.22-21.25.55:573][431]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.11.22-21.25.55:573][431]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.11.22-21.25.55:573][431]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.11.22-21.25.55:573][431]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.11.22-21.25.55:573][431]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.11.22-21.25.55:573][431]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.11.22-21.25.55:573][431]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.11.22-21.25.55:574][431]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.11.22-21.25.55:887][431]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.11.22-21.25.55:887][431]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.11.22-21.25.55:887][431]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.11.22-21.25.55:887][431]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.11.22-21.25.55:888][431]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.11.22-21.25.55:888][431]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.11.22-21.25.55:888][431]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.11.22-21.25.55:889][431]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.11.22-21.25.55:889][431]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.11.22-21.25.55:889][431]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.11.22-21.25.55:889][431]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.11.22-21.25.55:889][431]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.11.22-21.25.55:889][431]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.11.22-21.25.55:889][431]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.11.22-21.25.55:889][431]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.11.22-21.25.55:889][431]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.11.22-21.25.55:889][431]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.11.22-21.25.55:889][431]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.11.22-21.25.56:070][431]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.11.22-21.25.56:070][431]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.11.22-21.25.56:070][431]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.11.22-21.25.56:070][431]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.11.22-21.25.56:070][431]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.11.22-21.25.56:070][431]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.11.22-21.25.56:070][431]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.11.22-21.25.56:135][431]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.11.22-21.25.56:135][431]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.11.22-21.25.56:135][431]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.11.22-21.25.56:136][431]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.11.22-21.25.56:136][431]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.11.22-21.25.56:136][431]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.11.22-21.25.56:136][431]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.11.22-21.25.56:136][431]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.11.22-21.25.56:136][431]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.11.22-21.25.56:136][431]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.11.22-21.25.56:136][431]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.11.22-21.25.56:136][431]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.11.22-21.25.56:136][431]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.11.22-21.25.56:136][431]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.11.22-21.25.56:136][431]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.11.22-21.25.56:136][431]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.11.22-21.25.56:136][431]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.11.22-21.25.56:136][431]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.11.22-21.25.56:136][431]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.11.22-21.25.56:136][431]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.11.22-21.25.56:139][431]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.11.22-21.25.56:139][431]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.11.22-21.25.56:139][431]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.11.22-21.25.56:141][431]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.11.22-21.25.56:142][431]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.11.22-21.25.56:142][431]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.11.22-21.25.56:243][431]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.11.22-21.25.56:243][431]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.11.22-21.25.56:249][431]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.11.22-21.25.56:249][431]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.11.22-21.25.56:250][431]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.11.22-21.25.56:250][431]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.11.22-21.25.56:250][431]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.11.22-21.25.56:250][431]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.11.22-21.25.56:250][431]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.11.22-21.25.56:250][431]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.11.22-21.25.56:250][431]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.11.22-21.25.56:250][431]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.11.22-21.25.56:250][431]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.11.22-21.25.56:250][431]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.11.22-21.25.56:250][431]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.11.22-21.25.56:251][431]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.11.22-21.25.56:251][431]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.11.22-21.25.56:260][431]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.11.22-21.25.56:260][431]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.11.22-21.25.56:260][431]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.11.22-21.25.56:260][431]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.11.22-21.25.56:260][431]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.11.22-21.25.56:260][431]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.11.22-21.25.56:260][431]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.11.22-21.25.56:260][431]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.11.22-21.25.56:260][431]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.11.22-21.25.56:260][431]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.11.22-21.25.56:284][431]LogDerivedDataCache: Shutdown
+[2015.11.22-21.25.56:284][431]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.11.22-21.25.56:284][431]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.11.22-21.25.56:284][431]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.11.22-21.25.56:284][431]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.11.22-21.25.56:284][431]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.11.22-21.25.56:284][431]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.11.22-21.25.56:284][431]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.11.22-21.25.56:284][431]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.11.22-21.25.56:284][431]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.11.22-21.25.56:284][431]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.11.22-21.25.56:284][431]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.11.22-21.25.56:284][431]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.11.22-21.25.56:284][431]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.11.22-21.25.56:284][431]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.11.22-21.25.56:284][431]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.11.22-21.25.56:284][431]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.11.22-21.25.56:284][431]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.11.22-21.25.56:284][431]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.11.22-21.25.56:284][431]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.11.22-21.25.56:284][431]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.11.22-21.25.56:285][431]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.11.22-21.25.56:285][431]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.11.22-21.25.56:285][431]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.11.22-21.25.56:285][431]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.11.22-21.25.56:285][431]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.11.22-21.25.56:285][431]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.11.22-21.25.56:285][431]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.11.22-21.25.56:285][431]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.11.22-21.25.56:285][431]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.11.22-21.25.56:285][431]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.11.22-21.25.56:285][431]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.11.22-21.25.56:285][431]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.11.22-21.25.56:285][431]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.11.22-21.25.56:285][431]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.11.22-21.25.56:285][431]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.11.22-21.25.56:285][431]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.11.22-21.25.56:285][431]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.11.22-21.25.56:286][431]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.11.22-21.25.56:286][431]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.11.22-21.25.56:286][431]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.11.22-21.25.56:286][431]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.11.22-21.25.56:298][431]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.11.22-21.25.56:298][431]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.11.22-21.25.56:298][431]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.22-21.25.56:298][431]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.22-21.25.56:298][431]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.22-21.25.56:298][431]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.22-21.25.56:298][431]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.22-21.25.56:298][431]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.22-21.25.56:299][431]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.22-21.25.56:300][431]LogExit: Exiting.
+[2015.11.22-21.25.56:370][431]Log file closed, 11/22/15 16:25:56
