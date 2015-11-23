@@ -210,4 +210,266 @@ Localization Resource: (C:/Program Files/Unreal Engine/4.8/Engine/Content/Locali
 [2015.11.23-07.36.07:934][337]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
 [2015.11.23-07.36.07:934][337]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
 [2015.11.23-07.36.07:935][337]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_0) Not registered. Aborting.
-[2015.11.23-07.36.08:342][337]BlueprintEditorCompileResults: Info [0212.90] Compile of AIGua
+[2015.11.23-07.36.08:342][337]BlueprintEditorCompileResults: Info [0212.90] Compile of AIGuardCont successful! [in 529 ms]
+[2015.11.23-07.36.10:846][516]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.36.14:287][748]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.36.27:826][557]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.36.28:276][578]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.36.34:332][968]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.36.52:485][362]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.36.52:965][385]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.36.58:702][763]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.37.10:659][424]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.37.11:211][460]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.37.15:128][724]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.37.35:502][810]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.37.35:990][842]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.37.42:497][340]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.37.43:092][387]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.37.43:619][425]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.38.34:792][384]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.38.38:337][640]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.38.57:103][193]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.38.57:427][193]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.39.22:218][815]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.39.29:876][221]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.23-07.39.29:876][221]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.11.23-07.39.29:878][221]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.11.23-07.39.29:879][221]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.11.23-07.39.29:881][221]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_1) Not registered. Aborting.
+[2015.11.23-07.39.50:375][357]BlueprintLog: New page: Compile AIGuardChar
+[2015.11.23-07.39.50:714][357]BlueprintEditorCompileResults: Info [0435.27] Compile of AIGuardChar successful! [in 339 ms]
+[2015.11.23-07.40.58:296][ 31]BlueprintLog: New page: Compile ErichFinalCharCombined
+[2015.11.23-07.40.58:643][ 31]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.23-07.40.59:831][ 31]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning [0504.39] Compile of ErichFinalCharCombined successful, but with 1 Warning(s) [in 1,534 ms]
+[2015.11.23-07.40.59:831][ 31]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.23-07.40.59:831][ 31]BlueprintEditorCompileResults:Warning: Warning [0504.39] Compile of ErichFinalCharCombined successful, but with 1 Warning(s) [in 1,534 ms]
+[2015.11.23-07.41.10:251][677]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.11.23-07.41.11:237][768]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.41.11:256][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainMenu" FILE="../../../../../../f/The-Curators/AlexPrototype/Content/Levels/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.23-07.41.11:258][768]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.23-07.41.11:259][768]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.11.23-07.41.11:286][768]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A285EEA480
+[2015.11.23-07.41.11:463][768]LogSavePackage: Save=145.999435ms
+[2015.11.23-07.41.11:463][768]LogSavePackage: Moving '../../../../../../f/The-Curators/AlexPrototype/Saved/MainMenu5D51B45140B64EA1054F379ED32288DE.tmp' to '../../../../../../f/The-Curators/AlexPrototype/Content/Levels/MainMenu.umap'
+[2015.11.23-07.43.18:482][794]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.43.50:022][186]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.43.53:574][448]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.43.53:886][448]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.44.00:343][914]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Tech/AIGuard/RobotCont.RobotCont:EventGraph.K2Node_DynamicCast_522 or K2Node_DynamicCast /Game/Tech/AIGuard/AIGuardCont.AIGuardCont:EventGraph.K2Node_DynamicCast_522
+[2015.11.23-07.44.00:343][914]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Tech/AIGuard/AIGuardCont.AIGuardCont:EventGraph.K2Node_DynamicCast_522.EdGraphPin_44816) from referencer (EdGraphPin /Game/Tech/AIGuard/RobotCont.RobotCont:EventGraph.K2Node_VariableSet_652.EdGraphPin_44825).  Import failed...
+[2015.11.23-07.44.00:343][914]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_522.EdGraphPin_44816''
+[2015.11.23-07.44.00:343][914]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Tech/AIGuard/AIGuardCont.AIGuardCont:EventGraph.K2Node_CallFunction_5000 or K2Node_CallFunction /Game/Tech/AIGuard/RobotCont.RobotCont:EventGraph.K2Node_CallFunction_5000
+[2015.11.23-07.44.00:343][914]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Tech/AIGuard/AIGuardCont.AIGuardCont:EventGraph.K2Node_CallFunction_5000.EdGraphPin_44827) from referencer (EdGraphPin /Game/Tech/AIGuard/RobotCont.RobotCont:EventGraph.K2Node_VariableSet_652.EdGraphPin_44823).  Import failed...
+[2015.11.23-07.44.00:343][914]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5000.EdGraphPin_44827''
+[2015.11.23-07.44.00:343][914]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Tech/AIGuard/RobotCont.RobotCont:EventGraph.K2Node_DynamicCast_522 or K2Node_DynamicCast /Game/Tech/AIGuard/AIGuardCont.AIGuardCont:EventGraph.K2Node_DynamicCast_522
+[2015.11.23-07.44.00:343][914]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Tech/AIGuard/AIGuardCont.AIGuardCont:EventGraph.K2Node_DynamicCast_522.EdGraphPin_44813) from referencer (EdGraphPin /Game/Tech/AIGuard/RobotCont.RobotCont:EventGraph.K2Node_VariableSet_652.EdGraphPin_44822).  Import failed...
+[2015.11.23-07.44.00:343][914]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_522.EdGraphPin_44813''
+[2015.11.23-07.44.00:344][914]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Tech/AIGuard/AIGuardCont.AIGuardCont:EventGraph.K2Node_VariableSet_1202 or K2Node_VariableSet /Game/Tech/AIGuard/RobotCont.RobotCont:EventGraph.K2Node_VariableSet_1202
+[2015.11.23-07.44.00:344][914]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Tech/AIGuard/AIGuardCont.AIGuardCont:EventGraph.K2Node_VariableSet_1202.EdGraphPin_44836) from referencer (EdGraphPin /Game/Tech/AIGuard/RobotCont.RobotCont:EventGraph.K2Node_DynamicCast_522.EdGraphPin_44816).  Import failed...
+[2015.11.23-07.44.00:344][914]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_1202.EdGraphPin_44836''
+[2015.11.23-07.44.00:344][914]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Tech/AIGuard/RobotCont.RobotCont:EventGraph.K2Node_CallFunction_4999 or K2Node_CallFunction /Game/Tech/AIGuard/AIGuardCont.AIGuardCont:EventGraph.K2Node_CallFunction_4999
+[2015.11.23-07.44.00:344][914]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Tech/AIGuard/AIGuardCont.AIGuardCont:EventGraph.K2Node_CallFunction_4999.EdGraphPin_44821) from referencer (EdGraphPin /Game/Tech/AIGuard/RobotCont.RobotCont:EventGraph.K2Node_DynamicCast_522.EdGraphPin_44815).  Import failed...
+[2015.11.23-07.44.00:344][914]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4999.EdGraphPin_44821''
+[2015.11.23-07.44.00:344][914]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Tech/AIGuard/AIGuardCont.AIGuardCont:EventGraph.K2Node_DynamicCast_518.EdGraphPin_46025) from referencer (EdGraphPin /Game/Tech/AIGuard/RobotCont.RobotCont:EventGraph.K2Node_DynamicCast_522.EdGraphPin_44812).  Import failed...
+[2015.11.23-07.44.00:344][914]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_518.EdGraphPin_46025''
+[2015.11.23-07.44.00:345][914]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Tech/AIGuard/AIGuardCont.AIGuardCont:EventGraph.K2Node_DynamicCast_518.EdGraphPin_46028) from referencer (EdGraphPin /Game/Tech/AIGuard/RobotCont.RobotCont:EventGraph.K2Node_CallFunction_4999.EdGraphPin_44820).  Import failed...
+[2015.11.23-07.44.00:345][914]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_518.EdGraphPin_46028''
+[2015.11.23-07.44.00:345][914]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Self /Game/Tech/AIGuard/RobotCont.RobotCont:ExecuteUbergraph_RobotCont.K2Node_Self_74 or K2Node_Self /Game/Tech/AIGuard/AIGuardCont.AIGuardCont:EventGraph.K2Node_Self_74
+[2015.11.23-07.44.00:345][914]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Self /Game/Tech/AIGuard/RobotCont.RobotCont:ExecuteUbergraph_RobotCont.K2Node_Self_74 or K2Node_Self /Game/Tech/AIGuard/RobotCont.RobotCont:EventGraph.K2Node_Self_74
+[2015.11.23-07.44.00:345][914]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Tech/AIGuard/AIGuardCont.AIGuardCont:EventGraph.K2Node_Self_74.EdGraphPin_26112) from referencer (EdGraphPin /Game/Tech/AIGuard/RobotCont.RobotCont:EventGraph.K2Node_CallFunction_4962.EdGraphPin_44724).  Import failed...
+[2015.11.23-07.44.00:345][914]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Self_74.EdGraphPin_26112''
+[2015.11.23-07.44.00:345][914]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Tech/AIGuard/AIGuardCont.AIGuardCont:EventGraph.K2Node_DynamicCast_518.EdGraphPin_46027) from referencer (EdGraphPin /Game/Tech/AIGuard/RobotCont.RobotCont:EventGraph.K2Node_CallFunction_4962.EdGraphPin_44725).  Import failed...
+[2015.11.23-07.44.00:345][914]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_518.EdGraphPin_46027''
+[2015.11.23-07.44.00:346][914]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Tech/AIGuard/AIGuardCont.AIGuardCont:EventGraph.K2Node_VariableSet_1202 or K2Node_VariableSet /Game/Tech/AIGuard/RobotCont.RobotCont:EventGraph.K2Node_VariableSet_1202
+[2015.11.23-07.44.00:346][914]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Tech/AIGuard/AIGuardCont.AIGuardCont:EventGraph.K2Node_VariableSet_1202.EdGraphPin_44833) from referencer (EdGraphPin /Game/Tech/AIGuard/RobotCont.RobotCont:EventGraph.K2Node_CallFunction_5000.EdGraphPin_44828).  Import failed...
+[2015.11.23-07.44.00:346][914]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_1202.EdGraphPin_44833''
+[2015.11.23-07.44.03:711][183]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.44.05:609][337]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.44.08:342][557]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.44.09:676][658]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.44.10:281][702]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.44.59:105][445]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.44.59:872][499]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.45.13:931][457]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.46.01:950][360]LogLinker:Warning: Can't find file '/Game/Tech/UIElements/NMNYD_Health_Symbol'
+[2015.11.23-07.46.01:950][360]LogLinker:Warning: Can't find file for asset '/Game/Tech/UIElements/NMNYD_Health_Symbol' while loading ../../../../../../f/The-Curators/AlexPrototype/Content/Assets/InventoryArrows.uasset.
+[2015.11.23-07.46.01:953][360]LogLinker:Warning: Can't find file '/Game/Tech/UIElements/NMNYD_Health_Symbol'
+[2015.11.23-07.46.01:954][360]LogLinker:Warning: Can't find file for asset '/Game/Tech/UIElements/NMNYD_Health_Symbol' while loading ../../../../../../f/The-Curators/AlexPrototype/Content/Assets/InventoryArrows.uasset.
+[2015.11.23-07.46.06:812][360]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.46.07:100][360]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.46.07:174][360]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_0.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.46.07:174][360]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_0.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.46.07:174][360]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_0.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.46.07:174][360]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_0.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.46.07:178][360]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_1.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.46.07:178][360]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_1.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.46.07:178][360]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_1.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.46.07:178][360]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_1.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.46.07:206][360]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_8:PersistentLevel.CyGuardChar_C_2.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.46.07:206][360]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_8:PersistentLevel.CyGuardChar_C_2.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.46.07:206][360]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_8:PersistentLevel.CyGuardChar_C_2.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.46.07:206][360]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_8:PersistentLevel.CyGuardChar_C_2.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.46.55:182][722]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.46.56:409][801]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.47.08:022][519]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.47.15:660][ 20]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.47.22:153][389]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.48.59:709][567]BlueprintLog: New page: Compile CyGuardChar
+[2015.11.23-07.48.59:869][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_2.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:869][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_2.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:869][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_2.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:869][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_2.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:870][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_2.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:870][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_2.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:871][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_3.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:871][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_3.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:871][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_3.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:871][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_3.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:871][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_3.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:871][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_3.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:872][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_8:PersistentLevel.CyGuardChar_C_4.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:872][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_8:PersistentLevel.CyGuardChar_C_4.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:872][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_8:PersistentLevel.CyGuardChar_C_4.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:872][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_8:PersistentLevel.CyGuardChar_C_4.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:872][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_8:PersistentLevel.CyGuardChar_C_4.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:872][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_8:PersistentLevel.CyGuardChar_C_4.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:873][567]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.23-07.48.59:874][567]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.11.23-07.48.59:875][567]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.11.23-07.48.59:875][567]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.11.23-07.48.59:876][567]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_2) Not registered. Aborting.
+[2015.11.23-07.48.59:876][567]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.11.23-07.48.59:877][567]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_1) Not registered. Aborting.
+[2015.11.23-07.48.59:878][567]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_3) Not registered. Aborting.
+[2015.11.23-07.48.59:911][567]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A2859AF1A0
+[2015.11.23-07.48.59:985][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_2.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:985][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_2.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:986][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_2.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:986][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_2.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:986][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_2.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:986][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_2.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:986][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_2.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:986][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_2.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:987][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_3.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:987][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_3.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:988][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_3.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:988][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_3.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:988][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_3.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:988][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_3.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:988][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_3.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:988][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_3.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:989][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_8:PersistentLevel.CyGuardChar_C_4.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:989][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_8:PersistentLevel.CyGuardChar_C_4.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:990][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_8:PersistentLevel.CyGuardChar_C_4.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:990][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_8:PersistentLevel.CyGuardChar_C_4.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:990][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_8:PersistentLevel.CyGuardChar_C_4.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:990][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_8:PersistentLevel.CyGuardChar_C_4.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:991][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_8:PersistentLevel.CyGuardChar_C_4.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.48.59:991][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_8:PersistentLevel.CyGuardChar_C_4.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.49.00:005][567]BlueprintEditorCompileResults: Info [0984.56] Compile of CyGuardChar successful! [in 295 ms]
+[2015.11.23-07.49.00:008][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_65.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.49.00:008][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_65.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.49.00:008][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_65.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.49.00:008][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_65.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.49.00:010][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_66.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.49.00:010][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_66.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.49.00:010][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_66.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.49.00:010][567]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_66.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.49.05:257][998]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.49.05:510][998]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.49.05:560][998]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_9:PersistentLevel.CyGuardChar_C_67.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.49.05:560][998]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_9:PersistentLevel.CyGuardChar_C_67.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.49.05:560][998]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_9:PersistentLevel.CyGuardChar_C_67.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.49.05:560][998]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_9:PersistentLevel.CyGuardChar_C_67.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.49.07:604][125]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.49.07:865][140]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.49.23:589][343]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.49.24:119][375]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.49.48:678][370]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.49.49:943][460]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.49.54:041][771]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.50.00:367][242]LogD3D11RHI: InitD3DDevice
+[2015.11.23-07.50.10:646][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_2.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:646][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_2.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:647][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_2.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:647][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_2.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:647][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_2.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:647][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_2.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:648][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_2.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:648][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_2.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:649][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_3.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:650][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_3.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:651][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_3.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:651][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_3.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:651][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_3.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:651][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_3.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:651][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_3.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:651][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_3.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:654][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_65.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:654][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_65.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:656][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_65.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:656][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_65.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:656][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_65.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:656][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_65.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:657][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_65.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:657][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_65.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:659][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_66.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:659][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_66.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:661][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_66.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:661][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_66.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:661][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_66.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:661][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_66.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:662][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_66.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:662][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_66.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:665][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_9:PersistentLevel.CyGuardChar_C_67.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:665][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_9:PersistentLevel.CyGuardChar_C_67.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:666][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_9:PersistentLevel.CyGuardChar_C_67.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:666][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_9:PersistentLevel.CyGuardChar_C_67.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:666][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_9:PersistentLevel.CyGuardChar_C_67.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:666][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_9:PersistentLevel.CyGuardChar_C_67.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:667][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_9:PersistentLevel.CyGuardChar_C_67.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:667][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_9:PersistentLevel.CyGuardChar_C_67.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:668][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_2.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:668][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_2.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:669][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_2.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:669][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_2.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:669][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_2.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:669][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_2.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:669][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_2.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:669][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_2.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:670][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_3.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:670][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_3.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:671][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_3.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:671][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_3.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:671][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_3.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:671][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_3.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:671][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_3.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:671][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_3.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:672][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_65.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:672][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_65.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:673][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_65.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:673][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_65.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:673][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_65.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:673][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_65.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:673][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_65.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:673][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_65.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:674][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_66.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:675][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_66.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:675][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_66.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:675][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_66.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:676][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_66.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:676][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_66.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:676][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_66.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:676][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_2:PersistentLevel.CyGuardChar_C_66.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:677][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_9:PersistentLevel.CyGuardChar_C_67.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:677][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_9:PersistentLevel.CyGuardChar_C_67.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:678][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_9:PersistentLevel.CyGuardChar_C_67.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:678][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_9:PersistentLevel.CyGuardChar_C_67.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:678][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_9:PersistentLevel.CyGuardChar_C_67.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:678][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_9:PersistentLevel.CyGuardChar_C_67.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:678][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_9:PersistentLevel.CyGuardChar_C_67.CyGuardChar'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:678][928]LogChildActorComponent:Error: Found cycle in child actor component '/Engine/Transient.World_9:PersistentLevel.CyGuardChar_C_67.CyGuardChar1'.  Not spawning Actor of class 'CyGuardChar_C' to break.
+[2015.11.23-07.50.10:679][928]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.23-07.50.10:679][928]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.11.23-07.50.10:680][928]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registere
