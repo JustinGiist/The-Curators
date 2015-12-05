@@ -1,683 +1,438 @@
-﻿[2015.12.05-22.41.22:185][  0]Log file open, 12/05/15 17:41:22
-[2015.12.05-22.41.22:185][  0]LogInit:Display: Running engine for game: MyProject
-[2015.12.05-22.41.22:185][  0]LogInit:Display: RandInit(-796575153) SRandInit(-796575153).
-[2015.12.05-22.41.22:185][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-[2015.12.05-22.41.22:185][  0]LogStats: Stats thread started
-[2015.12.05-22.41.22:185][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
-[2015.12.05-22.41.22:185][  0]LogInit: API Version: 2579680
-[2015.12.05-22.41.22:185][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
-[2015.12.05-22.41.22:185][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2015.12.05-22.41.22:185][  0]LogInit: Build Configuration: Development
-[2015.12.05-22.41.22:185][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
-[2015.12.05-22.41.22:185][  0]LogInit: Command line:  
-[2015.12.05-22.41.22:185][  0]LogInit: Base directory: C:/Program Files/Unreal Engine/4.8/Engine/Binaries/Win64/
-[2015.12.05-22.41.22:185][  0]LogInit: Rocket: 1
-[2015.12.05-22.41.22:212][  0]LogInit: Using libcurl 7.41.0
-[2015.12.05-22.41.22:212][  0]LogInit:  - built for x86_64-pc-win32
-[2015.12.05-22.41.22:212][  0]LogInit:  - supports SSL with WinSSL
-[2015.12.05-22.41.22:212][  0]LogInit:  - other features:
-[2015.12.05-22.41.22:212][  0]LogInit:      CURL_VERSION_SSL
-[2015.12.05-22.41.22:212][  0]LogInit:      CURL_VERSION_IPV6
-[2015.12.05-22.41.22:212][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2015.12.05-22.41.22:212][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2015.12.05-22.41.22:212][  0]LogInit:      CURL_VERSION_IDN
-[2015.12.05-22.41.22:212][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2015.12.05-22.41.22:212][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2015.12.05-22.41.22:212][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2015.12.05-22.41.22:212][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2015.12.05-22.41.22:212][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2015.12.05-22.41.22:235][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.12.05-22.41.22:259][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.12.05-22.41.22:267][  0]LogInit: Object subsystem initialized
-[2015.12.05-22.41.22:267][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
-[2015.12.05-22.41.22:267][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/d/The-Curators/AlexPrototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.12.05-22.41.22:267][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.12.05-22.41.22:267][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/d/The-Curators/AlexPrototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.12.05-22.41.22:267][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.12.05-22.41.22:267][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/d/The-Curators/AlexPrototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.12.05-22.41.22:268][  0]LogInit: Selected Device Profile: [Windows]
-[2015.12.05-22.41.22:268][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.12.05-22.41.22:277][  0]LogInit: Computer: STEPHENMANGOLD1
-[2015.12.05-22.41.22:277][  0]LogInit: User: StephenPaulMangold
-[2015.12.05-22.41.22:277][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.12.05-22.41.22:277][  0]LogInit: High frequency timer resolution =3.312785 MHz
-[2015.12.05-22.41.22:277][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2015.12.05-22.41.22:277][  0]LogMemory: Platform Memory Stats for Windows
-[2015.12.05-22.41.22:277][  0]LogMemory: Process Physical Memory: 52.92 MB used, 52.92 MB peak
-[2015.12.05-22.41.22:277][  0]LogMemory: Process Virtual Memory: 25.44 MB used, 25.44 MB peak
-[2015.12.05-22.41.22:277][  0]LogMemory: Physical Memory: 8996.88 MB used, 16337.60 MB total
-[2015.12.05-22.41.22:277][  0]LogMemory: Virtual Memory: 295.52 MB used, 134217728.00 MB total
-[2015.12.05-22.41.22:352][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
-[2015.12.05-22.41.22:547][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+﻿[2015.12.05-22.52.19:787][  0]Log file open, 12/05/15 17:52:19
+[2015.12.05-22.52.19:787][  0]LogInit:Display: Running engine for game: MyProject
+[2015.12.05-22.52.19:787][  0]LogInit:Display: RandInit(1381795574) SRandInit(1381795575).
+[2015.12.05-22.52.19:787][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.12.05-22.52.19:787][  0]LogStats: Stats thread started
+[2015.12.05-22.52.19:787][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.12.05-22.52.19:787][  0]LogInit: API Version: 2579680
+[2015.12.05-22.52.19:787][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.12.05-22.52.19:787][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.12.05-22.52.19:787][  0]LogInit: Build Configuration: Development
+[2015.12.05-22.52.19:787][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.12.05-22.52.19:787][  0]LogInit: Command line:  
+[2015.12.05-22.52.19:787][  0]LogInit: Base directory: C:/Program Files/Unreal Engine/4.8/Engine/Binaries/Win64/
+[2015.12.05-22.52.19:787][  0]LogInit: Rocket: 1
+[2015.12.05-22.52.19:814][  0]LogInit: Using libcurl 7.41.0
+[2015.12.05-22.52.19:814][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.05-22.52.19:814][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.05-22.52.19:814][  0]LogInit:  - other features:
+[2015.12.05-22.52.19:814][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.05-22.52.19:814][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.05-22.52.19:814][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.05-22.52.19:814][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.05-22.52.19:814][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.05-22.52.19:814][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.05-22.52.19:814][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.05-22.52.19:814][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.05-22.52.19:814][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.05-22.52.19:814][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.05-22.52.19:834][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.12.05-22.52.19:861][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.05-22.52.19:869][  0]LogInit: Object subsystem initialized
+[2015.12.05-22.52.19:870][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.12.05-22.52.19:870][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/d/The-Curators/AlexPrototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.12.05-22.52.19:870][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.12.05-22.52.19:870][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/d/The-Curators/AlexPrototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.12.05-22.52.19:870][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.12.05-22.52.19:870][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/d/The-Curators/AlexPrototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.12.05-22.52.19:870][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.05-22.52.19:870][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.05-22.52.19:881][  0]LogInit: Computer: STEPHENMANGOLD1
+[2015.12.05-22.52.19:881][  0]LogInit: User: StephenPaulMangold
+[2015.12.05-22.52.19:881][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.12.05-22.52.19:881][  0]LogInit: High frequency timer resolution =3.312785 MHz
+[2015.12.05-22.52.19:881][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2015.12.05-22.52.19:881][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.05-22.52.19:881][  0]LogMemory: Process Physical Memory: 52.97 MB used, 52.97 MB peak
+[2015.12.05-22.52.19:881][  0]LogMemory: Process Virtual Memory: 25.47 MB used, 25.47 MB peak
+[2015.12.05-22.52.19:881][  0]LogMemory: Physical Memory: 8160.33 MB used, 16337.60 MB total
+[2015.12.05-22.52.19:881][  0]LogMemory: Virtual Memory: 295.58 MB used, 134217728.00 MB total
+[2015.12.05-22.52.19:963][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.12.05-22.52.20:168][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
 Localization Resource: (C:/Program Files/Unreal Engine/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
 Localization Resource: (C:/Program Files/Unreal Engine/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
-[2015.12.05-22.41.22:985][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7700 Series (Feature Level 11_0)
-[2015.12.05-22.41.22:985][  0]LogD3D11RHI: Adapter has 2006MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
-[2015.12.05-22.41.22:986][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.12.05-22.41.22:986][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2015.12.05-22.41.22:986][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.12.05-22.41.22:991][  0]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.41.22:992][  0]LogD3D11RHI: !Direct3DDevice
-[2015.12.05-22.41.22:992][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.12.05-22.41.23:001][  0]LogD3D11RHI: Async texture creation disabled: no driver support
-[2015.12.05-22.41.23:012][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2015.12.05-22.41.23:917][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
-[2015.12.05-22.41.23:941][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2015.12.05-22.41.23:966][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2015.12.05-22.41.23:993][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2015.12.05-22.41.24:023][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2015.12.05-22.41.24:046][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2015.12.05-22.41.24:068][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2015.12.05-22.41.24:092][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2015.12.05-22.41.24:115][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2015.12.05-22.41.24:139][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2015.12.05-22.41.24:162][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2015.12.05-22.41.24:184][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2015.12.05-22.41.24:264][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2015.12.05-22.41.24:287][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2015.12.05-22.41.24:310][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2015.12.05-22.41.24:334][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2015.12.05-22.41.24:334][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.12.05-22.41.24:715][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.12.05-22.41.24:763][  0]LogDerivedDataCache: Loaded boot cache 0.05s 57MB C:/Users/Stephen Paul Mangold/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
-[2015.12.05-22.41.24:763][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Stephen Paul Mangold/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
-[2015.12.05-22.41.24:763][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../d/The-Curators/AlexPrototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.12.05-22.41.24:763][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.12.05-22.41.24:763][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../d/The-Curators/AlexPrototype/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2015.12.05-22.41.24:763][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2015.12.05-22.41.24:909][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.12.05-22.41.24:922][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Stephen Paul Mangold/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.12.05-22.41.25:226][  0]LogInit: Selected Device Profile: [Windows]
-[2015.12.05-22.41.25:330][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
-[2015.12.05-22.41.25:330][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
-[2015.12.05-22.41.25:378][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.12.05-22.41.25:378][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.12.05-22.41.25:791][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.12.05-22.41.27:191][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.12.05-22.41.27:702][  0]SourceControl: Info Source control is disabled
-[2015.12.05-22.41.27:734][  0]SourceControl: Info Source control is disabled
-[2015.12.05-22.41.27:753][  0]SourceControl: Info Source control is disabled
-[2015.12.05-22.41.27:772][  0]SourceControl: Info Source control is disabled
-[2015.12.05-22.41.28:168][  0]LogObj: 26277 objects as part of root set at end of initial load.
-[2015.12.05-22.41.28:168][  0]LogUObjectAllocator: 5410024 out of 0 bytes used by permanent object pool.
-[2015.12.05-22.41.28:268][  0]LogEngine: Initializing Engine...
-[2015.12.05-22.41.28:280][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
-[2015.12.05-22.41.28:288][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 108
-[2015.12.05-22.41.28:499][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.12.05-22.41.28:518][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.12.05-22.41.28:533][  0]LogInit: FAudioDevice initialized.
-[2015.12.05-22.41.28:560][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/Stephen Paul Mangold/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
-[2015.12.05-22.41.28:564][  0]LogInit: Texture streaming: Disabled
-[2015.12.05-22.41.28:606][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.12.05-22.41.28:606][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
-[2015.12.05-22.41.28:606][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 670f7a51498aab90fa6f01ae8ba6e645|ae3c06c927b140e595cd14047ca553a4|817dc969-a56b-4d5a-b6d5-4cf8a1016322
-[2015.12.05-22.41.28:606][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2015.12.05-22.41.28:666][  0]LogInit: Transaction tracking system initialized
-[2015.12.05-22.41.28:919][  0]BlueprintLog: New page: Editor Load
-[2015.12.05-22.41.28:976][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
-[2015.12.05-22.41.28:977][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.12.05-22.41.30:367][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
-[2015.12.05-22.41.30:367][  0]LogConsoleResponse:Display: 
-[2015.12.05-22.41.30:564][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.12.05-22.41.30:933][  0]SourceControl: Info Source control is disabled
-[2015.12.05-22.41.30:933][  0]Cmd: MAP LOAD FILE="../../../../../../d/The-Curators/AlexPrototype/Content/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.12.05-22.41.30:934][  0]LightingResults: New page: Lighting Build
-[2015.12.05-22.41.30:962][  0]MapCheck: New page: Map Check
-[2015.12.05-22.41.30:962][  0]LightingResults: New page: Lighting Build
-[2015.12.05-22.41.30:973][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004251F18B80
-[2015.12.05-22.41.32:806][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
-[2015.12.05-22.41.32:842][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0012.55] Compile of ThirdPersonCharacter successful, but with 1 Warning(s) [in 230 ms]
-[2015.12.05-22.41.32:842][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0012.55] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 0 ms]
-[2015.12.05-22.41.32:842][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0012.55] Compile of ThirdPersonCharacter successful, but with 3 Warning(s) [in 0 ms]
-[2015.12.05-22.41.34:536][  0]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
-[2015.12.05-22.41.34:587][  0]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning [0014.29] Compile of ErichFinalCharCombined successful, but with 1 Warning(s) [in 338 ms]
-[2015.12.05-22.41.34:589][  0]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning [0014.29] Compile of ErichFinalCharCombined successful, but with 2 Warning(s) [in 1 ms]
-[2015.12.05-22.41.34:589][  0]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning [0014.29] Compile of ErichFinalCharCombined successful, but with 3 Warning(s) [in 0 ms]
-[2015.12.05-22.41.35:445][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
-[2015.12.05-22.41.35:477][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0015.18] Compile of ThirdPersonCharacter successful, but with 1 Warning(s) [in 210 ms]
-[2015.12.05-22.41.35:478][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0015.18] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 0 ms]
-[2015.12.05-22.41.35:855][  0]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
-[2015.12.05-22.41.35:901][  0]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning [0015.60] Compile of ErichFinalCharCombined successful, but with 1 Warning(s) [in 308 ms]
-[2015.12.05-22.41.35:903][  0]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning [0015.61] Compile of ErichFinalCharCombined successful, but with 2 Warning(s) [in 1 ms]
-[2015.12.05-22.41.37:170][  0]LogWmfMedia:Error: Failed to create source object from URL for C:/Users/Justin's/Pictures/Curators/NewMenuAssets/Output/maxresdefault (1).mp4
-[2015.12.05-22.41.37:652][  0]LogAIModule: Creating AISystem for world MainMenu
-[2015.12.05-22.41.37:661][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.12.05-22.41.37:691][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.12.05-22.41.37:909][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 217.8ms to complete.
-[2015.12.05-22.41.37:909][  0]LogFileHelpers: Loading map 'MainMenu' took 6.976
-[2015.12.05-22.41.38:050][  0]LogCollectionManager: Loaded 0 collections in 0.002080 seconds
-[2015.12.05-22.41.38:059][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 1792 classes and 301 folders.
-[2015.12.05-22.41.38:133][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2015.12.05-22.41.38:181][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2015.12.05-22.41.38:208][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2015.12.05-22.41.38:309][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.12.05-22.41.38:315][  0]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.41.38:321][  0]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.41.38:325][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.12.05-22.41.38:347][  0]LogLoad: Full Startup: 18.05 seconds (BP compile: 3.97 seconds)
-[2015.12.05-22.41.38:759][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.12.05-22.41.38:861][  0]LogContentStreaming: Texture pool size now 400 MB
-[2015.12.05-22.41.38:993][  0]LogRenderer: Reallocating scene render targets to support 1528x560 (Frame:2).
-[2015.12.05-22.41.39:654][  3]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.41.49:563][ 32]LogAssetRegistry: Asset discovery search completed in 20.5988 seconds
-[2015.12.05-22.43.11:389][512]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.43.17:923][ 30]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.43.18:024][ 30]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.12.05-22.43.18:096][ 30]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.12.05-22.43.19:155][ 30]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.43.28:304][735]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.43.30:179][901]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.43.34:692][294]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.43.39:213][698]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.43.48:202][586]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.43.52:213][965]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.43.53:683][ 90]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.43.55:925][296]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.43.59:602][632]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.44.07:001][220]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.44.12:046][666]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.44.13:003][747]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.44.14:742][893]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.44.20:381][377]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.44.26:072][853]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.44.28:994][ 93]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.44.29:877][ 93]LogSavePackage: Save=702.980408ms
-[2015.12.05-22.44.29:877][ 93]LogSavePackage: Moving '../../../../../../d/The-Curators/AlexPrototype/Saved/ErichFinalCharCombined5670B8814BBEBA135F0674A7863CCA7A.tmp' to '../../../../../../d/The-Curators/AlexPrototype/Content/Tech/ThirdPersonBP/Blueprints/ErichFinalCharCombined.uasset'
-[2015.12.05-22.44.30:724][167]BlueprintLog: New page: Compile ErichFinalCharCombined
-[2015.12.05-22.44.31:039][167]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
-[2015.12.05-22.44.31:191][167]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.12.05-22.44.31:192][167]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
-[2015.12.05-22.44.32:091][167]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning [0191.79] Compile of ErichFinalCharCombined successful, but with 1 Warning(s) [in 1,366 ms]
-[2015.12.05-22.44.32:091][167]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
-[2015.12.05-22.44.32:091][167]BlueprintEditorCompileResults:Warning: Warning [0191.79] Compile of ErichFinalCharCombined successful, but with 1 Warning(s) [in 1,366 ms]
-[2015.12.05-22.44.37:401][609]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.44.37:426][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainMenu" FILE="../../../../../../d/The-Curators/AlexPrototype/Content/Levels/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.12.05-22.44.37:428][609]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.12.05-22.44.37:429][609]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
-[2015.12.05-22.44.37:622][609]LogSavePackage: Save=136.477005ms
-[2015.12.05-22.44.37:622][609]LogSavePackage: Moving '../../../../../../d/The-Curators/AlexPrototype/Saved/MainMenuCBB78FB24A28E5A3FAB4AD9C9B60EDBD.tmp' to '../../../../../../d/The-Curators/AlexPrototype/Content/Levels/MainMenu.umap'
-[2015.12.05-22.44.43:320][ 51]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.45.04:773][ 51]LogAIModule: Creating AISystem for world Level1
-[2015.12.05-22.45.04:790][ 51]LogMaterial:Warning: Material /Game/Art/VerticalSliceAssets/egyptianAssets/vaseEgyptian/vaseEgyptianBase.vaseEgyptianBase needed to have new flag set bUsedWithStaticLighting !
-[2015.12.05-22.45.04:820][ 51]LogMaterial: Missing cached shader map for material vaseEgyptianBase, compiling. 
-[2015.12.05-22.45.04:872][ 51]LogMaterial: 0.000141 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.12.05-22.45.04:872][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP_236.displayCase
-[2015.12.05-22.45.04:873][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP2.displayCase
-[2015.12.05-22.45.04:873][ 51]LogMaterial:Warning: Material /Game/Art/VerticalSliceAssets/egyptianAssets/sandals/sandels.sandels needed to have new flag set bUsedWithStaticLighting !
-[2015.12.05-22.45.04:875][ 51]LogMaterial: Missing cached shader map for material sandels, compiling. 
-[2015.12.05-22.45.04:885][ 51]LogMaterial: 0.000120 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.12.05-22.45.04:886][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP3_2642.displayCase
-[2015.12.05-22.45.04:886][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP4.displayCase
-[2015.12.05-22.45.04:886][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP5.displayCase
-[2015.12.05-22.45.04:886][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP6.displayCase
-[2015.12.05-22.45.04:886][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint6.p_displayParticleShort
-[2015.12.05-22.45.04:886][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint7.p_displayParticleShort
-[2015.12.05-22.45.04:886][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint8.p_displayParticleShort
-[2015.12.05-22.45.04:886][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint9.p_displayParticleShort
-[2015.12.05-22.45.04:887][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint11.p_displayParticleShort
-[2015.12.05-22.45.04:887][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP10.displayCase
-[2015.12.05-22.45.04:887][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP11.displayCase
-[2015.12.05-22.45.04:887][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP12.displayCase
-[2015.12.05-22.45.04:888][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP13.displayCase
-[2015.12.05-22.45.04:890][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP14.displayCase
-[2015.12.05-22.45.04:902][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint5_68.p_displayParticleShort
-[2015.12.05-22.45.04:906][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint13.p_displayParticleShort
-[2015.12.05-22.45.04:906][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint14.p_displayParticleShort
-[2015.12.05-22.45.04:967][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint10_120.p_displayParticleShort
-[2015.12.05-22.45.04:969][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint12_254.p_displayParticleShort
-[2015.12.05-22.45.04:969][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint15.p_displayParticleShort
-[2015.12.05-22.45.04:970][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP_93.ParticleSystem
-[2015.12.05-22.45.04:973][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP2.ParticleSystem
-[2015.12.05-22.45.04:984][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP3.ParticleSystem
-[2015.12.05-22.45.04:986][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP4.ParticleSystem
-[2015.12.05-22.45.04:987][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP5.ParticleSystem
-[2015.12.05-22.45.04:988][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP6.ParticleSystem
-[2015.12.05-22.45.05:164][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP15.displayCase
-[2015.12.05-22.45.05:218][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP_236.displayCase
-[2015.12.05-22.45.05:219][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP_236.displayCase
-[2015.12.05-22.45.05:219][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP2.displayCase
-[2015.12.05-22.45.05:219][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP2.displayCase
-[2015.12.05-22.45.05:219][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP3_2642.displayCase
-[2015.12.05-22.45.05:219][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP3_2642.displayCase
-[2015.12.05-22.45.05:219][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP4.displayCase
-[2015.12.05-22.45.05:220][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP4.displayCase
-[2015.12.05-22.45.05:220][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP5.displayCase
-[2015.12.05-22.45.05:220][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP5.displayCase
-[2015.12.05-22.45.05:220][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP6.displayCase
-[2015.12.05-22.45.05:220][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP6.displayCase
-[2015.12.05-22.45.05:220][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint6.p_displayParticleShort
-[2015.12.05-22.45.05:221][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint6.p_displayParticleShort
-[2015.12.05-22.45.05:221][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint7.p_displayParticleShort
-[2015.12.05-22.45.05:221][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint7.p_displayParticleShort
-[2015.12.05-22.45.05:221][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint8.p_displayParticleShort
-[2015.12.05-22.45.05:221][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint8.p_displayParticleShort
-[2015.12.05-22.45.05:221][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint9.p_displayParticleShort
-[2015.12.05-22.45.05:221][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint9.p_displayParticleShort
-[2015.12.05-22.45.05:222][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint11.p_displayParticleShort
-[2015.12.05-22.45.05:222][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint11.p_displayParticleShort
-[2015.12.05-22.45.05:222][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP10.displayCase
-[2015.12.05-22.45.05:222][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP10.displayCase
-[2015.12.05-22.45.05:222][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP11.displayCase
-[2015.12.05-22.45.05:223][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP11.displayCase
-[2015.12.05-22.45.05:223][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP12.displayCase
-[2015.12.05-22.45.05:223][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP12.displayCase
-[2015.12.05-22.45.05:223][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP13.displayCase
-[2015.12.05-22.45.05:224][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP13.displayCase
-[2015.12.05-22.45.05:224][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP14.displayCase
-[2015.12.05-22.45.05:224][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP14.displayCase
-[2015.12.05-22.45.05:225][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint5_68.p_displayParticleShort
-[2015.12.05-22.45.05:225][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint5_68.p_displayParticleShort
-[2015.12.05-22.45.05:226][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint13.p_displayParticleShort
-[2015.12.05-22.45.05:226][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint13.p_displayParticleShort
-[2015.12.05-22.45.05:226][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint14.p_displayParticleShort
-[2015.12.05-22.45.05:227][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint14.p_displayParticleShort
-[2015.12.05-22.45.05:238][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint10_120.p_displayParticleShort
-[2015.12.05-22.45.05:238][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint10_120.p_displayParticleShort
-[2015.12.05-22.45.05:238][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint12_254.p_displayParticleShort
-[2015.12.05-22.45.05:238][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint12_254.p_displayParticleShort
-[2015.12.05-22.45.05:238][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint15.p_displayParticleShort
-[2015.12.05-22.45.05:238][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint15.p_displayParticleShort
-[2015.12.05-22.45.05:239][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP_93.ParticleSystem
-[2015.12.05-22.45.05:239][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP_93.ParticleSystem
-[2015.12.05-22.45.05:239][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP2.ParticleSystem
-[2015.12.05-22.45.05:239][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP2.ParticleSystem
-[2015.12.05-22.45.05:239][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP3.ParticleSystem
-[2015.12.05-22.45.05:239][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP3.ParticleSystem
-[2015.12.05-22.45.05:240][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP4.ParticleSystem
-[2015.12.05-22.45.05:240][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP4.ParticleSystem
-[2015.12.05-22.45.05:240][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP5.ParticleSystem
-[2015.12.05-22.45.05:240][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP5.ParticleSystem
-[2015.12.05-22.45.05:240][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP6.ParticleSystem
-[2015.12.05-22.45.05:241][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP6.ParticleSystem
-[2015.12.05-22.45.05:485][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP15.displayCase
-[2015.12.05-22.45.05:485][ 51]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP15.displayCase
-[2015.12.05-22.45.14:346][ 51]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.12.05-22.45.14:347][ 51]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
-[2015.12.05-22.45.14:731][ 51]Cmd: MAP LOAD FILE="../../../../../../d/The-Curators/AlexPrototype/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.12.05-22.45.14:732][ 51]LightingResults: New page: Lighting Build
-[2015.12.05-22.45.14:765][ 51]LoadErrors: New page: Loading map: Level1.umap
-[2015.12.05-22.45.14:766][ 51]MapCheck: New page: Map Check
-[2015.12.05-22.45.14:766][ 51]LightingResults: New page: Lighting Build
-[2015.12.05-22.45.14:789][ 51]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000042602D0680
-[2015.12.05-22.45.15:722][ 51]LogAIModule: Creating AISystem for world Level1
-[2015.12.05-22.45.16:440][ 51]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.12.05-22.45.16:524][ 51]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.12.05-22.45.17:080][ 51]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 556.218ms to complete.
-[2015.12.05-22.45.17:082][ 51]LogFileHelpers: Loading map 'Level1' took 2.353
-[2015.12.05-22.45.20:855][ 63]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.47.01:979][462]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.12.05-22.47.01:987][462]LogPlayLevel: [PIE] Compiling Level1 before PIE...
-[2015.12.05-22.47.02:348][462]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement45AB32CF41265BE9A49ED6B6B959A9C8) Not registered. Aborting.
-[2015.12.05-22.47.02:348][462]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement82F2D63D2A4C247969B9ADBDBA59CF74) Not registered. Aborting.
-[2015.12.05-22.47.02:410][462]LogPlayLevel: PIE:  Blueprint regeneration took 431 ms (1 blueprints)
-[2015.12.05-22.47.02:478][462]PIE: New page: SIE session: Level1 (Dec 5, 2015, 12:47:02 PM)
-[2015.12.05-22.47.02:479][462]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
-[2015.12.05-22.47.02:607][462]LogPlayLevel: PIE: StaticDuplicateObject took: (0.127708s)
-[2015.12.05-22.47.02:607][462]LogAIModule: Creating AISystem for world Level1
-[2015.12.05-22.47.02:608][462]LogPlayLevel: PIE: World Init took: (0.001108s)
-[2015.12.05-22.47.02:608][462]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.129225s)
-[2015.12.05-22.47.02:665][462]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.12.05-22.47.02:676][462]LogInit: FAudioDevice initialized.
-[2015.12.05-22.47.02:762][462]LogWorld: Game class is 'ThirdPersonGameMode_C'
-[2015.12.05-22.47.03:050][462]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.12.05-22.47.03:050][462]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2015.12.05-17.47.03
-[2015.12.05-22.47.03:050][462]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.12.05-22.47.03:051][462]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.12.05-22.47.03:067][462]LogWorld: Bringing up level for play took: 0.302526
-[2015.12.05-22.47.03:072][462]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.993
-[2015.12.05-22.47.04:973][607]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
-	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_36
-	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:063D
-[2015.12.05-22.47.04:973][607]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
-[2015.12.05-22.47.04:973][607]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
-	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_36
-	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:045A
-[2015.12.05-22.47.04:974][607]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
-[2015.12.05-22.47.04:982][608]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
-	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_36
-	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:063D
-[2015.12.05-22.47.04:982][608]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
-[2015.12.05-22.47.04:982][608]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
-	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_36
-	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:045A
-[2015.12.05-22.47.04:982][608]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
-[2015.12.05-22.47.04:993][609]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
-	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_36
-	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:063D
-[2015.12.05-22.47.04:993][609]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
-[2015.12.05-22.47.04:993][609]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
-	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_36
-	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:045A
-[2015.12.05-22.47.04:993][609]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
-[2015.12.05-22.47.05:779][688]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
-	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_36
-	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:063D
-[2015.12.05-22.47.05:779][688]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
-[2015.12.05-22.47.05:779][688]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
-	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_36
-	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:045A
-[2015.12.05-22.47.05:779][688]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
-[2015.12.05-22.47.05:788][689]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
-	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_36
-	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:063D
-[2015.12.05-22.47.05:788][689]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
-[2015.12.05-22.47.05:788][689]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
-	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_36
-	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:045A
-[2015.12.05-22.47.05:788][689]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
-[2015.12.05-22.47.05:798][690]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
-	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_36
-	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:063D
-[2015.12.05-22.47.05:798][690]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
-[2015.12.05-22.47.05:798][690]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
-	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_36
-	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:045A
-[2015.12.05-22.47.05:798][690]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
-[2015.12.05-22.47.12:773][380]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000427E1CF4C0
-[2015.12.05-22.47.12:773][380]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.47.13:736][422]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.12.05-22.47.13:743][422]LogPlayLevel: [PIE] Compiling Level1 before PIE...
-[2015.12.05-22.47.13:869][422]LogPlayLevel: PIE:  Blueprint regeneration took 133 ms (1 blueprints)
-[2015.12.05-22.47.13:870][422]PIE: New page: SIE session: Level1 (Dec 5, 2015, 12:47:13 PM)
-[2015.12.05-22.47.13:870][422]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
-[2015.12.05-22.47.13:989][422]LogPlayLevel: PIE: StaticDuplicateObject took: (0.118952s)
-[2015.12.05-22.47.13:989][422]LogAIModule: Creating AISystem for world Level1
-[2015.12.05-22.47.13:990][422]LogPlayLevel: PIE: World Init took: (0.001071s)
-[2015.12.05-22.47.13:990][422]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.120359s)
-[2015.12.05-22.47.14:048][422]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.12.05-22.47.14:059][422]LogInit: FAudioDevice initialized.
-[2015.12.05-22.47.14:094][422]LogWorld: Game class is 'ThirdPersonGameMode_C'
-[2015.12.05-22.47.14:402][422]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.12.05-22.47.14:402][422]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2015.12.05-17.47.14
-[2015.12.05-22.47.14:403][422]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.12.05-22.47.14:403][422]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.12.05-22.47.14:419][422]LogWorld: Bringing up level for play took: 0.322850
-[2015.12.05-22.47.14:424][422]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.345
-[2015.12.05-22.47.16:309][593]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
-	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_36
-	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:063D
-[2015.12.05-22.47.16:309][593]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
-[2015.12.05-22.47.16:309][593]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
-	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_36
-	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:045A
-[2015.12.05-22.47.16:309][593]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
-[2015.12.05-22.47.16:319][594]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
-	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_36
-	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:063D
-[2015.12.05-22.47.16:319][594]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
-[2015.12.05-22.47.16:319][594]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
-	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_36
-	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:045A
-[2015.12.05-22.47.16:319][594]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
-[2015.12.05-22.47.18:381][801]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000424B525940
-[2015.12.05-22.47.18:397][801]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.47.24:832][231]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.47.27:742][455]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.47.28:580][455]LogSavePackage: Save=721.103821ms
-[2015.12.05-22.47.28:580][455]LogSavePackage: Moving '../../../../../../d/The-Curators/AlexPrototype/Saved/ErichFinalCharCombinedE34A6D55434B36E610D29BA92E8DF8A6.tmp' to '../../../../../../d/The-Curators/AlexPrototype/Content/Tech/ThirdPersonBP/Blueprints/ErichFinalCharCombined.uasset'
-[2015.12.05-22.47.29:322][512]BlueprintLog: New page: Compile ErichFinalCharCombined
-[2015.12.05-22.47.29:632][512]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
-[2015.12.05-22.47.29:804][512]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.12.05-22.47.29:806][512]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
-[2015.12.05-22.47.30:844][512]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning [0370.55] Compile of ErichFinalCharCombined successful, but with 1 Warning(s) [in 1,521 ms]
-[2015.12.05-22.47.30:844][512]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
-[2015.12.05-22.47.30:844][512]BlueprintEditorCompileResults:Warning: Warning [0370.55] Compile of ErichFinalCharCombined successful, but with 1 Warning(s) [in 1,521 ms]
-[2015.12.05-22.47.33:166][647]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.12.05-22.47.33:173][647]LogPlayLevel: [PIE] Compiling Level1 before PIE...
-[2015.12.05-22.47.33:295][647]LogPlayLevel: PIE:  Blueprint regeneration took 129 ms (1 blueprints)
-[2015.12.05-22.47.33:295][647]PIE: New page: SIE session: Level1 (Dec 5, 2015, 12:47:33 PM)
-[2015.12.05-22.47.33:295][647]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
-[2015.12.05-22.47.33:417][647]LogPlayLevel: PIE: StaticDuplicateObject took: (0.121653s)
-[2015.12.05-22.47.33:417][647]LogAIModule: Creating AISystem for world Level1
-[2015.12.05-22.47.33:418][647]LogPlayLevel: PIE: World Init took: (0.001118s)
-[2015.12.05-22.47.33:418][647]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.123135s)
-[2015.12.05-22.47.33:476][647]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.12.05-22.47.33:487][647]LogInit: FAudioDevice initialized.
-[2015.12.05-22.47.33:519][647]LogWorld: Game class is 'ThirdPersonGameMode_C'
-[2015.12.05-22.47.33:801][647]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.12.05-22.47.33:801][647]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2015.12.05-17.47.33
-[2015.12.05-22.47.33:801][647]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.12.05-22.47.33:802][647]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2015.12.05-22.47.33:818][647]LogWorld: Bringing up level for play took: 0.297087
-[2015.12.05-22.47.33:822][647]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.256
-[2015.12.05-22.47.35:696][817]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
-	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_4
-	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:063D
-[2015.12.05-22.47.35:696][817]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
-[2015.12.05-22.47.35:696][817]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
-	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_4
-	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:045A
-[2015.12.05-22.47.35:696][817]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
-[2015.12.05-22.47.35:705][818]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
-	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_4
-	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:063D
-[2015.12.05-22.47.35:705][818]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
-[2015.12.05-22.47.35:705][818]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
-	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_4
-	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:045A
-[2015.12.05-22.47.35:705][818]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
-[2015.12.05-22.47.36:509][909]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
-	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_4
-	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:063D
-[2015.12.05-22.47.36:509][909]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
-[2015.12.05-22.47.36:509][909]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
-	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_4
-	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:045A
-[2015.12.05-22.47.36:509][909]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
-[2015.12.05-22.47.36:520][910]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
-	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_4
-	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:063D
-[2015.12.05-22.47.36:520][910]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
-[2015.12.05-22.47.36:520][910]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
-	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_4
-	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:045A
-[2015.12.05-22.47.36:520][910]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
-[2015.12.05-22.47.57:651][867]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000042696702C0
-[2015.12.05-22.47.57:661][867]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.47.59:295][941]LogD3D11RHI: InitD3DDevice
-[2015.12.05-22.47.59:319][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../d/The-Curators/AlexPrototype/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.12.05-22.48.00:950][941]LogSavePackage: Save=1551.226563ms
-[2015.12.05-22.48.00:950][941]LogSavePackage: Moving '../../../../../../d/The-Curators/AlexPrototype/Saved/Level1D64C68734E5E92CB4AE9CA9556712F15.tmp' to '../../../../../../d/The-Curators/AlexPrototype/Content/Levels/Level1.umap'
-[2015.12.05-22.48.03:341][ 25]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2015.12.05-22.48.03:723][ 26]Cmd: QUIT_EDITOR
-[2015.12.05-22.48.05:186][ 26]LogExit: Preparing to exit.
-[2015.12.05-22.48.07:425][ 26]LogExit: Editor shut down
-[2015.12.05-22.48.07:425][ 26]LogExit: Transaction tracking system shut down
-[2015.12.05-22.48.07:430][ 26]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000424B2FCEA0
-[2015.12.05-22.48.07:438][ 26]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004267272700
-[2015.12.05-22.48.07:438][ 26]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000426BF63600
-[2015.12.05-22.48.07:438][ 26]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000042682AF7E0
-[2015.12.05-22.48.07:442][ 26]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000427AD3A840
-[2015.12.05-22.48.08:347][ 26]LogExit: Object subsystem successfully closed.
-[2015.12.05-22.48.08:622][ 26]LogD3D11RHI: Shutdown
-[2015.12.05-22.48.08:645][ 26]LogD3D11RHI: CleanupD3DDevice
-[2015.12.05-22.48.08:908][ 26]LogD3D11RHI: ~FD3D11DynamicRHI
-[2015.12.05-22.48.09:033][ 26]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
-[2015.12.05-22.48.09:033][ 26]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
-[2015.12.05-22.48.09:033][ 26]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
-[2015.12.05-22.48.09:033][ 26]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
-[2015.12.05-22.48.09:033][ 26]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
-[2015.12.05-22.48.09:053][ 26]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
-[2015.12.05-22.48.09:053][ 26]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
-[2015.12.05-22.48.09:072][ 26]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
-[2015.12.05-22.48.09:086][ 26]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
-[2015.12.05-22.48.09:102][ 26]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
-[2015.12.05-22.48.09:126][ 26]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
-[2015.12.05-22.48.09:126][ 26]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
-[2015.12.05-22.48.09:126][ 26]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
-[2015.12.05-22.48.09:126][ 26]LogModuleManager: Shutting down and abandoning module BspMode (175)
-[2015.12.05-22.48.09:126][ 26]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
-[2015.12.05-22.48.09:148][ 26]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
-[2015.12.05-22.48.09:148][ 26]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
-[2015.12.05-22.48.09:148][ 26]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
-[2015.12.05-22.48.09:148][ 26]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
-[2015.12.05-22.48.09:148][ 26]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
-[2015.12.05-22.48.09:162][ 26]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
-[2015.12.05-22.48.09:179][ 26]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
-[2015.12.05-22.48.09:217][ 26]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
-[2015.12.05-22.48.09:217][ 26]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
-[2015.12.05-22.48.09:217][ 26]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
-[2015.12.05-22.48.09:217][ 26]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
-[2015.12.05-22.48.10:115][ 26]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
-[2015.12.05-22.48.10:115][ 26]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
-[2015.12.05-22.48.10:115][ 26]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
-[2015.12.05-22.48.10:115][ 26]LogModuleManager: Shutting down and abandoning module MergeActors (159)
-[2015.12.05-22.48.10:133][ 26]LogModuleManager: Shutting down and abandoning module SizeMap (158)
-[2015.12.05-22.48.10:133][ 26]LogModuleManager: Shutting down and abandoning module TreeMap (157)
-[2015.12.05-22.48.10:147][ 26]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
-[2015.12.05-22.48.10:147][ 26]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
-[2015.12.05-22.48.10:161][ 26]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
-[2015.12.05-22.48.10:161][ 26]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
-[2015.12.05-22.48.10:161][ 26]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
-[2015.12.05-22.48.10:161][ 26]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
-[2015.12.05-22.48.10:173][ 26]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
-[2015.12.05-22.48.10:173][ 26]LogModuleManager: Shutting down and abandoning module XmlParser (149)
-[2015.12.05-22.48.10:173][ 26]LogModuleManager: Shutting down and abandoning module Blutility (148)
-[2015.12.05-22.48.10:173][ 26]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
-[2015.12.05-22.48.10:173][ 26]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
-[2015.12.05-22.48.10:173][ 26]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
-[2015.12.05-22.48.10:183][ 26]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
-[2015.12.05-22.48.10:183][ 26]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
-[2015.12.05-22.48.10:184][ 26]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
-[2015.12.05-22.48.10:184][ 26]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
-[2015.12.05-22.48.10:184][ 26]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
-[2015.12.05-22.48.10:199][ 26]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
-[2015.12.05-22.48.10:199][ 26]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
-[2015.12.05-22.48.10:199][ 26]LogModuleManager: Shutting down and abandoning module AutomationController (137)
-[2015.12.05-22.48.10:199][ 26]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
-[2015.12.05-22.48.10:206][ 26]LogModuleManager: Shutting down and abandoning module Layers (135)
-[2015.12.05-22.48.10:223][ 26]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
-[2015.12.05-22.48.10:223][ 26]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
-[2015.12.05-22.48.10:223][ 26]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
-[2015.12.05-22.48.10:233][ 26]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
-[2015.12.05-22.48.10:359][ 26]LogModuleManager: Shutting down and abandoning module Persona (130)
-[2015.12.05-22.48.10:359][ 26]LogModuleManager: Shutting down and abandoning module Kismet (129)
-[2015.12.05-22.48.10:359][ 26]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
-[2015.12.05-22.48.10:359][ 26]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
-[2015.12.05-22.48.10:359][ 26]LogModuleManager: Shutting down and abandoning module Toolbox (126)
-[2015.12.05-22.48.10:359][ 26]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
-[2015.12.05-22.48.10:370][ 26]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
-[2015.12.05-22.48.10:393][ 26]LogModuleManager: Shutting down and abandoning module OutputLog (123)
-[2015.12.05-22.48.10:393][ 26]LogModuleManager: Shutting down and abandoning module GammaUI (122)
-[2015.12.05-22.48.10:402][ 26]LogModuleManager: Shutting down and abandoning module Documentation (121)
-[2015.12.05-22.48.10:402][ 26]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
-[2015.12.05-22.48.10:414][ 26]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
-[2015.12.05-22.48.10:414][ 26]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
-[2015.12.05-22.48.10:414][ 26]LogModuleManager: Shutting down and abandoning module Analytics (117)
-[2015.12.05-22.48.10:414][ 26]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
-[2015.12.05-22.48.10:414][ 26]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
-[2015.12.05-22.48.10:414][ 26]LogModuleManager: Shutting down and abandoning module AIModule (114)
-[2015.12.05-22.48.10:414][ 26]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
-[2015.12.05-22.48.10:494][ 26]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
-[2015.12.05-22.48.10:512][ 26]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
-[2015.12.05-22.48.10:512][ 26]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
-[2015.12.05-22.48.10:512][ 26]LogModuleManager: Shutting down and abandoning module SteamVR (109)
-[2015.12.05-22.48.10:512][ 26]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
-[2015.12.05-22.48.10:512][ 26]LogModuleManager: Shutting down and abandoning module OculusRift (107)
-[2015.12.05-22.48.10:512][ 26]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
-[2015.12.05-22.48.10:536][ 26]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
-[2015.12.05-22.48.10:536][ 26]LogModuleManager: Shutting down and abandoning module CableComponent (104)
-[2015.12.05-22.48.10:536][ 26]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
-[2015.12.05-22.48.10:552][ 26]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
-[2015.12.05-22.48.10:567][ 26]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
-[2015.12.05-22.48.10:567][ 26]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
-[2015.12.05-22.48.10:567][ 26]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
-[2015.12.05-22.48.10:567][ 26]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
-[2015.12.05-22.48.10:588][ 26]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
-[2015.12.05-22.48.10:588][ 26]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
-[2015.12.05-22.48.10:588][ 26]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
-[2015.12.05-22.48.10:588][ 26]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
-[2015.12.05-22.48.10:610][ 26]LogModuleManager: Shutting down and abandoning module SourceControl (93)
-[2015.12.05-22.48.10:625][ 26]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
-[2015.12.05-22.48.10:625][ 26]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
-[2015.12.05-22.48.10:625][ 26]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
-[2015.12.05-22.48.10:625][ 26]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
-[2015.12.05-22.48.10:625][ 26]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
-[2015.12.05-22.48.10:625][ 26]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
-[2015.12.05-22.48.10:634][ 26]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
-[2015.12.05-22.48.10:635][ 26]LogModuleManager: Shutting down and abandoning module HotReload (85)
-[2015.12.05-22.48.10:635][ 26]LogModuleManager: Shutting down and abandoning module MainFrame (84)
-[2015.12.05-22.48.10:635][ 26]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
-[2015.12.05-22.48.10:652][ 26]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
-[2015.12.05-22.48.10:653][ 26]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
-[2015.12.05-22.48.10:668][ 26]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
-[2015.12.05-22.48.10:769][ 26]LogModuleManager: Shutting down and abandoning module Paper2D (79)
-[2015.12.05-22.48.10:783][ 26]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
-[2015.12.05-22.48.10:789][ 26]LogModuleManager: Shutting down and abandoning module Media (77)
-[2015.12.05-22.48.10:789][ 26]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
-[2015.12.05-22.48.10:789][ 26]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
-[2015.12.05-22.48.10:789][ 26]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
-[2015.12.05-22.48.10:789][ 26]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
-[2015.12.05-22.48.10:789][ 26]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
-[2015.12.05-22.48.10:789][ 26]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
-[2015.12.05-22.48.10:800][ 26]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
-[2015.12.05-22.48.10:800][ 26]LogModuleManager: Shutting down and abandoning module MessageLog (69)
-[2015.12.05-22.48.10:800][ 26]LogModuleManager: Shutting down and abandoning module Sequencer (68)
-[2015.12.05-22.48.10:835][ 26]LogModuleManager: Shutting down and abandoning module AssetTools (67)
-[2015.12.05-22.48.10:861][ 26]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
-[2015.12.05-22.48.10:877][ 26]LogModuleManager: Shutting down and abandoning module UMG (65)
-[2015.12.05-22.48.10:883][ 26]LogModuleManager: Shutting down and abandoning module Slate (64)
-[2015.12.05-22.48.10:883][ 26]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
-[2015.12.05-22.48.10:887][ 26]LogModuleManager: Shutting down and abandoning module SessionServices (62)
-[2015.12.05-22.48.10:887][ 26]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
-[2015.12.05-22.48.10:887][ 26]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
-[2015.12.05-22.48.10:887][ 26]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
-[2015.12.05-22.48.10:887][ 26]LogModuleManager: Shutting down and abandoning module Networking (57)
-[2015.12.05-22.48.10:887][ 26]LogModuleManager: Shutting down and abandoning module Core (56)
-[2015.12.05-22.48.10:888][ 26]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
-[2015.12.05-22.48.10:888][ 26]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
-[2015.12.05-22.48.10:888][ 26]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
-[2015.12.05-22.48.10:904][ 26]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
-[2015.12.05-22.48.10:973][ 26]LogDerivedDataCache: Shutdown
-[2015.12.05-22.48.10:973][ 26]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
-[2015.12.05-22.48.10:991][ 26]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
-[2015.12.05-22.48.10:991][ 26]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
-[2015.12.05-22.48.11:009][ 26]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
-[2015.12.05-22.48.11:009][ 26]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
-[2015.12.05-22.48.11:009][ 26]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
-[2015.12.05-22.48.11:009][ 26]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
-[2015.12.05-22.48.11:009][ 26]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
-[2015.12.05-22.48.11:009][ 26]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
-[2015.12.05-22.48.11:009][ 26]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
-[2015.12.05-22.48.11:009][ 26]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
-[2015.12.05-22.48.11:018][ 26]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
-[2015.12.05-22.48.11:018][ 26]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
-[2015.12.05-22.48.11:018][ 26]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
-[2015.12.05-22.48.11:018][ 26]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
-[2015.12.05-22.48.11:018][ 26]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
-[2015.12.05-22.48.11:018][ 26]LogModuleManager: Shutting down and abandoning module Messaging (35)
-[2015.12.05-22.48.11:018][ 26]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
-[2015.12.05-22.48.11:018][ 26]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
-[2015.12.05-22.48.11:018][ 26]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
-[2015.12.05-22.48.11:018][ 26]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
-[2015.12.05-22.48.11:018][ 26]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
-[2015.12.05-22.48.11:018][ 26]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
-[2015.12.05-22.48.11:018][ 26]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
-[2015.12.05-22.48.11:018][ 26]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
-[2015.12.05-22.48.11:018][ 26]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
-[2015.12.05-22.48.11:018][ 26]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
-[2015.12.05-22.48.11:018][ 26]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
-[2015.12.05-22.48.11:018][ 26]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
-[2015.12.05-22.48.11:018][ 26]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
-[2015.12.05-22.48.11:018][ 26]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
-[2015.12.05-22.48.11:018][ 26]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
-[2015.12.05-22.48.11:018][ 26]LogModuleManager: Shutting down and abandoning module InputCore (19)
-[2015.12.05-22.48.11:018][ 26]LogModuleManager: Shutting down and abandoning module Settings (18)
-[2015.12.05-22.48.11:018][ 26]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
-[2015.12.05-22.48.11:019][ 26]LogModuleManager: Shutting down and abandoning module HTTP (15)
-[2015.12.05-22.48.11:019][ 26]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2015.12.05-22.48.11:019][ 26]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.12.05-22.48.11:019][ 26]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.12.05-22.48.11:019][ 26]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.12.05-22.48.11:019][ 26]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.12.05-22.48.11:029][ 26]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.12.05-22.48.11:047][ 26]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.12.05-22.48.11:047][ 26]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.12.05-22.48.11:047][ 26]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.12.05-22.48.11:047][ 26]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.12.05-22.48.11:047][ 26]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.12.05-22.48.11:053][ 26]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.12.05-22.48.11:053][ 26]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.12.05-22.48.11:053][ 26]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.12.05-22.48.11:078][ 26]LogExit: Exiting.
-[2015.12.05-22.48.11:183][ 26]Log file closed, 12/05/15 17:48:11
+[2015.12.05-22.52.20:621][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7700 Series (Feature Level 11_0)
+[2015.12.05-22.52.20:621][  0]LogD3D11RHI: Adapter has 2006MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2015.12.05-22.52.20:623][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.12.05-22.52.20:623][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.12.05-22.52.20:623][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.05-22.52.20:629][  0]LogD3D11RHI: InitD3DDevice
+[2015.12.05-22.52.20:629][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.05-22.52.20:629][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.12.05-22.52.20:643][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.12.05-22.52.20:655][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.05-22.52.21:710][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.12.05-22.52.21:737][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.05-22.52.21:762][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.05-22.52.21:790][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.05-22.52.21:819][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.05-22.52.21:843][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.05-22.52.21:865][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.05-22.52.21:890][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.05-22.52.21:922][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.05-22.52.21:945][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.05-22.52.21:974][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.05-22.52.21:998][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.05-22.52.22:081][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.05-22.52.22:107][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.05-22.52.22:128][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.05-22.52.22:154][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.05-22.52.22:154][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.05-22.52.22:542][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.05-22.52.22:590][  0]LogDerivedDataCache: Loaded boot cache 0.05s 53MB C:/Users/Stephen Paul Mangold/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.12.05-22.52.22:590][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Stephen Paul Mangold/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.12.05-22.52.22:590][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../d/The-Curators/AlexPrototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.05-22.52.22:590][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.05-22.52.22:590][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../d/The-Curators/AlexPrototype/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.05-22.52.22:590][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.05-22.52.22:747][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.05-22.52.22:760][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Stephen Paul Mangold/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.05-22.52.23:069][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.05-22.52.23:160][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.12.05-22.52.23:160][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.12.05-22.52.23:208][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.05-22.52.23:208][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.05-22.52.23:653][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.05-22.52.25:364][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.05-22.52.25:957][  0]SourceControl: Info Source control is disabled
+[2015.12.05-22.52.25:996][  0]SourceControl: Info Source control is disabled
+[2015.12.05-22.52.26:023][  0]SourceControl: Info Source control is disabled
+[2015.12.05-22.52.26:050][  0]SourceControl: Info Source control is disabled
+[2015.12.05-22.52.26:503][  0]LogObj: 26277 objects as part of root set at end of initial load.
+[2015.12.05-22.52.26:503][  0]LogUObjectAllocator: 5410024 out of 0 bytes used by permanent object pool.
+[2015.12.05-22.52.26:609][  0]LogEngine: Initializing Engine...
+[2015.12.05-22.52.26:623][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.12.05-22.52.26:631][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 108
+[2015.12.05-22.52.26:853][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.05-22.52.26:872][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.05-22.52.26:890][  0]LogInit: FAudioDevice initialized.
+[2015.12.05-22.52.26:926][  0]LogDerivedDataCache: Saved boot cache 0.04s 53MB C:/Users/Stephen Paul Mangold/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.12.05-22.52.26:929][  0]LogInit: Texture streaming: Disabled
+[2015.12.05-22.52.26:981][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.05-22.52.26:981][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.12.05-22.52.26:981][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 670f7a51498aab90fa6f01ae8ba6e645|ae3c06c927b140e595cd14047ca553a4|817dc969-a56b-4d5a-b6d5-4cf8a1016322
+[2015.12.05-22.52.26:981][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.05-22.52.27:032][  0]LogInit: Transaction tracking system initialized
+[2015.12.05-22.52.27:304][  0]BlueprintLog: New page: Editor Load
+[2015.12.05-22.52.27:356][  0]LogAssetRegistry: FAssetRegistry took 0.0115 seconds to start up
+[2015.12.05-22.52.27:356][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.12.05-22.52.28:693][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.12.05-22.52.28:693][  0]LogConsoleResponse:Display: 
+[2015.12.05-22.52.28:864][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.05-22.52.29:206][  0]SourceControl: Info Source control is disabled
+[2015.12.05-22.52.29:206][  0]Cmd: MAP LOAD FILE="../../../../../../d/The-Curators/AlexPrototype/Content/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.05-22.52.29:206][  0]LightingResults: New page: Lighting Build
+[2015.12.05-22.52.29:231][  0]MapCheck: New page: Map Check
+[2015.12.05-22.52.29:231][  0]LightingResults: New page: Lighting Build
+[2015.12.05-22.52.29:241][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D8FE35CB80
+[2015.12.05-22.52.31:006][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.12.05-22.52.31:031][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0013.18] Compile of ThirdPersonCharacter successful, but with 1 Warning(s) [in 211 ms]
+[2015.12.05-22.52.31:031][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0013.18] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.05-22.52.31:031][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0013.18] Compile of ThirdPersonCharacter successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.05-22.52.32:531][  0]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.12.05-22.52.32:572][  0]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning [0014.72] Compile of ErichFinalCharCombined successful, but with 1 Warning(s) [in 285 ms]
+[2015.12.05-22.52.32:573][  0]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning [0014.72] Compile of ErichFinalCharCombined successful, but with 2 Warning(s) [in 1 ms]
+[2015.12.05-22.52.32:573][  0]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning [0014.72] Compile of ErichFinalCharCombined successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.05-22.52.33:361][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.12.05-22.52.33:400][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0015.55] Compile of ThirdPersonCharacter successful, but with 1 Warning(s) [in 213 ms]
+[2015.12.05-22.52.33:401][  0]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0015.55] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.05-22.52.33:760][  0]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.12.05-22.52.33:803][  0]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning [0015.95] Compile of ErichFinalCharCombined successful, but with 1 Warning(s) [in 278 ms]
+[2015.12.05-22.52.33:804][  0]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning [0015.95] Compile of ErichFinalCharCombined successful, but with 2 Warning(s) [in 1 ms]
+[2015.12.05-22.52.35:026][  0]LogWmfMedia:Error: Failed to create source object from URL for C:/Users/Justin's/Pictures/Curators/NewMenuAssets/Output/maxresdefault (1).mp4
+[2015.12.05-22.52.35:453][  0]LogAIModule: Creating AISystem for world MainMenu
+[2015.12.05-22.52.35:462][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.05-22.52.35:496][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.05-22.52.35:727][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 230.916ms to complete.
+[2015.12.05-22.52.35:728][  0]LogFileHelpers: Loading map 'MainMenu' took 6.522
+[2015.12.05-22.52.35:864][  0]LogCollectionManager: Loaded 0 collections in 0.002232 seconds
+[2015.12.05-22.52.35:874][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 1792 classes and 301 folders.
+[2015.12.05-22.52.35:943][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2015.12.05-22.52.35:998][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2015.12.05-22.52.36:027][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2015.12.05-22.52.36:145][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.05-22.52.36:146][  0]LogD3D11RHI: InitD3DDevice
+[2015.12.05-22.52.36:149][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.05-22.52.36:171][  0]LogLoad: Full Startup: 18.32 seconds (BP compile: 3.67 seconds)
+[2015.12.05-22.52.36:581][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.05-22.52.36:682][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.12.05-22.52.36:839][  0]LogRenderer: Reallocating scene render targets to support 1528x560 (Frame:2).
+[2015.12.05-22.52.37:604][  3]LogD3D11RHI: InitD3DDevice
+[2015.12.05-22.52.47:808][ 33]LogAssetRegistry: Asset discovery search completed in 20.4638 seconds
+[2015.12.05-22.54.21:258][348]LogD3D11RHI: InitD3DDevice
+[2015.12.05-22.54.22:654][453]LogD3D11RHI: InitD3DDevice
+[2015.12.05-22.54.23:414][453]LogBlueprint:Warning: [compiler RobotGuardChar] Warning Can't connect pins  Target  and  As Erich Final Char Combined : Third Person Character Reference is not compatible with Erich Final Char Combined Reference.
+[2015.12.05-22.54.23:414][453]LogBlueprint:Warning: [compiler RobotGuardChar] Warning Can't connect pins  Target  and  As Erich Final Char Combined : Third Person Character Reference is not compatible with Erich Final Char Combined Reference.
+[2015.12.05-22.54.23:414][453]LogBlueprint:Warning: [compiler RobotGuardChar] Warning Can't connect pins  Target  and  As Erich Final Char Combined : Third Person Character Reference is not compatible with Erich Final Char Combined Reference.
+[2015.12.05-22.54.23:415][453]LogBlueprint:Warning: [compiler RobotGuardChar] Warning Can't connect pins  As Erich Final Char Combined  and  Target : Erich Final Char Combined Reference is not compatible with Third Person Character Reference.
+[2015.12.05-22.54.23:415][453]LogBlueprint:Warning: [compiler RobotGuardChar] Warning Can't connect pins  As Erich Final Char Combined  and  Target : Erich Final Char Combined Reference is not compatible with Third Person Character Reference.
+[2015.12.05-22.54.23:415][453]LogBlueprint:Warning: [compiler RobotGuardChar] Warning Can't connect pins  As Erich Final Char Combined  and  Target : Erich Final Char Combined Reference is not compatible with Third Person Character Reference.
+[2015.12.05-22.54.23:423][453]LogBlueprint:Warning: [compiler RobotGuardChar] Warning [0125.57] Compile of RobotGuardChar successful, but with 6 Warning(s) [in 63 ms]
+[2015.12.05-22.54.23:423][453]LogBlueprint:Warning: [compiler RobotGuardChar] Warning [0125.57] Compile of RobotGuardChar successful, but with 7 Warning(s) [in 0 ms]
+[2015.12.05-22.54.23:423][453]LogBlueprint:Warning: [compiler RobotGuardChar] Warning [0125.57] Compile of RobotGuardChar successful, but with 8 Warning(s) [in 0 ms]
+[2015.12.05-22.54.23:496][453]LogBlueprint:Warning: [compiler RobotGuardChar] Warning Can't connect pins  Target  and  As Erich Final Char Combined : Third Person Character Reference is not compatible with Erich Final Char Combined Reference.
+[2015.12.05-22.54.23:496][453]LogBlueprint:Warning: [compiler RobotGuardChar] Warning Can't connect pins  Target  and  As Erich Final Char Combined : Third Person Character Reference is not compatible with Erich Final Char Combined Reference.
+[2015.12.05-22.54.23:496][453]LogBlueprint:Warning: [compiler RobotGuardChar] Warning Can't connect pins  Target  and  As Erich Final Char Combined : Third Person Character Reference is not compatible with Erich Final Char Combined Reference.
+[2015.12.05-22.54.23:496][453]LogBlueprint:Warning: [compiler RobotGuardChar] Warning Can't connect pins  As Erich Final Char Combined  and  Target : Erich Final Char Combined Reference is not compatible with Third Person Character Reference.
+[2015.12.05-22.54.23:496][453]LogBlueprint:Warning: [compiler RobotGuardChar] Warning Can't connect pins  As Erich Final Char Combined  and  Target : Erich Final Char Combined Reference is not compatible with Third Person Character Reference.
+[2015.12.05-22.54.23:497][453]LogBlueprint:Warning: [compiler RobotGuardChar] Warning Can't connect pins  As Erich Final Char Combined  and  Target : Erich Final Char Combined Reference is not compatible with Third Person Character Reference.
+[2015.12.05-22.54.23:505][453]LogBlueprint:Warning: [compiler RobotGuardChar] Warning [0125.65] Compile of RobotGuardChar successful, but with 6 Warning(s) [in 63 ms]
+[2015.12.05-22.54.23:505][453]LogBlueprint:Warning: [compiler RobotGuardChar] Warning [0125.65] Compile of RobotGuardChar successful, but with 7 Warning(s) [in 0 ms]
+[2015.12.05-22.54.46:311][453]LogAIModule: Creating AISystem for world Level4
+[2015.12.05-22.54.46:354][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP_86.ParticleSystem
+[2015.12.05-22.54.46:354][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP2.ParticleSystem
+[2015.12.05-22.54.46:355][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP2.displayCase
+[2015.12.05-22.54.46:355][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP3.displayCase
+[2015.12.05-22.54.46:355][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP4.displayCase
+[2015.12.05-22.54.46:355][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP5.displayCase
+[2015.12.05-22.54.46:355][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP6.displayCase
+[2015.12.05-22.54.46:355][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP7.displayCase
+[2015.12.05-22.54.46:355][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP8.displayCase
+[2015.12.05-22.54.46:355][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP9.displayCase
+[2015.12.05-22.54.46:355][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP10.displayCase
+[2015.12.05-22.54.46:355][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP11.displayCase
+[2015.12.05-22.54.46:355][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP12.displayCase
+[2015.12.05-22.54.46:355][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP13.displayCase
+[2015.12.05-22.54.46:355][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP14.displayCase
+[2015.12.05-22.54.46:356][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP16.displayCase
+[2015.12.05-22.54.46:356][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP18.displayCase
+[2015.12.05-22.54.46:356][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP21.displayCase
+[2015.12.05-22.54.46:356][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP3.ParticleSystem
+[2015.12.05-22.54.46:356][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP4.ParticleSystem
+[2015.12.05-22.54.46:356][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP23.displayCase
+[2015.12.05-22.54.46:356][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP24.displayCase
+[2015.12.05-22.54.46:356][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP25.displayCase
+[2015.12.05-22.54.46:356][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP26.displayCase
+[2015.12.05-22.54.46:356][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP27.displayCase
+[2015.12.05-22.54.46:356][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP28.displayCase
+[2015.12.05-22.54.46:356][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseShort_Blueprint5.p_displayParticleShort
+[2015.12.05-22.54.46:357][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP7.ParticleSystem
+[2015.12.05-22.54.46:357][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP8.ParticleSystem
+[2015.12.05-22.54.46:357][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP9.ParticleSystem
+[2015.12.05-22.54.46:357][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP10.ParticleSystem
+[2015.12.05-22.54.46:357][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP11.ParticleSystem
+[2015.12.05-22.54.46:357][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP29.displayCase
+[2015.12.05-22.54.46:357][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP30.displayCase
+[2015.12.05-22.54.46:357][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP12.ParticleSystem
+[2015.12.05-22.54.46:357][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP31.displayCase
+[2015.12.05-22.54.46:357][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP32.displayCase
+[2015.12.05-22.54.46:357][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP33.displayCase
+[2015.12.05-22.54.46:358][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP34.displayCase
+[2015.12.05-22.54.46:358][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP13.ParticleSystem
+[2015.12.05-22.54.46:358][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP35.displayCase
+[2015.12.05-22.54.46:358][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP36.displayCase
+[2015.12.05-22.54.46:425][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseShort_Blueprint6.p_displayParticleShort
+[2015.12.05-22.54.46:593][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP5.ParticleSystem
+[2015.12.05-22.54.46:594][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP6.ParticleSystem
+[2015.12.05-22.54.46:637][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/p_newFire.p_newFire Component=/Game/Levels/Level4.Level4:PersistentLevel.p_newFire_2.ParticleSystemComponent0
+[2015.12.05-22.54.46:808][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP_86.ParticleSystem
+[2015.12.05-22.54.46:808][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP_86.ParticleSystem
+[2015.12.05-22.54.46:808][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP2.ParticleSystem
+[2015.12.05-22.54.46:809][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP2.ParticleSystem
+[2015.12.05-22.54.46:809][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP2.displayCase
+[2015.12.05-22.54.46:809][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP2.displayCase
+[2015.12.05-22.54.46:809][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP3.displayCase
+[2015.12.05-22.54.46:809][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP3.displayCase
+[2015.12.05-22.54.46:810][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP4.displayCase
+[2015.12.05-22.54.46:810][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP4.displayCase
+[2015.12.05-22.54.46:810][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP5.displayCase
+[2015.12.05-22.54.46:810][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP5.displayCase
+[2015.12.05-22.54.46:810][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP6.displayCase
+[2015.12.05-22.54.46:810][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP6.displayCase
+[2015.12.05-22.54.46:811][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP7.displayCase
+[2015.12.05-22.54.46:811][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP7.displayCase
+[2015.12.05-22.54.46:811][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP8.displayCase
+[2015.12.05-22.54.46:811][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP8.displayCase
+[2015.12.05-22.54.46:811][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP9.displayCase
+[2015.12.05-22.54.46:812][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP9.displayCase
+[2015.12.05-22.54.46:812][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP10.displayCase
+[2015.12.05-22.54.46:812][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP10.displayCase
+[2015.12.05-22.54.46:812][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP11.displayCase
+[2015.12.05-22.54.46:812][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP11.displayCase
+[2015.12.05-22.54.46:813][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP12.displayCase
+[2015.12.05-22.54.46:813][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP12.displayCase
+[2015.12.05-22.54.46:813][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP13.displayCase
+[2015.12.05-22.54.46:813][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP13.displayCase
+[2015.12.05-22.54.46:813][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP14.displayCase
+[2015.12.05-22.54.46:813][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP14.displayCase
+[2015.12.05-22.54.46:814][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP16.displayCase
+[2015.12.05-22.54.46:814][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP16.displayCase
+[2015.12.05-22.54.46:814][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP18.displayCase
+[2015.12.05-22.54.46:814][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP18.displayCase
+[2015.12.05-22.54.46:814][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP21.displayCase
+[2015.12.05-22.54.46:815][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP21.displayCase
+[2015.12.05-22.54.46:815][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP3.ParticleSystem
+[2015.12.05-22.54.46:815][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP3.ParticleSystem
+[2015.12.05-22.54.46:815][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP4.ParticleSystem
+[2015.12.05-22.54.46:815][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP4.ParticleSystem
+[2015.12.05-22.54.46:815][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP23.displayCase
+[2015.12.05-22.54.46:815][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP23.displayCase
+[2015.12.05-22.54.46:816][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP24.displayCase
+[2015.12.05-22.54.46:816][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP24.displayCase
+[2015.12.05-22.54.46:816][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP25.displayCase
+[2015.12.05-22.54.46:816][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP25.displayCase
+[2015.12.05-22.54.46:816][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP26.displayCase
+[2015.12.05-22.54.46:817][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP26.displayCase
+[2015.12.05-22.54.46:817][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP27.displayCase
+[2015.12.05-22.54.46:817][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP27.displayCase
+[2015.12.05-22.54.46:817][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP28.displayCase
+[2015.12.05-22.54.46:818][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP28.displayCase
+[2015.12.05-22.54.46:818][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseShort_Blueprint5.p_displayParticleShort
+[2015.12.05-22.54.46:818][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseShort_Blueprint5.p_displayParticleShort
+[2015.12.05-22.54.46:818][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP7.ParticleSystem
+[2015.12.05-22.54.46:818][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP7.ParticleSystem
+[2015.12.05-22.54.46:818][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP8.ParticleSystem
+[2015.12.05-22.54.46:818][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP8.ParticleSystem
+[2015.12.05-22.54.46:819][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP9.ParticleSystem
+[2015.12.05-22.54.46:819][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP9.ParticleSystem
+[2015.12.05-22.54.46:819][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP10.ParticleSystem
+[2015.12.05-22.54.46:819][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP10.ParticleSystem
+[2015.12.05-22.54.46:819][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP11.ParticleSystem
+[2015.12.05-22.54.46:819][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP11.ParticleSystem
+[2015.12.05-22.54.46:819][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP29.displayCase
+[2015.12.05-22.54.46:820][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP29.displayCase
+[2015.12.05-22.54.46:820][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP30.displayCase
+[2015.12.05-22.54.46:820][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP30.displayCase
+[2015.12.05-22.54.46:820][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP12.ParticleSystem
+[2015.12.05-22.54.46:820][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP12.ParticleSystem
+[2015.12.05-22.54.46:820][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP31.displayCase
+[2015.12.05-22.54.46:820][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP31.displayCase
+[2015.12.05-22.54.46:821][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP32.displayCase
+[2015.12.05-22.54.46:821][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP32.displayCase
+[2015.12.05-22.54.46:821][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP33.displayCase
+[2015.12.05-22.54.46:821][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP33.displayCase
+[2015.12.05-22.54.46:822][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP34.displayCase
+[2015.12.05-22.54.46:822][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP34.displayCase
+[2015.12.05-22.54.46:822][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP13.ParticleSystem
+[2015.12.05-22.54.46:822][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP13.ParticleSystem
+[2015.12.05-22.54.46:822][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP35.displayCase
+[2015.12.05-22.54.46:822][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP35.displayCase
+[2015.12.05-22.54.46:823][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP36.displayCase
+[2015.12.05-22.54.46:823][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseBP36.displayCase
+[2015.12.05-22.54.46:825][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseShort_Blueprint6.p_displayParticleShort
+[2015.12.05-22.54.46:825][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseShort_Blueprint6.p_displayParticleShort
+[2015.12.05-22.54.47:074][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP5.ParticleSystem
+[2015.12.05-22.54.47:075][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP5.ParticleSystem
+[2015.12.05-22.54.47:075][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP6.ParticleSystem
+[2015.12.05-22.54.47:075][453]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level4.Level4:PersistentLevel.displayCaseLongBP6.ParticleSystem
+[2015.12.05-22.54.47:437][453]LogD3D11RHI: InitD3DDevice
+[2015.12.05-22.54.58:967][692]LogD3D11RHI: InitD3DDevice
+[2015.12.05-22.55.02:521][  4]LogD3D11RHI: InitD3DDevice
+[2015.12.05-22.55.02:541][  4]LogD3D11RHI: InitD3DDevice
+[2015.12.05-22.55.04:160][  4]LogMetaData: Removing '/Game/Levels/Level3.SKEL_Level3_C' ref from Metadata '/Game/Levels/Level4.PackageMetaData'
+[2015.12.05-22.55.04:160][  4]LogMetaData: Removing '/Game/Levels/Level3.Level3_C' ref from Metadata '/Game/Levels/Level4.PackageMetaData'
+[2015.12.05-22.55.04:222][  4]LogD3D11RHI: InitD3DDevice
+[2015.12.05-22.55.04:836][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level3" FILE="../../../../../../d/The-Curators/AlexPrototype/Content/Levels/Level3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.05-22.55.08:793][  4]LogSavePackage: Save=3911.574951ms
+[2015.12.05-22.55.08:794][  4]LogSavePackage: Moving '../../../../../../d/The-Curators/AlexPrototype/Saved/Level33B34D11F4BEA04DE1FFA0583AF08D6AC.tmp' to '../../../../../../d/The-Curators/AlexPrototype/Content/Levels/Level3.umap'
+[2015.12.05-22.55.08:800][  4]LogFileHelpers: Saving map 'Level3' took 4.566
+[2015.12.05-22.55.08:805][  4]LogD3D11RHI: InitD3DDevice
+[2015.12.05-22.55.08:886][  4]LogD3D11RHI: InitD3DDevice
+[2015.12.05-22.55.11:166][137]LogD3D11RHI: InitD3DDevice
+[2015.12.05-22.55.27:348][137]LogMaterial: Missing cached shader map for material m_glowWall, compiling. 
+[2015.12.05-22.55.34:062][137]LogAIModule: Creating AISystem for world kestonLevel
+[2015.12.05-22.55.34:212][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseShort_Blueprint_87.p_displayParticleShort
+[2015.12.05-22.55.34:212][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseShort_Blueprint2.p_displayParticleShort
+[2015.12.05-22.55.34:264][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_teleporter.p_teleporter Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.p_teleporter_BP_C_0.ParticleSystem
+[2015.12.05-22.55.34:265][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_teleporter.p_teleporter Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.p_teleporter_BP_C_1.ParticleSystem
+[2015.12.05-22.55.34:265][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_teleporter.p_teleporter Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.p_teleporter_BP_C_3.ParticleSystem
+[2015.12.05-22.55.34:266][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_teleporter.p_teleporter Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.p_teleporter_BP_C_4.ParticleSystem
+[2015.12.05-22.55.34:414][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_0.ParticleSystem
+[2015.12.05-22.55.34:414][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_1.ParticleSystem
+[2015.12.05-22.55.34:414][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_4.ParticleSystem
+[2015.12.05-22.55.34:415][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_5.ParticleSystem
+[2015.12.05-22.55.34:415][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_6.ParticleSystem
+[2015.12.05-22.55.34:415][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_7.ParticleSystem
+[2015.12.05-22.55.34:415][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_8.ParticleSystem
+[2015.12.05-22.55.34:415][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_9.ParticleSystem
+[2015.12.05-22.55.34:415][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_10.ParticleSystem
+[2015.12.05-22.55.34:415][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_11.ParticleSystem
+[2015.12.05-22.55.34:415][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_12.ParticleSystem
+[2015.12.05-22.55.34:415][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_13.ParticleSystem
+[2015.12.05-22.55.34:415][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_0.displayCase
+[2015.12.05-22.55.34:415][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_1.displayCase
+[2015.12.05-22.55.34:415][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_2.displayCase
+[2015.12.05-22.55.34:415][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_3.displayCase
+[2015.12.05-22.55.34:415][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_4.displayCase
+[2015.12.05-22.55.34:415][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_5.displayCase
+[2015.12.05-22.55.34:415][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_6.displayCase
+[2015.12.05-22.55.34:415][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_7.displayCase
+[2015.12.05-22.55.34:415][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_8.displayCase
+[2015.12.05-22.55.34:416][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_9.displayCase
+[2015.12.05-22.55.34:416][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_10.displayCase
+[2015.12.05-22.55.34:522][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseShort_Blueprint_87.p_displayParticleShort
+[2015.12.05-22.55.34:522][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseShort_Blueprint_87.p_displayParticleShort
+[2015.12.05-22.55.34:522][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseShort_Blueprint2.p_displayParticleShort
+[2015.12.05-22.55.34:522][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseShort_Blueprint2.p_displayParticleShort
+[2015.12.05-22.55.34:530][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_teleporter.p_teleporter Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.p_teleporter_BP_C_0.ParticleSystem
+[2015.12.05-22.55.34:530][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_teleporter.p_teleporter Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.p_teleporter_BP_C_0.ParticleSystem
+[2015.12.05-22.55.34:531][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_teleporter.p_teleporter Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.p_teleporter_BP_C_1.ParticleSystem
+[2015.12.05-22.55.34:531][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_teleporter.p_teleporter Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.p_teleporter_BP_C_1.ParticleSystem
+[2015.12.05-22.55.34:532][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_teleporter.p_teleporter Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.p_teleporter_BP_C_3.ParticleSystem
+[2015.12.05-22.55.34:533][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_teleporter.p_teleporter Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.p_teleporter_BP_C_3.ParticleSystem
+[2015.12.05-22.55.34:533][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_teleporter.p_teleporter Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.p_teleporter_BP_C_4.ParticleSystem
+[2015.12.05-22.55.34:534][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_teleporter.p_teleporter Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.p_teleporter_BP_C_4.ParticleSystem
+[2015.12.05-22.55.34:728][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_0.ParticleSystem
+[2015.12.05-22.55.34:728][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_0.ParticleSystem
+[2015.12.05-22.55.34:729][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_1.ParticleSystem
+[2015.12.05-22.55.34:729][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_1.ParticleSystem
+[2015.12.05-22.55.34:729][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_4.ParticleSystem
+[2015.12.05-22.55.34:729][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_4.ParticleSystem
+[2015.12.05-22.55.34:729][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_5.ParticleSystem
+[2015.12.05-22.55.34:729][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_5.ParticleSystem
+[2015.12.05-22.55.34:730][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_6.ParticleSystem
+[2015.12.05-22.55.34:730][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_6.ParticleSystem
+[2015.12.05-22.55.34:730][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_7.ParticleSystem
+[2015.12.05-22.55.34:730][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_7.ParticleSystem
+[2015.12.05-22.55.34:730][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_8.ParticleSystem
+[2015.12.05-22.55.34:730][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_8.ParticleSystem
+[2015.12.05-22.55.34:730][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_9.ParticleSystem
+[2015.12.05-22.55.34:731][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_9.ParticleSystem
+[2015.12.05-22.55.34:731][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_10.ParticleSystem
+[2015.12.05-22.55.34:731][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_10.ParticleSystem
+[2015.12.05-22.55.34:731][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_11.ParticleSystem
+[2015.12.05-22.55.34:731][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_11.ParticleSystem
+[2015.12.05-22.55.34:731][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_12.ParticleSystem
+[2015.12.05-22.55.34:731][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_12.ParticleSystem
+[2015.12.05-22.55.34:731][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_13.ParticleSystem
+[2015.12.05-22.55.34:732][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseLongBP_C_13.ParticleSystem
+[2015.12.05-22.55.34:732][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_0.displayCase
+[2015.12.05-22.55.34:732][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_0.displayCase
+[2015.12.05-22.55.34:732][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_1.displayCase
+[2015.12.05-22.55.34:733][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_1.displayCase
+[2015.12.05-22.55.34:733][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_2.displayCase
+[2015.12.05-22.55.34:733][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_2.displayCase
+[2015.12.05-22.55.34:733][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_3.displayCase
+[2015.12.05-22.55.34:733][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_3.displayCase
+[2015.12.05-22.55.34:734][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_4.displayCase
+[2015.12.05-22.55.34:734][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_4.displayCase
+[2015.12.05-22.55.34:734][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_5.displayCase
+[2015.12.05-22.55.34:734][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_5.displayCase
+[2015.12.05-22.55.34:734][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_6.displayCase
+[2015.12.05-22.55.34:735][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_6.displayCase
+[2015.12.05-22.55.34:735][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_7.displayCase
+[2015.12.05-22.55.34:735][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_7.displayCase
+[2015.12.05-22.55.34:735][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_8.displayCase
+[2015.12.05-22.55.34:735][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_8.displayCase
+[2015.12.05-22.55.34:735][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_9.displayCase
+[2015.12.05-22.55.34:736][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_9.displayCase
+[2015.12.05-22.55.34:736][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_10.displayCase
+[2015.12.05-22.55.34:736][137]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/kestonLevel.kestonLevel:PersistentLevel.displayCaseBP_C_10.displayCase
+[2015.12.05-22.55.34:782][137]LogD3D11RHI: InitD3DDevice
+[2015.12.05-22.55.38:379][363]LogD3D11RHI: InitD3DDevice
+[2015.12.05-22.55.42:802][775]LogD3D11RHI: InitD3DDevice
+[2015.12.05-22.55.42:825][775]LogD3D11RHI: InitD3DDevice
+[2015.12.05-22.55.43:168][775]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement45AB32CF41265BE9A49ED6B6B959A9C8) Not registered. Aborting.
+[2015.12.05-22.55.43:168][775]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement82F2D63D2A4C247969B9ADBDBA59CF74) Not registered. Aborting.
+[2015.12.05-22.55.43:366][775]LogMetaData: Removing '/Game/Levels/Level4.SKEL_Level4_C' ref from Metadata '/Game/Levels/kestonLevel.PackageMetaData'
+[2015.12.05-22.55.43:366][775]LogMetaData: Removing '/Game/Levels/Level4.Level4_C' ref from Metadata '/Game/Levels/kestonLevel.PackageMetaData'
+[2015.12.05-22.55.43:388][775]LogD3D11RHI: InitD3DDevice
+[2015.12.05-22.55.44:305][775]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level4" FILE="../../../../../../d/The-Curators/AlexPrototype/Content/Levels/Level4.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.05-22.55.46:180][775]LogSavePackage: Save=1810.186890ms
+[2015.12.05-22.55.46:180][775]LogSavePackage: Moving '../../../../../../d/The-Curators/AlexPrototype/Saved/Level4EDE6034A43100A50528C2B92E60A07F1.tmp' to '../../../../../../d/The-Curators/AlexPrototype/Content/Levels/Level4.umap'
+[2015.12.05-22.55.46:187][775]LogFileHelpers: Saving map 'Level4' took 2.788
+[2015.12.05-22.55.46:191][775]LogD3D11RHI: InitD3DDevice
+[2015.12.05-22.55.46:266][775]LogD3D11RHI: InitD3DDevice
+[2015.12.05-22.55.56:342][949]LogD3D11RHI: InitD3DDevice
+[2015.12.05-22.55.56:371][949]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainMenu" FILE="../../../../../../d/The-Curators/AlexPrototype/Content/Levels/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.05-22.55.56:373][949]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement45AB32CF41265B
