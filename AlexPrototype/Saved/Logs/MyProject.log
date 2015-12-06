@@ -5641,4 +5641,149 @@ Localization Resource: (C:/Program Files/Unreal Engine/4.8/Engine/Content/Locali
 [2015.12.06-04.40.36:204][719]LogD3D11RHI: InitD3DDevice
 [2015.12.06-04.40.36:310][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Assets/Blueprints/MasterTerminal" FILE="../../../../../../d/The-Curators/AlexPrototype/Content/Art/Assets/Blueprints/MasterTerminal.uasset" SILENT=true
 [2015.12.06-04.40.36:406][719]LogSavePackage: Save=60.196785ms
-[2015.12.06-04.40.36:406][719]LogSavePackage: Moving '../../../../../../d/The-Curators/AlexPrototype/Saved/MasterTer
+[2015.12.06-04.40.36:406][719]LogSavePackage: Moving '../../../../../../d/The-Curators/AlexPrototype/Saved/MasterTerminalDA586ACF48ABADC22E8EC9BE41A8FECA.tmp' to '../../../../../../d/The-Curators/AlexPrototype/Content/Art/Assets/Blueprints/MasterTerminal.uasset'
+[2015.12.06-04.40.38:243][868]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.40.38:288][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Assets/Blueprints/AlexHackableDoor" FILE="../../../../../../d/The-Curators/AlexPrototype/Content/Art/Assets/Blueprints/AlexHackableDoor.uasset" SILENT=true
+[2015.12.06-04.40.38:451][868]LogSavePackage: Save=147.968552ms
+[2015.12.06-04.40.38:451][868]LogSavePackage: Moving '../../../../../../d/The-Curators/AlexPrototype/Saved/AlexHackableDoor73D8A00B4899D2836AEEC39667FDB0BF.tmp' to '../../../../../../d/The-Curators/AlexPrototype/Content/Art/Assets/Blueprints/AlexHackableDoor.uasset'
+[2015.12.06-04.40.40:264][971]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.40.41:035][971]LogSavePackage: Save=659.884338ms
+[2015.12.06-04.40.41:035][971]LogSavePackage: Moving '../../../../../../d/The-Curators/AlexPrototype/Saved/ErichFinalCharCombined05B0BDDF48F1959F352E028BEA220143.tmp' to '../../../../../../d/The-Curators/AlexPrototype/Content/Tech/ThirdPersonBP/Blueprints/ErichFinalCharCombined.uasset'
+[2015.12.06-04.42.56:903][105]LogRenderer: Reallocating scene render targets to support 1528x712 (Frame:31259).
+[2015.12.06-04.43.18:110][626]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.43.23:985][811]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.43.24:309][811]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.45.45:106][829]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.45.51:830][353]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.46.07:163][494]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.46.13:479][777]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.46.15:886][950]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.46.22:612][436]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.46.29:530][563]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.46.39:360][795]BlueprintLog: New page: Compile AIGuardChar
+[2015.12.06-04.46.39:703][795]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.06-04.46.39:705][795]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.12.06-04.46.39:706][795]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.12.06-04.46.39:706][795]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.12.06-04.46.39:707][795]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_0) Not registered. Aborting.
+[2015.12.06-04.46.39:804][795]BlueprintEditorCompileResults: Info [1772.50] Compile of AIGuardChar successful! [in 443 ms]
+[2015.12.06-04.46.49:777][358]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.12.06-04.46.49:785][358]LogPlayLevel: [PIE] Compiling Level1 before PIE...
+[2015.12.06-04.46.49:863][358]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.06-04.46.49:863][358]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.12.06-04.46.49:865][358]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.12.06-04.46.49:917][358]LogPlayLevel: PIE:  Blueprint regeneration took 140 ms (1 blueprints)
+[2015.12.06-04.46.49:918][358]PIE: New page: SIE session: Level1 (Dec 5, 2015, 6:46:49 PM)
+[2015.12.06-04.46.49:918][358]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2015.12.06-04.46.50:051][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.132588s)
+[2015.12.06-04.46.50:051][358]LogAIModule: Creating AISystem for world Level1
+[2015.12.06-04.46.50:052][358]LogPlayLevel: PIE: World Init took: (0.001096s)
+[2015.12.06-04.46.50:052][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.134039s)
+[2015.12.06-04.46.50:111][358]LogSelection:Warning: PIE object was selected: "MasterTerminal_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.MasterTerminal_C_0"
+[2015.12.06-04.46.50:126][358]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.06-04.46.50:141][358]LogInit: FAudioDevice initialized.
+[2015.12.06-04.46.50:175][358]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.06-04.46.50:486][358]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.12.06-04.46.50:486][358]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2015.12.05-23.46.50
+[2015.12.06-04.46.50:486][358]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.06-04.46.50:487][358]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.06-04.46.50:504][358]LogWorld: Bringing up level for play took: 0.326582
+[2015.12.06-04.46.50:508][358]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.43
+[2015.12.06-04.46.50:513][358]LogSelection:Warning: PIE object was selected: "MasterTerminal_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.MasterTerminal_C_0"
+[2015.12.06-04.46.52:299][465]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_11
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:06D2
+[2015.12.06-04.46.52:299][465]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.46.52:299][465]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_11
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04EF
+[2015.12.06-04.46.52:299][465]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.46.53:161][506]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006EAA626AC0
+[2015.12.06-04.46.53:172][506]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.46.58:636][854]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.12.06-04.46.58:646][854]LogPlayLevel: [PIE] Compiling Level1 before PIE...
+[2015.12.06-04.46.58:779][854]LogPlayLevel: PIE:  Blueprint regeneration took 142 ms (1 blueprints)
+[2015.12.06-04.46.58:779][854]PIE: New page: SIE session: Level1 (Dec 5, 2015, 6:46:58 PM)
+[2015.12.06-04.46.58:779][854]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2015.12.06-04.46.58:916][854]LogPlayLevel: PIE: StaticDuplicateObject took: (0.136981s)
+[2015.12.06-04.46.58:917][854]LogAIModule: Creating AISystem for world Level1
+[2015.12.06-04.46.58:917][854]LogPlayLevel: PIE: World Init took: (0.001079s)
+[2015.12.06-04.46.58:918][854]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.138406s)
+[2015.12.06-04.46.58:966][854]LogSelection:Warning: PIE object was selected: "MasterTerminal_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.MasterTerminal_C_0"
+[2015.12.06-04.46.58:980][854]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.06-04.46.58:993][854]LogInit: FAudioDevice initialized.
+[2015.12.06-04.46.59:027][854]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.06-04.46.59:324][854]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.12.06-04.46.59:324][854]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2015.12.05-23.46.59
+[2015.12.06-04.46.59:324][854]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.06-04.46.59:324][854]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.06-04.46.59:342][854]LogWorld: Bringing up level for play took: 0.312667
+[2015.12.06-04.46.59:346][854]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level1 1.268
+[2015.12.06-04.46.59:351][854]LogSelection:Warning: PIE object was selected: "MasterTerminal_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.MasterTerminal_C_0"
+[2015.12.06-04.47.01:246][  9]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_11
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:06D2
+[2015.12.06-04.47.01:246][  9]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.47.01:246][  9]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_11
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04EF
+[2015.12.06-04.47.01:246][  9]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.47.01:254][ 10]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_11
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:06D2
+[2015.12.06-04.47.01:254][ 10]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.47.01:254][ 10]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_11
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04EF
+[2015.12.06-04.47.01:254][ 10]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.47.01:263][ 11]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_11
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:06D2
+[2015.12.06-04.47.01:263][ 11]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.47.01:263][ 11]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_11
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04EF
+[2015.12.06-04.47.01:263][ 11]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.47.02:046][ 92]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_11
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:06D2
+[2015.12.06-04.47.02:047][ 92]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.47.02:047][ 92]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_11
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04EF
+[2015.12.06-04.47.02:047][ 92]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.47.02:055][ 93]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_11
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:06D2
+[2015.12.06-04.47.02:055][ 93]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.47.02:055][ 93]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_11
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04EF
+[2015.12.06-04.47.02:055][ 93]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.47.02:065][ 94]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_11
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:06D2
+[2015.12.06-04.47.02:065][ 94]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.47.02:065][ 94]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_11
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04EF
+[2015.12.06-04.47.02:065][ 94]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.47.02:086][ 96]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_11
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:06D2
+[2015.12.06-04.47.02:086][ 96]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.47.02:086][ 96]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_11
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04EF
+[2015.12.06-04.47.02:087][ 96]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.47.20:141][480]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006EEC26D800
+[2015.12.06-04.47.20:150][480]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.47.50:789][124]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.47.52:891][325]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1948.EdGraphPin_62579''
+[2015.12.06-04.47.54:707][492]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.47.57:514][742]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.48.34:294][238]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.48.41:442][547]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.49.09:142][474]BlueprintLog: New page: Compile AIGuardChar
+[2015.12.06-04.49.09:500][474]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.06-04.49.09:500][474]LogActorComponent
