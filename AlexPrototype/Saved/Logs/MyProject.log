@@ -5786,4 +5786,911 @@ Localization Resource: (C:/Program Files/Unreal Engine/4.8/Engine/Content/Locali
 [2015.12.06-04.48.41:442][547]LogD3D11RHI: InitD3DDevice
 [2015.12.06-04.49.09:142][474]BlueprintLog: New page: Compile AIGuardChar
 [2015.12.06-04.49.09:500][474]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.12.06-04.49.09:500][474]LogActorComponent
+[2015.12.06-04.49.09:500][474]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.12.06-04.49.09:503][474]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.12.06-04.49.09:607][474]BlueprintEditorCompileResults: Info [1922.31] Compile of AIGuardChar successful! [in 465 ms]
+[2015.12.06-04.49.10:571][545]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.49.10:610][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tech/AIGuard/AIGuardChar" FILE="../../../../../../d/The-Curators/AlexPrototype/Content/Tech/AIGuard/AIGuardChar.uasset" SILENT=true
+[2015.12.06-04.49.10:793][545]LogSavePackage: Save=153.530334ms
+[2015.12.06-04.49.10:793][545]LogSavePackage: Moving '../../../../../../d/The-Curators/AlexPrototype/Saved/AIGuardCharA2023C6F485741DBBE8E35B1C9C630BD.tmp' to '../../../../../../d/The-Curators/AlexPrototype/Content/Tech/AIGuard/AIGuardChar.uasset'
+[2015.12.06-04.49.12:220][620]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.49.12:243][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../d/The-Curators/AlexPrototype/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.06-04.49.12:245][620]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.06-04.49.12:245][620]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.12.06-04.49.12:246][620]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.12.06-04.49.13:975][620]LogSavePackage: Save=1648.239136ms
+[2015.12.06-04.49.13:975][620]LogSavePackage: Moving '../../../../../../d/The-Curators/AlexPrototype/Saved/Level1CA2B71CF4A5B8A9EC208349C18A60F72.tmp' to '../../../../../../d/The-Curators/AlexPrototype/Content/Levels/Level1.umap'
+[2015.12.06-04.50.17:403][279]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.50.17:706][279]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.50.33:651][958]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.50.35:764][185]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.50.44:966][ 30]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.50.45:665][ 89]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.50.55:196][ 19]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.50.55:882][ 77]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.51.08:267][260]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.51.12:772][457]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.51.16:807][582]BlueprintLog: New page: Compile AIGuardCont
+[2015.12.06-04.51.16:916][582]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.06-04.51.16:916][582]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.12.06-04.51.16:917][582]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.12.06-04.51.16:987][582]BlueprintEditorCompileResults: Info [2049.69] Compile of AIGuardCont successful! [in 180 ms]
+[2015.12.06-04.51.19:382][773]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.12.06-04.51.19:389][773]LogPlayLevel: [PIE] Compiling Level1 before PIE...
+[2015.12.06-04.51.19:521][773]LogPlayLevel: PIE:  Blueprint regeneration took 138 ms (1 blueprints)
+[2015.12.06-04.51.19:521][773]PIE: New page: SIE session: Level1 (Dec 5, 2015, 6:51:19 PM)
+[2015.12.06-04.51.19:521][773]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2015.12.06-04.51.19:651][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.129546s)
+[2015.12.06-04.51.19:651][773]LogAIModule: Creating AISystem for world Level1
+[2015.12.06-04.51.19:652][773]LogPlayLevel: PIE: World Init took: (0.001097s)
+[2015.12.06-04.51.19:652][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.130994s)
+[2015.12.06-04.51.19:705][773]LogSelection:Warning: PIE object was selected: "MasterTerminal_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.MasterTerminal_C_0"
+[2015.12.06-04.51.19:720][773]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.06-04.51.19:733][773]LogInit: FAudioDevice initialized.
+[2015.12.06-04.51.19:770][773]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.06-04.51.20:086][773]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.12.06-04.51.20:086][773]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2015.12.05-23.51.20
+[2015.12.06-04.51.20:086][773]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.06-04.51.20:087][773]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.06-04.51.20:109][773]LogWorld: Bringing up level for play took: 0.337482
+[2015.12.06-04.51.20:114][773]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.036
+[2015.12.06-04.51.20:120][773]LogSelection:Warning: PIE object was selected: "MasterTerminal_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.MasterTerminal_C_0"
+[2015.12.06-04.51.22:004][928]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_5
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:0687
+[2015.12.06-04.51.22:004][928]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.51.22:004][928]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_5
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04A4
+[2015.12.06-04.51.22:004][928]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.51.22:014][929]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_5
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:0687
+[2015.12.06-04.51.22:014][929]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.51.22:014][929]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_5
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04A4
+[2015.12.06-04.51.22:014][929]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.51.22:023][930]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_5
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:0687
+[2015.12.06-04.51.22:023][930]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.51.22:023][930]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_5
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04A4
+[2015.12.06-04.51.22:023][930]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.51.22:813][ 12]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_5
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:0687
+[2015.12.06-04.51.22:814][ 12]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.51.22:814][ 12]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_5
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04A4
+[2015.12.06-04.51.22:814][ 12]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.51.22:822][ 13]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_5
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:0687
+[2015.12.06-04.51.22:822][ 13]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.51.22:822][ 13]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_5
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04A4
+[2015.12.06-04.51.22:822][ 13]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.51.22:839][ 15]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_5
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:0687
+[2015.12.06-04.51.22:839][ 15]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.51.22:839][ 15]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_5
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04A4
+[2015.12.06-04.51.22:839][ 15]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.51.43:752][691]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006EA3D12160
+[2015.12.06-04.51.43:763][691]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.51.52:591][416]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.51.53:390][486]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.52.03:005][790]BlueprintLog: New page: Compile AIGuardChar
+[2015.12.06-04.52.03:350][790]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.06-04.52.03:350][790]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.12.06-04.52.03:351][790]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.12.06-04.52.03:445][790]BlueprintEditorCompileResults: Info [2096.14] Compile of AIGuardChar successful! [in 439 ms]
+[2015.12.06-04.52.07:422][132]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.12.06-04.52.07:431][132]LogPlayLevel: [PIE] Compiling Level1 before PIE...
+[2015.12.06-04.52.07:506][132]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.06-04.52.07:506][132]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.12.06-04.52.07:508][132]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.12.06-04.52.07:558][132]LogPlayLevel: PIE:  Blueprint regeneration took 136 ms (1 blueprints)
+[2015.12.06-04.52.07:558][132]PIE: New page: SIE session: Level1 (Dec 5, 2015, 6:52:07 PM)
+[2015.12.06-04.52.07:559][132]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2015.12.06-04.52.07:684][132]LogPlayLevel: PIE: StaticDuplicateObject took: (0.125612s)
+[2015.12.06-04.52.07:685][132]LogAIModule: Creating AISystem for world Level1
+[2015.12.06-04.52.07:686][132]LogPlayLevel: PIE: World Init took: (0.001224s)
+[2015.12.06-04.52.07:686][132]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.127188s)
+[2015.12.06-04.52.07:733][132]LogSelection:Warning: PIE object was selected: "MasterTerminal_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.MasterTerminal_C_0"
+[2015.12.06-04.52.07:747][132]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.06-04.52.07:758][132]LogInit: FAudioDevice initialized.
+[2015.12.06-04.52.07:794][132]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.06-04.52.08:103][132]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.12.06-04.52.08:103][132]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2015.12.05-23.52.08
+[2015.12.06-04.52.08:103][132]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.06-04.52.08:104][132]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.06-04.52.08:124][132]LogWorld: Bringing up level for play took: 0.327127
+[2015.12.06-04.52.08:130][132]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.052
+[2015.12.06-04.52.08:135][132]LogSelection:Warning: PIE object was selected: "MasterTerminal_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.MasterTerminal_C_0"
+[2015.12.06-04.52.10:002][282]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_10
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:0687
+[2015.12.06-04.52.10:002][282]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.52.10:002][282]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_10
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04A4
+[2015.12.06-04.52.10:002][282]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.52.10:025][284]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_10
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:0687
+[2015.12.06-04.52.10:025][284]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.52.10:025][284]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_10
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04A4
+[2015.12.06-04.52.10:025][284]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.52.10:803][363]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_10
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:0687
+[2015.12.06-04.52.10:803][363]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.52.10:803][363]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_10
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04A4
+[2015.12.06-04.52.10:803][363]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.52.10:812][364]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_10
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:0687
+[2015.12.06-04.52.10:812][364]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.52.10:812][364]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_10
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04A4
+[2015.12.06-04.52.10:812][364]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.52.10:819][365]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_10
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:0687
+[2015.12.06-04.52.10:820][365]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.52.10:820][365]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_10
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04A4
+[2015.12.06-04.52.10:820][365]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.52.10:831][366]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_10
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:0687
+[2015.12.06-04.52.10:831][366]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.52.10:831][366]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_10
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04A4
+[2015.12.06-04.52.10:831][366]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.52.24:237][432]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006EE40FF740
+[2015.12.06-04.52.24:249][432]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.52.36:670][671]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.52.37:370][729]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.52.40:438][  9]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.52.41:572][114]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.53.12:189][883]BlueprintLog: New page: Compile AIGuardCont
+[2015.12.06-04.53.12:349][883]BlueprintEditorCompileResults: Info [2165.05] Compile of AIGuardCont successful! [in 160 ms]
+[2015.12.06-04.53.21:738][804]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.12.06-04.53.21:747][804]LogPlayLevel: [PIE] Compiling Level1 before PIE...
+[2015.12.06-04.53.21:875][804]LogPlayLevel: PIE:  Blueprint regeneration took 136 ms (1 blueprints)
+[2015.12.06-04.53.21:875][804]PIE: New page: SIE session: Level1 (Dec 5, 2015, 6:53:21 PM)
+[2015.12.06-04.53.21:875][804]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2015.12.06-04.53.22:013][804]LogPlayLevel: PIE: StaticDuplicateObject took: (0.137173s)
+[2015.12.06-04.53.22:013][804]LogAIModule: Creating AISystem for world Level1
+[2015.12.06-04.53.22:014][804]LogPlayLevel: PIE: World Init took: (0.001141s)
+[2015.12.06-04.53.22:014][804]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.138671s)
+[2015.12.06-04.53.22:063][804]LogSelection:Warning: PIE object was selected: "MasterTerminal_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.MasterTerminal_C_0"
+[2015.12.06-04.53.22:079][804]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.06-04.53.22:097][804]LogInit: FAudioDevice initialized.
+[2015.12.06-04.53.22:140][804]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.06-04.53.22:451][804]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.12.06-04.53.22:451][804]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2015.12.05-23.53.22
+[2015.12.06-04.53.22:451][804]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.06-04.53.22:452][804]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.06-04.53.22:474][804]LogWorld: Bringing up level for play took: 0.330505
+[2015.12.06-04.53.22:479][804]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.4
+[2015.12.06-04.53.22:485][804]LogSelection:Warning: PIE object was selected: "MasterTerminal_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.MasterTerminal_C_0"
+[2015.12.06-04.53.24:370][970]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_10
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:0687
+[2015.12.06-04.53.24:370][970]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.53.24:370][970]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_10
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04A4
+[2015.12.06-04.53.24:370][970]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.53.24:382][971]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_10
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:0687
+[2015.12.06-04.53.24:382][971]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.53.24:382][971]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_10
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04A4
+[2015.12.06-04.53.24:382][971]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.53.25:181][ 53]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_10
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:0687
+[2015.12.06-04.53.25:181][ 53]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.53.25:181][ 53]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.53.25:191][ 54]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.53.25:191][ 54]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.53.31:221][558]LogBlueprintUserMessages: aicolorchange
+[2015.12.06-04.53.39:104][151]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006EE0F12C00
+[2015.12.06-04.53.39:114][151]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.54.28:471][316]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.54.29:113][368]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.55.08:066][698]BlueprintLog: New page: Compile AIGuardCont
+[2015.12.06-04.55.08:175][698]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.06-04.55.08:175][698]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.12.06-04.55.08:176][698]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.12.06-04.55.08:241][698]BlueprintEditorCompileResults: Info [2280.94] Compile of AIGuardCont successful! [in 174 ms]
+[2015.12.06-04.55.18:141][760]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.55.20:799][ 46]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.55.27:261][661]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.55.32:702][266]BlueprintLog: New page: Compile AIGuardCont
+[2015.12.06-04.55.32:873][266]BlueprintEditorCompileResults: Info [2305.57] Compile of AIGuardCont successful! [in 170 ms]
+[2015.12.06-04.55.37:120][673]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.12.06-04.55.37:129][673]LogPlayLevel: [PIE] Compiling Level1 before PIE...
+[2015.12.06-04.55.37:255][673]LogPlayLevel: PIE:  Blueprint regeneration took 134 ms (1 blueprints)
+[2015.12.06-04.55.37:255][673]PIE: New page: SIE session: Level1 (Dec 5, 2015, 6:55:37 PM)
+[2015.12.06-04.55.37:256][673]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2015.12.06-04.55.37:386][673]LogPlayLevel: PIE: StaticDuplicateObject took: (0.130604s)
+[2015.12.06-04.55.37:387][673]LogAIModule: Creating AISystem for world Level1
+[2015.12.06-04.55.37:388][673]LogPlayLevel: PIE: World Init took: (0.001413s)
+[2015.12.06-04.55.37:388][673]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.132402s)
+[2015.12.06-04.55.37:444][673]LogSelection:Warning: PIE object was selected: "MasterTerminal_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.MasterTerminal_C_0"
+[2015.12.06-04.55.37:460][673]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.06-04.55.37:472][673]LogInit: FAudioDevice initialized.
+[2015.12.06-04.55.37:506][673]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.06-04.55.37:823][673]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.12.06-04.55.37:823][673]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2015.12.05-23.55.37
+[2015.12.06-04.55.37:823][673]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.06-04.55.37:823][673]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.06-04.55.37:841][673]LogWorld: Bringing up level for play took: 0.333839
+[2015.12.06-04.55.37:848][673]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.231
+[2015.12.06-04.55.37:854][673]LogSelection:Warning: PIE object was selected: "MasterTerminal_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.MasterTerminal_C_0"
+[2015.12.06-04.55.39:759][852]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.55.39:759][852]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.55.39:767][853]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.55.39:767][853]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.55.39:776][854]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.55.39:776][854]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.55.40:564][942]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.55.40:564][942]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.55.40:573][943]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.55.40:574][943]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.55.40:584][944]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.55.40:584][944]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.55.40:592][945]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.55.40:592][945]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.55.46:586][472]LogBlueprintUserMessages: fdssd
+[2015.12.06-04.55.47:959][573]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006EE39B9F80
+[2015.12.06-04.55.47:969][573]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.56.50:299][946]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.57.02:165][167]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.57.03:841][336]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.57.06:673][638]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.57.08:598][834]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.57.11:708][155]BlueprintLog: New page: Compile AIGuardCont
+[2015.12.06-04.57.11:876][155]BlueprintEditorCompileResults: Info [2404.58] Compile of AIGuardCont successful! [in 167 ms]
+[2015.12.06-04.57.14:089][326]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.12.06-04.57.14:098][326]LogPlayLevel: [PIE] Compiling Level1 before PIE...
+[2015.12.06-04.57.14:229][326]LogPlayLevel: PIE:  Blueprint regeneration took 140 ms (1 blueprints)
+[2015.12.06-04.57.14:229][326]PIE: New page: SIE session: Level1 (Dec 5, 2015, 6:57:14 PM)
+[2015.12.06-04.57.14:230][326]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2015.12.06-04.57.14:365][326]LogPlayLevel: PIE: StaticDuplicateObject took: (0.134850s)
+[2015.12.06-04.57.14:365][326]LogAIModule: Creating AISystem for world Level1
+[2015.12.06-04.57.14:366][326]LogPlayLevel: PIE: World Init took: (0.001438s)
+[2015.12.06-04.57.14:366][326]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.136782s)
+[2015.12.06-04.57.14:416][326]LogSelection:Warning: PIE object was selected: "MasterTerminal_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.MasterTerminal_C_0"
+[2015.12.06-04.57.14:433][326]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.06-04.57.14:446][326]LogInit: FAudioDevice initialized.
+[2015.12.06-04.57.14:479][326]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.06-04.57.14:768][326]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.12.06-04.57.14:768][326]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2015.12.05-23.57.14
+[2015.12.06-04.57.14:768][326]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.06-04.57.14:769][326]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.06-04.57.14:785][326]LogWorld: Bringing up level for play took: 0.303412
+[2015.12.06-04.57.14:789][326]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.711
+[2015.12.06-04.57.14:794][326]LogSelection:Warning: PIE object was selected: "MasterTerminal_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.MasterTerminal_C_0"
+[2015.12.06-04.57.16:698][492]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.16:698][492]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.17:499][560]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.17:499][560]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.17:510][561]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.17:510][561]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.41:186][682]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.41:186][682]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.41:196][683]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.41:196][683]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.41:206][684]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.41:207][684]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:077][764]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:077][764]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:077][764]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:077][764]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:077][764]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:077][764]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:108][766]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:108][766]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:109][766]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:109][766]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:109][766]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:109][766]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:124][767]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:124][767]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:124][767]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:124][767]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:124][767]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:124][767]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:144][768]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:144][768]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:144][768]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:144][768]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:144][768]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:144][768]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:156][769]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:156][769]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:156][769]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:156][769]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:157][769]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:157][769]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:173][770]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:173][770]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:173][770]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:173][770]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:173][770]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:173][770]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:187][771]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:187][771]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:187][771]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:187][771]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:187][771]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:187][771]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:202][772]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:203][772]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:203][772]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:203][772]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:203][772]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:203][772]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:215][773]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:215][773]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:215][773]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:215][773]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:215][773]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:215][773]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:233][774]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:233][774]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:233][774]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:233][774]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:233][774]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:233][774]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:250][775]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:250][775]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:250][775]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:250][775]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:250][775]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:250][775]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:264][776]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:264][776]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:264][776]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:264][776]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:264][776]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:264][776]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:282][777]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:282][777]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:282][777]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:282][777]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:282][777]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:283][777]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:294][778]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:294][778]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:294][778]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:294][778]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:295][778]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:295][778]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:309][779]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:309][779]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:309][779]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:309][779]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:309][779]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:309][779]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:320][780]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:321][780]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:321][780]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:321][780]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:321][780]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:321][780]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:331][781]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:331][781]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:331][781]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:331][781]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:331][781]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:332][781]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:345][782]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:345][782]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:345][782]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:345][782]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:346][782]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:346][782]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:359][783]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:360][783]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:360][783]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:360][783]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:360][783]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:360][783]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:370][784]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:370][784]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:370][784]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:370][784]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:371][784]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:371][784]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:385][785]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:385][785]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:385][785]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:385][785]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:385][785]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:385][785]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:406][786]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:406][786]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:406][786]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:406][786]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:406][786]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:406][786]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:415][787]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:415][787]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:415][787]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:415][787]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:415][787]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:415][787]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:426][788]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:426][788]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:426][788]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:426][788]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:426][788]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:426][788]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:435][789]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:435][789]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:435][789]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:435][789]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:436][789]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:436][789]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:448][790]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:448][790]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:448][790]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:448][790]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:448][790]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:448][790]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:458][791]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:458][791]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:458][791]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:458][791]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:458][791]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:458][791]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:468][792]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:468][792]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:468][792]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:468][792]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:468][792]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:468][792]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:481][793]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:481][793]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:481][793]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:481][793]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:481][793]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:481][793]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:491][794]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:491][794]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:491][794]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:491][794]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:492][794]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:492][794]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:501][795]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:501][795]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:501][795]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:501][795]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:501][795]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:501][795]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:513][796]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:514][796]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:514][796]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:514][796]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:514][796]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:514][796]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:525][797]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:525][797]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:525][797]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:525][797]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:525][797]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:525][797]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:533][798]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:533][798]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:534][798]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:534][798]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:534][798]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:534][798]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:543][799]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:543][799]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:543][799]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:543][799]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:543][799]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:544][799]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:555][800]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:555][800]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:555][800]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:556][800]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:556][800]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:556][800]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:565][801]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:565][801]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:565][801]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:565][801]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:566][801]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:566][801]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:575][802]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:575][802]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:576][802]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:576][802]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:576][802]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:576][802]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:590][803]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:590][803]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:590][803]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:590][803]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:590][803]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:590][803]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:602][804]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:602][804]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:602][804]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:602][804]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:602][804]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:602][804]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:611][805]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:611][805]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:611][805]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:611][805]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:611][805]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:611][805]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:620][806]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:620][806]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:620][806]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:620][806]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:620][806]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:620][806]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:630][807]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:630][807]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:630][807]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:631][807]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:631][807]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:631][807]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:641][808]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:641][808]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:641][808]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:641][808]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:641][808]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:641][808]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:652][809]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:652][809]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:652][809]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:653][809]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:653][809]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:653][809]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:663][810]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:663][810]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:663][810]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:663][810]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:663][810]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:663][810]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:672][811]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:672][811]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:672][811]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:672][811]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:672][811]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:673][811]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:681][812]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:681][812]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:682][812]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:682][812]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:682][812]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:682][812]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:695][813]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:695][813]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:695][813]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:695][813]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:695][813]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:695][813]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:705][814]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:705][814]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:705][814]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:705][814]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:705][814]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:705][814]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:714][815]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:714][815]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:714][815]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:714][815]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:715][815]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:715][815]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:727][816]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:727][816]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:727][816]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:727][816]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:727][816]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:727][816]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:736][817]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:736][817]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:736][817]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:737][817]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:737][817]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:737][817]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:746][818]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:746][818]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:746][818]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:746][818]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:746][818]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:746][818]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:756][819]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:756][819]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:757][819]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:757][819]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:757][819]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:757][819]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:765][820]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:766][820]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:766][820]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:766][820]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:766][820]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:766][820]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:778][821]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:778][821]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:778][821]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:778][821]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:778][821]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:778][821]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:788][822]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:788][822]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:788][822]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:788][822]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:788][822]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:788][822]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:797][823]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:798][823]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:798][823]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:798][823]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:798][823]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:798][823]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:808][824]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:809][824]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:809][824]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:809][824]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:809][824]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:809][824]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:835][825]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:835][825]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:835][825]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:835][825]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:835][825]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:835][825]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:850][826]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:850][826]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:850][826]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:850][826]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:850][826]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:850][826]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:859][827]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:859][827]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:859][827]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:860][827]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:860][827]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:860][827]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:871][828]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:871][828]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:871][828]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:871][828]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:871][828]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:871][828]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:882][829]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:882][829]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:882][829]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:882][829]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:882][829]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:882][829]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:891][830]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:892][830]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:892][830]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:892][830]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:892][830]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:892][830]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:904][831]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:904][831]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:904][831]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:904][831]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:904][831]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.42:904][831]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.57.45:307][ 22]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006EE439B600
+[2015.12.06-04.57.45:320][ 22]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.58.07:520][301]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.58.12:010][765]BlueprintLog: New page: Compile AIGuardCont
+[2015.12.06-04.58.12:170][765]BlueprintEditorCompileResults: Info [2464.87] Compile of AIGuardCont successful! [in 159 ms]
+[2015.12.06-04.58.14:686][948]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.12.06-04.58.14:697][948]LogPlayLevel: [PIE] Compiling Level1 before PIE...
+[2015.12.06-04.58.14:846][948]LogPlayLevel: PIE:  Blueprint regeneration took 159 ms (1 blueprints)
+[2015.12.06-04.58.14:846][948]PIE: New page: SIE session: Level1 (Dec 5, 2015, 6:58:14 PM)
+[2015.12.06-04.58.14:846][948]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2015.12.06-04.58.14:997][948]LogPlayLevel: PIE: StaticDuplicateObject took: (0.151198s)
+[2015.12.06-04.58.14:998][948]LogAIModule: Creating AISystem for world Level1
+[2015.12.06-04.58.14:999][948]LogPlayLevel: PIE: World Init took: (0.001289s)
+[2015.12.06-04.58.14:999][948]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.152946s)
+[2015.12.06-04.58.15:054][948]LogSelection:Warning: PIE object was selected: "MasterTerminal_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.MasterTerminal_C_0"
+[2015.12.06-04.58.15:071][948]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.06-04.58.15:087][948]LogInit: FAudioDevice initialized.
+[2015.12.06-04.58.15:124][948]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.06-04.58.15:455][948]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.12.06-04.58.15:455][948]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2015.12.05-23.58.15
+[2015.12.06-04.58.15:455][948]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.06-04.58.15:456][948]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.06-04.58.15:477][948]LogWorld: Bringing up level for play took: 0.350352
+[2015.12.06-04.58.15:481][948]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level1 1.403
+[2015.12.06-04.58.15:487][948]LogSelection:Warning: PIE object was selected: "MasterTerminal_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.MasterTerminal_C_0"
+[2015.12.06-04.58.17:372][125]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.58.17:372][125]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.58.17:381][126]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.58.17:381][126]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.58.18:188][213]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.58.18:188][213]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.58.18:197][214]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.58.18:197][214]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-04.58.30:246][256]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006EDB179120
+[2015.12.06-04.58.30:256][256]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.59.17:701][978]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.06-04.59.17:701][978]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.12.06-04.59.17:702][978]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.12.06-04.59.21:224][353]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.59.21:898][416]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.59.23:679][618]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1948.EdGraphPin_62579''
+[2015.12.06-04.59.25:831][856]LogD3D11RHI: InitD3DDevice
+[2015.12.06-04.59.30:011][329]BlueprintLog: New page: Compile AIGuardChar
+[2015.12.06-04.59.30:426][329]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.12.06-04.59.30:426][329]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
+[2015.12.06-04.59.30:428][329]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_1) Not registered. Aborting.
+[2015.12.06-04.59.30:533][329]BlueprintEditorCompileResults: Info [2543.23] Compile of AIGuardChar successful! [in 521 ms]
+[2015.12.06-05.01.32:660][ 35]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.12.06-05.01.32:669][ 35]LogPlayLevel: [PIE] Compiling Level1 before PIE...
+[2015.12.06-05.01.32:750][ 35]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.06-05.01.32:751][ 35]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.12.06-05.01.32:752][ 35]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.12.06-05.01.32:808][ 35]LogPlayLevel: PIE:  Blueprint regeneration took 147 ms (1 blueprints)
+[2015.12.06-05.01.32:808][ 35]PIE: New page: SIE session: Level1 (Dec 5, 2015, 7:01:32 PM)
+[2015.12.06-05.01.32:808][ 35]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2015.12.06-05.01.32:948][ 35]LogPlayLevel: PIE: StaticDuplicateObject took: (0.139712s)
+[2015.12.06-05.01.32:949][ 35]LogAIModule: Creating AISystem for world Level1
+[2015.12.06-05.01.32:949][ 35]LogPlayLevel: PIE: World Init took: (0.001243s)
+[2015.12.06-05.01.32:950][ 35]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.141358s)
+[2015.12.06-05.01.32:999][ 35]LogSelection:Warning: PIE object was selected: "MasterTerminal_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.MasterTerminal_C_0"
+[2015.12.06-05.01.33:013][ 35]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.06-05.01.33:025][ 35]LogInit: FAudioDevice initialized.
+[2015.12.06-05.01.33:060][ 35]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.06-05.01.33:382][ 35]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.12.06-05.01.33:382][ 35]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2015.12.06-00.01.33
+[2015.12.06-05.01.33:382][ 35]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.06-05.01.33:383][ 35]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.06-05.01.33:401][ 35]LogWorld: Bringing up level for play took: 0.338494
+[2015.12.06-05.01.33:405][ 35]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level1 1.327
+[2015.12.06-05.01.33:410][ 35]LogSelection:Warning: PIE object was selected: "MasterTerminal_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.MasterTerminal_C_0"
+[2015.12.06-05.01.35:274][192]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_5
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:06C8
+[2015.12.06-05.01.35:274][192]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-05.01.35:274][192]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_5
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04E5
+[2015.12.06-05.01.35:274][192]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-05.01.35:283][193]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_5
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:06C8
+[2015.12.06-05.01.35:284][193]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-05.01.35:284][193]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_5
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04E5
+[2015.12.06-05.01.35:284][193]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-05.01.36:090][280]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_5
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:06C8
+[2015.12.06-05.01.36:090][280]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-05.01.36:090][280]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-05.01.36:102][281]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-05.01.36:102][281]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-05.01.42:143][793]LogBlueprintUserMessages: fdssd
+[2015.12.06-05.01.50:561][460]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006EE439A160
+[2015.12.06-05.01.50:572][460]LogD3D11RHI: InitD3DDevice
+[2015.12.06-05.02.09:605][390]LogD3D11RHI: InitD3DDevice
+[2015.12.06-05.02.37:519][136]LogD3D11RHI: InitD3DDevice
+[2015.12.06-05.02.58:765][464]LogD3D11RHI: InitD3DDevice
+[2015.12.06-05.03.02:590][840]LogD3D11RHI: InitD3DDevice
+[2015.12.06-05.03.06:084][239]LogD3D11RHI: InitD3DDevice
+[2015.12.06-05.03.13:303][ 45]LogD3D11RHI: InitD3DDevice
+[2015.12.06-05.03.14:622][186]LogD3D11RHI: InitD3DDevice
+[2015.12.06-05.03.19:892][783]LogD3D11RHI: InitD3DDevice
+[2015.12.06-05.03.21:133][920]LogD3D11RHI: InitD3DDevice
+[2015.12.06-05.03.23:124][139]LogD3D11RHI: InitD3DDevice
+[2015.12.06-05.03.23:773][214]LogD3D11RHI: InitD3DDevice
+[2015.12.06-05.03.25:185][363]LogD3D11RHI: InitD3DDevice
+[2015.12.06-05.03.26:276][469]LogD3D11RHI: InitD3DDevice
+[2015.12.06-05.03.27:630][619]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Tech/AIGuard/AIGuardChar.AIGuardChar:EventGraph.K2Node_VariableGet_1948 or K2Node_VariableGet /Game/Tech/AIGuard/AIGuardCont.AIGuardCont:EventGraph.K2Node_VariableGet_1948
+[2015.12.06-05.03.27:630][619]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1948.EdGraphPin_62579''
+[2015.12.06-05.03.27:631][619]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Tech/AIGuard/AIGuardChar.AIGuardChar:EventGraph.K2Node_CallFunction_5880 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_5880
+[2015.12.06-05.03.27:631][619]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Tech/AIGuard/AIGuardChar.AIGuardChar:EventGraph.K2Node_CallFunction_5880.EdGraphPin_28343) from referencer (EdGraphPin /Game/Tech/AIGuard/AIGuardCont.AIGuardCont:EventGraph.K2Node_CallFunction_6581.EdGraphPin_62576).  Import failed...
+[2015.12.06-05.03.27:631][619]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5880.EdGraphPin_28343''
+[2015.12.06-05.03.27:631][619]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Tech/AIGuard/AIGuardChar.AIGuardChar:EventGraph.K2Node_CallFunction_19058.EdGraphPin_28443) from referencer (EdGraphPin /Game/Tech/AIGuard/AIGuardCont.AIGuardCont:EventGraph.K2Node_CallFunction_6581.EdGraphPin_62575).  Import failed...
+[2015.12.06-05.03.27:631][619]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_19058.EdGraphPin_28443''
+[2015.12.06-05.03.27:635][619]LogBlueprint:Warning: [AIGuardCont] CreatePinForVariable: 'PointLight' variable not found. Base class was probably changed.
+[2015.12.06-05.03.29:647][850]LogD3D11RHI: InitD3DDevice
+[2015.12.06-05.03.40:429][104]LogD3D11RHI: InitD3DDevice
+[2015.12.06-05.03.41:192][181]LogD3D11RHI: InitD3DDevice
+[2015.12.06-05.03.48:273][862]LogD3D11RHI: InitD3DDevice
+[2015.12.06-05.03.50:782][121]LogD3D11RHI: InitD3DDevice
+[2015.12.06-05.04.02:285][196]LogD3D11RHI: InitD3DDevice
+[2015.12.06-05.04.18:476][ 47]LogD3D11RHI: InitD3DDevice
+[2015.12.06-05.04.19:208][123]LogD3D11RHI: InitD3DDevice
+[2015.12.06-05.04.21:973][426]LogD3D11RHI: InitD3DDevice
+[2015.12.06-05.04.22:677][503]LogD3D11RHI: InitD3DDevice
+[2015.12.06-05.04.24:852][746]LogD3D11RHI: InitD3DDevice
+[2015.12.06-05.04.26:755][946]LogD3D11RHI: InitD3DDevice
+[2015.12.06-05.04.31:298][448]BlueprintLog: New page: Compile AIGuardCont
+[2015.12.06-05.04.31:348][448]LogBlueprint:Error: [compiler AIGuardCont] Error The type of  Object  is undetermined.  Connect something to  Cast To AIGuardChar  to imply a specific type.
+[2015.12.06-05.04.31:349][448]LogBlueprint:Error: [compiler AIGuardCont] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2015.12.06-05.04.31:480][448]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.06-05.04.31:480][448]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.12.06-05.04.31:482][448]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.12.06-05.04.31:552][448]LogBlueprint:Warning: [compiler AIGuardCont] Warning [2844.25] Compile of AIGuardCont failed. 2 Fatal Issue(s) 0 Warning(s) [in 253 ms]
+[2015.12.06-05.04.31:552][448]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To AIGuardChar  to imply a specific type.
+[2015.12.06-05.04.31:552][448]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2015.12.06-05.04.31:552][448]BlueprintEditorCompileResults:Warning: Warning [2844.25] Compile of AIGuardCont failed. 2 Fatal Issue(s) 0 Warning(s) [in 253 ms]
+[2015.12.06-05.04.40:094][244]LogD3D11RHI: InitD3DDevice
+[2015.12.06-05.04.40:902][319]LogD3D11RHI: InitD3DDevice
+[2015.12.06-05.04.51:169][377]BlueprintLog: New page: Compile AIGuardCont
+[2015.12.06-05.04.51:270][377]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.06-05.04.51:270][377]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.12.06-05.04.51:272][377]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.12.06-05.04.51:332][377]BlueprintEditorCompileResults: Info [2864.03] Compile of AIGuardCont successful! [in 163 ms]
+[2015.12.06-05.05.51:908][139]LogD3D11RHI: InitD3DDevice
+[2015.12.06-05.05.51:933][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../d/The-Curators/AlexPrototype/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.06-05.05.53:648][139]LogSavePackage: Save=1606.352051ms
+[2015.12.06-05.05.53:648][139]LogSavePackage: Moving '../../../../../../d/The-Curators/AlexPrototype/Saved/Level132BD5E5C4C2DAF9145F6738CE686C67E.tmp' to '../../../../../../d/The-Curators/AlexPrototype/Content/Levels/Level1.umap'
+[2015.12.06-05.05.54:741][184]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.12.06-05.05.54:793][184]LogPlayLevel: [PIE] Compiling AIGuardChar before PIE...
+[2015.12.06-05.05.55:251][184]LogPlayLevel: [PIE] Compiling Level1 before PIE...
+[2015.12.06-05.05.55:339][184]LogPlayLevel: [PIE] Compiling AIGuardCont before PIE...
+[2015.12.06-05.05.55:527][184]LogPlayLevel: PIE:  Blueprint regeneration took 786 ms (3 blueprints)
+[2015.12.06-05.05.55:527][184]PIE: New page: SIE session: Level1 (Dec 5, 2015, 7:05:55 PM)
+[2015.12.06-05.05.55:528][184]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2015.12.06-05.05.55:649][184]LogPlayLevel: PIE: StaticDuplicateObject took: (0.120890s)
+[2015.12.06-05.05.55:650][184]LogAIModule: Creating AISystem for world Level1
+[2015.12.06-05.05.55:651][184]LogPlayLevel: PIE: World Init took: (0.001694s)
+[2015.12.06-05.05.55:651][184]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.123006s)
+[2015.12.06-05.05.55:698][184]LogSelection:Warning: PIE object was selected: "MasterTerminal_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.MasterTerminal_C_0"
+[2015.12.06-05.05.55:713][184]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.06-05.05.55:726][184]LogInit: FAudioDevice initialized.
+[2015.12.06-05.05.55:758][184]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.06-05.05.56:060][184]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.12.06-05.05.56:060][184]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2015.12.06-00.05.56
+[2015.12.06-05.05.56:060][184]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.06-05.05.56:061][184]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.06-05.05.56:083][184]LogWorld: Bringing up level for play took: 0.322486
+[2015.12.06-05.05.56:091][184]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level1 2.013
+[2015.12.06-05.05.56:098][184]LogSelection:Warning: PIE object was selected: "MasterTerminal_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.MasterTerminal_C_0"
+[2015.12.06-05.05.57:978][324]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-05.05.57:978][324]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-05.05.57:990][325]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-05.05.57:990][325]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-05.05.58:792][406]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-05.05.58:792][406]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-05.05.58:801][407]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-05.05.58:802][407]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-05.05.58:823][409]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-05.05.58:823][409]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.06-05.06.04:845][947]LogBlueprintUserMessages: fdssd
+[2015.12.06-05.06.05:349][985]LogBlueprintUserMessages: fdssd
+[2015.12.06-05.06.07:309][126]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.06-05.06.07:309][126]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.12.06-05.06.07:310][126]LogActorComponent: UnregisterComponent: (/Engine/
