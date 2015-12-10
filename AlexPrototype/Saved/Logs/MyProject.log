@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿[2015.12.10-10.33.10:477][  0]Log file open, 12/10/15 05:33:10
 [2015.12.10-10.33.10:505][  0]LogInit:Display: Running engine for game: MyProject
 [2015.12.10-10.33.10:505][  0]LogInit:Display: RandInit(1981417084) SRandInit(1981417085).
@@ -1296,3 +1297,2242 @@ Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localizat
 [2015.12.10-11.12.13:365][954]LogModuleManager: Shutting down and abandoning module PakFile (1)
 [2015.12.10-11.12.13:366][954]LogExit: Exiting.
 [2015.12.10-11.12.13:425][954]Log file closed, 12/10/15 06:12:13
+=======
+﻿[2015.12.10-06.41.54:758][  0]Log file open, 12/10/15 01:41:54
+[2015.12.10-06.41.54:758][  0]LogInit:Display: Running engine for game: MyProject
+[2015.12.10-06.41.54:758][  0]LogInit:Display: RandInit(-1112704417) SRandInit(-1112704416).
+[2015.12.10-06.41.54:758][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.12.10-06.41.54:758][  0]LogStats: Stats thread started
+[2015.12.10-06.41.54:758][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.12.10-06.41.54:758][  0]LogInit: API Version: 2579680
+[2015.12.10-06.41.54:758][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.12.10-06.41.54:758][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.12.10-06.41.54:758][  0]LogInit: Build Configuration: Development
+[2015.12.10-06.41.54:758][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.12.10-06.41.54:758][  0]LogInit: Command line:  
+[2015.12.10-06.41.54:758][  0]LogInit: Base directory: C:/Program Files/Unreal Engine/4.8/Engine/Binaries/Win64/
+[2015.12.10-06.41.54:758][  0]LogInit: Rocket: 1
+[2015.12.10-06.41.54:787][  0]LogInit: Using libcurl 7.41.0
+[2015.12.10-06.41.54:787][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.10-06.41.54:787][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.10-06.41.54:787][  0]LogInit:  - other features:
+[2015.12.10-06.41.54:787][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.10-06.41.54:787][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.10-06.41.54:787][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.10-06.41.54:787][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.10-06.41.54:787][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.10-06.41.54:787][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.10-06.41.54:787][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.10-06.41.54:787][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.10-06.41.54:787][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.10-06.41.54:787][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.10-06.41.54:810][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.12.10-06.41.54:835][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.10-06.41.54:842][  0]LogInit: Object subsystem initialized
+[2015.12.10-06.41.54:843][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.12.10-06.41.54:843][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/e/The-Curators/AlexPrototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.12.10-06.41.54:843][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.12.10-06.41.54:843][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/e/The-Curators/AlexPrototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.12.10-06.41.54:843][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.12.10-06.41.54:843][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/e/The-Curators/AlexPrototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.12.10-06.41.54:843][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.10-06.41.54:843][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.10-06.41.54:854][  0]LogInit: Computer: STEPHENMANGOLD1
+[2015.12.10-06.41.54:854][  0]LogInit: User: StephenPaulMangold
+[2015.12.10-06.41.54:854][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.12.10-06.41.54:854][  0]LogInit: High frequency timer resolution =3.312783 MHz
+[2015.12.10-06.41.54:854][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2015.12.10-06.41.54:854][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.10-06.41.54:854][  0]LogMemory: Process Physical Memory: 53.73 MB used, 53.73 MB peak
+[2015.12.10-06.41.54:854][  0]LogMemory: Process Virtual Memory: 26.42 MB used, 26.42 MB peak
+[2015.12.10-06.41.54:854][  0]LogMemory: Physical Memory: 9685.86 MB used, 16337.60 MB total
+[2015.12.10-06.41.54:854][  0]LogMemory: Virtual Memory: 296.26 MB used, 134217728.00 MB total
+[2015.12.10-06.41.54:941][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.12.10-06.41.55:147][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Unreal Engine/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Unreal Engine/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.12.10-06.41.55:610][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7700 Series (Feature Level 11_0)
+[2015.12.10-06.41.55:610][  0]LogD3D11RHI: Adapter has 2006MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2015.12.10-06.41.55:612][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.12.10-06.41.55:612][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.12.10-06.41.55:612][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.10-06.41.55:618][  0]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.41.55:618][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.10-06.41.55:618][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.12.10-06.41.55:628][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.12.10-06.41.55:639][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.10-06.41.57:395][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.12.10-06.41.57:420][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.10-06.41.57:444][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.10-06.41.57:469][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.10-06.41.57:495][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.10-06.41.57:519][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.10-06.41.57:543][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.10-06.41.57:566][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.10-06.41.57:588][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.10-06.41.57:611][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.10-06.41.57:635][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.10-06.41.57:660][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.10-06.41.57:744][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.10-06.41.57:766][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.10-06.41.57:788][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.10-06.41.57:814][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.10-06.41.57:814][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.10-06.41.58:199][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.10-06.41.58:847][  0]LogDerivedDataCache: Loaded boot cache 0.65s 53MB C:/Users/Stephen Paul Mangold/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.12.10-06.41.58:847][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Stephen Paul Mangold/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.12.10-06.41.58:847][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../e/The-Curators/AlexPrototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.10-06.41.58:847][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.10-06.41.58:847][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../e/The-Curators/AlexPrototype/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.10-06.41.58:847][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.10-06.41.59:249][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.10-06.41.59:264][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Stephen Paul Mangold/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.10-06.42.06:309][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.10-06.42.06:702][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.12.10-06.42.06:703][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.12.10-06.42.06:870][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.10-06.42.06:870][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.10-06.42.08:805][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.10-06.42.34:748][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.10-06.42.37:453][  0]SourceControl: Info Source control is disabled
+[2015.12.10-06.42.37:498][  0]SourceControl: Info Source control is disabled
+[2015.12.10-06.42.37:561][  0]SourceControl: Info Source control is disabled
+[2015.12.10-06.42.37:621][  0]SourceControl: Info Source control is disabled
+[2015.12.10-06.42.39:297][  0]LogObj: 26277 objects as part of root set at end of initial load.
+[2015.12.10-06.42.39:297][  0]LogUObjectAllocator: 5410024 out of 0 bytes used by permanent object pool.
+[2015.12.10-06.42.39:908][  0]LogEngine: Initializing Engine...
+[2015.12.10-06.42.39:947][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.12.10-06.42.40:357][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 108
+[2015.12.10-06.42.40:901][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.10-06.42.40:979][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.10-06.42.40:997][  0]LogInit: FAudioDevice initialized.
+[2015.12.10-06.42.41:038][  0]LogDerivedDataCache: Saved boot cache 0.04s 53MB C:/Users/Stephen Paul Mangold/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.12.10-06.42.41:041][  0]LogInit: Texture streaming: Disabled
+[2015.12.10-06.42.41:188][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.10-06.42.41:188][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.12.10-06.42.41:188][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 670f7a51498aab90fa6f01ae8ba6e645|ae3c06c927b140e595cd14047ca553a4|817dc969-a56b-4d5a-b6d5-4cf8a1016322
+[2015.12.10-06.42.41:188][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.10-06.42.41:470][  0]LogInit: Transaction tracking system initialized
+[2015.12.10-06.42.47:567][  0]BlueprintLog: New page: Editor Load
+[2015.12.10-06.42.47:965][  0]LogAssetRegistry: FAssetRegistry took 0.0117 seconds to start up
+[2015.12.10-06.42.47:966][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.12.10-06.42.58:729][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.12.10-06.42.58:730][  0]LogConsoleResponse:Display: 
+[2015.12.10-06.42.59:766][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.10-06.43.02:843][  0]SourceControl: Info Source control is disabled
+[2015.12.10-06.43.02:901][  0]Cmd: MAP LOAD FILE="../../../../../../e/The-Curators/AlexPrototype/Content/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.10-06.43.02:919][  0]LightingResults: New page: Lighting Build
+[2015.12.10-06.43.02:979][  0]MapCheck: New page: Map Check
+[2015.12.10-06.43.02:979][  0]LightingResults: New page: Lighting Build
+[2015.12.10-06.43.02:988][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C848DE4B80
+[2015.12.10-06.43.06:014][  0]LogWmfMedia:Error: Failed to create source object from URL for C:/Users/Justin's/Pictures/Curators/NewMenuAssets/Output/maxresdefault (1).mp4
+[2015.12.10-06.43.06:166][  0]LogAIModule: Creating AISystem for world MainMenu
+[2015.12.10-06.43.06:352][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.10-06.43.06:390][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.10-06.43.06:650][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 259.912ms to complete.
+[2015.12.10-06.43.06:650][  0]LogFileHelpers: Loading map 'MainMenu' took 3.750
+[2015.12.10-06.43.09:046][  0]LogCollectionManager: Loaded 0 collections in 0.005394 seconds
+[2015.12.10-06.43.09:332][  0]LogContentBrowser: Native class hierarchy populated in 0.2857 seconds. Added 1792 classes and 301 folders.
+[2015.12.10-06.43.09:914][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2015.12.10-06.43.11:799][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2015.12.10-06.43.12:484][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2015.12.10-06.43.13:521][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.10-06.43.13:698][  0]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.43.13:790][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.10-06.43.13:889][  0]LogLoad: Full Startup: 81.32 seconds (BP compile: 0.63 seconds)
+[2015.12.10-06.43.15:535][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.10-06.43.15:658][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.12.10-06.43.16:266][  0]LogRenderer: Reallocating scene render targets to support 1208x568 (Frame:2).
+[2015.12.10-06.43.17:176][  2]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.43.26:200][ 29]LogAssetRegistry: Asset discovery search completed in 38.2470 seconds
+[2015.12.10-06.43.56:063][141]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.44.03:341][740]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.12.10-06.44.03:367][740]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0130.80] Compile of ThirdPersonCharacter successful, but with 1 Warning(s) [in 188 ms]
+[2015.12.10-06.44.03:368][740]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0130.80] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.10-06.44.03:368][740]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0130.80] Compile of ThirdPersonCharacter successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.10-06.44.04:904][740]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.12.10-06.44.04:942][740]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning [0132.37] Compile of ErichFinalCharCombined successful, but with 1 Warning(s) [in 272 ms]
+[2015.12.10-06.44.04:943][740]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning [0132.37] Compile of ErichFinalCharCombined successful, but with 2 Warning(s) [in 1 ms]
+[2015.12.10-06.44.04:943][740]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning [0132.38] Compile of ErichFinalCharCombined successful, but with 3 Warning(s) [in 0 ms]
+[2015.12.10-06.44.05:629][740]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.12.10-06.44.05:663][740]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0133.09] Compile of ThirdPersonCharacter successful, but with 1 Warning(s) [in 199 ms]
+[2015.12.10-06.44.05:664][740]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0133.10] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 0 ms]
+[2015.12.10-06.44.06:018][740]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.12.10-06.44.06:076][740]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning [0133.51] Compile of ErichFinalCharCombined successful, but with 1 Warning(s) [in 291 ms]
+[2015.12.10-06.44.06:078][740]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning [0133.51] Compile of ErichFinalCharCombined successful, but with 2 Warning(s) [in 1 ms]
+[2015.12.10-06.44.12:976][740]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.44.13:261][740]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.10-06.44.13:340][740]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.10-06.45.06:867][ 74]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.45.14:310][753]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.45.15:472][849]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.45.17:420][ 21]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.45.18:036][ 91]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.45.19:037][180]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.45.26:502][808]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.10-06.45.26:503][808]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.12.10-06.45.31:170][258]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.12.10-06.45.31:171][258]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_0) Not registered. Aborting.
+[2015.12.10-06.45.44:693][768]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.46.03:322][ 81]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.46.03:863][129]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.48.14:851][ 58]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.48.15:538][130]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.48.20:877][705]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.48.21:383][761]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.48.23:233][963]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.48.25:144][170]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.48.25:637][213]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.48.28:189][435]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.12.10-06.48.28:191][435]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_1) Not registered. Aborting.
+[2015.12.10-06.48.30:875][657]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.12.10-06.48.30:877][657]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_2) Not registered. Aborting.
+[2015.12.10-06.48.48:376][140]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.48.53:158][620]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.48.56:429][982]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.48.59:643][333]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.49.27:543][172]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.49.32:275][563]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.12.10-06.49.32:277][563]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_3) Not registered. Aborting.
+[2015.12.10-06.49.37:387][ 84]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.12.10-06.49.37:388][ 84]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_4) Not registered. Aborting.
+[2015.12.10-06.49.44:231][806]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4857.EdGraphPin_41979''
+[2015.12.10-06.49.46:272][  8]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.49.46:942][ 73]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.50.14:230][393]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.50.15:898][562]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.50.20:593][ 31]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.50.22:116][190]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.50.22:914][262]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.50.27:167][660]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.50.33:034][251]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.50.33:632][301]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.50.38:200][685]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.50.38:749][743]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.50.42:582][154]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.50.43:640][259]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.50.54:225][864]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.50.54:779][908]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.51.02:573][663]BlueprintLog: New page: Compile ErichFinalCharCombined
+[2015.12.10-06.51.02:923][663]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.12.10-06.51.03:520][663]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.12.10-06.51.03:521][663]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_5) Not registered. Aborting.
+[2015.12.10-06.51.03:939][663]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning [0551.37] Compile of ErichFinalCharCombined successful, but with 1 Warning(s) [in 1,366 ms]
+[2015.12.10-06.51.03:939][663]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.12.10-06.51.03:939][663]BlueprintEditorCompileResults:Warning: Warning [0551.37] Compile of ErichFinalCharCombined successful, but with 1 Warning(s) [in 1,366 ms]
+[2015.12.10-06.51.04:802][713]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.51.06:125][713]LogSavePackage: Save=1062.314087ms
+[2015.12.10-06.51.06:125][713]LogSavePackage: Moving '../../../../../../e/The-Curators/AlexPrototype/Saved/ErichFinalCharCombined2590D42544298441B55634ACF78D4463.tmp' to '../../../../../../e/The-Curators/AlexPrototype/Content/Tech/ThirdPersonBP/Blueprints/ErichFinalCharCombined.uasset'
+[2015.12.10-06.52.55:717][470]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.52.55:755][470]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainMenu" FILE="../../../../../../e/The-Curators/AlexPrototype/Content/Levels/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.10-06.52.55:757][470]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.10-06.52.55:759][470]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.12.10-06.52.56:021][470]LogSavePackage: Save=199.403046ms
+[2015.12.10-06.52.56:021][470]LogSavePackage: Moving '../../../../../../e/The-Curators/AlexPrototype/Saved/MainMenuE0B2148E447E1D9AEED8AB9BC61BE29E.tmp' to '../../../../../../e/The-Curators/AlexPrototype/Content/Levels/MainMenu.umap'
+[2015.12.10-06.53.01:481][980]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.55.32:556][980]LogAIModule: Creating AISystem for world Level1
+[2015.12.10-06.55.32:575][980]LogMaterial:Warning: Material /Game/Art/VerticalSliceAssets/egyptianAssets/vaseEgyptian/vaseEgyptianBase.vaseEgyptianBase needed to have new flag set bUsedWithStaticLighting !
+[2015.12.10-06.55.32:628][980]LogMaterial: Missing cached shader map for material vaseEgyptianBase, compiling. 
+[2015.12.10-06.55.32:887][980]LogMaterial: 0.000120 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.10-06.55.32:887][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP_236.displayCase
+[2015.12.10-06.55.32:915][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP2.displayCase
+[2015.12.10-06.55.32:915][980]LogMaterial:Warning: Material /Game/Art/VerticalSliceAssets/egyptianAssets/sandals/sandels.sandels needed to have new flag set bUsedWithStaticLighting !
+[2015.12.10-06.55.32:978][980]LogMaterial: Missing cached shader map for material sandels, compiling. 
+[2015.12.10-06.55.32:988][980]LogMaterial: 0.000126 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.10-06.55.32:988][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP3_2642.displayCase
+[2015.12.10-06.55.32:988][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP4.displayCase
+[2015.12.10-06.55.32:988][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP5.displayCase
+[2015.12.10-06.55.32:988][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP6.displayCase
+[2015.12.10-06.55.32:988][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint6.p_displayParticleShort
+[2015.12.10-06.55.32:988][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint7.p_displayParticleShort
+[2015.12.10-06.55.32:989][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint8.p_displayParticleShort
+[2015.12.10-06.55.32:989][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint9.p_displayParticleShort
+[2015.12.10-06.55.32:989][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint11.p_displayParticleShort
+[2015.12.10-06.55.32:989][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP10.displayCase
+[2015.12.10-06.55.32:989][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP11.displayCase
+[2015.12.10-06.55.32:989][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP12.displayCase
+[2015.12.10-06.55.32:990][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP13.displayCase
+[2015.12.10-06.55.32:992][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP14.displayCase
+[2015.12.10-06.55.33:027][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint5_68.p_displayParticleShort
+[2015.12.10-06.55.33:030][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint13.p_displayParticleShort
+[2015.12.10-06.55.33:030][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint14.p_displayParticleShort
+[2015.12.10-06.55.33:078][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint10_120.p_displayParticleShort
+[2015.12.10-06.55.33:078][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint12_254.p_displayParticleShort
+[2015.12.10-06.55.33:078][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint15.p_displayParticleShort
+[2015.12.10-06.55.33:079][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP_93.ParticleSystem
+[2015.12.10-06.55.33:079][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP2.ParticleSystem
+[2015.12.10-06.55.33:080][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP3.ParticleSystem
+[2015.12.10-06.55.33:081][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP4.ParticleSystem
+[2015.12.10-06.55.33:082][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP5.ParticleSystem
+[2015.12.10-06.55.33:082][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP6.ParticleSystem
+[2015.12.10-06.55.33:377][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP15.displayCase
+[2015.12.10-06.55.33:806][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP_236.displayCase
+[2015.12.10-06.55.33:830][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP_236.displayCase
+[2015.12.10-06.55.33:830][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP2.displayCase
+[2015.12.10-06.55.33:830][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP2.displayCase
+[2015.12.10-06.55.33:830][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP3_2642.displayCase
+[2015.12.10-06.55.33:830][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP3_2642.displayCase
+[2015.12.10-06.55.33:831][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP4.displayCase
+[2015.12.10-06.55.33:831][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP4.displayCase
+[2015.12.10-06.55.33:831][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP5.displayCase
+[2015.12.10-06.55.33:831][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP5.displayCase
+[2015.12.10-06.55.33:832][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP6.displayCase
+[2015.12.10-06.55.33:832][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP6.displayCase
+[2015.12.10-06.55.33:832][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint6.p_displayParticleShort
+[2015.12.10-06.55.33:832][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint6.p_displayParticleShort
+[2015.12.10-06.55.33:833][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint7.p_displayParticleShort
+[2015.12.10-06.55.33:833][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint7.p_displayParticleShort
+[2015.12.10-06.55.33:833][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint8.p_displayParticleShort
+[2015.12.10-06.55.33:833][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint8.p_displayParticleShort
+[2015.12.10-06.55.33:833][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint9.p_displayParticleShort
+[2015.12.10-06.55.33:833][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint9.p_displayParticleShort
+[2015.12.10-06.55.33:833][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint11.p_displayParticleShort
+[2015.12.10-06.55.33:833][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint11.p_displayParticleShort
+[2015.12.10-06.55.33:834][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP10.displayCase
+[2015.12.10-06.55.33:834][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP10.displayCase
+[2015.12.10-06.55.33:834][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP11.displayCase
+[2015.12.10-06.55.33:834][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP11.displayCase
+[2015.12.10-06.55.33:834][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP12.displayCase
+[2015.12.10-06.55.33:835][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP12.displayCase
+[2015.12.10-06.55.33:835][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP13.displayCase
+[2015.12.10-06.55.33:835][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP13.displayCase
+[2015.12.10-06.55.33:836][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP14.displayCase
+[2015.12.10-06.55.33:836][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP14.displayCase
+[2015.12.10-06.55.33:836][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint5_68.p_displayParticleShort
+[2015.12.10-06.55.33:836][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint5_68.p_displayParticleShort
+[2015.12.10-06.55.33:836][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint13.p_displayParticleShort
+[2015.12.10-06.55.33:837][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint13.p_displayParticleShort
+[2015.12.10-06.55.33:837][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint14.p_displayParticleShort
+[2015.12.10-06.55.33:837][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint14.p_displayParticleShort
+[2015.12.10-06.55.34:014][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint10_120.p_displayParticleShort
+[2015.12.10-06.55.34:014][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint10_120.p_displayParticleShort
+[2015.12.10-06.55.34:014][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint12_254.p_displayParticleShort
+[2015.12.10-06.55.34:014][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint12_254.p_displayParticleShort
+[2015.12.10-06.55.34:014][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint15.p_displayParticleShort
+[2015.12.10-06.55.34:015][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleShort.p_displayParticleShort Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseShort_Blueprint15.p_displayParticleShort
+[2015.12.10-06.55.34:015][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP_93.ParticleSystem
+[2015.12.10-06.55.34:015][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP_93.ParticleSystem
+[2015.12.10-06.55.34:015][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP2.ParticleSystem
+[2015.12.10-06.55.34:015][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP2.ParticleSystem
+[2015.12.10-06.55.34:016][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP3.ParticleSystem
+[2015.12.10-06.55.34:016][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP3.ParticleSystem
+[2015.12.10-06.55.34:016][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP4.ParticleSystem
+[2015.12.10-06.55.34:016][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP4.ParticleSystem
+[2015.12.10-06.55.34:016][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP5.ParticleSystem
+[2015.12.10-06.55.34:016][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP5.ParticleSystem
+[2015.12.10-06.55.34:017][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP6.ParticleSystem
+[2015.12.10-06.55.34:017][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticleLong.p_displayParticleLong Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseLongBP6.ParticleSystem
+[2015.12.10-06.55.34:232][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP15.displayCase
+[2015.12.10-06.55.34:232][980]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Art/Assets/Particles/p_displayParticle.p_displayParticle Component=/Game/Levels/Level1.Level1:PersistentLevel.displayCaseBP15.displayCase
+[2015.12.10-06.55.41:491][980]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.10-06.55.41:493][980]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.12.10-06.55.42:250][980]Cmd: MAP LOAD FILE="../../../../../../e/The-Curators/AlexPrototype/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.10-06.55.42:251][980]LightingResults: New page: Lighting Build
+[2015.12.10-06.55.42:287][980]LoadErrors: New page: Loading map: Level1.umap
+[2015.12.10-06.55.42:288][980]MapCheck: New page: Map Check
+[2015.12.10-06.55.42:288][980]LightingResults: New page: Lighting Build
+[2015.12.10-06.55.42:313][980]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C84D8BDD00
+[2015.12.10-06.55.46:901][980]LogAIModule: Creating AISystem for world Level1
+[2015.12.10-06.55.48:090][980]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.10-06.55.48:275][980]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.10-06.55.48:968][980]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 692.626ms to complete.
+[2015.12.10-06.55.48:969][980]LogFileHelpers: Loading map 'Level1' took 6.967
+[2015.12.10-06.55.52:862][990]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.57.22:207][316]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.12.10-06.57.22:214][316]LogPlayLevel: [PIE] Compiling Level1 before PIE...
+[2015.12.10-06.57.23:447][316]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.10-06.57.23:447][316]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.12.10-06.57.23:448][316]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.12.10-06.57.23:521][316]LogPlayLevel: PIE:  Blueprint regeneration took 1389 ms (1 blueprints)
+[2015.12.10-06.57.24:259][316]PIE: New page: SIE session: Level1 (Dec 9, 2015, 8:57:23 PM)
+[2015.12.10-06.57.24:278][316]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2015.12.10-06.57.24:554][316]LogPlayLevel: PIE: StaticDuplicateObject took: (0.276587s)
+[2015.12.10-06.57.24:555][316]LogAIModule: Creating AISystem for world Level1
+[2015.12.10-06.57.24:555][316]LogPlayLevel: PIE: World Init took: (0.001103s)
+[2015.12.10-06.57.24:606][316]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.328186s)
+[2015.12.10-06.57.24:697][316]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.10-06.57.24:711][316]LogInit: FAudioDevice initialized.
+[2015.12.10-06.57.25:661][316]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.10-06.57.26:437][316]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.12.10-06.57.26:437][316]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2015.12.10-01.57.26
+[2015.12.10-06.57.26:438][316]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.10-06.57.26:516][316]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.10-06.57.27:483][316]LogWorld: Bringing up level for play took: 1.412063
+[2015.12.10-06.57.28:510][316]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level1 5.857
+[2015.12.10-06.57.32:879][412]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_4
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:0687
+[2015.12.10-06.57.32:879][412]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.10-06.57.32:879][412]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_4
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04A4
+[2015.12.10-06.57.32:879][412]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.10-06.57.32:879][412]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_4
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:0687
+[2015.12.10-06.57.32:879][412]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.10-06.57.32:879][412]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_4
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04A4
+[2015.12.10-06.57.32:879][412]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.10-06.57.40:275][908]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C8615C2D40
+[2015.12.10-06.57.40:276][908]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.57.58:359][281]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.57.59:489][370]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.58.10:005][182]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.58.10:932][254]LogD3D11RHI: InitD3DDevice
+[2015.12.10-06.58.15:741][667]BlueprintLog: New page: Compile ErichFinalCharCombined
+[2015.12.10-06.58.16:077][667]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.12.10-06.58.17:512][667]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning [0984.94] Compile of ErichFinalCharCombined successful, but with 1 Warning(s) [in 1,770 ms]
+[2015.12.10-06.58.17:512][667]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.12.10-06.58.17:512][667]BlueprintEditorCompileResults:Warning: Warning [0984.94] Compile of ErichFinalCharCombined successful, but with 1 Warning(s) [in 1,770 ms]
+[2015.12.10-06.59.15:199][ 78]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.12.10-06.59.15:207][ 78]LogPlayLevel: [PIE] Compiling Level1 before PIE...
+[2015.12.10-06.59.15:343][ 78]LogPlayLevel: PIE:  Blueprint regeneration took 144 ms (1 blueprints)
+[2015.12.10-06.59.15:343][ 78]PIE: New page: SIE session: Level1 (Dec 9, 2015, 8:59:15 PM)
+[2015.12.10-06.59.15:344][ 78]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2015.12.10-06.59.15:475][ 78]LogPlayLevel: PIE: StaticDuplicateObject took: (0.131273s)
+[2015.12.10-06.59.15:476][ 78]LogAIModule: Creating AISystem for world Level1
+[2015.12.10-06.59.15:476][ 78]LogPlayLevel: PIE: World Init took: (0.001099s)
+[2015.12.10-06.59.15:477][ 78]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.132734s)
+[2015.12.10-06.59.15:542][ 78]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.10-06.59.15:554][ 78]LogInit: FAudioDevice initialized.
+[2015.12.10-06.59.15:586][ 78]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.10-06.59.15:902][ 78]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.12.10-06.59.15:902][ 78]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2015.12.10-01.59.15
+[2015.12.10-06.59.15:903][ 78]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.10-06.59.15:903][ 78]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.10-06.59.15:920][ 78]LogWorld: Bringing up level for play took: 0.331292
+[2015.12.10-06.59.15:955][ 78]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level1 1.303
+[2015.12.10-06.59.17:829][222]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_12
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:0687
+[2015.12.10-06.59.17:829][222]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.10-06.59.17:829][222]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_12
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04A4
+[2015.12.10-06.59.17:829][222]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.10-06.59.17:838][223]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_12
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:0687
+[2015.12.10-06.59.17:838][223]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.10-06.59.17:838][223]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_12
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04A4
+[2015.12.10-06.59.17:839][223]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.10-06.59.18:468][288]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:493][289]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:503][290]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:511][291]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:522][292]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:530][293]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:539][294]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:547][295]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:556][296]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:564][297]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:573][298]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:581][299]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:589][300]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:598][301]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:607][302]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:615][303]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:625][304]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:633][305]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:640][306]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_12
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:0687
+[2015.12.10-06.59.18:641][306]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.10-06.59.18:641][306]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_12
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04A4
+[2015.12.10-06.59.18:641][306]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.10-06.59.18:641][306]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:650][307]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_12
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:0687
+[2015.12.10-06.59.18:650][307]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.10-06.59.18:651][307]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_12
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04A4
+[2015.12.10-06.59.18:651][307]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.10-06.59.18:651][307]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:660][308]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:669][309]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_12
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:0687
+[2015.12.10-06.59.18:669][309]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.10-06.59.18:669][309]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_12
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04A4
+[2015.12.10-06.59.18:669][309]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.10-06.59.18:669][309]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:678][310]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:687][311]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:696][312]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:705][313]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:713][314]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:722][315]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:733][316]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:743][317]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:752][318]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:760][319]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:768][320]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:777][321]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:786][322]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:795][323]LogBlueprintUserMessages: move
+[2015.12.10-06.59.18:803][324]LogBlueprintUserMessages: move
+[2015.12.10-06.59.19:867][441]LogBlueprintUserMessages: move
+[2015.12.10-06.59.19:876][442]LogBlueprintUserMessages: move
+[2015.12.10-06.59.19:886][443]LogBlueprintUserMessages: move
+[2015.12.10-06.59.19:894][444]LogBlueprintUserMessages: move
+[2015.12.10-06.59.19:905][445]LogBlueprintUserMessages: move
+[2015.12.10-06.59.19:914][446]LogBlueprintUserMessages: move
+[2015.12.10-06.59.19:925][447]LogBlueprintUserMessages: move
+[2015.12.10-06.59.19:934][448]LogBlueprintUserMessages: move
+[2015.12.10-06.59.19:942][449]LogBlueprintUserMessages: move
+[2015.12.10-06.59.19:951][450]LogBlueprintUserMessages: move
+[2015.12.10-06.59.19:959][451]LogBlueprintUserMessages: move
+[2015.12.10-06.59.19:968][452]LogBlueprintUserMessages: move
+[2015.12.10-06.59.19:976][453]LogBlueprintUserMessages: move
+[2015.12.10-06.59.19:984][454]LogBlueprintUserMessages: move
+[2015.12.10-06.59.19:993][455]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:001][456]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:010][457]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:018][458]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:027][459]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:036][460]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:044][461]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:056][462]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:064][463]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:072][464]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:081][465]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:090][466]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:099][467]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:107][468]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:116][469]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:124][470]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:132][471]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:141][472]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:150][473]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:158][474]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:168][475]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:176][476]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:185][477]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:194][478]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:202][479]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:212][480]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:223][481]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:231][482]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:240][483]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:248][484]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:257][485]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:265][486]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:273][487]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:282][488]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:290][489]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:299][490]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:307][491]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:316][492]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:325][493]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:334][494]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:342][495]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:351][496]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:359][497]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:369][498]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:377][499]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:386][500]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:395][501]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:404][502]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:413][503]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:422][504]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:431][505]LogBlueprintUserMessages: move
+[2015.12.10-06.59.20:439][506]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:626][726]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:637][727]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:647][728]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:658][729]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:669][730]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:677][731]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:688][732]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:697][733]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:707][734]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:716][735]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:724][736]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:733][737]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:741][738]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:751][739]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:759][740]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:767][741]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:776][742]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:786][743]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:794][744]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:806][745]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:814][746]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:824][747]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:833][748]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:841][749]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:850][750]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:859][751]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:871][752]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:879][753]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:888][754]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:896][755]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:907][756]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:916][757]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:926][758]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:934][759]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:945][760]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:955][761]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:964][762]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:973][763]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:982][764]LogBlueprintUserMessages: move
+[2015.12.10-06.59.22:991][765]LogBlueprintUserMessages: move
+[2015.12.10-06.59.23:000][766]LogBlueprintUserMessages: move
+[2015.12.10-06.59.23:010][767]LogBlueprintUserMessages: move
+[2015.12.10-06.59.23:019][768]LogBlueprintUserMessages: move
+[2015.12.10-06.59.23:027][769]LogBlueprintUserMessages: move
+[2015.12.10-06.59.23:038][770]LogBlueprintUserMessages: move
+[2015.12.10-06.59.23:047][771]LogBlueprintUserMessages: move
+[2015.12.10-06.59.23:058][772]LogBlueprintUserMessages: move
+[2015.12.10-06.59.23:069][773]LogBlueprintUserMessages: move
+[2015.12.10-06.59.23:077][774]LogBlueprintUserMessages: move
+[2015.12.10-06.59.23:087][775]LogBlueprintUserMessages: move
+[2015.12.10-06.59.23:096][776]LogBlueprintUserMessages: move
+[2015.12.10-06.59.25:765][ 47]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C84621AB60
+[2015.12.10-06.59.25:778][ 47]LogD3D11RHI: InitD3DDevice
+[2015.12.10-07.03.42:431][290]BlueprintLog: New page: Compile ErichFinalCharCombined
+[2015.12.10-07.03.42:782][290]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.12.10-07.03.44:165][290]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning [1311.60] Compile of ErichFinalCharCombined successful, but with 1 Warning(s) [in 1,734 ms]
+[2015.12.10-07.03.44:165][290]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.12.10-07.03.44:165][290]BlueprintEditorCompileResults:Warning: Warning [1311.60] Compile of ErichFinalCharCombined successful, but with 1 Warning(s) [in 1,734 ms]
+[2015.12.10-07.03.49:252][573]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.12.10-07.03.49:261][573]LogPlayLevel: [PIE] Compiling Level1 before PIE...
+[2015.12.10-07.03.49:389][573]LogPlayLevel: PIE:  Blueprint regeneration took 136 ms (1 blueprints)
+[2015.12.10-07.03.49:389][573]PIE: New page: SIE session: Level1 (Dec 9, 2015, 9:03:49 PM)
+[2015.12.10-07.03.49:389][573]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2015.12.10-07.03.49:530][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.140704s)
+[2015.12.10-07.03.49:531][573]LogAIModule: Creating AISystem for world Level1
+[2015.12.10-07.03.49:531][573]LogPlayLevel: PIE: World Init took: (0.001076s)
+[2015.12.10-07.03.49:532][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.142138s)
+[2015.12.10-07.03.49:592][573]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.10-07.03.49:604][573]LogInit: FAudioDevice initialized.
+[2015.12.10-07.03.49:635][573]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.10-07.03.49:992][573]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.12.10-07.03.49:992][573]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2015.12.10-02.03.49
+[2015.12.10-07.03.49:992][573]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.10-07.03.49:993][573]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.10-07.03.50:009][573]LogWorld: Bringing up level for play took: 0.372436
+[2015.12.10-07.03.50:014][573]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level1 1.362
+[2015.12.10-07.03.50:988][644]LogBlueprintUserMessages: false
+[2015.12.10-07.03.50:998][645]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:027][646]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:286][647]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:302][648]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:314][649]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:323][650]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:333][651]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:343][652]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:354][653]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:364][654]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:373][655]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:383][656]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:392][657]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:400][658]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:412][659]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:421][660]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:430][661]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:438][662]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:448][663]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:456][664]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:467][665]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:476][666]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:486][667]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:497][668]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:505][669]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:516][670]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:525][671]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:533][672]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:542][673]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:550][674]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:560][675]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:569][676]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:579][677]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:587][678]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:599][679]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:608][680]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:616][681]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:625][682]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:633][683]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:644][684]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:653][685]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:662][686]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:670][687]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:681][688]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:689][689]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:705][690]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:716][691]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:729][692]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:739][693]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:748][694]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:756][695]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:766][696]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:776][697]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:787][698]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:796][699]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:805][700]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:815][701]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:824][702]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:833][703]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:843][704]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:852][705]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:866][706]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:880][707]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:893][708]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:904][709]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_4
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:0687
+[2015.12.10-07.03.51:904][709]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.10-07.03.51:904][709]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_4
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04A4
+[2015.12.10-07.03.51:905][709]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.10-07.03.51:905][709]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:917][710]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:928][711]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:940][712]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:950][713]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:959][714]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:967][715]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:978][716]LogBlueprintUserMessages: false
+[2015.12.10-07.03.51:989][717]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:001][718]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:014][719]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:022][720]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:030][721]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:039][722]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:048][723]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:057][724]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:067][725]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:076][726]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:087][727]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:095][728]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:104][729]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:112][730]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:120][731]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:129][732]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:138][733]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:147][734]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:156][735]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:164][736]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:173][737]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:181][738]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:189][739]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:198][740]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:206][741]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:215][742]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:224][743]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:235][744]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:244][745]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:252][746]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:260][747]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:269][748]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:278][749]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:286][750]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:295][751]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:303][752]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:312][753]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:320][754]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:328][755]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:337][756]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:347][757]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:356][758]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:365][759]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:374][760]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:382][761]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:393][762]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:401][763]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:409][764]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:419][765]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:428][766]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:436][767]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:446][768]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:454][769]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:465][770]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:474][771]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:483][772]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:492][773]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:502][774]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:511][775]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:519][776]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:531][777]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:541][778]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:550][779]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:560][780]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:569][781]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:579][782]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:587][783]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:595][784]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:604][785]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:614][786]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:622][787]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:632][788]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:641][789]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:649][790]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:662][791]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:671][792]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:680][793]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:689][794]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:699][795]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_4
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:0687
+[2015.12.10-07.03.52:699][795]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.10-07.03.52:699][795]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_4
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04A4
+[2015.12.10-07.03.52:699][795]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.10-07.03.52:699][795]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:707][796]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_4
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:0687
+[2015.12.10-07.03.52:707][796]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.10-07.03.52:708][796]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_4
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04A4
+[2015.12.10-07.03.52:708][796]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.10-07.03.52:708][796]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:717][797]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_4
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:0687
+[2015.12.10-07.03.52:717][797]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.10-07.03.52:717][797]LogScript:Warning: Accessed None 'K2Node_ComponentBoundEvent_OtherActor'
+	AIGuardChar_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.AIGuardChar_C_4
+	Function /Game/Tech/AIGuard/AIGuardChar.AIGuardChar_C:ExecuteUbergraph_AIGuardChar:04A4
+[2015.12.10-07.03.52:718][797]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.10-07.03.52:718][797]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:727][798]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:736][799]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:745][800]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:754][801]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:763][802]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:772][803]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:783][804]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:792][805]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:803][806]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:813][807]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:822][808]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:833][809]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:842][810]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:850][811]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:859][812]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:867][813]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:876][814]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:884][815]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:892][816]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:901][817]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:910][818]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:918][819]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:927][820]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:935][821]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:944][822]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:954][823]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:962][824]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:971][825]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:981][826]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:989][827]LogBlueprintUserMessages: false
+[2015.12.10-07.03.52:998][828]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:007][829]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:015][830]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:024][831]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:034][832]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:042][833]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:051][834]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:061][835]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:069][836]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:078][837]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:086][838]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:095][839]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:103][840]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:112][841]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:120][842]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:128][843]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:137][844]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:145][845]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:154][846]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:164][847]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:172][848]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:180][849]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:189][850]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:197][851]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:206][852]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:215][853]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:224][854]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:232][855]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:240][856]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:250][857]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:258][858]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:266][859]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:275][860]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:284][861]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:293][862]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:303][863]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:312][864]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:320][865]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:330][866]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:338][867]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:348][868]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:357][869]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:366][870]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:374][871]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:382][872]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:416][873]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:464][874]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:473][875]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:481][876]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:490][877]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:499][878]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:508][879]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:516][880]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:525][881]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:533][882]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:542][883]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:552][884]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:560][885]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:568][886]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:577][887]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:585][888]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:594][889]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:602][890]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:612][891]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:621][892]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:629][893]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:638][894]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:647][895]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:656][896]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:665][897]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:674][898]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:683][899]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:692][900]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:701][901]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:710][902]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:718][903]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:728][904]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:736][905]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:746][906]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:755][907]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:765][908]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:774][909]LogBlueprintUserMessages: false
+[2015.12.10-07.03.53:784][910]LogBlueprintUserMessages: move
+[2015.12.10-07.03.53:792][911]LogBlueprintUserMessages: move
+[2015.12.10-07.03.53:802][912]LogBlueprintUserMessages: move
+[2015.12.10-07.03.53:812][913]LogBlueprintUserMessages: move
+[2015.12.10-07.03.53:820][914]LogBlueprintUserMessages: move
+[2015.12.10-07.03.53:829][915]LogBlueprintUserMessages: move
+[2015.12.10-07.03.53:837][916]LogBlueprintUserMessages: move
+[2015.12.10-07.03.53:848][917]LogBlueprintUserMessages: move
+[2015.12.10-07.03.53:856][918]LogBlueprintUserMessages: move
+[2015.12.10-07.03.53:865][919]LogBlueprintUserMessages: move
+[2015.12.10-07.03.53:875][920]LogBlueprintUserMessages: move
+[2015.12.10-07.03.53:889][921]LogBlueprintUserMessages: move
+[2015.12.10-07.03.53:903][922]LogBlueprintUserMessages: move
+[2015.12.10-07.03.53:914][923]LogBlueprintUserMessages: move
+[2015.12.10-07.03.53:926][924]LogBlueprintUserMessages: move
+[2015.12.10-07.03.53:938][925]LogBlueprintUserMessages: move
+[2015.12.10-07.03.53:948][926]LogBlueprintUserMessages: move
+[2015.12.10-07.03.53:957][927]LogBlueprintUserMessages: move
+[2015.12.10-07.03.53:966][928]LogBlueprintUserMessages: move
+[2015.12.10-07.03.53:974][929]LogBlueprintUserMessages: move
+[2015.12.10-07.03.53:982][930]LogBlueprintUserMessages: move
+[2015.12.10-07.03.53:991][931]LogBlueprintUserMessages: move
+[2015.12.10-07.03.53:999][932]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:008][933]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:020][934]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:028][935]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:037][936]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:047][937]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:055][938]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:064][939]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:073][940]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:082][941]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:091][942]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:101][943]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:110][944]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:119][945]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:127][946]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:136][947]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:145][948]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:154][949]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:162][950]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:171][951]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:180][952]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:190][953]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:198][954]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:207][955]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:215][956]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:224][957]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:232][958]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:241][959]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:249][960]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:258][961]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:267][962]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:277][963]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:285][964]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:296][965]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:306][966]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:317][967]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:327][968]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:335][969]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:344][970]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:354][971]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:364][972]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:373][973]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:381][974]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:390][975]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:399][976]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:408][977]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:416][978]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:424][979]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:433][980]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:443][981]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:452][982]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:461][983]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:469][984]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:479][985]LogBlueprintUserMessages: move
+[2015.12.10-07.03.54:487][986]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:496][987]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:505][988]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:513][989]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:522][990]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:530][991]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:539][992]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:548][993]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:557][994]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:566][995]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:575][996]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:583][997]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:592][998]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:600][999]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:610][  0]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:618][  1]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:627][  2]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:635][  3]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:644][  4]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:652][  5]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:663][  6]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:672][  7]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:681][  8]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:690][  9]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:700][ 10]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:708][ 11]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:719][ 12]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:730][ 13]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:740][ 14]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:750][ 15]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:758][ 16]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:766][ 17]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:776][ 18]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:784][ 19]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:793][ 20]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:802][ 21]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:812][ 22]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:821][ 23]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:831][ 24]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:840][ 25]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:849][ 26]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:859][ 27]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:868][ 28]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:877][ 29]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:887][ 30]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:895][ 31]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:904][ 32]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:913][ 33]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:921][ 34]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:930][ 35]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:939][ 36]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:949][ 37]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:958][ 38]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:966][ 39]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:975][ 40]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:984][ 41]LogBlueprintUserMessages: false
+[2015.12.10-07.03.54:994][ 42]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:002][ 43]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:011][ 44]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:020][ 45]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:030][ 46]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:038][ 47]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:048][ 48]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:058][ 49]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:068][ 50]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:079][ 51]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:089][ 52]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:100][ 53]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:109][ 54]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:117][ 55]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:126][ 56]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:134][ 57]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:143][ 58]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:151][ 59]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:160][ 60]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:168][ 61]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:178][ 62]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:186][ 63]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:195][ 64]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:204][ 65]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:213][ 66]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:222][ 67]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:230][ 68]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:239][ 69]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:248][ 70]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:257][ 71]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:265][ 72]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:274][ 73]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:282][ 74]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:291][ 75]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:299][ 76]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:307][ 77]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:315][ 78]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:325][ 79]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:333][ 80]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:341][ 81]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:350][ 82]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:359][ 83]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:368][ 84]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:378][ 85]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:386][ 86]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:395][ 87]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:403][ 88]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:413][ 89]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:421][ 90]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:430][ 91]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:440][ 92]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:449][ 93]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:458][ 94]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:465][ 95]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:474][ 96]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:482][ 97]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:492][ 98]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:501][ 99]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:509][100]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:517][101]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:526][102]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:535][103]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:543][104]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:552][105]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:560][106]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:569][107]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:578][108]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:586][109]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:595][110]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:603][111]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:613][112]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:621][113]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:630][114]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:639][115]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:649][116]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:661][117]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:670][118]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:680][119]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:689][120]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:700][121]LogBlueprintUserMessages: move
+[2015.12.10-07.03.55:711][122]LogBlueprintUserMessages: move
+[2015.12.10-07.03.55:720][123]LogBlueprintUserMessages: move
+[2015.12.10-07.03.55:728][124]LogBlueprintUserMessages: move
+[2015.12.10-07.03.55:737][125]LogBlueprintUserMessages: move
+[2015.12.10-07.03.55:747][126]LogBlueprintUserMessages: move
+[2015.12.10-07.03.55:756][127]LogBlueprintUserMessages: move
+[2015.12.10-07.03.55:765][128]LogBlueprintUserMessages: move
+[2015.12.10-07.03.55:774][129]LogBlueprintUserMessages: move
+[2015.12.10-07.03.55:783][130]LogBlueprintUserMessages: move
+[2015.12.10-07.03.55:793][131]LogBlueprintUserMessages: move
+[2015.12.10-07.03.55:802][132]LogBlueprintUserMessages: move
+[2015.12.10-07.03.55:810][133]LogBlueprintUserMessages: move
+[2015.12.10-07.03.55:819][134]LogBlueprintUserMessages: move
+[2015.12.10-07.03.55:830][135]LogBlueprintUserMessages: move
+[2015.12.10-07.03.55:838][136]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:848][137]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:856][138]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:864][139]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:873][140]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:882][141]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:891][142]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:899][143]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:908][144]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:918][145]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:928][146]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:936][147]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:945][148]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:954][149]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:963][150]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:971][151]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:979][152]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:988][153]LogBlueprintUserMessages: false
+[2015.12.10-07.03.55:997][154]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:006][155]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:015][156]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:025][157]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:034][158]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:043][159]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:053][160]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:062][161]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:070][162]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:079][163]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:088][164]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:097][165]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:106][166]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:115][167]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:123][168]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:133][169]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:142][170]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:150][171]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:159][172]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:167][173]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:177][174]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:185][175]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:193][176]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:203][177]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:213][178]LogBlueprintUserMessages: move
+[2015.12.10-07.03.56:221][179]LogBlueprintUserMessages: move
+[2015.12.10-07.03.56:230][180]LogBlueprintUserMessages: move
+[2015.12.10-07.03.56:239][181]LogBlueprintUserMessages: move
+[2015.12.10-07.03.56:248][182]LogBlueprintUserMessages: move
+[2015.12.10-07.03.56:257][183]LogBlueprintUserMessages: move
+[2015.12.10-07.03.56:265][184]LogBlueprintUserMessages: move
+[2015.12.10-07.03.56:274][185]LogBlueprintUserMessages: move
+[2015.12.10-07.03.56:282][186]LogBlueprintUserMessages: move
+[2015.12.10-07.03.56:291][187]LogBlueprintUserMessages: move
+[2015.12.10-07.03.56:300][188]LogBlueprintUserMessages: move
+[2015.12.10-07.03.56:309][189]LogBlueprintUserMessages: move
+[2015.12.10-07.03.56:317][190]LogBlueprintUserMessages: move
+[2015.12.10-07.03.56:326][191]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:334][192]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:344][193]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:354][194]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:364][195]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:372][196]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:383][197]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:392][198]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:400][199]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:410][200]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:423][201]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:436][202]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:447][203]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:456][204]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:466][205]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:476][206]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:484][207]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:493][208]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:501][209]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:510][210]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:518][211]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:526][212]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:535][213]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:543][214]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:551][215]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:560][216]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:569][217]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:577][218]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:585][219]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:594][220]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:602][221]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:612][222]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:620][223]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:629][224]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:638][225]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:647][226]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:657][227]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:665][228]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:674][229]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:684][230]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:693][231]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:704][232]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:713][233]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:722][234]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:732][235]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:744][236]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:753][237]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:765][238]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:779][239]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:788][240]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:799][241]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:809][242]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:820][243]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:831][244]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:840][245]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:849][246]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:859][247]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:872][248]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:909][249]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:922][250]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:933][251]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:942][252]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:951][253]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:959][254]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:968][255]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:976][256]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:984][257]LogBlueprintUserMessages: false
+[2015.12.10-07.03.56:993][258]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:001][259]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:009][260]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:018][261]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:027][262]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:035][263]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:045][264]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:053][265]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:062][266]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:070][267]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:079][268]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:087][269]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:097][270]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:105][271]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:116][272]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:124][273]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:135][274]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:144][275]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:152][276]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:161][277]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:170][278]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:179][279]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:187][280]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:195][281]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:204][282]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:215][283]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:229][284]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:242][285]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:255][286]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:397][287]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:406][288]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:415][289]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:424][290]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:433][291]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:443][292]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:451][293]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:460][294]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:468][295]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:481][296]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:492][297]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:502][298]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:510][299]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:519][300]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:527][301]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:536][302]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:544][303]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:552][304]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:561][305]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:569][306]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:578][307]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:586][308]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:595][309]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:603][310]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:612][311]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:620][312]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:629][313]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:637][314]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:646][315]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:655][316]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:667][317]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:678][318]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:687][319]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:697][320]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:706][321]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:715][322]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:723][323]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:731][324]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:741][325]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:749][326]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:759][327]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:768][328]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:778][329]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:786][330]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:858][331]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:870][332]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:884][333]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:902][334]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:913][335]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:925][336]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:935][337]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:945][338]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:953][339]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:962][340]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:971][341]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:982][342]LogBlueprintUserMessages: false
+[2015.12.10-07.03.57:996][343]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:008][344]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:019][345]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:030][346]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:043][347]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:055][348]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:066][349]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:075][350]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:089][351]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:100][352]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:112][353]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:121][354]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:132][355]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:145][356]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:156][357]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:166][358]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:175][359]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:184][360]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:193][361]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:202][362]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:210][363]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:219][364]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:228][365]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:237][366]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:247][367]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:255][368]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:266][369]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:275][370]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:283][371]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:291][372]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:301][373]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:310][374]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:319][375]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:328][376]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:338][377]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:348][378]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:357][379]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:366][380]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:375][381]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:383][382]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:392][383]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:401][384]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:409][385]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:417][386]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:428][387]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:436][388]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:445][389]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:453][390]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:462][391]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:472][392]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:483][393]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:494][394]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:503][395]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:514][396]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:526][397]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:535][398]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:545][399]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:554][400]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:563][401]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:572][402]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:583][403]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:594][404]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:602][405]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:613][406]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:621][407]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:630][408]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:639][409]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:650][410]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:663][411]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:675][412]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:684][413]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:694][414]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:706][415]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:721][416]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:734][417]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:745][418]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:755][419]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:765][420]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:777][421]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:786][422]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:798][423]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:807][424]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:819][425]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:828][426]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:836][427]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:845][428]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:853][429]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:863][430]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:872][431]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:885][432]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:898][433]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:908][434]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:916][435]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:927][436]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:936][437]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:945][438]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:953][439]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:962][440]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:970][441]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:981][442]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:989][443]LogBlueprintUserMessages: false
+[2015.12.10-07.03.58:998][444]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:007][445]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:016][446]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:025][447]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:034][448]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:044][449]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:054][450]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:067][451]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:077][452]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:086][453]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:097][454]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:106][455]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:116][456]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:125][457]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:133][458]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:143][459]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:152][460]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:162][461]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:170][462]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:180][463]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:188][464]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:198][465]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:207][466]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:216][467]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:225][468]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:233][469]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:242][470]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:250][471]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:258][472]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:267][473]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:275][474]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:284][475]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:294][476]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:303][477]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:312][478]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:321][479]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:332][480]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:341][481]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:350][482]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:359][483]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:369][484]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:378][485]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:386][486]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:396][487]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:404][488]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:415][489]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:424][490]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:434][491]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:446][492]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:455][493]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:466][494]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:479][495]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:495][496]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:512][497]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:522][498]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:771][499]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:790][500]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:807][501]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:822][502]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:836][503]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:853][504]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:869][505]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:883][506]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:897][507]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:911][508]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:927][509]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:938][510]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:952][511]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:964][512]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:976][513]LogBlueprintUserMessages: false
+[2015.12.10-07.03.59:989][514]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:004][515]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:017][516]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:034][517]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:055][518]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:071][519]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:085][520]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:098][521]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:113][522]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:128][523]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:143][524]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:158][525]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:176][526]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:195][527]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:212][528]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:229][529]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:244][530]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:257][531]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:277][532]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:296][533]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:311][534]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:329][535]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:345][536]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:358][537]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:374][538]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:396][539]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:414][540]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:428][541]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:443][542]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:461][543]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:475][544]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:488][545]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:503][546]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:520][547]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:543][548]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:554][549]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:567][550]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:582][551]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:604][552]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:621][553]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:635][554]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:649][555]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:667][556]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:686][557]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:715][558]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:733][559]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:751][560]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:768][561]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:783][562]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:797][563]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:809][564]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:823][565]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:838][566]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:857][567]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:873][568]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:885][569]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:899][570]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:915][571]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:931][572]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:946][573]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:964][574]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:976][575]LogBlueprintUserMessages: false
+[2015.12.10-07.04.00:990][576]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:009][577]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:026][578]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:039][579]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:056][580]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:070][581]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:085][582]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:102][583]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:117][584]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:131][585]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:144][586]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:161][587]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:177][588]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:192][589]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:207][590]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:220][591]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:235][592]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:247][593]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:259][594]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:273][595]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:284][596]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:297][597]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:313][598]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:325][599]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:337][600]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:350][601]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:364][602]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:378][603]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:393][604]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:405][605]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:419][606]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:431][607]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:443][608]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:455][609]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:467][610]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:480][611]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:497][612]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:512][613]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:529][614]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:542][615]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:556][616]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:571][617]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:587][618]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:603][619]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:619][620]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:633][621]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:651][622]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:670][623]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:694][624]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:732][625]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:761][626]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:784][627]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:807][628]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:833][629]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:859][630]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:882][631]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:902][632]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:923][633]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:946][634]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:968][635]LogBlueprintUserMessages: false
+[2015.12.10-07.04.01:989][636]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:015][637]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:036][638]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:064][639]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:089][640]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:122][641]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:142][642]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:163][643]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:178][644]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:192][645]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:206][646]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:221][647]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:235][648]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:250][649]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:264][650]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:279][651]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:294][652]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:308][653]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:321][654]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:334][655]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:349][656]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:364][657]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:378][658]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:392][659]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:407][660]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:422][661]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:436][662]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:449][663]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:461][664]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:475][665]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:488][666]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:503][667]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:516][668]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:529][669]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:541][670]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:554][671]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:567][672]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:580][673]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:592][674]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:604][675]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:618][676]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:631][677]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:645][678]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:658][679]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:672][680]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:685][681]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:699][682]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:713][683]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:727][684]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:739][685]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:753][686]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:766][687]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:780][688]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:793][689]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:805][690]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:818][691]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:832][692]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:846][693]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:859][694]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:874][695]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:887][696]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:900][697]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:916][698]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:930][699]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:943][700]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:956][701]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:969][702]LogBlueprintUserMessages: false
+[2015.12.10-07.04.02:985][703]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:000][704]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:014][705]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:027][706]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:040][707]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:055][708]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:068][709]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:083][710]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:098][711]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:111][712]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:123][713]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:138][714]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:151][715]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:165][716]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:178][717]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:190][718]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:206][719]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:224][720]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:240][721]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:253][722]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:266][723]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:282][724]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:296][725]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:308][726]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:320][727]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:332][728]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:346][729]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:357][730]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:370][731]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:386][732]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:400][733]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:415][734]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:429][735]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:447][736]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:485][737]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:498][738]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:510][739]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:523][740]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:536][741]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:550][742]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:564][743]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:577][744]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:593][745]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:607][746]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:621][747]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:635][748]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:648][749]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:663][750]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:676][751]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:691][752]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:705][753]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:719][754]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:733][755]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:747][756]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:760][757]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:778][758]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:794][759]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:808][760]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:823][761]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:840][762]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:853][763]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:868][764]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:882][765]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:898][766]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:911][767]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:928][768]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:942][769]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:955][770]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:970][771]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:985][772]LogBlueprintUserMessages: false
+[2015.12.10-07.04.03:999][773]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:012][774]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:025][775]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:040][776]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:056][777]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:071][778]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:085][779]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:097][780]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:110][781]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:122][782]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:137][783]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:151][784]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:163][785]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:176][786]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:189][787]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:202][788]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:215][789]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:227][790]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:239][791]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:253][792]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:267][793]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:280][794]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:292][795]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:305][796]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:319][797]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:333][798]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:347][799]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:361][800]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:373][801]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:388][802]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:401][803]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:413][804]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:426][805]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:439][806]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:454][807]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:470][808]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:484][809]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:499][810]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:514][811]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:527][812]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:539][813]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:551][814]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:565][815]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:578][816]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:590][817]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:603][818]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:617][819]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:629][820]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:641][821]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:654][822]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:669][823]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:686][824]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:700][825]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:713][826]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:728][827]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:742][828]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:755][829]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:769][830]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:784][831]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:797][832]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:810][833]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:822][834]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:837][835]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:851][836]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:867][837]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:882][838]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:897][839]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:910][840]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:922][841]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:938][842]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:952][843]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:965][844]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:979][845]LogBlueprintUserMessages: false
+[2015.12.10-07.04.04:998][846]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:451][847]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:490][848]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:503][849]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:518][850]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:533][851]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:547][852]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:562][853]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:579][854]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:595][855]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:611][856]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:626][857]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:641][858]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:659][859]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:674][860]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:687][861]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:703][862]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:719][863]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:733][864]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:750][865]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:764][866]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:779][867]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:793][868]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:807][869]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:821][870]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:836][871]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:852][872]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:865][873]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:878][874]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:892][875]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:907][876]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:926][877]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:949][878]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:965][879]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:981][880]LogBlueprintUserMessages: false
+[2015.12.10-07.04.06:995][881]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:011][882]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:028][883]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:051][884]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:070][885]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:086][886]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:100][887]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:114][888]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:127][889]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:141][890]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:155][891]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:168][892]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:181][893]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:195][894]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:312][908]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:320][909]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:330][910]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:338][911]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:347][912]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:357][913]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:365][914]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:374][915]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:382][916]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:391][917]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:399][918]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:407][919]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:415][920]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:424][921]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:432][922]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:441][923]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:449][924]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:458][925]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:468][926]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:480][927]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:489][928]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:501][929]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:513][930]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:523][931]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:532][932]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:543][933]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:551][934]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:561][935]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:573][936]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:588][937]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:599][938]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:608][939]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:620][940]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:635][941]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:648][942]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:658][943]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:667][944]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:677][945]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:692][946]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:708][947]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:718][948]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:730][949]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:742][950]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:753][951]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:764][952]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:777][953]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:787][954]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:798][955]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:808][956]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:818][957]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:828][958]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:837][959]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:847][960]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:855][961]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:866][962]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:875][963]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:884][964]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:895][965]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:904][966]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:915][967]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:925][968]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:935][969]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:944][970]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:953][971]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:964][972]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:972][973]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:981][974]LogBlueprintUserMessages: false
+[2015.12.10-07.04.07:991][975]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:001][976]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:010][977]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:018][978]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:028][979]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:036][980]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:045][981]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:054][982]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:163][995]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:171][996]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:180][997]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:189][998]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:197][999]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:206][  0]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:214][  1]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:222][  2]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:231][  3]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:241][  4]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:250][  5]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:259][  6]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:270][  7]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:280][  8]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:290][  9]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:299][ 10]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:308][ 11]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:317][ 12]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:328][ 13]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:336][ 14]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:346][ 15]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:354][ 16]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:363][ 17]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:372][ 18]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:381][ 19]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:389][ 20]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:398][ 21]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:407][ 22]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:415][ 23]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:424][ 24]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:432][ 25]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:441][ 26]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:573][ 41]LogBlueprintUserMessages: false
+[2015.12.10-07.04.08:765][ 41]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C84B258E00
+[2015.12.10-07.04.08:778][ 41]LogD3D11RHI: InitD3DDevice
+[2015.12.10-07.04.18:067][832]LogD3D11RHI: InitD3DDevice
+[2015.12.10-07.04.18:647][883]LogD3D11RHI: InitD3DDevice
+[2015.12.10-07.04.37:960][508]BlueprintLog: New page: Compile ErichFinalCharCombined
+[2015.12.10-07.04.38:302][508]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.12.10-07.04.39:729][508]LogBlueprint:Warning: [compiler ErichFinalCharCombined] Warning [1367.16] Compile of ErichFinalCharCombined successful, but with 1 Warning(s) [in 1,768 ms]
+[2015.12.10-07.04.39:729][508]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.12.10-07.04.39:729][508]BlueprintEditorCompileResults:Warning: Warning [1367.16] Compile of ErichFinalCharCombined successful, but with 1 Warning(s) [in 1,768 ms]
+[2015.12.10-07.04.47:340][918]LogD3D11RHI: InitD3DDevice
+[2015.12.10-07.04.48:284][918]LogSavePackage: Save=750.994873ms
+[2015.12.10-07.04.48:284][918]LogSavePackage: Moving '../../../../../../e/The-Curators/AlexPrototype/Saved/ErichFinalCharCombined8571C3064D53E70A7E0CFD911A7797B2.tmp' to '../../../../../../e/The-Curators/AlexPrototype/Content/Tech/ThirdPersonBP/Blueprints/ErichFinalCharCombined.uasset'
+[2015.12.10-07.04.51:414][127]LogD3D11RHI: InitD3DDevice
+[2015.12.10-07.04.51:431][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../e/The-Curators/AlexPrototype/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.10-07.04.51:434][127]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.10-07.04.51:435][127]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.12.10-07.04.51:462][127]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C85E031D00
+[2015.12.10-07.04.53:173][127]LogSavePackage: Save=1658.010498ms
+[2015.12.10-07.04.53:173][127]LogSavePackage: Moving '../../../../../../e/The-Curators/AlexPrototype/Saved/Level16882A0174E7DC5B966CABA9CD730239D.tmp' to '../../../../../../e/The-Curators/AlexPrototype/Content/Levels/Level1.umap'
+[2015.12.10-07.04.55:631][235]Cmd: QUIT_EDITOR
+[2015.12.10-07.04.56:702][235]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.12.10-07.04.56:846][235]LogExit: Preparing to exit.
+[2015.12.10-07.04.57:668][235]LogExit: Editor shut down
+[2015.12.10-07.04.57:668][235]LogExit: Transaction tracking system shut down
+[2015.12.10-07.04.57:672][235]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C852DE8720
+[2015.12.10-07.04.57:678][235]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C862075940
+[2015.12.10-07.04.57:686][235]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C860613060
+[2015.12.10-07.04.57:689][235]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C874C02020
+[2015.12.10-07.04.57:893][235]LogExit: Object subsystem successfully closed.
+[2015.12.10-07.04.57:915][235]LogD3D11RHI: Shutdown
+[2015.12.10-07.04.57:915][235]LogD3D11RHI: CleanupD3DDevice
+[2015.12.10-07.04.58:483][235]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.12.10-07.04.58:533][235]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.12.10-07.04.58:534][235]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.12.10-07.04.58:534][235]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.12.10-07.04.58:534][235]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.12.10-07.04.58:534][235]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.12.10-07.04.58:535][235]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.12.10-07.04.58:535][235]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.12.10-07.04.58:535][235]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.12.10-07.04.58:535][235]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.12.10-07.04.58:535][235]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.12.10-07.04.58:535][235]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.12.10-07.04.58:535][235]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.12.10-07.04.58:535][235]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.12.10-07.04.58:535][235]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.12.10-07.04.58:535][235]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.12.10-07.04.58:535][235]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.12.10-07.04.58:535][235]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.12.10-07.04.58:535][235]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.12.10-07.04.58:535][235]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.12.10-07.04.58:535][235]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.12.10-07.04.58:535][235]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.12.10-07.04.58:535][235]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.12.10-07.04.58:535][235]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.12.10-07.04.58:535][235]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.12.10-07.04.58:535][235]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.12.10-07.04.58:535][235]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.12.10-07.04.59:267][235]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.12.10-07.04.59:267][235]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.12.10-07.04.59:267][235]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.12.10-07.04.59:267][235]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.12.10-07.04.59:267][235]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.12.10-07.04.59:267][235]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.12.10-07.04.59:267][235]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.12.10-07.04.59:267][235]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.12.10-07.04.59:267][235]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.12.10-07.04.59:267][235]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.12.10-07.04.59:267][235]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.12.10-07.04.59:267][235]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.12.10-07.04.59:267][235]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.12.10-07.04.59:267][235]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.12.10-07.04.59:267][235]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.12.10-07.04.59:267][235]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.12.10-07.04.59:267][235]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.12.10-07.04.59:267][235]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.12.10-07.04.59:267][235]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.12.10-07.04.59:267][235]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.12.10-07.04.59:267][235]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.12.10-07.04.59:267][235]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.12.10-07.04.59:267][235]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.12.10-07.04.59:267][235]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.12.10-07.04.59:267][235]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.12.10-07.04.59:268][235]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.12.10-07.04.59:268][235]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.12.10-07.04.59:268][235]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.12.10-07.04.59:268][235]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.12.10-07.04.59:268][235]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.12.10-07.04.59:268][235]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.12.10-07.04.59:268][235]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.12.10-07.04.59:383][235]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.12.10-07.04.59:383][235]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.12.10-07.04.59:383][235]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.12.10-07.04.59:383][235]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.12.10-07.04.59:383][235]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.12.10-07.04.59:383][235]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.12.10-07.04.59:383][235]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.12.10-07.04.59:384][235]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.12.10-07.04.59:384][235]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.12.10-07.04.59:384][235]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.12.10-07.04.59:384][235]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.12.10-07.04.59:384][235]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.12.10-07.04.59:384][235]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.12.10-07.04.59:384][235]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.12.10-07.04.59:384][235]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.12.10-07.04.59:384][235]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.12.10-07.04.59:384][235]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.12.10-07.04.59:384][235]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.12.10-07.04.59:567][235]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.12.10-07.04.59:567][235]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.12.10-07.04.59:567][235]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.12.10-07.04.59:567][235]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.12.10-07.04.59:567][235]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.12.10-07.04.59:567][235]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.12.10-07.04.59:567][235]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.12.10-07.04.59:594][235]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.12.10-07.04.59:594][235]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.12.10-07.04.59:594][235]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.12.10-07.04.59:594][235]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.12.10-07.04.59:594][235]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.12.10-07.04.59:594][235]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.12.10-07.04.59:594][235]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.12.10-07.04.59:595][235]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.12.10-07.04.59:595][235]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.12.10-07.04.59:595][235]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.12.10-07.04.59:595][235]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.12.10-07.04.59:595][235]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.12.10-07.04.59:595][235]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.12.10-07.04.59:595][235]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.12.10-07.04.59:595][235]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.12.10-07.04.59:595][235]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.12.10-07.04.59:595][235]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.12.10-07.04.59:595][235]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.12.10-07.04.59:595][235]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.12.10-07.04.59:595][235]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.12.10-07.04.59:595][235]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.12.10-07.04.59:595][235]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.12.10-07.04.59:595][235]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.12.10-07.04.59:597][235]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.12.10-07.04.59:598][235]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.12.10-07.04.59:598][235]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.12.10-07.04.59:699][235]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.12.10-07.04.59:699][235]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.12.10-07.04.59:705][235]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.12.10-07.04.59:705][235]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.12.10-07.04.59:705][235]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.12.10-07.04.59:705][235]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.12.10-07.04.59:706][235]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.12.10-07.04.59:706][235]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.12.10-07.04.59:706][235]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.12.10-07.04.59:706][235]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.12.10-07.04.59:706][235]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.12.10-07.04.59:706][235]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.12.10-07.04.59:706][235]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.12.10-07.04.59:706][235]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.12.10-07.04.59:706][235]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.12.10-07.04.59:706][235]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.12.10-07.04.59:706][235]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.12.10-07.04.59:711][235]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.12.10-07.04.59:711][235]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.12.10-07.04.59:711][235]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.12.10-07.04.59:711][235]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.12.10-07.04.59:711][235]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.12.10-07.04.59:711][235]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.12.10-07.04.59:711][235]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.12.10-07.04.59:711][235]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.12.10-07.04.59:711][235]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.12.10-07.04.59:711][235]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.12.10-07.04.59:724][235]LogDerivedDataCache: Shutdown
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.12.10-07.04.59:724][235]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.12.10-07.04.59:725][235]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.12.10-07.04.59:725][235]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.12.10-07.04.59:725][235]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.12.10-07.04.59:728][235]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.12.10-07.04.59:728][235]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.12.10-07.04.59:728][235]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.12.10-07.04.59:728][235]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.12.10-07.04.59:728][235]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.12.10-07.04.59:728][235]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.12.10-07.04.59:728][235]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.12.10-07.04.59:728][235]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.12.10-07.04.59:728][235]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.12.10-07.04.59:728][235]LogExit: Exiting.
+[2015.12.10-07.04.59:731][235]Log file closed, 12/10/15 02:04:59
+>>>>>>> 190114a1f0de959e89ccc9c29adf940237a9b412
