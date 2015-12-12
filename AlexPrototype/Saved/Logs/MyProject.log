@@ -254,4 +254,81 @@ Localization Resource: (C:/Program Files/Unreal Engine/4.8/Engine/Content/Locali
 [2015.12.12-03.37.25:537][411]LogD3D11RHI: InitD3DDevice
 [2015.12.12-03.37.38:070][595]LogD3D11RHI: InitD3DDevice
 [2015.12.12-03.37.38:982][664]LogD3D11RHI: InitD3DDevice
-[2015.12.12-03.37.53:815][969]LogD3D11RHI
+[2015.12.12-03.37.53:815][969]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.37.57:139][274]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.38.05:706][ 73]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.38.06:494][132]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.38.14:160][783]LogEditorTransaction: Undo Delete current selection
+[2015.12.12-03.38.14:228][783]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-03.38.14:228][783]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.12.12-03.38.14:229][783]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.12.12-03.38.14:230][783]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.12.12-03.38.14:231][783]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_1) Not registered. Aborting.
+[2015.12.12-03.38.14:232][783]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.12.12-03.38.14:232][783]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_1) Not registered. Aborting.
+[2015.12.12-03.38.14:233][783]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_2) Not registered. Aborting.
+[2015.12.12-03.38.14:264][783]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.38.16:918][987]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.38.18:896][156]BlueprintLog: New page: Compile RobotGuardChar
+[2015.12.12-03.38.19:071][156]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.12.12-03.38.19:071][156]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_2) Not registered. Aborting.
+[2015.12.12-03.38.19:073][156]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_3) Not registered. Aborting.
+[2015.12.12-03.38.19:102][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001E47BB1800
+[2015.12.12-03.38.19:145][156]BlueprintEditorCompileResults: Info [1173.90] Compile of RobotGuardChar successful! [in 249 ms]
+[2015.12.12-03.38.34:310][968]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.38.34:331][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainMenu" FILE="../../../../../../e/The-Curators/AlexPrototype/Content/Levels/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.12-03.38.34:333][968]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-03.38.34:333][968]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.12.12-03.38.34:335][968]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.12.12-03.38.34:503][968]LogSavePackage: Save=114.814171ms
+[2015.12.12-03.38.34:503][968]LogSavePackage: Moving '../../../../../../e/The-Curators/AlexPrototype/Saved/MainMenu4E09368D41C89408140F999AF14CD2F1.tmp' to '../../../../../../e/The-Curators/AlexPrototype/Content/Levels/MainMenu.umap'
+[2015.12.12-03.41.23:612][ 40]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.41.26:192][328]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.41.26:315][328]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.41.37:762][205]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.41.38:287][247]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.42.02:428][208]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.42.02:443][208]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.12.12-03.42.07:024][660]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.42.11:073][ 73]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.42.16:118][535]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.42.19:441][834]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.42.24:340][287]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.42.30:354][828]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.42.30:373][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tech/AIGuard/CyBT" FILE="../../../../../../e/The-Curators/AlexPrototype/Content/Tech/AIGuard/CyBT.uasset" SILENT=true
+[2015.12.12-03.42.30:396][828]LogSavePackage: Save=9.437066ms
+[2015.12.12-03.42.30:396][828]LogSavePackage: Moving '../../../../../../e/The-Curators/AlexPrototype/Saved/CyBT6D4681284A587BB1084063871F4798AA.tmp' to '../../../../../../e/The-Curators/AlexPrototype/Content/Tech/AIGuard/CyBT.uasset'
+[2015.12.12-03.42.30:410][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tech/AIGuard/CyBB" FILE="../../../../../../e/The-Curators/AlexPrototype/Content/Tech/AIGuard/CyBB.uasset" SILENT=true
+[2015.12.12-03.42.30:425][828]LogSavePackage: Save=2.662108ms
+[2015.12.12-03.42.30:425][828]LogSavePackage: Moving '../../../../../../e/The-Curators/AlexPrototype/Saved/CyBB907A6EA54F68385B85B900BDE7DAF050.tmp' to '../../../../../../e/The-Curators/AlexPrototype/Content/Tech/AIGuard/CyBB.uasset'
+[2015.12.12-03.42.34:972][237]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.42.39:708][667]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.42.42:768][952]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.42.42:787][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tech/AIGuard/CyBB" FILE="../../../../../../e/The-Curators/AlexPrototype/Content/Tech/AIGuard/CyBB.uasset" SILENT=true
+[2015.12.12-03.42.42:801][952]LogSavePackage: Save=2.601132ms
+[2015.12.12-03.42.42:801][952]LogSavePackage: Moving '../../../../../../e/The-Curators/AlexPrototype/Saved/CyBB7FB7D62F4A928DD9046A69B517B89E10.tmp' to '../../../../../../e/The-Curators/AlexPrototype/Content/Tech/AIGuard/CyBB.uasset'
+[2015.12.12-03.42.55:674][866]LogAudioDerivedData:Display: Building compressed audio format OGG wave cyborgMovement...
+[2015.12.12-03.42.57:058][866]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.42.57:332][866]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.48.42:531][983]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.48.43:232][ 16]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.48.49:204][305]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.48.53:130][487]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.48.54:747][561]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.49.00:215][810]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.49.03:049][938]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.49.03:077][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tech/AIGuard/CyBT" FILE="../../../../../../e/The-Curators/AlexPrototype/Content/Tech/AIGuard/CyBT.uasset" SILENT=true
+[2015.12.12-03.49.03:103][938]LogSavePackage: Save=10.238204ms
+[2015.12.12-03.49.03:103][938]LogSavePackage: Moving '../../../../../../e/The-Curators/AlexPrototype/Saved/CyBTC20D8A25487FBDB261D71495DD8ECAE8.tmp' to '../../../../../../e/The-Curators/AlexPrototype/Content/Tech/AIGuard/CyBT.uasset'
+[2015.12.12-03.49.12:337][394]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.49.12:452][394]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tech/AIGuard/CyGuardChar" FILE="../../../../../../e/The-Curators/AlexPrototype/Content/Tech/AIGuard/CyGuardChar.uasset" SILENT=true
+[2015.12.12-03.49.12:648][394]LogSavePackage: Save=170.690063ms
+[2015.12.12-03.49.12:648][394]LogSavePackage: Moving '../../../../../../e/The-Curators/AlexPrototype/Saved/CyGuardCharA518C74D499AC71B81A5CFBF1DEE98AF.tmp' to '../../../../../../e/The-Curators/AlexPrototype/Content/Tech/AIGuard/CyGuardChar.uasset'
+[2015.12.12-03.50.04:132][106]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.50.19:433][939]LogRenderer: Reallocating scene render targets to support 1208x704 (Frame:21897).
+[2015.12.12-03.50.26:095][537]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.50.26:397][537]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.50.46:465][160]LogD3D11RHI: InitD3DDevice
+[2015.12.12-03.50.46:491][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainMenu" FILE="../../../../../../e/The-Curators/AlexPrototype/Content/Levels/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.12-03.50.46:493][160]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.12-03
