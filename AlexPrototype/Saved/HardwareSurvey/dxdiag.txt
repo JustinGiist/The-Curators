@@ -1,7 +1,7 @@
 ------------------
 System Information
 ------------------
-Time of this report: 11/11/2015, 22:11:50
+Time of this report: 12/11/2015, 22:38:38
        Machine name: KIDO-PC
    Operating System: Windows 7 Home Premium 64-bit (6.1, Build 7601) Service Pack 1 (7601.win7sp1_gdr.151019-1254)
            Language: English (Regional Setting: English)
@@ -11,7 +11,7 @@ System Manufacturer: To be filled by O.E.M.
           Processor: AMD FX(tm)-6300 Six-Core Processor              (6 CPUs), ~3.5GHz
              Memory: 8192MB RAM
 Available OS Memory: 8088MB RAM
-          Page File: 7436MB used, 8739MB available
+          Page File: 7927MB used, 8248MB available
         Windows Dir: C:\Windows
     DirectX Version: DirectX 11
 DX Setup Parameters: Not found
@@ -270,12 +270,6 @@ Vendor/Product ID: 0x046D, 0xC52B
 Vendor/Product ID: 0x046D, 0xC52B
         FF Driver: n/a
 
-      Device Name: Wireless Controller
-         Attached: 1
-    Controller ID: 0x0
-Vendor/Product ID: 0x054C, 0x05C4
-        FF Driver: n/a
-
       Device Name: Razer BlackWidow Ultimate 2013
          Attached: 1
     Controller ID: 0x0
@@ -309,18 +303,6 @@ USB Devices
 | Vendor/Product ID: 0x1002, 0x4397
 | Matching Device ID: usb\root_hub
 | Service: usbhub
-| 
-+-+ USB Input Device
-| | Vendor/Product ID: 0x054C, 0x05C4
-| | Location: Port_#0003.Hub_#0006
-| | Matching Device ID: generic_hid_device
-| | Service: HidUsb
-| | OEMData: 23 00 88 11 0E 00 00 00
-| | 
-| +-+ HID-compliant game controller
-| | | Vendor/Product ID: 0x054C, 0x05C4
-| | | Matching Device ID: hid_device_system_game
-| | | OEMData: 23 00 88 11 0E 00 00 00
 
 ----------------
 Gameport Devices
@@ -368,7 +350,7 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 15.3 GB
+ Free Space: 18.6 GB
 Total Space: 476.8 GB
 File System: NTFS
       Model: TOSHIBA DT01ACA050 ATA Device
@@ -380,6 +362,22 @@ File System: NTFS
 --------------
 System Devices
 --------------
+     Name: AMD Radeon R9 200 Series
+Device ID: PCI\VEN_1002&DEV_6810&SUBSYS_30301462&REV_00\4&14E8F4CB&0&0010
+   Driver: n/a
+
+     Name: Standard OpenHCD USB Host Controller
+Device ID: PCI\VEN_1002&DEV_4397&SUBSYS_43971002&REV_00\3&267A616A&0&B0
+   Driver: n/a
+
+     Name: ATI I/O Communications Processor PCI Bus Controller
+Device ID: PCI\VEN_1002&DEV_4384&SUBSYS_00000000&REV_40\3&267A616A&0&A4
+   Driver: n/a
+
+     Name: PCI standard host CPU bridge
+Device ID: PCI\VEN_1022&DEV_1605&SUBSYS_00000000&REV_00\3&267A616A&0&C5
+   Driver: n/a
+
      Name: PCI standard PCI-to-PCI bridge
 Device ID: PCI\VEN_1002&DEV_5A1B&SUBSYS_5A141002&REV_00\3&267A616A&0&38
    Driver: n/a
@@ -474,22 +472,6 @@ Device ID: PCI\VEN_1002&DEV_4399&SUBSYS_43991002&REV_00\3&267A616A&0&A5
 
      Name: ATI I/O Communications Processor SMBus Controller
 Device ID: PCI\VEN_1002&DEV_4385&SUBSYS_43851002&REV_42\3&267A616A&0&A0
-   Driver: n/a
-
-     Name: AMD Radeon R9 200 Series
-Device ID: PCI\VEN_1002&DEV_6810&SUBSYS_30301462&REV_00\4&14E8F4CB&0&0010
-   Driver: n/a
-
-     Name: Standard OpenHCD USB Host Controller
-Device ID: PCI\VEN_1002&DEV_4397&SUBSYS_43971002&REV_00\3&267A616A&0&B0
-   Driver: n/a
-
-     Name: ATI I/O Communications Processor PCI Bus Controller
-Device ID: PCI\VEN_1002&DEV_4384&SUBSYS_00000000&REV_40\3&267A616A&0&A4
-   Driver: n/a
-
-     Name: PCI standard host CPU bridge
-Device ID: PCI\VEN_1022&DEV_1605&SUBSYS_00000000&REV_00\3&267A616A&0&C5
    Driver: n/a
 
 ------------------
