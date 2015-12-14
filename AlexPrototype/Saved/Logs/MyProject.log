@@ -2202,4 +2202,34 @@ Localization Resource: (C:/Program Files/Unreal Engine/4.8/Engine/Content/Locali
 [2015.12.14-03.58.03:443][425]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
 [2015.12.14-03.58.03:444][425]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
 [2015.12.14-03.58.03:460][426]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
-[2015.12.14-03.58.03:460][426]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch 
+[2015.12.14-03.58.03:460][426]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.14-03.58.03:476][427]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.14-03.58.03:476][427]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.14-03.58.03:492][428]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.14-03.58.03:492][428]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.14-03.58.03:508][429]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.14-03.58.03:508][429]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.14-03.58.03:523][430]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.14-03.58.03:523][430]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.14-03.58.03:540][431]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.14-03.58.03:540][431]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.14-03.58.03:555][432]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.14-03.58.03:555][432]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.14-03.58.19:206][570]LogBlueprintUserMessages: false
+[2015.12.14-03.58.24:615][  2]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.14-03.58.24:615][  2]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.14-03.58.24:626][  3]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.14-03.58.24:626][  3]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.14-03.58.24:637][  4]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.14-03.58.24:637][  4]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.14-03.58.30:626][532]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007D3CC6C180
+[2015.12.14-03.58.30:676][532]LogD3D11RHI: InitD3DDevice
+[2015.12.14-03.58.32:863][657]LogD3D11RHI: InitD3DDevice
+[2015.12.14-03.58.34:398][739]LogD3D11RHI: InitD3DDevice
+[2015.12.14-03.58.56:249][749]LogD3D11RHI: InitD3DDevice
+[2015.12.14-03.58.56:307][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../a/The-Curators/AlexPrototype/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.14-03.58.58:288][749]LogSavePackage: Save=1814.557739ms
+[2015.12.14-03.58.58:288][749]LogSavePackage: Moving '../../../../../../a/The-Curators/AlexPrototype/Saved/Level1AAB479BE48A3CB40791B5487ABBA360E.tmp' to '../../../../../../a/The-Curators/AlexPrototype/Content/Levels/Level1.umap'
+[2015.12.14-03.59.02:530][796]LogD3D11RHI: InitD3DDevice
+[2015.12.14-03.59.35:600][ 75]LogD3D11RHI: InitD3DDevice
+[2015.12.14-03.59.41:121][216
