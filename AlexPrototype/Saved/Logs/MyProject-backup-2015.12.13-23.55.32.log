@@ -1,0 +1,84 @@
+﻿[2015.12.14-04.53.56:918][  0]Log file open, 12/13/15 23:53:56
+[2015.12.14-04.53.56:918][  0]LogInit:Display: Running engine for game: MyProject
+[2015.12.14-04.53.56:918][  0]LogInit:Display: RandInit(-1960595264) SRandInit(-1960595264).
+[2015.12.14-04.53.56:918][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.12.14-04.53.56:918][  0]LogStats: Stats thread started
+[2015.12.14-04.53.56:918][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.12.14-04.53.56:918][  0]LogInit: API Version: 2579680
+[2015.12.14-04.53.56:918][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.12.14-04.53.56:918][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.12.14-04.53.56:918][  0]LogInit: Build Configuration: Development
+[2015.12.14-04.53.56:918][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.12.14-04.53.56:918][  0]LogInit: Command line:  
+[2015.12.14-04.53.56:918][  0]LogInit: Base directory: G:/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.12.14-04.53.56:918][  0]LogInit: Rocket: 1
+[2015.12.14-04.53.56:926][  0]LogInit: Using libcurl 7.41.0
+[2015.12.14-04.53.56:926][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.14-04.53.56:926][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.14-04.53.56:926][  0]LogInit:  - other features:
+[2015.12.14-04.53.56:926][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.14-04.53.56:926][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.14-04.53.56:926][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.14-04.53.56:926][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.14-04.53.56:926][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.14-04.53.56:926][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.14-04.53.56:926][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.14-04.53.56:926][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.14-04.53.56:926][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.14-04.53.56:926][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.14-04.53.56:934][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.12.14-04.53.56:942][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.14-04.53.56:947][  0]LogInit: Object subsystem initialized
+[2015.12.14-04.53.56:948][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.12.14-04.53.56:948][  0]LogConsoleResponse:Warning:   Found in ini file 'G:/Users/Brett/Documents/GitHub/The-Curators/AlexPrototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.12.14-04.53.56:948][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.12.14-04.53.56:948][  0]LogConsoleResponse:Warning:   Found in ini file 'G:/Users/Brett/Documents/GitHub/The-Curators/AlexPrototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.12.14-04.53.56:948][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.12.14-04.53.56:948][  0]LogConsoleResponse:Warning:   Found in ini file 'G:/Users/Brett/Documents/GitHub/The-Curators/AlexPrototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.12.14-04.53.56:948][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.14-04.53.56:948][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.14-04.53.56:951][  0]LogInit: Computer: BRETT-DESKTOP
+[2015.12.14-04.53.56:951][  0]LogInit: User: Brett
+[2015.12.14-04.53.56:951][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.12.14-04.53.56:951][  0]LogInit: High frequency timer resolution =3.906298 MHz
+[2015.12.14-04.53.56:951][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.12.14-04.53.56:951][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.14-04.53.56:951][  0]LogMemory: Process Physical Memory: 57.50 MB used, 57.50 MB peak
+[2015.12.14-04.53.56:951][  0]LogMemory: Process Virtual Memory: 31.47 MB used, 31.47 MB peak
+[2015.12.14-04.53.56:951][  0]LogMemory: Physical Memory: 5680.17 MB used, 16325.28 MB total
+[2015.12.14-04.53.56:951][  0]LogMemory: Virtual Memory: 290.98 MB used, 8388608.00 MB total
+[2015.12.14-04.53.56:977][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.12.14-04.53.57:118][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (G:/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (G:/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.12.14-04.53.57:466][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2015.12.14-04.53.57:466][  0]LogD3D11RHI: Adapter has 3906MB of dedicated video memory, 0MB of dedicated system memory, and 7906MB of shared system memory, 3 output[s]
+[2015.12.14-04.53.57:466][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.14-04.53.57:470][  0]LogD3D11RHI: InitD3DDevice
+[2015.12.14-04.53.57:470][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.14-04.53.57:470][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.12.14-04.53.57:476][  0]LogD3D11RHI: Async texture creation enabled
+[2015.12.14-04.53.57:488][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.14-04.53.58:110][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.12.14-04.53.58:119][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.14-04.53.58:128][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.14-04.53.58:138][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.14-04.53.58:148][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.14-04.53.58:156][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.14-04.53.58:163][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.14-04.53.58:171][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.14-04.53.58:179][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.14-04.53.58:186][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.14-04.53.58:194][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.14-04.53.58:202][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.14-04.53.58:234][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.14-04.53.58:241][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.14-04.53.58:250][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.14-04.53.58:259][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.14-04.53.58:259][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.14-04.53.58:385][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.14-04.53.58:423][  0]LogDerivedDataCache: Loaded boot cache 0.04s 53MB C:/Users/Brett/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.12.14-04.53.58:423][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Brett/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.12.14-04.53.58:423][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/Brett/Documents/GitHub/The-Curators/AlexPrototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.14-04.53.58:423][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.14-04.53.58:423][  0]L
