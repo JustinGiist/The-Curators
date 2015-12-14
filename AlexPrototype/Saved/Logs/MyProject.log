@@ -5410,4 +5410,73 @@ Make sure 'ErichFinalCharCombined_C' has been compiled for  Get IsCrouch
 [2015.12.14-07.38.13:283][534]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
 [2015.12.14-07.38.13:283][534]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
 [2015.12.14-07.38.13:307][535]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
-[2015.12.14-07.38.13:307][535]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'Event
+[2015.12.14-07.38.13:307][535]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.14-07.38.13:331][536]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.14-07.38.13:331][536]PIE:Error: Error Accessed None 'K2Node_ComponentBoundEvent_OtherActor' from node Branch in graph 'EventGraph' in blueprint AIGuardChar
+[2015.12.14-07.38.13:862][551]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DEDE92D6C0
+[2015.12.14-07.38.13:894][551]LogD3D11RHI: InitD3DDevice
+[2015.12.14-07.38.17:013][754]LogD3D11RHI: InitD3DDevice
+[2015.12.14-07.38.17:034][754]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../a/The-Curators/AlexPrototype/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.14-07.38.18:896][754]LogSavePackage: Save=1752.527832ms
+[2015.12.14-07.38.18:896][754]LogSavePackage: Moving '../../../../../../a/The-Curators/AlexPrototype/Saved/Level152F1718D4DCCC7929D29078FB2B3A95E.tmp' to '../../../../../../a/The-Curators/AlexPrototype/Content/Levels/Level1.umap'
+[2015.12.14-07.41.13:792][895]LogD3D11RHI: InitD3DDevice
+[2015.12.14-07.41.21:994][343]LogD3D11RHI: InitD3DDevice
+[2015.12.14-07.41.22:364][343]LogD3D11RHI: InitD3DDevice
+[2015.12.14-07.41.49:595][371]BlueprintLog: New page: Compile AIGuardCont
+[2015.12.14-07.41.49:706][371]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.14-07.41.49:706][371]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.12.14-07.41.49:708][371]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.12.14-07.41.49:774][371]BlueprintEditorCompileResults: Info [3266.29] Compile of AIGuardCont successful! [in 178 ms]
+[2015.12.14-07.42.26:119][957]LogD3D11RHI: InitD3DDevice
+[2015.12.14-07.42.26:410][957]LogD3D11RHI: InitD3DDevice
+[2015.12.14-07.43.07:348][531]LogD3D11RHI: InitD3DDevice
+[2015.12.14-07.43.07:391][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../a/The-Curators/AlexPrototype/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.14-07.43.07:394][531]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.14-07.43.07:394][531]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.12.14-07.43.07:396][531]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.12.14-07.43.09:228][531]LogSavePackage: Save=1682.076904ms
+[2015.12.14-07.43.09:228][531]LogSavePackage: Moving '../../../../../../a/The-Curators/AlexPrototype/Saved/Level16ADA14C241B874FF3E7735B81AB55700.tmp' to '../../../../../../a/The-Curators/AlexPrototype/Content/Levels/Level1.umap'
+[2015.12.14-07.43.43:992][946]BlueprintLog: New page: Compile CyCont
+[2015.12.14-07.43.44:194][946]BlueprintEditorCompileResults: Info [3380.71] Compile of CyCont successful! [in 202 ms]
+[2015.12.14-07.43.53:715][561]LogD3D11RHI: InitD3DDevice
+[2015.12.14-07.44.02:648][869]LogD3D11RHI: InitD3DDevice
+[2015.12.14-07.44.02:987][869]LogD3D11RHI: InitD3DDevice
+[2015.12.14-07.44.13:915][346]LogD3D11RHI: InitD3DDevice
+[2015.12.14-07.44.25:459][769]LogD3D11RHI: InitD3DDevice
+[2015.12.14-07.44.58:312][395]BlueprintLog: New page: Compile CyCont
+[2015.12.14-07.44.58:437][395]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.14-07.44.58:437][395]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.12.14-07.44.58:439][395]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.12.14-07.44.58:554][395]BlueprintEditorCompileResults: Info [3455.07] Compile of CyCont successful! [in 241 ms]
+[2015.12.14-07.45.03:370][622]LogD3D11RHI: InitD3DDevice
+[2015.12.14-07.45.03:692][622]LogD3D11RHI: InitD3DDevice
+[2015.12.14-07.45.05:182][676]LogD3D11RHI: InitD3DDevice
+[2015.12.14-07.45.23:707][169]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.14-07.45.23:707][169]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.12.14-07.45.23:708][169]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.12.14-07.45.25:153][237]BlueprintLog: New page: Compile RobotGuardChar
+[2015.12.14-07.45.25:359][237]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.12.14-07.45.25:359][237]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_1) Not registered. Aborting.
+[2015.12.14-07.45.25:361][237]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_11) Not registered. Aborting.
+[2015.12.14-07.45.25:463][237]BlueprintEditorCompileResults: Info [3481.97] Compile of RobotGuardChar successful! [in 309 ms]
+[2015.12.14-07.45.27:177][326]BlueprintLog: New page: Compile RobotCont
+[2015.12.14-07.45.27:287][326]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.14-07.45.27:287][326]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.12.14-07.45.27:288][326]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.12.14-07.45.27:353][326]BlueprintEditorCompileResults: Info [3483.86] Compile of RobotCont successful! [in 176 ms]
+[2015.12.14-07.45.39:715][923]LogD3D11RHI: InitD3DDevice
+[2015.12.14-07.45.41:367][989]LogD3D11RHI: InitD3DDevice
+[2015.12.14-07.45.41:405][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../a/The-Curators/AlexPrototype/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.14-07.45.41:408][989]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.14-07.45.41:408][989]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.12.14-07.45.41:409][989]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborting.
+[2015.12.14-07.45.41:410][989]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.12.14-07.45.41:410][989]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_2) Not registered. Aborting.
+[2015.12.14-07.45.41:411][989]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_12) Not registered. Aborting.
+[2015.12.14-07.45.43:302][989]LogSavePackage: Save=1720.430908ms
+[2015.12.14-07.45.43:302][989]LogSavePackage: Moving '../../../../../../a/The-Curators/AlexPrototype/Saved/Level13395794B4B9DBB93D52B5D954784B080.tmp' to '../../../../../../a/The-Curators/AlexPrototype/Content/Levels/Level1.umap'
+[2015.12.14-07.45.44:456][ 34]LogD3D11RHI: InitD3DDevice
+[2015.12.14-07.45.44:749][ 34]LogD3D11RHI: InitD3DDevice
+[2015.12.14-07.45.57:444][336]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.14-07.45.57:444][336]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingF99FF2CD473747C5584260AF2A86F55E) Not registered. Aborting.
+[2015.12.14-07.45.57:445][336]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterA7A8A77441AB5BE36363A18AD33052F6) Not registered. Aborti
