@@ -1,0 +1,941 @@
+﻿[2015.12.14-09.29.04:894][  0]Log file open, 12/14/15 04:29:04
+[2015.12.14-09.29.04:894][  0]LogInit:Display: Running engine for game: MyProject
+[2015.12.14-09.29.04:894][  0]LogInit:Display: RandInit(1904203560) SRandInit(1904203583).
+[2015.12.14-09.29.04:894][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.12.14-09.29.04:894][  0]LogStats: Stats thread started
+[2015.12.14-09.29.04:894][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.12.14-09.29.04:894][  0]LogInit: API Version: 2579680
+[2015.12.14-09.29.04:894][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.12.14-09.29.04:894][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.12.14-09.29.04:894][  0]LogInit: Build Configuration: Development
+[2015.12.14-09.29.04:894][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.12.14-09.29.04:894][  0]LogInit: Command line: 
+[2015.12.14-09.29.04:894][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.12.14-09.29.04:894][  0]LogInit: Rocket: 1
+[2015.12.14-09.29.04:912][  0]LogInit: Using libcurl 7.41.0
+[2015.12.14-09.29.04:912][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.14-09.29.04:912][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.14-09.29.04:912][  0]LogInit:  - other features:
+[2015.12.14-09.29.04:912][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.14-09.29.04:912][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.14-09.29.04:912][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.14-09.29.04:912][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.14-09.29.04:912][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.14-09.29.04:912][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.14-09.29.04:912][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.14-09.29.04:912][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.14-09.29.04:912][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.14-09.29.04:912][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.14-09.29.04:927][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.12.14-09.29.04:944][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.14-09.29.04:951][  0]LogInit: Object subsystem initialized
+[2015.12.14-09.29.04:952][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.12.14-09.29.04:952][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.12.14-09.29.04:952][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.12.14-09.29.04:952][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.12.14-09.29.04:952][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.12.14-09.29.04:952][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.12.14-09.29.04:953][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.14-09.29.04:953][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.14-09.29.04:963][  0]LogInit: Computer: CHRISTOPHER-S70
+[2015.12.14-09.29.04:963][  0]LogInit: User: Christopher
+[2015.12.14-09.29.04:963][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.12.14-09.29.04:963][  0]LogInit: High frequency timer resolution =2.435779 MHz
+[2015.12.14-09.29.04:964][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2015.12.14-09.29.04:964][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.14-09.29.04:964][  0]LogMemory: Process Physical Memory: 50.73 MB used, 50.73 MB peak
+[2015.12.14-09.29.04:964][  0]LogMemory: Process Virtual Memory: 24.73 MB used, 24.73 MB peak
+[2015.12.14-09.29.04:964][  0]LogMemory: Physical Memory: 3570.80 MB used, 12200.09 MB total
+[2015.12.14-09.29.04:964][  0]LogMemory: Virtual Memory: 316.88 MB used, 134217728.00 MB total
+[2015.12.14-09.29.04:993][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.12.14-09.29.05:216][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.12.14-09.29.05:588][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.12.14-09.29.05:588][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 6100MB of shared system memory, 1 output[s]
+[2015.12.14-09.29.06:081][  0]LogD3D11RHI: Found D3D11 adapter 1: AMD Radeon R9 M200X Series (Feature Level 11_0)
+[2015.12.14-09.29.06:081][  0]LogD3D11RHI: Adapter has 2030MB of dedicated video memory, 0MB of dedicated system memory, and 6100MB of shared system memory, 0 output[s]
+[2015.12.14-09.29.06:083][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.12.14-09.29.06:083][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 6100MB of shared system memory, 0 output[s]
+[2015.12.14-09.29.06:083][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.14-09.29.06:087][  0]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.29.06:087][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.14-09.29.06:087][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.12.14-09.29.06:092][  0]LogD3D11RHI: Async texture creation enabled
+[2015.12.14-09.29.06:096][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.14-09.29.06:895][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.12.14-09.29.06:915][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.14-09.29.06:935][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.14-09.29.06:957][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.14-09.29.06:977][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.14-09.29.06:995][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.14-09.29.07:012][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.14-09.29.07:029][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.14-09.29.07:046][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.14-09.29.07:062][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.14-09.29.07:078][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.14-09.29.07:095][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.14-09.29.07:153][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.14-09.29.07:171][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.14-09.29.07:188][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.14-09.29.07:206][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.14-09.29.07:206][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.14-09.29.07:482][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.14-09.29.07:549][  0]LogDerivedDataCache: Loaded boot cache 0.07s 53MB C:/Users/Christopher/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.12.14-09.29.07:549][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Christopher/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.12.14-09.29.07:549][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.14-09.29.07:549][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.14-09.29.07:549][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.14-09.29.07:549][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.14-09.29.07:712][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.14-09.29.07:724][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Christopher/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.14-09.29.07:944][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.14-09.29.08:035][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.12.14-09.29.08:035][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.12.14-09.29.08:073][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.14-09.29.08:073][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.14-09.29.08:452][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.14-09.29.09:486][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.14-09.29.09:862][  0]SourceControl: Info Source control is disabled
+[2015.12.14-09.29.09:873][  0]SourceControl: Info Source control is disabled
+[2015.12.14-09.29.09:887][  0]SourceControl: Info Source control is disabled
+[2015.12.14-09.29.09:901][  0]SourceControl: Info Source control is disabled
+[2015.12.14-09.29.10:175][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.12.14-09.29.10:175][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.12.14-09.29.10:256][  0]LogEngine: Initializing Engine...
+[2015.12.14-09.29.10:258][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.12.14-09.29.10:259][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.12.14-09.29.10:432][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.14-09.29.10:436][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.14-09.29.10:445][  0]LogInit: FAudioDevice initialized.
+[2015.12.14-09.29.10:483][  0]LogDerivedDataCache: Saved boot cache 0.04s 53MB C:/Users/Christopher/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.12.14-09.29.10:494][  0]LogInit: Texture streaming: Disabled
+[2015.12.14-09.29.10:528][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.14-09.29.10:529][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.12.14-09.29.10:529][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId ee8c485444fe82b8e773c5ac08d91953|2c1976e1aa9b48b0b119ac4e9eb64ec6|e685999b-cf46-4ff8-9f2e-f2a1072524f0
+[2015.12.14-09.29.10:529][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.14-09.29.10:565][  0]LogInit: Transaction tracking system initialized
+[2015.12.14-09.29.10:738][  0]BlueprintLog: New page: Editor Load
+[2015.12.14-09.29.10:782][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2015.12.14-09.29.10:783][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.12.14-09.29.11:758][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.12.14-09.29.11:759][  0]LogConsoleResponse:Display: 
+[2015.12.14-09.29.11:892][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.14-09.29.12:130][  0]SourceControl: Info Source control is disabled
+[2015.12.14-09.29.12:130][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.14-09.29.12:139][  0]LightingResults: New page: Lighting Build
+[2015.12.14-09.29.12:156][  0]MapCheck: New page: Map Check
+[2015.12.14-09.29.12:157][  0]LightingResults: New page: Lighting Build
+[2015.12.14-09.29.12:168][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001F33F4189A0
+[2015.12.14-09.29.12:695][  0]LogWmfMedia:Error: Failed to create source object from URL for C:/Users/Justin's/Pictures/Curators/NewMenuAssets/Output/maxresdefault (1).mp4
+[2015.12.14-09.29.13:496][  0]LogAIModule: Creating AISystem for world MainMenu
+[2015.12.14-09.29.13:500][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.14-09.29.13:511][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.14-09.29.13:564][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 52.422ms to complete.
+[2015.12.14-09.29.13:564][  0]LogFileHelpers: Loading map 'MainMenu' took 1.434
+[2015.12.14-09.29.13:721][  0]LogCollectionManager: Loaded 0 collections in 0.004005 seconds
+[2015.12.14-09.29.13:729][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 1792 classes and 301 folders.
+[2015.12.14-09.29.13:813][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.12.14-09.29.13:912][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.12.14-09.29.13:931][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.12.14-09.29.13:967][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.14-09.29.13:968][  0]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.29.13:972][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.14-09.29.13:993][  0]LogLoad: Full Startup: 10.64 seconds (BP compile: 0.12 seconds)
+[2015.12.14-09.29.14:092][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.14-09.29.14:149][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.12.14-09.29.14:372][  0]LogRenderer: Reallocating scene render targets to support 1008x456 (Frame:2).
+[2015.12.14-09.29.15:074][ 22]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.29.15:273][ 27]LogAssetRegistry: Asset discovery search completed in 4.5012 seconds
+[2015.12.14-09.29.20:407][326]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.29.21:904][415]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.29.21:936][415]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.29.22:154][415]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.14-09.29.22:212][415]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.14-09.29.36:154][970]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.29.40:204][207]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.29.52:028][871]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.30.00:357][305]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.30.00:380][305]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.30.11:424][768]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.30.14:104][913]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.30.15:691][995]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.30.32:119][804]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.30.33:778][894]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.30.37:122][ 71]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.30.45:777][521]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.30.48:363][660]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.31.09:979][782]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.31.42:867][622]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.31.51:288][118]LogEditorTransaction: Undo Move Node
+[2015.12.14-09.31.51:332][118]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.31.51:920][145]LogEditorTransaction: Undo Paste clipboard contents
+[2015.12.14-09.31.51:928][145]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_30:K2Node_ComponentBoundEvent_24.
+[2015.12.14-09.31.51:928][145]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_30:K2Node_ComponentBoundEvent_361.
+[2015.12.14-09.31.51:928][145]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_30:K2Node_ComponentBoundEvent_353.
+[2015.12.14-09.31.51:928][145]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_30:K2Node_ComponentBoundEvent_346.
+[2015.12.14-09.31.51:928][145]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_30:K2Node_ComponentBoundEvent_322.
+[2015.12.14-09.31.51:928][145]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_30:K2Node_ComponentBoundEvent_48.
+[2015.12.14-09.31.51:928][145]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_30:K2Node_ComponentBoundEvent_20.
+[2015.12.14-09.31.51:928][145]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_30:K2Node_ComponentBoundEvent_359.
+[2015.12.14-09.31.51:928][145]LogBlueprint:Warning: Loaded invalid component bound event in node /Game/MainMenu/MainMenu.MainMenu:EventGraph.K2Node_ComponentBoundEvent_24.
+[2015.12.14-09.32.02:654][709]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.32.53:941][ 55]BlueprintLog: New page: Compile MainMenu
+[2015.12.14-09.32.54:062][ 55]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001F34492B6A0
+[2015.12.14-09.32.54:062][ 55]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001F34492B100
+[2015.12.14-09.32.54:146][ 55]BlueprintEditorCompileResults: Info [0230.79] Compile of MainMenu successful! [in 204 ms]
+[2015.12.14-09.32.55:193][105]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.32.55:224][105]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/MainMenu" FILE="../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset" SILENT=true
+[2015.12.14-09.32.55:277][105]LogSavePackage: Save=44.008099ms
+[2015.12.14-09.32.55:278][105]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/MainMenu49700E8C42B25BAC65D4F6BA5030E024.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset'
+[2015.12.14-09.33.00:527][315]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.33.01:674][353]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.33.02:294][373]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.33.12:869][737]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.33.13:535][759]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.33.38:134][614]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.34.02:795][464]BlueprintLog: New page: Compile MainMenu
+[2015.12.14-09.34.02:968][464]BlueprintEditorCompileResults: Info [0299.61] Compile of MainMenu successful! [in 172 ms]
+[2015.12.14-09.34.03:892][497]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.34.03:919][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/MainMenu" FILE="../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset" SILENT=true
+[2015.12.14-09.34.03:966][497]LogSavePackage: Save=43.643944ms
+[2015.12.14-09.34.03:966][497]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/MainMenuD8B13F2A4641450C964B86898CE62683.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset'
+[2015.12.14-09.34.09:467][718]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.12.14-09.34.09:477][718]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.12.14-09.34.09:597][718]LogPlayLevel: PIE:  Blueprint regeneration took 130 ms (1 blueprints)
+[2015.12.14-09.34.09:704][718]PIE: New page: SIE session: MainMenu (Dec 13, 2015, 11:34:09 PM)
+[2015.12.14-09.34.09:705][718]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2015.12.14-09.34.09:709][718]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004431s)
+[2015.12.14-09.34.09:710][718]LogAIModule: Creating AISystem for world MainMenu
+[2015.12.14-09.34.09:711][718]LogPlayLevel: PIE: World Init took: (0.001664s)
+[2015.12.14-09.34.09:711][718]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.006309s)
+[2015.12.14-09.34.09:757][718]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.14-09.34.09:764][718]LogInit: FAudioDevice initialized.
+[2015.12.14-09.34.09:841][718]LogWorld: Game class is 'GameMode'
+[2015.12.14-09.34.09:844][718]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2015.12.14-04.34.09
+[2015.12.14-09.34.09:844][718]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-09.34.09:845][718]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-09.34.09:845][718]LogWorld: Bringing up level for play took: 0.001685
+[2015.12.14-09.34.09:846][718]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.12.14-09.34.09:848][718]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 1.164
+[2015.12.14-09.34.09:889][718]LogAudio:Warning: Detected orphaned looping sound 'MainMenuBackgroundNoiseMFixed'.
+[2015.12.14-09.34.22:015][361]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.12.14-09.34.22:015][361]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.Cube_4"
+[2015.12.14-09.34.26:295][544]LogEditorViewport: Clicking Background
+[2015.12.14-09.34.28:974][682]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001F352674860
+[2015.12.14-09.34.34:210][989]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.12.14-09.34.34:221][989]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.12.14-09.34.34:341][989]LogPlayLevel: PIE:  Blueprint regeneration took 131 ms (1 blueprints)
+[2015.12.14-09.34.34:342][989]PIE: New page: SIE session: MainMenu (Dec 13, 2015, 11:34:34 PM)
+[2015.12.14-09.34.34:342][989]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2015.12.14-09.34.34:347][989]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005130s)
+[2015.12.14-09.34.34:348][989]LogAIModule: Creating AISystem for world MainMenu
+[2015.12.14-09.34.34:349][989]LogPlayLevel: PIE: World Init took: (0.001198s)
+[2015.12.14-09.34.34:349][989]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.006507s)
+[2015.12.14-09.34.34:394][989]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.14-09.34.34:403][989]LogInit: FAudioDevice initialized.
+[2015.12.14-09.34.34:436][989]LogWorld: Game class is 'GameMode'
+[2015.12.14-09.34.34:439][989]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2015.12.14-04.34.34
+[2015.12.14-09.34.34:439][989]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-09.34.34:440][989]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-09.34.34:440][989]LogWorld: Bringing up level for play took: 0.002102
+[2015.12.14-09.34.34:441][989]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.12.14-09.34.34:443][989]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu -0.241
+[2015.12.14-09.34.34:446][989]LogAudio:Warning: Detected orphaned looping sound 'MainMenuBackgroundNoiseMFixed'.
+[2015.12.14-09.34.39:351][251]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001F34F6B9800
+[2015.12.14-09.34.42:853][459]Cmd: TRANSACTION UNDO
+[2015.12.14-09.34.42:853][459]LogEditorTransaction: Undo Edit Resource Object
+[2015.12.14-09.34.42:907][459]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.34.49:291][796]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.35.05:062][340]BlueprintLog: New page: Compile MainMenu
+[2015.12.14-09.35.05:235][340]BlueprintEditorCompileResults: Info [0361.88] Compile of MainMenu successful! [in 172 ms]
+[2015.12.14-09.35.06:027][366]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.35.06:052][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/MainMenu" FILE="../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset" SILENT=true
+[2015.12.14-09.35.06:102][366]LogSavePackage: Save=46.169624ms
+[2015.12.14-09.35.06:102][366]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/MainMenuBBB6661B4A729CDA7C206AA932FA8A5A.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset'
+[2015.12.14-09.35.48:325][795]BlueprintLog: New page: Compile MainMenu
+[2015.12.14-09.35.48:492][795]BlueprintEditorCompileResults: Info [0405.14] Compile of MainMenu successful! [in 166 ms]
+[2015.12.14-09.36.06:751][736]BlueprintLog: New page: Compile MainMenu
+[2015.12.14-09.36.06:933][736]BlueprintEditorCompileResults: Info [0423.58] Compile of MainMenu successful! [in 181 ms]
+[2015.12.14-09.38.12:446][353]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.38.35:067][588]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.38.40:220][847]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.38.48:902][289]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.40.21:494][779]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.40.22:549][836]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.40.35:427][530]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.40.36:621][598]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.40.46:050][ 71]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.40.48:825][197]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.41.15:196][634]LogEditorTransaction: Undo Create Pin Link
+[2015.12.14-09.41.15:200][634]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.41.16:106][677]LogEditorTransaction: Undo Add Node
+[2015.12.14-09.41.17:103][725]LogEditorTransaction: Undo Delete current selection
+[2015.12.14-09.41.17:852][760]LogEditorTransaction: Undo Add Node
+[2015.12.14-09.41.18:411][786]LogEditorTransaction: Undo Rename Variable
+[2015.12.14-09.41.18:421][786]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_175:K2Node_ComponentBoundEvent_223.
+[2015.12.14-09.41.18:421][786]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_175:K2Node_ComponentBoundEvent_361.
+[2015.12.14-09.41.18:421][786]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_175:K2Node_ComponentBoundEvent_353.
+[2015.12.14-09.41.18:421][786]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_175:K2Node_ComponentBoundEvent_346.
+[2015.12.14-09.41.18:421][786]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_175:K2Node_ComponentBoundEvent_322.
+[2015.12.14-09.41.18:421][786]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_175:K2Node_ComponentBoundEvent_24.
+[2015.12.14-09.41.18:421][786]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_175:K2Node_ComponentBoundEvent_20.
+[2015.12.14-09.41.18:421][786]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_175:K2Node_ComponentBoundEvent_359.
+[2015.12.14-09.41.19:486][838]LogEditorTransaction: Undo Add Variable
+[2015.12.14-09.41.19:497][838]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_166:K2Node_ComponentBoundEvent_223.
+[2015.12.14-09.41.19:497][838]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_166:K2Node_ComponentBoundEvent_361.
+[2015.12.14-09.41.19:497][838]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_166:K2Node_ComponentBoundEvent_353.
+[2015.12.14-09.41.19:497][838]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_166:K2Node_ComponentBoundEvent_346.
+[2015.12.14-09.41.19:497][838]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_166:K2Node_ComponentBoundEvent_322.
+[2015.12.14-09.41.19:498][838]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_166:K2Node_ComponentBoundEvent_24.
+[2015.12.14-09.41.19:498][838]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_166:K2Node_ComponentBoundEvent_20.
+[2015.12.14-09.41.19:498][838]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_166:K2Node_ComponentBoundEvent_359.
+[2015.12.14-09.41.22:974][ 18]BlueprintLog: New page: Compile MainMenu
+[2015.12.14-09.41.23:141][ 18]BlueprintEditorCompileResults: Info [0739.79] Compile of MainMenu successful! [in 166 ms]
+[2015.12.14-09.41.24:052][ 64]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.41.24:077][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/MainMenu" FILE="../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset" SILENT=true
+[2015.12.14-09.41.24:134][ 64]LogSavePackage: Save=47.993271ms
+[2015.12.14-09.41.24:134][ 64]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/MainMenu5321D0D1460DC4DE431E2BAB6947EE6C.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset'
+[2015.12.14-09.41.28:482][303]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.12.14-09.41.28:494][303]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.12.14-09.41.28:612][303]LogPlayLevel: PIE:  Blueprint regeneration took 130 ms (1 blueprints)
+[2015.12.14-09.41.28:612][303]PIE: New page: SIE session: MainMenu (Dec 13, 2015, 11:41:28 PM)
+[2015.12.14-09.41.28:613][303]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2015.12.14-09.41.28:617][303]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004806s)
+[2015.12.14-09.41.28:618][303]LogAIModule: Creating AISystem for world MainMenu
+[2015.12.14-09.41.28:619][303]LogPlayLevel: PIE: World Init took: (0.001355s)
+[2015.12.14-09.41.28:619][303]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.006371s)
+[2015.12.14-09.41.28:664][303]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.14-09.41.28:673][303]LogInit: FAudioDevice initialized.
+[2015.12.14-09.41.28:708][303]LogWorld: Game class is 'GameMode'
+[2015.12.14-09.41.28:712][303]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2015.12.14-04.41.28
+[2015.12.14-09.41.28:712][303]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-09.41.28:713][303]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-09.41.28:713][303]LogWorld: Bringing up level for play took: 0.001809
+[2015.12.14-09.41.28:714][303]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.12.14-09.41.28:715][303]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 0.032
+[2015.12.14-09.41.28:719][303]LogAudio:Warning: Detected orphaned looping sound 'MainMenuBackgroundNoiseMFixed'.
+[2015.12.14-09.41.32:464][504]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001F34ED5D260
+[2015.12.14-09.41.40:390][738]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.12.14-09.41.40:401][738]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.12.14-09.41.40:528][738]LogPlayLevel: PIE:  Blueprint regeneration took 137 ms (1 blueprints)
+[2015.12.14-09.41.40:528][738]PIE: New page: SIE session: MainMenu (Dec 13, 2015, 11:41:40 PM)
+[2015.12.14-09.41.40:528][738]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2015.12.14-09.41.40:533][738]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004594s)
+[2015.12.14-09.41.40:533][738]LogAIModule: Creating AISystem for world MainMenu
+[2015.12.14-09.41.40:534][738]LogPlayLevel: PIE: World Init took: (0.001202s)
+[2015.12.14-09.41.40:534][738]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.006049s)
+[2015.12.14-09.41.40:597][738]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.14-09.41.40:604][738]LogInit: FAudioDevice initialized.
+[2015.12.14-09.41.40:638][738]LogWorld: Game class is 'GameMode'
+[2015.12.14-09.41.40:642][738]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2015.12.14-04.41.40
+[2015.12.14-09.41.40:642][738]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-09.41.40:642][738]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-09.41.40:643][738]LogWorld: Bringing up level for play took: 0.002005
+[2015.12.14-09.41.40:643][738]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.12.14-09.41.40:645][738]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu -0.039
+[2015.12.14-09.41.40:649][738]LogAudio:Warning: Detected orphaned looping sound 'MainMenuBackgroundNoiseMFixed'.
+[2015.12.14-09.41.47:842][ 61]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001F34ED5EAC0
+[2015.12.14-09.50.17:281][118]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.50.22:262][372]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MainMenu/MainMenu.MainMenu:EventGraph.K2Node_CallFunction_2205 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2205
+[2015.12.14-09.50.22:262][372]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MainMenu/MainMenu.MainMenu:EventGraph.K2Node_CallFunction_2205 or K2Node_CallFunction /Engine/Transient.EdGraph_175:K2Node_CallFunction_2205
+[2015.12.14-09.50.22:262][372]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MainMenu/MainMenu.MainMenu:EventGraph.K2Node_CallFunction_2205 or K2Node_CallFunction /Engine/Transient.EdGraph_166:K2Node_CallFunction_2205
+[2015.12.14-09.50.22:262][372]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Engine/Transient.EdGraph_175:K2Node_CallFunction_2205.EdGraphPin_514 or EdGraphPin /Engine/Transient.EdGraph_166:K2Node_CallFunction_2205.EdGraphPin_514
+[2015.12.14-09.50.22:262][372]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Engine/Transient.EdGraph_175:K2Node_CallFunction_2205.EdGraphPin_514) from referencer (EdGraphPin /Game/MainMenu/MainMenu.MainMenu:EventGraph.K2Node_VariableGet_1006.EdGraphPin_259).  Import failed...
+[2015.12.14-09.50.22:262][372]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2205.EdGraphPin_514''
+[2015.12.14-09.50.22:262][372]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MainMenu/MainMenu.MainMenu:EventGraph.K2Node_CallFunction_4863 or K2Node_CallFunction /Engine/Transient.EdGraph_175:K2Node_CallFunction_4863
+[2015.12.14-09.50.22:263][372]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MainMenu/MainMenu.MainMenu:EventGraph.K2Node_CallFunction_4863 or K2Node_CallFunction /Engine/Transient.EdGraph_166:K2Node_CallFunction_4863
+[2015.12.14-09.50.22:263][372]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Engine/Transient.EdGraph_166:K2Node_CallFunction_4863.EdGraphPin_638 or EdGraphPin /Engine/Transient.EdGraph_175:K2Node_CallFunction_4863.EdGraphPin_638
+[2015.12.14-09.50.22:263][372]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Engine/Transient.EdGraph_166:K2Node_CallFunction_4863.EdGraphPin_638) from referencer (EdGraphPin /Game/MainMenu/MainMenu.MainMenu:EventGraph.K2Node_CallFunction_2205.EdGraphPin_513).  Import failed...
+[2015.12.14-09.50.22:263][372]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4863.EdGraphPin_638''
+[2015.12.14-09.50.22:263][372]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MainMenu/MainMenu.MainMenu:EventGraph.K2Node_CallFunction_4863 or K2Node_CallFunction /Engine/Transient.EdGraph_175:K2Node_CallFunction_4863
+[2015.12.14-09.50.22:263][372]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MainMenu/MainMenu.MainMenu:EventGraph.K2Node_CallFunction_4863 or K2Node_CallFunction /Engine/Transient.EdGraph_166:K2Node_CallFunction_4863
+[2015.12.14-09.50.22:263][372]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Engine/Transient.EdGraph_166:K2Node_CallFunction_4863.EdGraphPin_640 or EdGraphPin /Engine/Transient.EdGraph_175:K2Node_CallFunction_4863.EdGraphPin_640
+[2015.12.14-09.50.22:263][372]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Engine/Transient.EdGraph_166:K2Node_CallFunction_4863.EdGraphPin_640) from referencer (EdGraphPin /Game/MainMenu/MainMenu.MainMenu:EventGraph.K2Node_VariableGet_1027.EdGraphPin_355).  Import failed...
+[2015.12.14-09.50.22:263][372]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4863.EdGraphPin_640''
+[2015.12.14-09.50.26:860][616]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.50.29:576][754]BlueprintLog: New page: Compile MainMenu
+[2015.12.14-09.50.29:743][754]BlueprintEditorCompileResults: Info [1286.39] Compile of MainMenu successful! [in 166 ms]
+[2015.12.14-09.50.30:782][806]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.50.30:800][806]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/MainMenu" FILE="../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset" SILENT=true
+[2015.12.14-09.50.30:863][806]LogSavePackage: Save=53.347206ms
+[2015.12.14-09.50.30:863][806]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/MainMenu2B1F9A054D80912F88734FB9B14201F6.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset'
+[2015.12.14-09.50.34:911][ 21]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.12.14-09.50.34:921][ 21]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.12.14-09.50.35:052][ 21]LogPlayLevel: PIE:  Blueprint regeneration took 141 ms (1 blueprints)
+[2015.12.14-09.50.35:053][ 21]PIE: New page: SIE session: MainMenu (Dec 13, 2015, 11:50:35 PM)
+[2015.12.14-09.50.35:053][ 21]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2015.12.14-09.50.35:058][ 21]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004651s)
+[2015.12.14-09.50.35:059][ 21]LogAIModule: Creating AISystem for world MainMenu
+[2015.12.14-09.50.35:059][ 21]LogPlayLevel: PIE: World Init took: (0.001728s)
+[2015.12.14-09.50.35:060][ 21]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.006632s)
+[2015.12.14-09.50.35:105][ 21]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.14-09.50.35:113][ 21]LogInit: FAudioDevice initialized.
+[2015.12.14-09.50.35:151][ 21]LogWorld: Game class is 'GameMode'
+[2015.12.14-09.50.35:154][ 21]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2015.12.14-04.50.35
+[2015.12.14-09.50.35:154][ 21]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-09.50.35:154][ 21]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-09.50.35:154][ 21]LogWorld: Bringing up level for play took: 0.001674
+[2015.12.14-09.50.35:155][ 21]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.12.14-09.50.35:157][ 21]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 0.474
+[2015.12.14-09.50.35:161][ 21]LogAudio:Warning: Detected orphaned looping sound 'MainMenuBackgroundNoiseMFixed'.
+[2015.12.14-09.50.38:566][215]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.12.14-09.50.38:566][215]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.Cube_4"
+[2015.12.14-09.50.41:173][348]LogEditorViewport: Clicking Background
+[2015.12.14-09.50.42:385][413]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001F35BB2C2C0
+[2015.12.14-09.50.49:216][817]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.12.14-09.50.49:227][817]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.12.14-09.50.49:343][817]LogPlayLevel: PIE:  Blueprint regeneration took 127 ms (1 blueprints)
+[2015.12.14-09.50.49:343][817]PIE: New page: SIE session: MainMenu (Dec 13, 2015, 11:50:49 PM)
+[2015.12.14-09.50.49:344][817]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2015.12.14-09.50.49:348][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004315s)
+[2015.12.14-09.50.49:349][817]LogAIModule: Creating AISystem for world MainMenu
+[2015.12.14-09.50.49:350][817]LogPlayLevel: PIE: World Init took: (0.001410s)
+[2015.12.14-09.50.49:350][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.005985s)
+[2015.12.14-09.50.49:398][817]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.14-09.50.49:406][817]LogInit: FAudioDevice initialized.
+[2015.12.14-09.50.49:443][817]LogWorld: Game class is 'GameMode'
+[2015.12.14-09.50.49:446][817]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2015.12.14-04.50.49
+[2015.12.14-09.50.49:447][817]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-09.50.49:447][817]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-09.50.49:447][817]LogWorld: Bringing up level for play took: 0.001723
+[2015.12.14-09.50.49:448][817]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.12.14-09.50.49:450][817]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 0.766
+[2015.12.14-09.50.49:454][817]LogAudio:Warning: Detected orphaned looping sound 'MainMenuBackgroundNoiseMFixed'.
+[2015.12.14-09.51.10:502][704]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001F35BB2F560
+[2015.12.14-09.52.35:038][260]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.52.57:850][348]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.52.58:773][393]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.53.04:220][653]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.53.07:064][784]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.53.09:622][901]BlueprintLog: New page: Compile MainMenu
+[2015.12.14-09.53.09:785][901]BlueprintEditorCompileResults: Info [1446.43] Compile of MainMenu successful! [in 162 ms]
+[2015.12.14-09.53.11:168][963]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.53.11:193][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/MainMenu" FILE="../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset" SILENT=true
+[2015.12.14-09.53.11:252][963]LogSavePackage: Save=54.823116ms
+[2015.12.14-09.53.11:252][963]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/MainMenuFFD98F6445319E8C3EE707B5BB889194.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset'
+[2015.12.14-09.53.14:964][150]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.12.14-09.53.14:975][150]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.12.14-09.53.15:095][150]LogPlayLevel: PIE:  Blueprint regeneration took 131 ms (1 blueprints)
+[2015.12.14-09.53.15:095][150]PIE: New page: SIE session: MainMenu (Dec 13, 2015, 11:53:15 PM)
+[2015.12.14-09.53.15:095][150]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2015.12.14-09.53.15:100][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004844s)
+[2015.12.14-09.53.15:101][150]LogAIModule: Creating AISystem for world MainMenu
+[2015.12.14-09.53.15:102][150]LogPlayLevel: PIE: World Init took: (0.001148s)
+[2015.12.14-09.53.15:102][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.006172s)
+[2015.12.14-09.53.15:147][150]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.14-09.53.15:155][150]LogInit: FAudioDevice initialized.
+[2015.12.14-09.53.15:189][150]LogWorld: Game class is 'GameMode'
+[2015.12.14-09.53.15:193][150]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2015.12.14-04.53.15
+[2015.12.14-09.53.15:193][150]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-09.53.15:193][150]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-09.53.15:193][150]LogWorld: Bringing up level for play took: 0.001806
+[2015.12.14-09.53.15:194][150]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.12.14-09.53.15:196][150]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 0.512
+[2015.12.14-09.53.15:199][150]LogAudio:Warning: Detected orphaned looping sound 'MainMenuBackgroundNoiseMFixed'.
+[2015.12.14-09.53.18:547][330]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001F34EF34E00
+[2015.12.14-09.53.57:492][226]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.53.58:610][282]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.54.03:224][506]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.54.08:485][758]BlueprintLog: New page: Compile MainMenu
+[2015.12.14-09.54.08:639][758]BlueprintEditorCompileResults: Info [1505.29] Compile of MainMenu successful! [in 154 ms]
+[2015.12.14-09.54.09:431][794]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.54.09:459][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/MainMenu" FILE="../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset" SILENT=true
+[2015.12.14-09.54.09:517][794]LogSavePackage: Save=54.775906ms
+[2015.12.14-09.54.09:517][794]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/MainMenu8F44C769432CCD08DEA76EBDC8576505.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset'
+[2015.12.14-09.54.12:668][963]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.12.14-09.54.12:680][963]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.12.14-09.54.12:807][963]LogPlayLevel: PIE:  Blueprint regeneration took 139 ms (1 blueprints)
+[2015.12.14-09.54.12:807][963]PIE: New page: SIE session: MainMenu (Dec 13, 2015, 11:54:12 PM)
+[2015.12.14-09.54.12:808][963]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2015.12.14-09.54.12:813][963]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004977s)
+[2015.12.14-09.54.12:813][963]LogAIModule: Creating AISystem for world MainMenu
+[2015.12.14-09.54.12:814][963]LogPlayLevel: PIE: World Init took: (0.001200s)
+[2015.12.14-09.54.12:814][963]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.006379s)
+[2015.12.14-09.54.12:860][963]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.14-09.54.12:868][963]LogInit: FAudioDevice initialized.
+[2015.12.14-09.54.12:901][963]LogWorld: Game class is 'GameMode'
+[2015.12.14-09.54.12:905][963]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2015.12.14-04.54.12
+[2015.12.14-09.54.12:905][963]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-09.54.12:905][963]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-09.54.12:906][963]LogWorld: Bringing up level for play took: 0.002288
+[2015.12.14-09.54.12:906][963]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.12.14-09.54.12:908][963]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 0.225
+[2015.12.14-09.54.12:912][963]LogAudio:Warning: Detected orphaned looping sound 'MainMenuBackgroundNoiseMFixed'.
+[2015.12.14-09.54.16:242][140]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001F34EF36840
+[2015.12.14-09.55.01:504][324]LogEditorTransaction: Undo Add Variable
+[2015.12.14-09.55.01:510][324]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_325:K2Node_ComponentBoundEvent_223.
+[2015.12.14-09.55.01:510][324]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_325:K2Node_ComponentBoundEvent_361.
+[2015.12.14-09.55.01:510][324]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_325:K2Node_ComponentBoundEvent_353.
+[2015.12.14-09.55.01:510][324]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_325:K2Node_ComponentBoundEvent_346.
+[2015.12.14-09.55.01:510][324]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_325:K2Node_ComponentBoundEvent_322.
+[2015.12.14-09.55.01:510][324]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_325:K2Node_ComponentBoundEvent_24.
+[2015.12.14-09.55.01:510][324]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_325:K2Node_ComponentBoundEvent_20.
+[2015.12.14-09.55.01:510][324]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_325:K2Node_ComponentBoundEvent_359.
+[2015.12.14-09.55.01:552][324]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.55.55:934][960]LogEditorTransaction: Undo Create Pin Link
+[2015.12.14-09.55.55:978][960]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.55.57:905][ 48]LogEditorTransaction: Undo Move Node
+[2015.12.14-09.55.59:072][ 99]LogEditorTransaction: Undo Add Node
+[2015.12.14-09.56.03:812][315]BlueprintLog: New page: Compile MainMenu
+[2015.12.14-09.56.04:004][315]BlueprintEditorCompileResults: Info [1620.65] Compile of MainMenu successful! [in 192 ms]
+[2015.12.14-09.57.21:220][326]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.57.22:444][373]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.57.23:233][403]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.57.23:274][404]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.58.55:874][779]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.59.09:505][256]LogD3D11RHI: InitD3DDevice
+[2015.12.14-09.59.56:667][818]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.00.02:104][980]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.00.56:892][750]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.01.57:912][731]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.02.54:237][569]LogEditorTransaction: Undo Resize Widget
+[2015.12.14-10.02.54:283][569]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.03.30:671][714]LogEditorTransaction: Undo Resize Widget
+[2015.12.14-10.03.30:715][714]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.04.03:014][785]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.04.07:525][949]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.04.19:882][351]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.05.40:380][992]BlueprintLog: New page: Compile MainMenu
+[2015.12.14-10.05.40:610][992]BlueprintEditorCompileResults: Info [2197.26] Compile of MainMenu successful! [in 229 ms]
+[2015.12.14-10.05.42:427][ 55]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.05.42:445][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/MainMenu" FILE="../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset" SILENT=true
+[2015.12.14-10.05.42:512][ 55]LogSavePackage: Save=56.613098ms
+[2015.12.14-10.05.42:512][ 55]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/MainMenu19E7EB61463AD7327B1BFDB4848CD19A.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset'
+[2015.12.14-10.06.20:378][342]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.07.17:265][217]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.07.22:975][380]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.07.31:028][619]LogEditorTransaction: Undo Move Widget
+[2015.12.14-10.07.31:088][619]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.07.45:560][ 70]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.07.47:266][122]LogEditorTransaction: Undo Move Widget
+[2015.12.14-10.07.47:326][122]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.08.10:697][917]LogEditorTransaction: Undo Resize Widget
+[2015.12.14-10.08.10:736][917]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.08.11:843][963]LogEditorTransaction: Undo Move Widget
+[2015.12.14-10.08.20:313][267]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.08.40:720][967]LogEditorTransaction: Undo Move Widget
+[2015.12.14-10.08.40:759][967]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.08.41:296][987]LogEditorTransaction: Undo Rename Widget
+[2015.12.14-10.08.41:308][987]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_491:K2Node_ComponentBoundEvent_223.
+[2015.12.14-10.08.41:308][987]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_491:K2Node_ComponentBoundEvent_361.
+[2015.12.14-10.08.41:308][987]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_491:K2Node_ComponentBoundEvent_353.
+[2015.12.14-10.08.41:308][987]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_491:K2Node_ComponentBoundEvent_346.
+[2015.12.14-10.08.41:308][987]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_491:K2Node_ComponentBoundEvent_322.
+[2015.12.14-10.08.41:308][987]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_491:K2Node_ComponentBoundEvent_24.
+[2015.12.14-10.08.41:308][987]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_491:K2Node_ComponentBoundEvent_20.
+[2015.12.14-10.08.41:308][987]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_491:K2Node_ComponentBoundEvent_359.
+[2015.12.14-10.08.56:708][536]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.09.57:749][530]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.10.48:705][222]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.10.58:328][543]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.11.06:288][797]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.11.18:633][198]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.11.30:327][576]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.11.30:448][578]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.11.35:019][656]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.11.43:545][962]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.11.43:668][964]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.11.46:111][995]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.11.59:245][436]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.12.09:222][767]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.12.32:303][552]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.12.48:321][ 92]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.15.53:348][887]BlueprintLog: New page: Compile MainMenu
+[2015.12.14-10.15.53:592][887]BlueprintEditorCompileResults: Info [2810.24] Compile of MainMenu successful! [in 243 ms]
+[2015.12.14-10.15.54:463][929]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.15.54:481][929]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/MainMenu" FILE="../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset" SILENT=true
+[2015.12.14-10.15.54:546][929]LogSavePackage: Save=57.253143ms
+[2015.12.14-10.15.54:546][929]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/MainMenu33BE713948316DFD9B610D899F9EBA37.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset'
+[2015.12.14-10.16.00:279][259]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.16.01:029][303]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.16.01:205][303]LogSavePackage: Save=104.149841ms
+[2015.12.14-10.16.01:205][303]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/MainMenu3CB413DA468B3345F3325FB7AB44D7F4.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Levels/MainMenu.umap'
+[2015.12.14-10.16.02:391][368]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.16.35:289][519]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.12.14-10.16.35:300][519]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.12.14-10.16.35:423][519]LogPlayLevel: PIE:  Blueprint regeneration took 134 ms (1 blueprints)
+[2015.12.14-10.16.35:423][519]PIE: New page: SIE session: MainMenu (Dec 14, 2015, 12:16:35 AM)
+[2015.12.14-10.16.35:424][519]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2015.12.14-10.16.35:428][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004028s)
+[2015.12.14-10.16.35:429][519]LogAIModule: Creating AISystem for world MainMenu
+[2015.12.14-10.16.35:429][519]LogPlayLevel: PIE: World Init took: (0.001421s)
+[2015.12.14-10.16.35:429][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.005648s)
+[2015.12.14-10.16.35:476][519]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.14-10.16.35:483][519]LogInit: FAudioDevice initialized.
+[2015.12.14-10.16.35:519][519]LogWorld: Game class is 'GameMode'
+[2015.12.14-10.16.35:522][519]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2015.12.14-05.16.35
+[2015.12.14-10.16.35:522][519]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-10.16.35:523][519]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-10.16.35:523][519]LogWorld: Bringing up level for play took: 0.001935
+[2015.12.14-10.16.35:524][519]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.12.14-10.16.35:526][519]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 0.842
+[2015.12.14-10.16.35:529][519]LogAudio:Warning: Detected orphaned looping sound 'MainMenuBackgroundNoiseMFixed'.
+[2015.12.14-10.16.38:979][702]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001F366A2D3A0
+[2015.12.14-10.18.39:362][686]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.18.39:379][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/MainMenu" FILE="../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset" SILENT=true
+[2015.12.14-10.18.39:443][686]LogSavePackage: Save=58.912159ms
+[2015.12.14-10.18.39:443][686]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/MainMenuC30AA77F4B1E7008994A929E19831A53.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset'
+[2015.12.14-10.19.27:212][452]BlueprintLog: New page: Compile MainMenu
+[2015.12.14-10.19.27:413][452]BlueprintEditorCompileResults: Info [3024.06] Compile of MainMenu successful! [in 200 ms]
+[2015.12.14-10.19.28:191][479]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.19.28:207][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/MainMenu" FILE="../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset" SILENT=true
+[2015.12.14-10.19.28:266][479]LogSavePackage: Save=54.908100ms
+[2015.12.14-10.19.28:266][479]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/MainMenuCED4AD8C427F42FD638FB4BB05FD1B43.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset'
+[2015.12.14-10.19.41:199][ 46]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.19.42:388][109]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.19.45:615][263]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.20.06:398][274]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.20.07:545][334]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.20.09:839][447]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.20.33:050][574]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.20.36:910][766]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.20.38:806][870]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MainMenu/MainMenu.MainMenu:EventGraph.K2Node_CallFunction_2200 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2200
+[2015.12.14-10.20.38:807][870]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2200.EdGraphPin_590''
+[2015.12.14-10.20.38:807][870]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_29.EdGraphPin_319''
+[2015.12.14-10.20.38:807][870]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5456.EdGraphPin_650''
+[2015.12.14-10.20.38:807][870]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1007.EdGraphPin_265''
+[2015.12.14-10.20.38:809][870]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1266.EdGraphPin_373''
+[2015.12.14-10.20.47:321][323]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.20.55:707][761]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.21.03:732][164]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.21.04:942][230]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.21.06:778][324]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.21.32:470][605]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.21.33:139][639]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.21.36:516][806]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.21.40:700][  7]BlueprintLog: New page: Compile MainMenu
+[2015.12.14-10.21.40:858][  7]BlueprintEditorCompileResults: Info [3157.50] Compile of MainMenu successful! [in 158 ms]
+[2015.12.14-10.21.41:929][ 55]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.21.41:955][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/MainMenu" FILE="../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset" SILENT=true
+[2015.12.14-10.21.42:026][ 55]LogSavePackage: Save=63.474972ms
+[2015.12.14-10.21.42:026][ 55]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/MainMenu012166AC423847E095169390A585DDF6.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset'
+[2015.12.14-10.21.45:041][204]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.12.14-10.21.45:052][204]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.12.14-10.21.45:167][204]LogPlayLevel: PIE:  Blueprint regeneration took 125 ms (1 blueprints)
+[2015.12.14-10.21.45:167][204]PIE: New page: SIE session: MainMenu (Dec 14, 2015, 12:21:45 AM)
+[2015.12.14-10.21.45:168][204]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2015.12.14-10.21.45:173][204]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004780s)
+[2015.12.14-10.21.45:173][204]LogAIModule: Creating AISystem for world MainMenu
+[2015.12.14-10.21.45:174][204]LogPlayLevel: PIE: World Init took: (0.001366s)
+[2015.12.14-10.21.45:174][204]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.006372s)
+[2015.12.14-10.21.45:221][204]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.14-10.21.45:230][204]LogInit: FAudioDevice initialized.
+[2015.12.14-10.21.45:262][204]LogWorld: Game class is 'GameMode'
+[2015.12.14-10.21.45:265][204]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2015.12.14-05.21.45
+[2015.12.14-10.21.45:265][204]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-10.21.45:266][204]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-10.21.45:266][204]LogWorld: Bringing up level for play took: 0.001854
+[2015.12.14-10.21.45:267][204]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.12.14-10.21.45:269][204]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 0.586
+[2015.12.14-10.21.45:275][204]LogAudio:Warning: Detected orphaned looping sound 'MainMenuBackgroundNoiseMFixed'.
+[2015.12.14-10.22.24:690][266]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001F34F485D00
+[2015.12.14-10.22.30:215][547]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.22.30:238][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/MainMenu" FILE="../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset" SILENT=true
+[2015.12.14-10.22.30:333][547]LogSavePackage: Save=91.236519ms
+[2015.12.14-10.22.30:333][547]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/MainMenu2EF572E24450B4183EC238B7A428040A.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset'
+[2015.12.14-10.22.30:792][568]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.22.30:821][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/MainMenu" FILE="../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset" SILENT=true
+[2015.12.14-10.22.30:886][568]LogSavePackage: Save=61.001431ms
+[2015.12.14-10.22.30:886][568]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/MainMenuC5F069074B7B482FF3BD1B87A6AD2CD1.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset'
+[2015.12.14-10.22.37:905][919]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.22.40:118][ 51]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.22.40:294][ 51]LogSavePackage: Save=101.513313ms
+[2015.12.14-10.22.40:294][ 51]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/MainMenuAE27B74943644556EC07E486066A09D9.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Levels/MainMenu.umap'
+[2015.12.14-10.22.41:086][ 92]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.24.04:268][171]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.24.05:408][225]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.24.53:540][694]BlueprintLog: New page: Compile MainMenu
+[2015.12.14-10.24.53:700][694]BlueprintEditorCompileResults: Info [3350.35] Compile of MainMenu successful! [in 160 ms]
+[2015.12.14-10.24.54:432][726]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.24.54:453][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/MainMenu" FILE="../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset" SILENT=true
+[2015.12.14-10.24.54:522][726]LogSavePackage: Save=63.826809ms
+[2015.12.14-10.24.54:522][726]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/MainMenu82D640C1449227EED2AD2D8288A406A9.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset'
+[2015.12.14-10.26.35:407][386]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.27.38:670][530]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.27.54:067][ 49]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.28.03:986][409]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.29.55:145][401]LogEditorTransaction: Undo Set Vector Property
+[2015.12.14-10.29.55:238][401]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.31.10:448][116]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.31.57:186][814]BlueprintLog: New page: Compile MainMenu
+[2015.12.14-10.31.57:451][814]BlueprintEditorCompileResults: Info [3774.10] Compile of MainMenu successful! [in 264 ms]
+[2015.12.14-10.33.04:144][179]BlueprintLog: New page: Compile MainMenu
+[2015.12.14-10.33.04:350][179]BlueprintEditorCompileResults: Info [3841.00] Compile of MainMenu successful! [in 205 ms]
+[2015.12.14-10.33.05:362][214]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.33.05:390][214]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/MainMenu" FILE="../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset" SILENT=true
+[2015.12.14-10.33.05:461][214]LogSavePackage: Save=62.850941ms
+[2015.12.14-10.33.05:461][214]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/MainMenu14AC4A464FB7564A1BF29A824E0A3D75.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset'
+[2015.12.14-10.33.35:891][622]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.33.37:189][682]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.33.52:924][431]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.33.53:820][476]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.33.56:060][580]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.34.04:126][972]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.34.04:608][993]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.34.10:382][255]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.34.16:515][569]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.34.17:911][640]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.34.21:973][835]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.34.25:873][ 23]BlueprintLog: New page: Compile MainMenu
+[2015.12.14-10.34.26:040][ 23]BlueprintEditorCompileResults: Info [3922.69] Compile of MainMenu successful! [in 166 ms]
+[2015.12.14-10.34.26:885][ 64]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.34.26:905][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/MainMenu" FILE="../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset" SILENT=true
+[2015.12.14-10.34.26:982][ 64]LogSavePackage: Save=72.451561ms
+[2015.12.14-10.34.26:982][ 64]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/MainMenu2FCDD8FE414B1DDEF8ECDAA5ADFA0E17.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset'
+[2015.12.14-10.34.31:977][349]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.34.33:438][436]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.34.33:608][436]LogSavePackage: Save=98.234283ms
+[2015.12.14-10.34.33:608][436]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/MainMenuFD53779F4AC93BC3871F338615F36BFD.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Levels/MainMenu.umap'
+[2015.12.14-10.34.34:652][492]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.34.36:873][617]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.12.14-10.34.36:883][617]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.12.14-10.34.37:002][617]LogPlayLevel: PIE:  Blueprint regeneration took 129 ms (1 blueprints)
+[2015.12.14-10.34.37:002][617]PIE: New page: SIE session: MainMenu (Dec 14, 2015, 12:34:37 AM)
+[2015.12.14-10.34.37:003][617]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2015.12.14-10.34.37:007][617]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004567s)
+[2015.12.14-10.34.37:008][617]LogAIModule: Creating AISystem for world MainMenu
+[2015.12.14-10.34.37:009][617]LogPlayLevel: PIE: World Init took: (0.001549s)
+[2015.12.14-10.34.37:009][617]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.006302s)
+[2015.12.14-10.34.37:055][617]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.14-10.34.37:062][617]LogInit: FAudioDevice initialized.
+[2015.12.14-10.34.37:098][617]LogWorld: Game class is 'GameMode'
+[2015.12.14-10.34.37:102][617]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2015.12.14-05.34.37
+[2015.12.14-10.34.37:102][617]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-10.34.37:102][617]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.14-10.34.37:102][617]LogWorld: Bringing up level for play took: 0.001765
+[2015.12.14-10.34.37:103][617]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.12.14-10.34.37:105][617]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 0.422
+[2015.12.14-10.34.37:109][617]LogAudio:Warning: Detected orphaned looping sound 'MainMenuBackgroundNoiseMFixed'.
+[2015.12.14-10.34.47:125][163]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001F375C4D120
+[2015.12.14-10.34.49:856][326]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.34.52:581][489]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.34.52:756][489]LogSavePackage: Save=102.874687ms
+[2015.12.14-10.34.52:756][489]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/MainMenu27228C63435D2F8B4189CEB49727D063.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Levels/MainMenu.umap'
+[2015.12.14-10.34.53:700][539]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.34.59:254][787]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.34.59:272][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/MainMenu" FILE="../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset" SILENT=true
+[2015.12.14-10.34.59:343][787]LogSavePackage: Save=66.284752ms
+[2015.12.14-10.34.59:343][787]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/MainMenu75A8A51E4D19D4FB35DAE284557BC43D.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset'
+[2015.12.14-10.35.02:073][895]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.35.02:087][895]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/MainMenu" FILE="../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset" SILENT=true
+[2015.12.14-10.35.02:159][895]LogSavePackage: Save=67.310707ms
+[2015.12.14-10.35.02:159][895]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/MainMenuBD6E6F394138D1DF6752FFBE275BF0BD.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset'
+[2015.12.14-10.35.02:655][913]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.35.02:670][913]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/MainMenu" FILE="../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset" SILENT=true
+[2015.12.14-10.35.02:741][913]LogSavePackage: Save=65.670158ms
+[2015.12.14-10.35.02:741][913]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/MainMenu3F14C04947937DA96B5308981572D764.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/MainMenu/MainMenu.uasset'
+[2015.12.14-10.35.08:625][202]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.35.08:674][202]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001F367AE7880
+[2015.12.14-10.35.08:675][202]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001F367AE7BA0
+[2015.12.14-10.35.08:797][202]LogSavePackage: Save=97.679222ms
+[2015.12.14-10.35.08:798][202]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/MainMenu63829D6C4C61B59BF3675D982634FE30.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Levels/MainMenu.umap'
+[2015.12.14-10.35.10:281][285]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.35.11:436][354]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.35.11:609][354]LogSavePackage: Save=98.035988ms
+[2015.12.14-10.35.11:609][354]LogSavePackage: Moving '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Saved/MainMenuD205658C46A6EF61C4D136B3C79E8137.tmp' to '../../../../../../Users/Christopher/Documents/GitHub/The-Curators/AlexPrototype/Content/Levels/MainMenu.umap'
+[2015.12.14-10.35.12:336][392]LogD3D11RHI: InitD3DDevice
+[2015.12.14-10.35.15:867][581]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.12.14-10.35.16:154][582]Cmd: QUIT_EDITOR
+[2015.12.14-10.35.16:748][582]LogExit: Preparing to exit.
+[2015.12.14-10.35.17:051][582]LogExit: Editor shut down
+[2015.12.14-10.35.17:051][582]LogExit: Transaction tracking system shut down
+[2015.12.14-10.35.17:056][582]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001F3437C7600
+[2015.12.14-10.35.17:056][582]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001F34B13DD00
+[2015.12.14-10.35.17:058][582]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001F34EFA3A60
+[2015.12.14-10.35.17:058][582]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001F3527F3EC0
+[2015.12.14-10.35.17:060][582]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001F367AE42C0
+[2015.12.14-10.35.17:208][582]LogExit: Object subsystem successfully closed.
+[2015.12.14-10.35.17:232][582]LogD3D11RHI: Shutdown
+[2015.12.14-10.35.17:232][582]LogD3D11RHI: CleanupD3DDevice
+[2015.12.14-10.35.17:274][582]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.12.14-10.35.17:290][582]LogModuleManager: Shutting down and abandoning module SequencerWidgets (189)
+[2015.12.14-10.35.17:290][582]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.12.14-10.35.17:290][582]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.12.14-10.35.17:290][582]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.12.14-10.35.17:290][582]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.12.14-10.35.17:290][582]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.12.14-10.35.17:292][582]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.12.14-10.35.17:292][582]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.12.14-10.35.17:292][582]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.12.14-10.35.17:292][582]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.12.14-10.35.17:292][582]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.12.14-10.35.17:293][582]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.12.14-10.35.17:293][582]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.12.14-10.35.17:293][582]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.12.14-10.35.17:293][582]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.12.14-10.35.17:293][582]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.12.14-10.35.17:293][582]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.12.14-10.35.17:293][582]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.12.14-10.35.17:293][582]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.12.14-10.35.17:293][582]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.12.14-10.35.17:293][582]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.12.14-10.35.17:293][582]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.12.14-10.35.17:293][582]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.12.14-10.35.17:293][582]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.12.14-10.35.17:293][582]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.12.14-10.35.17:293][582]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.12.14-10.35.17:293][582]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.12.14-10.35.17:627][582]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.12.14-10.35.17:627][582]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.12.14-10.35.17:627][582]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.12.14-10.35.17:627][582]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.12.14-10.35.17:627][582]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.12.14-10.35.17:627][582]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.12.14-10.35.17:627][582]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.12.14-10.35.17:627][582]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.12.14-10.35.17:627][582]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.12.14-10.35.17:627][582]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.12.14-10.35.17:627][582]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.12.14-10.35.17:627][582]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.12.14-10.35.17:627][582]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.12.14-10.35.17:627][582]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.12.14-10.35.17:627][582]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.12.14-10.35.17:627][582]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.12.14-10.35.17:627][582]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.12.14-10.35.17:627][582]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.12.14-10.35.17:627][582]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.12.14-10.35.17:627][582]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.12.14-10.35.17:627][582]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.12.14-10.35.17:627][582]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.12.14-10.35.17:627][582]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.12.14-10.35.17:627][582]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.12.14-10.35.17:627][582]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.12.14-10.35.17:627][582]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.12.14-10.35.17:628][582]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.12.14-10.35.17:628][582]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.12.14-10.35.17:628][582]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.12.14-10.35.17:628][582]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.12.14-10.35.17:628][582]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.12.14-10.35.17:628][582]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.12.14-10.35.17:828][582]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.12.14-10.35.17:828][582]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.12.14-10.35.17:828][582]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.12.14-10.35.17:828][582]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.12.14-10.35.17:828][582]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.12.14-10.35.17:828][582]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.12.14-10.35.17:828][582]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.12.14-10.35.17:828][582]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.12.14-10.35.17:828][582]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.12.14-10.35.17:828][582]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.12.14-10.35.17:828][582]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.12.14-10.35.17:828][582]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.12.14-10.35.17:828][582]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.12.14-10.35.17:828][582]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.12.14-10.35.17:828][582]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.12.14-10.35.17:828][582]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.12.14-10.35.17:828][582]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.12.14-10.35.17:828][582]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.12.14-10.35.18:055][582]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.12.14-10.35.18:055][582]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.12.14-10.35.18:055][582]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.12.14-10.35.18:055][582]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.12.14-10.35.18:055][582]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.12.14-10.35.18:055][582]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.12.14-10.35.18:055][582]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.12.14-10.35.18:096][582]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.12.14-10.35.18:096][582]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.12.14-10.35.18:096][582]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.12.14-10.35.18:096][582]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.12.14-10.35.18:096][582]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.12.14-10.35.18:096][582]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.12.14-10.35.18:096][582]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.12.14-10.35.18:096][582]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.12.14-10.35.18:096][582]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.12.14-10.35.18:096][582]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.12.14-10.35.18:096][582]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.12.14-10.35.18:096][582]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.12.14-10.35.18:097][582]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.12.14-10.35.18:097][582]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.12.14-10.35.18:097][582]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.12.14-10.35.18:097][582]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.12.14-10.35.18:097][582]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.12.14-10.35.18:097][582]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.12.14-10.35.18:097][582]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.12.14-10.35.18:097][582]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.12.14-10.35.18:098][582]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.12.14-10.35.18:098][582]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.12.14-10.35.18:098][582]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.12.14-10.35.18:099][582]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.12.14-10.35.18:100][582]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.12.14-10.35.18:100][582]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.12.14-10.35.18:201][582]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.12.14-10.35.18:201][582]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.12.14-10.35.18:208][582]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.12.14-10.35.18:208][582]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.12.14-10.35.18:208][582]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.12.14-10.35.18:208][582]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.12.14-10.35.18:208][582]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.12.14-10.35.18:208][582]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.12.14-10.35.18:208][582]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.12.14-10.35.18:208][582]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.12.14-10.35.18:208][582]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.12.14-10.35.18:208][582]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.12.14-10.35.18:208][582]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.12.14-10.35.18:208][582]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.12.14-10.35.18:208][582]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.12.14-10.35.18:208][582]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.12.14-10.35.18:208][582]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.12.14-10.35.18:217][582]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.12.14-10.35.18:217][582]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.12.14-10.35.18:217][582]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.12.14-10.35.18:217][582]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.12.14-10.35.18:217][582]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.12.14-10.35.18:217][582]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.12.14-10.35.18:217][582]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.12.14-10.35.18:217][582]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.12.14-10.35.18:217][582]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.12.14-10.35.18:217][582]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.12.14-10.35.18:282][582]LogDerivedDataCache: Shutdown
+[2015.12.14-10.35.18:282][582]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.12.14-10.35.18:282][582]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.12.14-10.35.18:282][582]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.12.14-10.35.18:282][582]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.12.14-10.35.18:282][582]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.12.14-10.35.18:282][582]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.12.14-10.35.18:282][582]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.12.14-10.35.18:282][582]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.12.14-10.35.18:282][582]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.12.14-10.35.18:282][582]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.12.14-10.35.18:282][582]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.12.14-10.35.18:282][582]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.12.14-10.35.18:282][582]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.12.14-10.35.18:283][582]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.12.14-10.35.18:283][582]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.12.14-10.35.18:283][582]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.12.14-10.35.18:283][582]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.12.14-10.35.18:283][582]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.12.14-10.35.18:283][582]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.12.14-10.35.18:283][582]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.12.14-10.35.18:283][582]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.12.14-10.35.18:283][582]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.12.14-10.35.18:283][582]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.12.14-10.35.18:283][582]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.12.14-10.35.18:283][582]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.12.14-10.35.18:283][582]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.12.14-10.35.18:283][582]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.12.14-10.35.18:283][582]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.12.14-10.35.18:283][582]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.12.14-10.35.18:283][582]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.12.14-10.35.18:283][582]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.12.14-10.35.18:283][582]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.12.14-10.35.18:283][582]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.12.14-10.35.18:283][582]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.12.14-10.35.18:283][582]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.12.14-10.35.18:283][582]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.12.14-10.35.18:284][582]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.12.14-10.35.18:284][582]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.12.14-10.35.18:284][582]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.12.14-10.35.18:284][582]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.12.14-10.35.18:284][582]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.12.14-10.35.18:305][582]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.12.14-10.35.18:305][582]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.12.14-10.35.18:305][582]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.12.14-10.35.18:305][582]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.12.14-10.35.18:305][582]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.12.14-10.35.18:305][582]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.12.14-10.35.18:305][582]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.12.14-10.35.18:305][582]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.12.14-10.35.18:305][582]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.12.14-10.35.18:306][582]LogExit: Exiting.
+[2015.12.14-10.35.18:310][582]Log file closed, 12/14/15 05:35:18
